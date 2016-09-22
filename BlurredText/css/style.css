@@ -1,0 +1,16 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+body { font: 14px Georgia, serif; text-align: center; }
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+section { padding: 100px; }
+
+section:nth-child(odd) { background: #eee; }
+section:nth-child(even) { background: #333; }

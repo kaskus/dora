@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='UTF-8'>
+	
+	<title>Blurred Text</title>
+	
+	<link rel='stylesheet' href='css/style.css'>
+	
+	<style>
+
+    h2 {
+      color: black;
+      display: block;
+      padding: 20px;
+      font: bold 72px Helvetica;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+    
+    .hovertown span {
+      -webkit-transition: all 0.9s ease;
+      -moz-transition:    all 0.9s ease;
+      -o-transition:      all 0.9s ease;
+      transition:         all 0.9s ease;
+    }
+    .hovertown span:hover {
+      text-shadow: 0 0 72px black; 
+      color: transparent;     
+      -webkit-transition: all 0.2s ease;
+      -moz-transition:    all 0.2s ease;
+      -o-transition:      all 0.2s ease;
+      transition:         all 0.2s ease; 
+    }
+    
+    @-webkit-keyframes blackblur {
+      from { text-shadow: 0 0 72px black; color: transparent; }
+      to   { text-shadow: 0;              color: black;       }
+    }  
+    
+	.smokemonster span:nth-of-type(1)  { -webkit-animation: blackblur 2s       1 alternate; }
+	.smokemonster span:nth-of-type(2)  { -webkit-animation: blackblur 2s 0.1s  1 alternate; }
+	.smokemonster span:nth-of-type(3)  { -webkit-animation: blackblur 2s 0.15s 1 alternate; }
+	.smokemonster span:nth-of-type(4)  { -webkit-animation: blackblur 2s 0.2s  1 alternate; }
+	.smokemonster span:nth-of-type(5)  { -webkit-animation: blackblur 2s 0.25s 1 alternate; }
+	.smokemonster span:nth-of-type(6)  { -webkit-animation: blackblur 2s 0.3s  1 alternate; }
+	.smokemonster span:nth-of-type(7)  { -webkit-animation: blackblur 2s 0.35s 1 alternate; }
+	.smokemonster span:nth-of-type(8)  { -webkit-animation: blackblur 2s 0.4s  1 alternate; }
+	.smokemonster span:nth-of-type(9)  { -webkit-animation: blackblur 2s 0.45s 1 alternate; }
+	.smokemonster span:nth-of-type(10) { -webkit-animation: blackblur 2s 0.5s  1 alternate; }
+	.smokemonster span:nth-of-type(11) { -webkit-animation: blackblur 2s 0.55s 1 alternate; }
+	.smokemonster span:nth-of-type(12) { -webkit-animation: blackblur 2s 0.6s  1 alternate; }
+	  	
+  	@-webkit-keyframes fun-1 {
+      from { text-shadow: 0 0 72px red; color: transparent; }
+      to   { text-shadow: 0;            color: black;       }
+    }
+    @-webkit-keyframes fun-2 {
+      from { text-shadow: 0 0 22px blue; color: transparent; }
+      to   { text-shadow: 0;            color: black;        }
+    }
+    @-webkit-keyframes fun-3 {
+      from { text-shadow: 0 0 152px green; color: transparent; }
+      to   { text-shadow: 0;            color: black;          }
+    }
+    @-webkit-keyframes fun-4 {
+      from { text-shadow: 0 0 102px cyan; color: transparent; }
+      to   { text-shadow: 0;            color: black;         }
+    }
+    @-webkit-keyframes fun-5 {
+      from { text-shadow: 0 0 222px magenta; color: transparent; }
+      to   { text-shadow: 0;            color: black;            }
+    }
+    @-webkit-keyframes fun-6 {
+      from { text-shadow: 0 0 92px yellow; color: transparent; }
+      to   { text-shadow: 0;            color: black;          }
+    }
+    .sparklemaster { color: white; }
+    .sparklemaster span:nth-of-type(1)  { -webkit-animation: fun-1 2s 0.2s  1 alternate; }
+    .sparklemaster span:nth-of-type(2)  { -webkit-animation: fun-2 2s 3.9s  1 alternate; }
+    .sparklemaster span:nth-of-type(3)  { -webkit-animation: fun-3 2s 2.65s 1 alternate; }
+    .sparklemaster span:nth-of-type(4)  { -webkit-animation: fun-4 2s 2.2s  1 alternate; }
+    .sparklemaster span:nth-of-type(5)  { -webkit-animation: fun-5 2s 1.25s 1 alternate; }
+    .sparklemaster span:nth-of-type(6)  { -webkit-animation: fun-6 2s 2.3s  1 alternate; }
+    .sparklemaster span:nth-of-type(7)  { -webkit-animation: fun-1 2s 3.35s 1 alternate; }
+    .sparklemaster span:nth-of-type(8)  { -webkit-animation: fun-2 2s 2.4s  1 alternate; }
+    .sparklemaster span:nth-of-type(9)  { -webkit-animation: fun-3 2s 1.45s 1 alternate; }
+    .sparklemaster span:nth-of-type(10) { -webkit-animation: fun-4 2s 3.5s  1 alternate; }
+    .sparklemaster span:nth-of-type(11) { -webkit-animation: fun-5 2s 1.55s 1 alternate; }
+    .sparklemaster span:nth-of-type(12) { -webkit-animation: fun-6 2s 2.6s  1 alternate; }
+  	
+  	.textshadow .foreverblur {
+  	   text-shadow: 0 0 32px white;
+  	   color: transparent;
+  	}
+  	
+  	#jquerybuddy span {
+  	   text-shadow: 0 0 4px rgba(0,100,0,1);
+  	   color: transparent;
+  	}
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="js/jquery.lettering.js"></script>
+	<script src="js/modernizr-1.7.min.js"></script>
+	<script src="js/color.js"></script>
+	<script src="js/textshadow.js"></script>
+	
+	<script>
+	 $(function() {
+	   
+	  // apply spans
+      $("h2").lettering();
+      
+      // hack to get animations to run again
+      $(".redraw").click(function() {	
+        var el = $(this),  
+           prev = el.prev(),
+           newone = prev.clone();
+        el.before(newone);
+        $("." + prev.attr("class") + ":first").remove();
+      }); 
+        
+	  var text = $("#jquerybuddy"),
+		  numLetters = text.find("span").length;
+		
+	  function randomBlurize() {
+		text.find("span:nth-child(" + (Math.floor(Math.random()*numLetters)+1) + ")")
+		    .animate({
+		      'textShadowBlur': Math.floor(Math.random()*25)+4,
+		      'textShadowColor': 'rgba(0,100,0,' + (Math.floor(Math.random()*200)+55) + ')'
+		    });
+		// Call itself recurssively
+		setTimeout(randomBlurize, 100);
+	  } // Call once
+	  randomBlurize();
+
+	 });
+	</script>
+</head>
+
+<body>
+
+	<section>
+		
+  	  <h2 class="smokemonster">Smokemonster</h2>
+	    <input class="redraw" type="button" value="redraw" />
+	
+	</section>
+	
+	<section>
+	
+  	  <h2 class="sparklemaster">Sparklemaster</h2>
+	    <input class="redraw" type="button" value="redraw">
+	 
+	</section>
+	
+	<section>
+	
+	  <h2 class="hovertown">Hovertown</h2>
+	
+	</section>
+	
+	<section>
+	
+	  <h2 class="foreverblur">Modernizblur</h2>
+	
+	</section>
+	
+	<section>
+	
+	  <h2 id="jquerybuddy">FringeDivision</h2>
+	
+	</section>
+	
+</body>
+
+</html>
