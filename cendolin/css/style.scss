@@ -1,0 +1,556 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    overflow: hidden;
+}
+footer, section, header, aside, figure {
+    display: block;
+}
+li {
+    list-style: none;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.playing #container { 
+    cursor: none;
+}
+
+@media screen and (min-device-width: 700px) {
+  #container {
+    width: 40%;
+    min-width: 500px;
+    height: 90%;
+    margin: 0 auto;
+  }
+}
+#playfield, #gameover, #instructions, #intro {
+    position: absolute;
+    top: -3000px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: top 0.5s;
+    -moz-transition: top 0.5s;
+    -ms-transition: top 0.5s;
+    -o-transition: top 0.5s;
+    transition: top 0.5s;
+    &.current{
+        top: 0;
+        -webkit-transition: top 0.5s;
+        -moz-transition: top 0.5s;
+        -ms-transition: top 0.5s;
+        -o-transition: top 0.5s;
+        transition: top 0.5s; 
+    }
+}
+#characters {
+    li{
+        &.introdeck{
+            opacity: 0;
+            left: -9000px;
+            position: absolute;
+            -webkit-transition: opacity 1s;
+            -moz-transition: opacity 1s;
+            -ms-transition: opacity 1s;
+            -o-transition: opacity 1s;
+            transition: opacity 1s;
+            width: 80%;
+            margin: 5px auto;
+        }
+        &.current{
+            opacity: 1;
+            left: 0;
+            -webkit-transition: opacity 1s;
+            -moz-transition: opacity 1s;
+            -ms-transition: opacity 1s;
+            -o-transition: opacity 1s;
+            transition: opacity 1s;    
+        }
+    }
+    .current{
+        width: 80%;
+        margin: 5px auto;        
+        ul{
+            margin: 5px 0;
+        }
+        li{
+            display: inline;
+            padding-right: 10px;
+        }
+    }   
+}
+
+.right {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+.left {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+canvas {
+    width: 100%;
+    height: 100%;
+}
+#scoresinfo {
+    position: absolute;
+    width: 100%;
+    height: 97px;
+    background-image:url(/images/cendolfactory/atas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; 
+    
+}
+#energy, #score {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    padding-left: 20px;
+}
+#score{
+    float: right;
+    margin-top: 3px;
+    width: 174px;
+    height: 48px;
+    background-image:url(/images/cendolfactory/scorediv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    output{
+        right: 55px;
+        top: 12px;
+        position: absolute;
+        font-weight: 400;
+        @media screen and (max-device-width: 700px) {
+            font-size: 18px;
+            right: 40px;
+            top: 14px;
+
+        } 
+    }
+    @media screen and (max-device-width: 700px) {
+        width: 115px;
+        margin-right: 5px;
+    } 
+
+}
+#energy{
+    float: left;
+    output{
+        position: absolute;
+        font-size: 0;
+    }
+    ul{
+        margin-top: 5px;
+        width: 150px;
+        height: 40px;
+        background-image: url("/images/cendolfactory/nyawacontainer.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 140px 40px;
+        overflow: hidden;
+        li{
+            width: 50px;
+            height: 40px;
+            display: inline-block;
+            background-image: url("/images/cendolfactory/nyawa.png");
+            background-repeat: no-repeat;
+            background-position: 8px 3px;
+            background-size: 35px 35px;
+        }
+    }    
+}
+
+
+body {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(247, 247, 247, 1);
+}
+#characters{
+    font-size: 15px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px; margin-bottom: 10px;
+}
+#container {
+    background: red; 
+    background: -moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a)); 
+    background: -webkit-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); 
+    background: -o-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); 
+    background: -ms-linear-gradient(top,  #a7cfdf 0%,#23538a 100%); 
+    background: linear-gradient(top,  #a7cfdf 0%,#23538a 100%);   
+    outline: 0;
+}
+#intro {
+    background-image:url(/images/cendolfactory/bg-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-device-width: 700px) {
+        background-image:url(/images/cendolfactory/bg-mobile-home.jpg);
+        background-position: bottom;
+    }   
+    h1{
+        text-align: center;
+        margin-top: 60px;
+        @media screen and (max-device-height: 600px) {
+            margin-top: 30px;
+        }
+        @media screen and (max-device-height: 550px) {
+            margin-top: 15px;
+        }
+        @media screen and (min-device-height: 1000px) {     
+            margin-top: 25%;
+        }
+
+        span{
+            text-indent: -2000px;
+            background-image: url(/images/cendolfactory/logo.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 0 auto;
+            height: 126px;
+            width: 161px;
+            display: block;
+            animation: zoomInOut 1s ease-in-out infinite alternate;
+            -webkit-animation: zoomInOut 1s ease-in-out infinite alternate;
+            @media screen and (max-device-height: 550px) {
+                height: 100px;
+            }
+            @media screen and (min-device-height: 1000px) {     
+                height: 205px;
+                width: 100%;
+            }  
+        }
+    }
+    button{
+        width: 196px;
+        height: 69px;
+        background-image: url('/images/cendolfactory/button-main.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        font-size: 0;
+        margin: 10px auto;
+        &:hover{
+            cursor: pointer;
+        }
+        &:focus{
+            outline: none;
+        }
+
+    }
+    .blueguy{
+        background-image: url('/images/cendolfactory/blueguy-1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100px;
+        height: 317px;
+        right: -3px;
+        bottom: -70px;
+        position: absolute;
+        @media screen and (max-device-width: 700px) {
+            display: none;
+        }
+    }
+    ul{
+        width: 80%;
+        margin: 10px auto;
+        padding-right: 40px;
+        @media screen and (max-device-width: 700px) {
+            padding-right: 0;
+            width: 95%;
+        }
+
+        li{
+            text-align: center;
+            font-size: 0;
+        }
+        .caption{
+            margin: 10px auto;
+            background-image: url('/images/cendolfactory/caption.png');
+            height: 34px;
+            width: 311px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            @media screen and (max-device-width: 700px) {
+                width: 100%;
+            }   
+        }
+        .board{
+            margin: 0 auto;
+            background-image: url('/images/cendolfactory/instruction.png');
+            height: 179px;
+            width: 424px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            @media screen and (max-device-width: 700px) {
+                height: 130px;
+                width: auto;
+            }
+        }
+    }  
+    p{
+        width: 80%;
+        margin: 10px auto;
+        font-size: 16px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+}
+#gameover {
+    background-image: url('/images/cendolfactory/bg-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+    .container-go{
+        background-image: url('/images/cendolfactory/board-go.png');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        @media screen and (max-device-width: 700px) {
+            background-image:url(/images/cendolfactory/board-score-mobile.png);
+            height: 90%;
+            padding-top: 5%;
+        }   
+    }
+    header{
+        padding-top: 45px;
+        padding-bottom: 10px;
+        @media screen and (max-device-height: 600px) {
+            padding-top: 25px;
+        }   
+    }
+    h1{
+        background-image: url('/images/cendolfactory/game-over.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 146px;
+        height: 106px;
+        margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+        @media screen and (max-device-height: 600px) {
+            height: 100px;
+        }
+        @media screen and (max-device-height: 550px) {
+            height: 75px;
+        }   
+
+    }
+    .score-result{
+        width: 235px;
+        height: 76px;
+        margin: 10px auto;
+        background-image: url('/images/cendolfactory/score-result.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        line-height: 98px;
+        text-align: center;
+        output{
+            color: #fff;
+            font-weight: 500;
+            font-size: 42px;
+            @media screen and (max-device-height: 600px) {
+                font-size: 32px;
+            }   
+        }
+        @media screen and (max-device-width: 700px) {
+            margin: 25px auto;
+        }
+        @media screen and (max-device-height: 600px) {
+            margin: 10px auto;
+            height: 55px;
+            line-height: 68px;
+        }      
+    }
+    .blueguy-go{
+        background-image: url('/images/cendolfactory/blueguy-bata.png');
+        width: 139px;
+        height: 283px;
+        position: absolute;
+        right: -12px;
+        bottom: -120px;
+        @media screen and (max-device-width: 700px) {
+            display: none;
+        } 
+    }
+    p{
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        &.message{
+            font-size: 0!important;
+            margin: 0!important;
+            line-height: 0!important;
+        }
+        @media screen and (max-device-width: 700px) {
+            font-size: 16px;
+            line-height: 24px;
+            margin: 15px auto;
+        }
+        @media screen and (max-device-height: 700px) {
+            font-size: 14px;
+            line-height: 20px;
+            margin: 13px auto;
+        }
+        @media screen and (max-device-height: 600px) {
+            font-size: 12px;
+            line-height: 18px;
+            margin: 8px auto;
+        }
+        @media screen and (max-device-height: 550px) {
+            font-size: 11px;
+            line-height: 16px;
+            margin: 5px auto;
+        }  
+
+    }
+    .share{
+        padding-bottom: 20px;
+        list-style: none;
+        text-align: center;
+        li{
+            display: inline-block;
+            a{
+                width: 43px;
+                height: 44px;       
+                background-size: contain;
+                background-repeat: no-repeat;
+                display: inline-block;
+                margin: 0 15px;
+                font-size: 0;
+                @media screen and (max-device-width: 700px) {
+                    width: 65px;
+                    height: 65px;
+                    margin: 10px 25px; 
+                }
+                @media screen and (max-device-height: 700px) {
+                    width: 45px;
+                    height: 45px;
+                    margin: 5px 25px;
+                }  
+            }
+
+            &.facebook{
+                a{
+                    background-image:url('/images/cendolfactory/ic-facebook.png');
+                }
+            }
+            &.twitter{
+                a{
+                    background-image:url('/images/cendolfactory/ic-twitter.png');       
+                }
+            }
+        }
+    }
+}
+#gameover button{
+    width: 144px;
+    height: 51px;
+    background-image: url('/images/cendolfactory/btn-playagain.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+    margin: 0px auto;
+    &:hover{
+        cursor: pointer;
+    }
+    &:focus{
+        outline: none;
+    }
+
+}
+#playfield{
+    background-image:url(/images/cendolfactory/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#player {
+    display: block;
+    margin: 5px auto;
+}
+.right, .left {
+    display: none;
+    z-index: 10;
+    line-height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    background: #9dd53a; 
+    background: -moz-linear-gradient(top, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9dd53a), color-stop(50%,#a1d54f), color-stop(51%,#80c217), color-stop(100%,#7cbc0a)); 
+    background: -webkit-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); 
+    background: -o-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); 
+    background: -ms-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); 
+    background: linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); 
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@-webkit-keyframes zoomInOut {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+
+

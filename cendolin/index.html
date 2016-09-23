@@ -1,0 +1,100 @@
+<!-- 
+    This game is originally came from this site http://thewebrocks.com/demos/html5catcher/ before it has been modified to cater our custom requirements
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cendol Factory</title>
+    <meta type="description" content="Yuk Kita Kumpulin Cendol">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+
+        <section id="intro">
+            <ul>
+                <h1><span></span></h1>
+                <div class="caption"></div>
+                <div class="board"></div>
+                <li>Last score: <output></output></li>
+                <li>High score: <output></output></li>
+                <li><button id="playbutton">Play</button></li>
+            </ul>
+            <div class="blueguy"></div>
+        </section>
+
+        <section id="instructions">
+            <ul id="characters" data-countstart="3" data-newsprite="50">
+                <li class="introdeck">
+                    <h2>You are HTML5:</h2>
+                    <img src="images/blueguy.png" width="85" height="135" id="player" data-increase="5">
+                    <p>Your job is to catch as many of your components as you can.</p>
+                    <p>You can use the cursor keys or move the mouse on the playfield <span id="orientation">- or simply tilt your mobile or tablet</span>.</p>
+                    <p>Failing to catch your components or catching wrong ones costs energy. The game is over when you are out of energy.</p>
+                    <p><button class="next">More</button></p>
+                </li>
+
+                <li class="introdeck">
+                    <h2>The great components</h2>
+                    <p>Each are worth 20 energy points that you can win or lose.</p>
+                    <ul>
+                        <li>
+                            <img src="images/cendol-small-sprites.png" class="sprite" alt="cendol-small" data-collision="energy:0,score:5" data-type="good" data-frames="12">
+                        </li>
+                        <li>
+                            <img src="images/cendol-medium-sprites.png" class="sprite" alt="cendol-medium" data-collision="energy:0,score:10" data-type="good" data-frames="9">
+                        </li>
+                        <li>
+                            <img src="images/cendol-large-sprites.png" class="sprite" alt="cendol-large" data-collision="energy:0,score:15" data-type="good" data-frames="9">
+                        </li>
+                        <li>
+                            <img src="images/bata.png" class="sprite" alt="bata" data-collision="energy:-1,score:0" data-type="bad" data-frames="1">
+                        </li>
+                        <li>
+                            <img src="images/donat.png" class="sprite" alt="donat" data-collision="energy:1,score:0" data-type="donat" data-frames="1">
+                        </li>
+                    </ul>
+                    <h2>The good components</h2>
+                    <p>Each are worth 10 energy points that you can win or lose.</p>
+                    <p><button class="next">More</button></p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="playfield">
+            <div id="scoresinfo">
+                <div id="energy"><output>3</output><ul><li></li><li></li></ul></div>
+                <div id="score"><output></output></div>
+            </div>
+            <canvas></canvas>
+        </section>
+
+        <section id="gameover">
+            <div class="container-go">
+                <header><h1></h1></header>
+                <p class="score-result"><output></output></p>
+                <p class="message" data-highscore="New highscore!"></p>
+                <p>Walaupun babak belur tertimpa bata<br> Jangan Menyerah sampai di sini, Gan!</p>
+                <p><button id="replay">Play again</button></p>
+                <p>Ajak teman-temanmu ikut bermain yuk!</p>
+                <ul class="share">
+                    <li class="facebook"><a href="#"></a></li>
+                    <li class="twitter"><a href="#"></a></li>
+                </ul>
+
+            </div>
+            <div class="blueguy-go"></div>
+        </section>
+
+        <ul id="androidbrowser">
+            <li><button class="left">&nbsp;</button></li>
+            <li><button class="right">&nbsp;</button></li>
+        </ul>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
