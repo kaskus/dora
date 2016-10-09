@@ -1,0 +1,786 @@
+body{
+    margin: 0;
+}
+
+#canvas-oppo{
+    height: 556px;
+    width: 600px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(247, 247, 247, 1);
+    * { 
+        margin: 0;
+        padding: 0;
+    }
+    footer, section, header, aside, figure {
+        display: block;
+    }
+    li {
+        list-style: none;
+    }
+    #container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        min-width: 500px;
+        margin: 0 auto;
+    }
+
+    .playing #container { 
+        cursor: none;
+    }
+
+    #playfield, #gameover, #instructions, #intro, #pilih-karakter, #isiform {
+        position: absolute;
+        top: -3000px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: top 0.5s;
+        -moz-transition: top 0.5s;
+        -ms-transition: top 0.5s;
+        -o-transition: top 0.5s;
+        transition: top 0.5s;
+        &.current{
+            top: 0;
+            -webkit-transition: top 0.5s;
+            -moz-transition: top 0.5s;
+            -ms-transition: top 0.5s;
+            -o-transition: top 0.5s;
+            transition: top 0.5s; 
+        }
+    }
+    #characters {
+        li{
+            &.introdeck{
+                opacity: 0;
+                left: -9000px;
+                position: absolute;
+                -webkit-transition: opacity 1s;
+                -moz-transition: opacity 1s;
+                -ms-transition: opacity 1s;
+                -o-transition: opacity 1s;
+                transition: opacity 1s;
+                width: 80%;
+                margin: 5px auto;
+            }
+            &.current{
+                opacity: 1;
+                left: 0;
+                -webkit-transition: opacity 1s;
+                -moz-transition: opacity 1s;
+                -ms-transition: opacity 1s;
+                -o-transition: opacity 1s;
+                transition: opacity 1s;    
+            }
+        }
+        .current{
+            width: 80%;
+            margin: 5px auto;        
+            ul{
+                margin: 5px 0;
+            }
+            li{
+                display: inline;
+                padding-right: 10px;
+            }
+        }   
+    }
+
+    .right {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+    }
+    .left {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+    }
+    canvas {
+        width: 100%;
+        height: 100%;
+    }
+    #scoresinfo {
+        position: absolute;
+        width: 100%;
+        height: 97px;
+    }
+    #energy, #score {
+        display: inline-block;
+        position: relative;
+        color: #fff;
+        padding-left: 20px;
+    }
+    #score{
+        float: right;
+        margin-top: 20px;
+        margin-right: 10px;
+        width: 190px;
+        height: 40px;
+        background-image:url('../images/score-board.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; 
+        output{
+            right: 27px;
+            color: #000;
+            top: 6px;
+            position: absolute;
+            font-size: 24px;
+            font-weight: 500;
+        } 
+
+    }
+    #energy{
+        float: left;
+        margin-top: 10px;
+        padding: 6px 9px 1px 25px;
+        background: rgba(240,140,140,0.25);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        output{
+            position: absolute;
+            font-size: 0;
+        }
+        ul{
+            width: 126px;
+            height: 58px;
+            overflow: hidden;
+            li{
+                margin-right: 10px;
+                width: 32px;
+                height: 58px;
+                display: inline-block;
+                background-image: url("../images/oppo-life.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+        }    
+    }
+
+    #characters{
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 24px; margin-bottom: 10px;
+    }
+    #container {
+        background-color: #fcb5bd;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        outline: 0;
+    }
+    #intro {
+        background-image:url('../images/bg-opening.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        h1{
+            text-align: center;
+            margin-top: 20px;
+            span{
+                text-indent: -2000px;
+                background-image: url(../images/logo-top2.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin: 0 auto;
+                height: 120px;
+                width: 190px;
+                display: block;
+                animation: zoomInOut 1s ease-in-out infinite alternate;
+                -webkit-animation: zoomInOut 1s ease-in-out infinite alternate;
+            }
+        }
+        .reza{
+            width: 176px;
+            height: 468px;
+            background-image: url('../images/reza2.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .chelsea{
+            width: 191px;
+            height: 454px;
+            background-image: url('../images/chelsea2.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        button{
+            width: 241px;
+            height: 72px;
+            background-image: url('../images/button-mulai.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            font-size: 0;
+            margin: 10px auto;
+            &:hover{
+                cursor: pointer;
+            }
+            &:focus{
+                outline: none;
+            }
+
+        }
+        ul{
+            width: 100%;
+            margin: auto;
+            position: absolute;
+
+            li{
+                text-align: center;
+                font-size: 0;
+            }
+            .caption{
+                margin: 40px auto;
+                background-image: url('../images/tunjukan.png');
+                height: 51px;
+                width: 352px;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat; 
+            }
+            .board{
+                margin: 10px auto;
+                background-image: url('../images/cara-bermain.png');
+                height: 310px;
+                width: 382px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+        }  
+        p{
+            width: 80%;
+            margin: 10px auto;
+            font-size: 16px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+    }
+
+    .kaskus{
+        width: 126px;
+        height: 16px;
+        display: inline-block;
+        position: absolute;
+        background-image:url('../images/logo-kaskus.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 15px;
+        left: 25px;
+        z-index: 5;
+    }
+    .oppo{
+        width: 93px;
+        height: 40px;
+        display: inline-block;
+        position: absolute;
+        background-image:url('../images/logo-oppo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 0;
+        right: 45px;
+        z-index: 5;
+    }
+
+    .footer{
+        width: 565px;
+        height: 201px;
+        display: inline-block;
+        position: absolute;
+        background-image:url('../images/footer.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        bottom: 0;
+        left: 30px;
+        z-index: 5;
+    }
+
+    #pilih-karakter {
+        background-image:url('../images/bg-oppo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        .select-char{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 2;
+            input[type=radio] {
+                position: absolute;
+                z-index: 2;
+                display: none;
+                &#reza-char{
+                    + label{
+                        position: absolute;
+                        display: inline-block;
+                        width: 176px;
+                        height: 360px;
+                        left: 0;
+                        bottom: 0;
+                        &:before{
+                            background-image: url('../images/reza-char.png');
+                            width: 181px;
+                            height: 365px;
+                            background-position: bottom left;
+                            background-repeat: no-repeat;
+                            left: 2px;
+                            bottom: 0;
+                        }
+                        &:hover{
+                            &:before{
+                                left: 0;
+                                background-image: url('../images/reza-char-selected.png');        
+                            }
+                        }
+                    }
+                    &:checked + label:before{
+                        width: 181px;
+                        height: 365px;
+                        background-image: url('../images/reza-char-selected.png');
+                    }
+                }
+                &#chelsea-char{
+                    + label{
+                        position: absolute;
+                        display: inline-block;
+                        width: 191px;
+                        height: 342px;
+                        right: 0;
+                        bottom: 0;
+                        &:before{
+                            background-image: url('../images/chelsea-char.png');
+                            background-position: bottom right;
+                            background-repeat: no-repeat;
+                            width: 191px;
+                            height: 342px;
+                            right: 3px;
+                            bottom: 0;  
+                        }
+                        &:hover{
+                            &:before{
+                                right: 0;
+                                background-image: url('../images/chelsea-char-selected.png');        
+                            }
+                        }
+                    }
+
+                    
+                    &:checked + label:before{
+                        right: 0;
+                        background-image: url('../images/chelsea-char-selected.png');        
+                    }
+                }
+            }
+            label{
+                font-size: 0;
+                cursor: pointer;
+                &:before{
+                    content: '';
+                    display: inline-block;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    -moz-transition: all .2s ease;
+                    -webkit-transition: all .2s ease;
+                    transition: all .2s ease;  
+                }
+            }
+        }   
+        h1{
+            text-align: center;
+            margin-top: 20px;
+            span{
+                text-indent: -2000px;
+                background-image: url(../images/logo-top2.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin: 0 auto;
+                height: 120px;
+                width: 190px;
+                display: block;
+                animation: zoomInOut 1s ease-in-out infinite alternate;
+                -webkit-animation: zoomInOut 1s ease-in-out infinite alternate;
+                
+            }
+        }
+        button{
+            width: 241px;
+            height: 72px;
+            background-image: url('../images/button-mulai.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            font-size: 0;
+            position: absolute;
+            margin: 10px auto;
+            left: 180px;
+            z-index: 5;
+            bottom: 110px;
+            -moz-transition: all .2s ease;
+            -webkit-transition: all .2s ease;
+            transition: all .2s ease;
+            &:hover{
+                cursor: pointer;
+            }
+            &:focus{
+                outline: none;
+            }
+            &:disabled{
+                background-image: url('../images/button-mulai-transparent.png');
+            }
+
+        }
+        ul{
+            width: 450px;
+            height: 450px;
+            margin: 0 75px;
+            position: absolute;
+            z-index: 1;
+            background: rgba(255,255,255,0.6);
+            li{
+                text-align: center;
+                font-size: 0;
+            }
+            .wording{
+                margin: 85px auto 120px;
+                background-image: url('../images/pilih-karakter.png');
+                height: 46px;
+                width: 150px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+        }  
+
+    }
+    #gameover {
+        background-image: url('../images/bg-gameover.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        ul{
+            width: 450px;
+            height: 390px;
+            margin: 0 75px;
+            position: absolute;
+            z-index: 1;
+            background: rgba(255,255,255,0.6);
+            li{
+                text-align: center;
+                font-size: 0;
+            }
+            .wording{
+                margin: 25px auto 40px;
+                background-image: url('../images/mau-dapetin.png');
+                height: 24px;
+                width: 272px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+        }  
+        h1{
+            text-align: center;
+            margin-top: 20px;
+            span{
+                text-indent: -2000px;
+                background-image: url(../images/logo-top2.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin: 0 auto;
+                height: 120px;
+                width: 190px;
+                display: block;
+                animation: zoomInOut 1s ease-in-out infinite alternate;
+                -webkit-animation: zoomInOut 1s ease-in-out infinite alternate;
+                
+            }
+        }
+        .gameover-logo{
+            background-image: url('../images/game-over.png');
+            height: 125px;
+            width: 196px;
+            margin: 50px auto 20px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        .score-result{
+            width: 219px;
+            height: 47px;
+            margin: 10px auto;
+            background-image: url('../images/score-board.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            text-align: center;
+            output{
+                color: #000000;
+                font-weight: 300;
+                font-size: 38px;
+                text-align: right;
+                display: block;
+                margin-right: 20px;
+                &:after{
+                    content: 'pt';
+                    margin-left: 5px;
+                }  
+            }    
+        }
+        p{
+            text-align: center;
+            width: 80%;
+            margin: 10px auto;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            &.message{
+                font-size: 0!important;
+                margin: 0!important;
+                line-height: 0!important;
+            } 
+        }
+        button{
+            width: 241px;
+            height: 72px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            font-size: 0;
+            position: absolute;
+            z-index: 10;
+            top: 305px;
+            left: 180px;
+            &:hover{
+                cursor: pointer;
+            }
+            &:focus{
+                outline: none;
+            }
+            &#isiformbutton{
+                background-image: url('../images/button-isi-diri.png');
+            }
+            &#logindulu{
+                background-image: url('../images/button-login.png');   
+            }
+        }
+    }
+
+    #isiform {
+        background-image: url('../images/bg-gameover.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        ul{
+            width: 450px;
+            height: 390px;
+            margin: 0 75px;
+            position: absolute;
+            z-index: 1;
+            background: rgba(255,255,255,0.6);
+            li{
+                text-align: center;
+                font-size: 0;
+            }
+            .wording{
+                margin: 25px auto 40px;
+                background-image: url('../images/wording2.png');
+                height: 95px;
+                width: 376px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+        }  
+        h1{
+            text-align: center;
+            margin-top: 20px;
+            span{
+                text-indent: -2000px;
+                background-image: url(../images/logo-top2.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin: 0 auto;
+                height: 120px;
+                width: 190px;
+                display: block;
+                animation: zoomInOut 1s ease-in-out infinite alternate;
+                -webkit-animation: zoomInOut 1s ease-in-out infinite alternate;
+                
+            }
+        }
+        p{
+            text-align: center;
+            width: 80%;
+            margin: 10px auto;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            &.message{
+                font-size: 0!important;
+                margin: 0!important;
+                line-height: 0!important;
+            } 
+        }
+        button{
+            width: 241px;
+            height: 72px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            font-size: 0;
+            position: absolute;
+            z-index: 10;
+            top: 305px;
+            left: 180px;
+            &:hover{
+                cursor: pointer;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+        #step1{
+            button{
+                background-image: url('../images/button-submit.png');
+            }
+            .form-group{
+                margin: 10px 0;
+                label{
+                    width: 185px;
+                    display: inline-block;
+                    text-align: right;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #0b82c6;
+                    letter-spacing: 1px;
+                    &:after{
+                        content: ':';
+                        margin-right: 5px;
+                    }
+                }
+                input {
+                    width: 205px;
+                    padding: 5px 6px;
+                    font-size: 16px;
+                    border: none;
+                    &:focus{
+                        outline-color:pink;
+                        outline-style: ridge;
+                        outline-width: medium;
+                    }
+                }
+            }
+        }
+        #step2{
+            button{
+                background-image: url('../images/button-play-again.png');
+            }
+        }
+    }
+    #playfield{
+        background-image:url('../images/bg-play.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        #tutorial{
+            background-color: rgba(0, 0, 0, 0.25);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            button{
+                width: 205px;
+                height: 139px;
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                background-image: url('../images/instruksi-keyboard.gif');
+                border: none;
+                font-size: 0;
+                position: absolute;
+                z-index: 10;
+                top: 200px;
+                left: 200px;
+            }
+        }
+    }
+    #player {
+        display: block;
+        margin: 5px auto;
+    }
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@-webkit-keyframes zoomInOut {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+
+

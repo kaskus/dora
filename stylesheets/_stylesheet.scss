@@ -12,6 +12,21 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
 }
 
+@font-face {
+    font-family: VAGRoundedBold;
+    src: url(fonts/VAG_Rounded_Bold.ttf);
+}
+
+@font-face {
+    font-family: VAGRoundedLight;
+    src: url(fonts/VAG_Rounded_Light.ttf);
+}
+
+@font-face {
+    font-family: VAGRoundedStdLight;
+    src: url(fonts/VAG_Rounded_Std_Light.ttf);
+}
+
 /**
  * Remove default margin.
  */

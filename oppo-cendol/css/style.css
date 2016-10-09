@@ -1,0 +1,743 @@
+/* line 1, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+body {
+  margin: 0; }
+
+/* line 5, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+#canvas-oppo {
+  height: 556px;
+  width: 600px;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  background: #f7f7f7; }
+  /* line 11, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo * {
+    margin: 0;
+    padding: 0; }
+  /* line 15, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo footer, #canvas-oppo section, #canvas-oppo header, #canvas-oppo aside, #canvas-oppo figure {
+    display: block; }
+  /* line 18, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo li {
+    list-style: none; }
+  /* line 21, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    min-width: 500px;
+    margin: 0 auto; }
+  /* line 30, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo .playing #container {
+    cursor: none; }
+  /* line 34, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #playfield, #canvas-oppo #gameover, #canvas-oppo #instructions, #canvas-oppo #intro, #canvas-oppo #pilih-karakter, #canvas-oppo #isiform {
+    position: absolute;
+    top: -3000px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: top 0.5s;
+    -moz-transition: top 0.5s;
+    -ms-transition: top 0.5s;
+    -o-transition: top 0.5s;
+    transition: top 0.5s; }
+    /* line 45, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #playfield.current, #canvas-oppo #gameover.current, #canvas-oppo #instructions.current, #canvas-oppo #intro.current, #canvas-oppo #pilih-karakter.current, #canvas-oppo #isiform.current {
+      top: 0;
+      -webkit-transition: top 0.5s;
+      -moz-transition: top 0.5s;
+      -ms-transition: top 0.5s;
+      -o-transition: top 0.5s;
+      transition: top 0.5s; }
+  /* line 56, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #characters li.introdeck {
+    opacity: 0;
+    left: -9000px;
+    position: absolute;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    width: 80%;
+    margin: 5px auto; }
+  /* line 68, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #characters li.current {
+    opacity: 1;
+    left: 0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s; }
+  /* line 78, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #characters .current {
+    width: 80%;
+    margin: 5px auto; }
+    /* line 81, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #characters .current ul {
+      margin: 5px 0; }
+    /* line 84, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #characters .current li {
+      display: inline;
+      padding-right: 10px; }
+  /* line 91, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo .right {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 20px; }
+  /* line 97, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo .left {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 20px; }
+  /* line 103, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo canvas {
+    width: 100%;
+    height: 100%; }
+  /* line 107, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #scoresinfo {
+    position: absolute;
+    width: 100%;
+    height: 97px; }
+  /* line 112, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #energy, #canvas-oppo #score {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    padding-left: 20px; }
+  /* line 118, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #score {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 190px;
+    height: 40px;
+    background-image: url("../images/score-board.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+    /* line 128, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #score output {
+      right: 27px;
+      color: #000;
+      top: 6px;
+      position: absolute;
+      font-size: 24px;
+      font-weight: 500; }
+  /* line 138, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #energy {
+    float: left;
+    margin-top: 10px;
+    padding: 6px 9px 1px 25px;
+    background: rgba(240, 140, 140, 0.25);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; }
+    /* line 145, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #energy output {
+      position: absolute;
+      font-size: 0; }
+    /* line 149, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #energy ul {
+      width: 126px;
+      height: 58px;
+      overflow: hidden; }
+      /* line 153, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #energy ul li {
+        margin-right: 10px;
+        width: 32px;
+        height: 58px;
+        display: inline-block;
+        background-image: url("../images/oppo-life.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+  /* line 166, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #characters {
+    font-size: 15px; }
+  /* line 169, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo h1 {
+    font-size: 30px; }
+  /* line 172, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo h2 {
+    font-size: 24px;
+    margin-bottom: 10px; }
+  /* line 175, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #container {
+    background-color: #fcb5bd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    outline: 0; }
+  /* line 182, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #intro {
+    background-image: url("../images/bg-opening.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    /* line 187, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #intro h1 {
+      text-align: center;
+      margin-top: 20px; }
+      /* line 190, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #intro h1 span {
+        text-indent: -2000px;
+        background-image: url(../images/logo-top2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+        height: 120px;
+        width: 190px;
+        display: block;
+        animation: zoomInOut 1s ease-in-out infinite alternate;
+        -webkit-animation: zoomInOut 1s ease-in-out infinite alternate; }
+    /* line 204, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #intro .reza {
+      width: 176px;
+      height: 468px;
+      background-image: url("../images/reza2.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+    /* line 216, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #intro .chelsea {
+      width: 191px;
+      height: 454px;
+      background-image: url("../images/chelsea2.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+    /* line 228, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #intro button {
+      width: 241px;
+      height: 72px;
+      background-image: url("../images/button-mulai.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      font-size: 0;
+      margin: 10px auto; }
+      /* line 239, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #intro button:hover {
+        cursor: pointer; }
+      /* line 242, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #intro button:focus {
+        outline: none; }
+    /* line 247, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #intro ul {
+      width: 100%;
+      margin: auto;
+      position: absolute; }
+      /* line 252, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #intro ul li {
+        text-align: center;
+        font-size: 0; }
+      /* line 256, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #intro ul .caption {
+        margin: 40px auto;
+        background-image: url("../images/tunjukan.png");
+        height: 51px;
+        width: 352px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; }
+      /* line 265, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #intro ul .board {
+        margin: 10px auto;
+        background-image: url("../images/cara-bermain.png");
+        height: 310px;
+        width: 382px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
+    /* line 275, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #intro p {
+      width: 80%;
+      margin: 10px auto;
+      font-size: 16px;
+      margin: 20px auto;
+      text-align: center; }
+  /* line 285, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo .kaskus {
+    width: 126px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    background-image: url("../images/logo-kaskus.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 15px;
+    left: 25px;
+    z-index: 5; }
+  /* line 298, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo .oppo {
+    width: 93px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    background-image: url("../images/logo-oppo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 0;
+    right: 45px;
+    z-index: 5; }
+  /* line 312, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo .footer {
+    width: 565px;
+    height: 201px;
+    display: inline-block;
+    position: absolute;
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    bottom: 0;
+    left: 30px;
+    z-index: 5; }
+  /* line 326, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #pilih-karakter {
+    background-image: url("../images/bg-oppo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    /* line 331, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #pilih-karakter .select-char {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 2; }
+      /* line 336, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #pilih-karakter .select-char input[type=radio] {
+        position: absolute;
+        z-index: 2;
+        display: none; }
+        /* line 341, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+        #canvas-oppo #pilih-karakter .select-char input[type=radio]#reza-char + label {
+          position: absolute;
+          display: inline-block;
+          width: 176px;
+          height: 360px;
+          left: 0;
+          bottom: 0; }
+          /* line 348, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+          #canvas-oppo #pilih-karakter .select-char input[type=radio]#reza-char + label:before {
+            background-image: url("../images/reza-char.png");
+            width: 181px;
+            height: 365px;
+            background-position: bottom left;
+            background-repeat: no-repeat;
+            left: 2px;
+            bottom: 0; }
+          /* line 358, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+          #canvas-oppo #pilih-karakter .select-char input[type=radio]#reza-char + label:hover:before {
+            left: 0;
+            background-image: url("../images/reza-char-selected.png"); }
+        /* line 364, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+        #canvas-oppo #pilih-karakter .select-char input[type=radio]#reza-char:checked + label:before {
+          width: 181px;
+          height: 365px;
+          background-image: url("../images/reza-char-selected.png"); }
+        /* line 371, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+        #canvas-oppo #pilih-karakter .select-char input[type=radio]#chelsea-char + label {
+          position: absolute;
+          display: inline-block;
+          width: 191px;
+          height: 342px;
+          right: 0;
+          bottom: 0; }
+          /* line 378, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+          #canvas-oppo #pilih-karakter .select-char input[type=radio]#chelsea-char + label:before {
+            background-image: url("../images/chelsea-char.png");
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            width: 191px;
+            height: 342px;
+            right: 3px;
+            bottom: 0; }
+          /* line 388, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+          #canvas-oppo #pilih-karakter .select-char input[type=radio]#chelsea-char + label:hover:before {
+            right: 0;
+            background-image: url("../images/chelsea-char-selected.png"); }
+        /* line 396, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+        #canvas-oppo #pilih-karakter .select-char input[type=radio]#chelsea-char:checked + label:before {
+          right: 0;
+          background-image: url("../images/chelsea-char-selected.png"); }
+      /* line 402, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #pilih-karakter .select-char label {
+        font-size: 0;
+        cursor: pointer; }
+        /* line 405, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+        #canvas-oppo #pilih-karakter .select-char label:before {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          -moz-transition: all .2s ease;
+          -webkit-transition: all .2s ease;
+          transition: all .2s ease; }
+    /* line 417, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #pilih-karakter h1 {
+      text-align: center;
+      margin-top: 20px; }
+      /* line 420, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #pilih-karakter h1 span {
+        text-indent: -2000px;
+        background-image: url(../images/logo-top2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+        height: 120px;
+        width: 190px;
+        display: block;
+        animation: zoomInOut 1s ease-in-out infinite alternate;
+        -webkit-animation: zoomInOut 1s ease-in-out infinite alternate; }
+    /* line 435, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #pilih-karakter button {
+      width: 241px;
+      height: 72px;
+      background-image: url("../images/button-mulai.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      font-size: 0;
+      position: absolute;
+      margin: 10px auto;
+      left: 180px;
+      z-index: 5;
+      bottom: 110px;
+      -moz-transition: all .2s ease;
+      -webkit-transition: all .2s ease;
+      transition: all .2s ease; }
+      /* line 453, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #pilih-karakter button:hover {
+        cursor: pointer; }
+      /* line 456, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #pilih-karakter button:focus {
+        outline: none; }
+      /* line 459, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #pilih-karakter button:disabled {
+        background-image: url("../images/button-mulai-transparent.png"); }
+    /* line 464, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #pilih-karakter ul {
+      width: 450px;
+      height: 450px;
+      margin: 0 75px;
+      position: absolute;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.6); }
+      /* line 471, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #pilih-karakter ul li {
+        text-align: center;
+        font-size: 0; }
+      /* line 475, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #pilih-karakter ul .wording {
+        margin: 85px auto 120px;
+        background-image: url("../images/pilih-karakter.png");
+        height: 46px;
+        width: 150px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
+  /* line 487, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #gameover {
+    background-image: url("../images/bg-gameover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; }
+    /* line 493, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #gameover ul {
+      width: 450px;
+      height: 390px;
+      margin: 0 75px;
+      position: absolute;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.6); }
+      /* line 500, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover ul li {
+        text-align: center;
+        font-size: 0; }
+      /* line 504, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover ul .wording {
+        margin: 25px auto 40px;
+        background-image: url("../images/mau-dapetin.png");
+        height: 24px;
+        width: 272px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
+    /* line 514, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #gameover h1 {
+      text-align: center;
+      margin-top: 20px; }
+      /* line 517, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover h1 span {
+        text-indent: -2000px;
+        background-image: url(../images/logo-top2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+        height: 120px;
+        width: 190px;
+        display: block;
+        animation: zoomInOut 1s ease-in-out infinite alternate;
+        -webkit-animation: zoomInOut 1s ease-in-out infinite alternate; }
+    /* line 532, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #gameover .gameover-logo {
+      background-image: url("../images/game-over.png");
+      height: 125px;
+      width: 196px;
+      margin: 50px auto 20px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+    /* line 541, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #gameover .score-result {
+      width: 219px;
+      height: 47px;
+      margin: 10px auto;
+      background-image: url("../images/score-board.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      text-align: center; }
+      /* line 550, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover .score-result output {
+        color: #000000;
+        font-weight: 300;
+        font-size: 38px;
+        text-align: right;
+        display: block;
+        margin-right: 20px; }
+        /* line 557, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+        #canvas-oppo #gameover .score-result output:after {
+          content: 'pt';
+          margin-left: 5px; }
+    /* line 563, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #gameover p {
+      text-align: center;
+      width: 80%;
+      margin: 10px auto;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500; }
+      /* line 570, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover p.message {
+        font-size: 0 !important;
+        margin: 0 !important;
+        line-height: 0 !important; }
+    /* line 576, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #gameover button {
+      width: 241px;
+      height: 72px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      font-size: 0;
+      position: absolute;
+      z-index: 10;
+      top: 305px;
+      left: 180px; }
+      /* line 589, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover button:hover {
+        cursor: pointer; }
+      /* line 592, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover button:focus {
+        outline: none; }
+      /* line 595, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover button#isiformbutton {
+        background-image: url("../images/button-isi-diri.png"); }
+      /* line 598, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #gameover button#logindulu {
+        background-image: url("../images/button-login.png"); }
+  /* line 604, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #isiform {
+    background-image: url("../images/bg-gameover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; }
+    /* line 610, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #isiform ul {
+      width: 450px;
+      height: 390px;
+      margin: 0 75px;
+      position: absolute;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.6); }
+      /* line 617, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #isiform ul li {
+        text-align: center;
+        font-size: 0; }
+      /* line 621, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #isiform ul .wording {
+        margin: 25px auto 40px;
+        background-image: url("../images/wording2.png");
+        height: 95px;
+        width: 376px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
+    /* line 631, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #isiform h1 {
+      text-align: center;
+      margin-top: 20px; }
+      /* line 634, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #isiform h1 span {
+        text-indent: -2000px;
+        background-image: url(../images/logo-top2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+        height: 120px;
+        width: 190px;
+        display: block;
+        animation: zoomInOut 1s ease-in-out infinite alternate;
+        -webkit-animation: zoomInOut 1s ease-in-out infinite alternate; }
+    /* line 649, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #isiform p {
+      text-align: center;
+      width: 80%;
+      margin: 10px auto;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500; }
+      /* line 656, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #isiform p.message {
+        font-size: 0 !important;
+        margin: 0 !important;
+        line-height: 0 !important; }
+    /* line 662, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #isiform button {
+      width: 241px;
+      height: 72px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      font-size: 0;
+      position: absolute;
+      z-index: 10;
+      top: 305px;
+      left: 180px; }
+      /* line 675, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #isiform button:hover {
+        cursor: pointer; }
+      /* line 678, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #isiform button:focus {
+        outline: none; }
+    /* line 683, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #isiform #step1 button {
+      background-image: url("../images/button-submit.png"); }
+    /* line 686, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #isiform #step1 .form-group {
+      margin: 10px 0; }
+      /* line 688, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #isiform #step1 .form-group label {
+        width: 185px;
+        display: inline-block;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 500;
+        color: #0b82c6;
+        letter-spacing: 1px; }
+        /* line 696, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+        #canvas-oppo #isiform #step1 .form-group label:after {
+          content: ':';
+          margin-right: 5px; }
+      /* line 701, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #isiform #step1 .form-group input {
+        width: 205px;
+        padding: 5px 6px;
+        font-size: 16px;
+        border: none; }
+        /* line 706, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+        #canvas-oppo #isiform #step1 .form-group input:focus {
+          outline-color: pink;
+          outline-style: ridge;
+          outline-width: medium; }
+    /* line 715, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #isiform #step2 button {
+      background-image: url("../images/button-play-again.png"); }
+  /* line 720, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #playfield {
+    background-image: url("../images/bg-play.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    /* line 725, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+    #canvas-oppo #playfield #tutorial {
+      background-color: rgba(0, 0, 0, 0.25);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      z-index: 10; }
+      /* line 732, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+      #canvas-oppo #playfield #tutorial button {
+        width: 205px;
+        height: 139px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-image: url("../images/instruksi-keyboard.gif");
+        border: none;
+        font-size: 0;
+        position: absolute;
+        z-index: 10;
+        top: 200px;
+        left: 200px; }
+  /* line 749, /Users/dev/nurulakbar/oppo-cendol/css/style.scss */
+  #canvas-oppo #player {
+    display: block;
+    margin: 5px auto; }
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  50% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+@-webkit-keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  50% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+/*# sourceMappingURL=style.css.map */
