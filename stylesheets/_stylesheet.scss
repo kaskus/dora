@@ -14,17 +14,17 @@ html {
 
 @font-face {
     font-family: VAGRoundedBold;
-    src: url(fonts/VAG_Rounded_Bold.ttf);
+    src: url(../fonts/VAG_Rounded_Bold.ttf);
 }
 
 @font-face {
     font-family: VAGRoundedLight;
-    src: url(fonts/VAG_Rounded_Light.ttf);
+    src: url(../fonts/VAG_Rounded_Light.ttf);
 }
 
 @font-face {
     font-family: VAGRoundedStdLight;
-    src: url(fonts/VAG_Rounded_Std_Light.ttf);
+    src: url(../fonts/VAG_Rounded_Std_Light.ttf);
 }
 
 /**
@@ -33,6 +33,7 @@ html {
 
 body {
   margin: 0;
+  font-family: 'VAGRoundedStdLight';
 }
 
 /* HTML5 display definitions
@@ -443,7 +444,6 @@ th {
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
@@ -466,7 +466,8 @@ a:hover {
 header {
   padding-top: 60px;
   padding-bottom: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VAGRoundedBold';
+  letter-spacing: 15px;
   background-image: url(../images/space.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -496,7 +497,7 @@ header h2 {
 }
 
 header h2 span {
-  color: #e96969;
+  color: #1998ed;
 }
 
 header div {
@@ -547,7 +548,7 @@ a.button {
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VAGRoundedBold';
   font-size: 23px;
   line-height: 1.2;
   color: #333;
@@ -640,7 +641,7 @@ form {
 #main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VAGRoundedBold';
   font-size: 2.8em;
   font-weight: normal;
   color: #333;
@@ -650,7 +651,7 @@ form {
 
 #main-content h2 {
   margin-bottom: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VAGRoundedBold';
   font-size: 22px;
   font-weight: bold;
   color: #333;
@@ -660,7 +661,7 @@ form {
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VAGRoundedBold';
   font-size: 32px;
   font-weight: bold;
   color: #333;
@@ -669,7 +670,7 @@ form {
 
 #main-content h4 {
   margin-bottom: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VAGRoundedBold';
   font-size: 24px;
   font-weight: bold;
   color: #333;
@@ -678,14 +679,14 @@ form {
 
 #main-content h5 {
   margin-bottom: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VAGRoundedBold';
   font-size: 14px;
   color: #333;
 }
 
 #main-content h6 {
   margin-bottom: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'VAGRoundedBold';
   font-size: .8em;
   color: #333;
 }
@@ -890,7 +891,7 @@ footer a:hover {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #e96969;
+  background-color: #faa61a;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -925,7 +926,7 @@ footer a:hover {
 }
 
 .separator {
-  border-top: 3px solid #e96969;
+  border-top: 3px solid #faa61a;
   max-width: 120px;
   margin: 2.5em auto;
 }
