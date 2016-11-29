@@ -27344,6 +27344,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/gg-mild\/BB.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/gg-mild\/BB.html",
+		"oF": 0
+		},
 	"\/gg-mild\/BB.js": {
 		"ft": 64,
 		"mi": 1,
@@ -27352,6 +27358,14 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/gg-mild\/images\/Bitmap1.jpg": {
+		"ft": 16384,
+		"iS": 19682,
+		"oA": 0,
+		"oAP": "\/gg-mild\/images\/Bitmap1.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/gg-mild\/images\/Bitmap2.jpg": {
 		"ft": 16384,
@@ -27379,7 +27393,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap5.png": {
 		"ft": 32768,
-		"iS": 130609,
+		"iS": 32305,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap5.png",
 		"oF": 0,
@@ -27509,6 +27523,21 @@
 		"oA": 2,
 		"oAP": "\/gg-mild\/LB\/LB.html",
 		"oF": 0
+		},
+	"\/gg-mild\/RB.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/gg-mild\/RB.html",
+		"oF": 0
+		},
+	"\/gg-mild\/RB.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/gg-mild\/min\/RB-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/gg-mild\/RB\/images\/Bitmap1.jpg": {
 		"ft": 16384,
