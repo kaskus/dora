@@ -1166,11 +1166,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/djarum-mld-black\/assets\/images\/banner-epulsa.jpg": {
+		"ft": 16384,
+		"iS": 8712,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/banner-epulsa.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/djarum-mld-black\/assets\/images\/banner-fjb-guide.jpg": {
 		"ft": 16384,
 		"iS": 22145,
 		"oA": 0,
 		"oAP": "\/djarum-mld-black\/assets\/images\/banner-fjb-guide.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/banner-plus.jpg": {
+		"ft": 16384,
+		"iS": 9460,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/banner-plus.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1659,6 +1675,14 @@
 		"iS": 1045,
 		"oA": 0,
 		"oAP": "\/djarum-mld-black\/assets\/images\/icon-help.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-kaskus-store.png": {
+		"ft": 32768,
+		"iS": 1088,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-kaskus-store.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -7137,6 +7161,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/main-ie.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/djarum-mld-black\/assets\/stylesheets\/main.min-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/main.min-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},

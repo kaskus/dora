@@ -1700,15 +1700,6 @@
 
 <div class="row">
 		<div class="home-landing-main col-xs-12">
-			<div class="banner-vertical-expand">
-				<a href="">
-					<div class="banner-vertical-expand__content">
-						<div id="ad" style="margin: 0 auto; width: 970px; height: 50px; position: relative;">
-							<iframe src="FAds/FAds.html" width="970" height="50" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom; background-color: #000;"></iframe>
-						</div>
-					</div>
-				</a>
-			</div>
 			
 
 			<div class="main-bar">
@@ -3836,7 +3827,7 @@
 
 						<div id="kaskus-store">
     <header class="header__category clearfix">
-            <img src="https://s.kaskus.id/img/seasonal/september2016/tematik/kaskus-store1.png"  class="header__icon">
+            <img src="assets/images/icon-kaskus-store.png"  class="header__icon">
             <h2 class="header__title">KASKUS Store</h2>
     </header>
     <div class="sidebar__store sidebar__epulsa">
@@ -3857,7 +3848,7 @@
         <div class="tab-content">
             <div class="tab-pane active" id="epulsa__plus">
                 <div class="row bar5">
-                    <img src="https://s.kaskus.id/img/seasonal/september2016/tematik/logo_kaskus_plus.jpg" class="logo">
+                    <img src="assets/images/banner-plus.jpg" class="logo">
                 </div>
                 <form action="">
                     <div class="row">
@@ -3899,7 +3890,7 @@
 
             <div class="tab-pane" id="epulsa__paket">
                 <div class="row bar5">
-                    <img src="https://s.kaskus.id/img/seasonal/september2016/tematik/4-epulsa.jpg" class="logo">
+                    <img src="assets/images/banner-epulsa.jpg" class="logo">
                 </div>
                 <form action="">
                     <div class="row">
@@ -4247,7 +4238,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-image">
-				<img src="https://s.kaskus.id/images/2016/08/29/8218158_20160829033919.png">
+				
 				<div class="arrow-bubble"></div>
 			</div>
 			<div class="modal-body">
@@ -4272,7 +4263,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-image">
-				<img src="https://s.kaskus.id/images/2016/08/29/8218158_20160829033919.png">
+				
 				<div class="arrow-bubble"></div>
 			</div>
 			<div class="modal-body">
@@ -4297,7 +4288,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-image">
-				<img src="https://s.kaskus.id/images/2016/08/29/8218158_20160829033919.png">
+				
 				<div class="arrow-bubble"></div>
 			</div>
 			<div class="modal-body">
@@ -7041,6 +7032,36 @@
 				</div>
 			</div>
 		</footer>
+		<div class="bottom-frame">
+			<script>
+				function toggleFrameAds()
+				{
+					$('.bottom-frame').toggleClass('open');
+					// if($.cookie('frameAds') === null)
+					// {
+					// 	var date = new Date();
+					// 	date.setTime(date.getTime() + (60 * 60 * 1000));
+					// 	$.cookie('frameAds', 1, {expires:date,path:"/",domain:"",secure:false});
+					// }
+					// else
+					// {
+					// 	$.cookie('frameAds', null, {expires:null});
+					// }
+				}
+			</script>
+			<a href="javascript:toggleFrameAds();" class="btm-close">×</a>
+			<div class="bt-frame-ads">
+				<div class="banner-vertical-expand">
+					<a href="">
+						<div class="banner-vertical-expand__content">
+							<div id="ad" style="margin: 0 auto; width: 970px; height: 50px; position: relative;">
+								<iframe src="FAds/FAds.html" width="970" height="50" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom; background-color: #000;"></iframe>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
 
 		<script src="assets/javascripts/vendor/vendor.js"></script>
 		<script src="assets/javascripts/main.js"></script>

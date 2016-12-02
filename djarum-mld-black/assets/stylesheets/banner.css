@@ -9,7 +9,7 @@
 }
 
 .banner-vertical-expand__content {
-	top: 0;
+	bottom: 0;
 	background-color: #000;
 	height: 50px;
 	width: 970px;
