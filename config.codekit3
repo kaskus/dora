@@ -7160,32 +7160,32 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/djarum-mld-black\/FAds-Exp\/FAds Exp Revisi.html": {
+	"\/djarum-mld-black\/FAds-Exp\/FAds-Exp-Revisi.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/djarum-mld-black\/FAds-Exp\/FAds Exp Revisi.html",
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/FAds-Exp-Revisi.html",
 		"oF": 0
 		},
-	"\/djarum-mld-black\/FAds-Exp\/FAds Exp Revisi.js": {
+	"\/djarum-mld-black\/FAds-Exp\/FAds-Exp-Revisi.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/djarum-mld-black\/FAds-Exp\/min\/FAds Exp Revisi-min.js",
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/min\/FAds-Exp-Revisi-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/djarum-mld-black\/FAds-Exp\/FAds Exp.html": {
+	"\/djarum-mld-black\/FAds-Exp\/FAds-Exp.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/djarum-mld-black\/FAds-Exp\/FAds Exp.html",
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/FAds-Exp.html",
 		"oF": 0
 		},
-	"\/djarum-mld-black\/FAds-Exp\/FAds Exp.js": {
+	"\/djarum-mld-black\/FAds-Exp\/FAds-Exp.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/djarum-mld-black\/FAds-Exp\/min\/FAds Exp-min.js",
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/min\/FAds-Exp-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -7393,32 +7393,32 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/djarum-mld-black\/RB-Exp\/RB Exp Revisi.html": {
+	"\/djarum-mld-black\/RB-Exp\/RB-Exp-Revisi.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/djarum-mld-black\/RB-Exp\/RB Exp Revisi.html",
 		"oF": 0
 		},
-	"\/djarum-mld-black\/RB-Exp\/RB Exp Revisi.js": {
+	"\/djarum-mld-black\/RB-Exp\/RB-Exp-Revisi.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/djarum-mld-black\/RB-Exp\/min\/RB Exp Revisi-min.js",
+		"oAP": "\/djarum-mld-black\/RB-Exp\/min\/RB-Exp-Revisi-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/djarum-mld-black\/RB-Exp\/RB Exp.html": {
+	"\/djarum-mld-black\/RB-Exp\/RB-Exp.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/djarum-mld-black\/RB-Exp\/RB Exp.html",
+		"oAP": "\/djarum-mld-black\/RB-Exp\/RB-Exp.html",
 		"oF": 0
 		},
-	"\/djarum-mld-black\/RB-Exp\/RB Exp.js": {
+	"\/djarum-mld-black\/RB-Exp\/RB-Exp.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/djarum-mld-black\/RB-Exp\/min\/RB Exp-min.js",
+		"oAP": "\/djarum-mld-black\/RB-Exp\/min\/RB-Exp-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -34455,7 +34455,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap1.jpg": {
 		"ft": 16384,
-		"iS": 19682,
+		"iS": 18510,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap1.jpg",
 		"oF": 0,
@@ -34479,7 +34479,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap4.png": {
 		"ft": 32768,
-		"iS": 11236,
+		"iS": 4138,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap4.png",
 		"oF": 0,

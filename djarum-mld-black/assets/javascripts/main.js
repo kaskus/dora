@@ -1192,7 +1192,7 @@ $(document).ready(function() {
 
 	$( ".banner-vertical-expand" ).hover(
 	  function() {
-	    $(this).find('iframe').attr("src", "Fads-Exp/FAds Exp Revisi.html");
+	    $(this).find('iframe').attr("src", "Fads-Exp/FAds-Exp-Revisi.html");
 	    $(this).find('iframe').attr("height", "150");
 	  }, function() {
 	    $(this).find('iframe').attr("src", "Fads/FAds.html");
@@ -1202,7 +1202,7 @@ $(document).ready(function() {
 
 	$( ".banner-horizontal-expand" ).hover(
 	  function() {
-	    $(this).find('iframe').attr("src", "RB-Exp/RB Exp Revisi.html");
+	    $(this).find('iframe').attr("src", "RB-Exp/RB-Exp-Revisi.html");
 	    setTimeout(function() {
 		    $(".banner-horizontal-expand").find('iframe').attr("width", "600");
 		}, 400);
