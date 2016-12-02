@@ -1192,10 +1192,10 @@ $(document).ready(function() {
 
 	$( ".banner-vertical-expand" ).hover(
 	  function() {
-	    $(this).find('iframe').attr("src", "Fads-Exp/FAds-Exp-Revisi.html");
+	    $(this).find('iframe').attr("src", "FAds-Exp/FAds-Exp-Revisi.html");
 	    $(this).find('iframe').attr("height", "150");
 	  }, function() {
-	    $(this).find('iframe').attr("src", "Fads/FAds.html");
+	    $(this).find('iframe').attr("src", "FAds/FAds.html");
 	    $(this).find('iframe').attr("height", "50");
 	  }
 	);
