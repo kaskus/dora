@@ -1,0 +1,27 @@
+.banner-vertical-expand {
+  position: relative;
+  height: 250px; }
+
+.banner-vertical-expand:hover .banner-vertical-expand__content {
+  width: 600px; }
+
+.banner-vertical-expand__content {
+  border: 3px solid;
+  background-color: #dedede;
+  height: 250px;
+  width: 300px;
+  position: absolute;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out; }
+
+.banner-vertical-expand__content span {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }

@@ -440,6 +440,7090 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.eot",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.ttf",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.woff",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.woff2",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.eot",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.ttf",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.woff",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.woff2",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.eot",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.ttf",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.woff",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.woff2",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.eot",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.ttf",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.woff",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.woff2",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.eot",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.ttf",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.woff",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello-backup\/fontello.woff2",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello.eot",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello.ttf",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello.woff",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/fonts\/fontello.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/fonts\/fontello.woff2",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/14-mei-kenaikan-yesus.png": {
+		"ft": 32768,
+		"iS": 18055,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/14-mei-kenaikan-yesus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/ads.png": {
+		"ft": 32768,
+		"iS": 128560,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/ads.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/asap.png": {
+		"ft": 32768,
+		"iS": 335406,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/asap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/awan1.png": {
+		"ft": 32768,
+		"iS": 296,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/awan1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/awan2.png": {
+		"ft": 32768,
+		"iS": 382,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/awan2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/awan3.png": {
+		"ft": 32768,
+		"iS": 545,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/awan3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/awan4.png": {
+		"ft": 32768,
+		"iS": 304,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/awan4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/awan5.png": {
+		"ft": 32768,
+		"iS": 455,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/awan5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/awan6.png": {
+		"ft": 32768,
+		"iS": 24944,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/awan6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/Background.png": {
+		"ft": 32768,
+		"iS": 60917,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/Background.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/banner-end.png": {
+		"ft": 32768,
+		"iS": 21158,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/banner-end.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/blueguy-masker-tangan.png": {
+		"ft": 32768,
+		"iS": 7543,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/blueguy-masker-tangan.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/blueguy-masker.png": {
+		"ft": 32768,
+		"iS": 34789,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/blueguy-masker.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/blueguy-topi.png": {
+		"ft": 32768,
+		"iS": 49671,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/blueguy-topi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/button-play.png": {
+		"ft": 32768,
+		"iS": 12909,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/button-play.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/callout1.png": {
+		"ft": 32768,
+		"iS": 13834,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/callout1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/callout2.png": {
+		"ft": 32768,
+		"iS": 5217,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/callout2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/callout3.png": {
+		"ft": 32768,
+		"iS": 20772,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/callout3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/close.png": {
+		"ft": 32768,
+		"iS": 775,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/close.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/conveti.png": {
+		"ft": 32768,
+		"iS": 3672,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/conveti.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/floating-banner.gif": {
+		"ft": 4194304,
+		"iS": 484031,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/floating-banner.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/fwosh.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/fwosh.mp3",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/fwosh.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/fwosh.ogg",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/instruction.png": {
+		"ft": 32768,
+		"iS": 65236,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/instruction.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/logo-tankas.png": {
+		"ft": 32768,
+		"iS": 125886,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/logo-tankas.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/mobil1.png": {
+		"ft": 32768,
+		"iS": 5198,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/mobil1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/mobil2.png": {
+		"ft": 32768,
+		"iS": 10384,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/mobil2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/mobil3.png": {
+		"ft": 32768,
+		"iS": 5685,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/mobil3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/mobil4.png": {
+		"ft": 32768,
+		"iS": 6875,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/mobil4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/mouse.gif": {
+		"ft": 4194304,
+		"iS": 4106,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/mouse.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/mute.png": {
+		"ft": 32768,
+		"iS": 960,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/mute.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/muted.png": {
+		"ft": 32768,
+		"iS": 888,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/muted.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/next.gif": {
+		"ft": 4194304,
+		"iS": 4042,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/next.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/next.png": {
+		"ft": 32768,
+		"iS": 2859,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/next.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/pibedey.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/pibedey.mp3",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/pibedey.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/pibedey.ogg",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/pop.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/pop.mp3",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/pop.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/pop.ogg",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/Seasonal-Header-16th-Home-Page-34frame-min.png": {
+		"ft": 32768,
+		"iS": 7339,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/Seasonal-Header-16th-Home-Page-34frame-min.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/Seasonal-Header-16th-Page-Lain-16frame-min.png": {
+		"ft": 32768,
+		"iS": 3446,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/Seasonal-Header-16th-Page-Lain-16frame-min.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/suaraangin.mp3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/suaraangin.mp3",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/suaraangin.ogg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/suaraangin.ogg",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/thanks-banner.png": {
+		"ft": 32768,
+		"iS": 32228,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/thanks-banner.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/thanks-ribbon1.png": {
+		"ft": 32768,
+		"iS": 12787,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/thanks-ribbon1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/thanks-ribbon2.png": {
+		"ft": 32768,
+		"iS": 3577,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/thanks-ribbon2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/thanks-ribbon3.png": {
+		"ft": 32768,
+		"iS": 7520,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/thanks-ribbon3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/thanks-star1.png": {
+		"ft": 32768,
+		"iS": 11100,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/thanks-star1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/anniv16\/thanks-star2.png": {
+		"ft": 32768,
+		"iS": 13159,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/anniv16\/thanks-star2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/app-android.png": {
+		"ft": 32768,
+		"iS": 13369,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/app-android.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/app-chat.png": {
+		"ft": 32768,
+		"iS": 476,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/app-chat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/app-forum.png": {
+		"ft": 32768,
+		"iS": 492,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/app-forum.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/app-kjb.png": {
+		"ft": 32768,
+		"iS": 515,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/app-kjb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/app-wap.png": {
+		"ft": 32768,
+		"iS": 804,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/app-wap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/apple.png": {
+		"ft": 32768,
+		"iS": 3821,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/apple.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/avatar_square.png": {
+		"ft": 32768,
+		"iS": 2523,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/avatar_square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/badge-vsl.png": {
+		"ft": 32768,
+		"iS": 8253,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/badge-vsl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/badgeslist\/1.gif": {
+		"ft": 4194304,
+		"iS": 4000,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/badgeslist\/1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/badgeslist\/15.gif": {
+		"ft": 4194304,
+		"iS": 4654,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/badgeslist\/15.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/badgeslist\/5.gif": {
+		"ft": 4194304,
+		"iS": 6015,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/badgeslist\/5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/banner-ad-970.jpg": {
+		"ft": 16384,
+		"iS": 4298,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/banner-ad-970.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/banner-ad-skin.jpg": {
+		"ft": 16384,
+		"iS": 3437,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/banner-ad-skin.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/banner-billboard.jpg": {
+		"ft": 16384,
+		"iS": 51379,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/banner-billboard.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/banner-blliboard.gif": {
+		"ft": 4194304,
+		"iS": 20975,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/banner-blliboard.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/banner-fjb-guide.jpg": {
+		"ft": 16384,
+		"iS": 22145,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/banner-fjb-guide.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/banner.png": {
+		"ft": 32768,
+		"iS": 297919,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/banner.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/bg-oppo-banner.jpg": {
+		"ft": 16384,
+		"iS": 584274,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/bg-oppo-banner.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/bg-oppo.jpg": {
+		"ft": 16384,
+		"iS": 510937,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/bg-oppo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/bg-signup.jpg": {
+		"ft": 16384,
+		"iS": 228321,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/bg-signup.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/billboard-video-bg.jpg": {
+		"ft": 16384,
+		"iS": 75492,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/billboard-video-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/blue-guy-cry.png": {
+		"ft": 32768,
+		"iS": 13407,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/blue-guy-cry.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/blue-guy-sad.png": {
+		"ft": 32768,
+		"iS": 16623,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/blue-guy-sad.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/blueguy_kacapembesar.png": {
+		"ft": 32768,
+		"iS": 9673,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/blueguy_kacapembesar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/bottom-banner-ad.png": {
+		"ft": 32768,
+		"iS": 8269,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/bottom-banner-ad.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/captcha-dummy.png": {
+		"ft": 32768,
+		"iS": 9691,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/captcha-dummy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/aksesories.png": {
+		"ft": 32768,
+		"iS": 2902,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/aksesories.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/handphone.png": {
+		"ft": 32768,
+		"iS": 1569,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/handphone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/image-10.png": {
+		"ft": 32768,
+		"iS": 2973,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/image-10.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/image-16.png": {
+		"ft": 32768,
+		"iS": 1297,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/image-16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/image-235.png": {
+		"ft": 32768,
+		"iS": 5356,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/image-235.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/image-250.png": {
+		"ft": 32768,
+		"iS": 2481,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/image-250.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/image-36.png": {
+		"ft": 32768,
+		"iS": 995,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/image-36.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/image-54.png": {
+		"ft": 32768,
+		"iS": 2476,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/image-54.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/image-66.png": {
+		"ft": 32768,
+		"iS": 1222,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/image-66.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/perbaikan.png": {
+		"ft": 32768,
+		"iS": 4209,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/perbaikan.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/pulsa.png": {
+		"ft": 32768,
+		"iS": 2174,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/pulsa.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/sim.png": {
+		"ft": 32768,
+		"iS": 1673,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/sim.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/category-icon\/yellow-bubble.png": {
+		"ft": 32768,
+		"iS": 271,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/category-icon\/yellow-bubble.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cendol\/ember.png": {
+		"ft": 32768,
+		"iS": 17492,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cendol\/ember.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cendol\/gelas.png": {
+		"ft": 32768,
+		"iS": 8493,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cendol\/gelas.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cendol\/mangkok.png": {
+		"ft": 32768,
+		"iS": 10149,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cendol\/mangkok.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cendol\/panci.png": {
+		"ft": 32768,
+		"iS": 17348,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cendol\/panci.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cliponyu\/img-host-lg.jpg": {
+		"ft": 16384,
+		"iS": 45190,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cliponyu\/img-host-lg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cliponyu\/img-host.jpeg": {
+		"ft": 16384,
+		"iS": 74124,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cliponyu\/img-host.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cliponyu\/ipon_03.jpg": {
+		"ft": 16384,
+		"iS": 4927,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cliponyu\/ipon_03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cliponyu\/logo-cliponyu.jpg": {
+		"ft": 16384,
+		"iS": 2962,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cliponyu\/logo-cliponyu.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cliponyu\/sprites-cliponyu.png": {
+		"ft": 32768,
+		"iS": 9850,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cliponyu\/sprites-cliponyu.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cloud-big.png": {
+		"ft": 32768,
+		"iS": 556,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cloud-big.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cloud-small.png": {
+		"ft": 32768,
+		"iS": 451,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cloud-small.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/cover-image.png": {
+		"ft": 32768,
+		"iS": 153080,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/cover-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/default-forum-encore-n.png": {
+		"ft": 32768,
+		"iS": 1262,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/default-forum-encore-n.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/editor\/fonts.png": {
+		"ft": 32768,
+		"iS": 567,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/editor\/fonts.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/editor\/menu.png": {
+		"ft": 32768,
+		"iS": 254,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/editor\/menu.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/editor\/spoiler.jpg": {
+		"ft": 16384,
+		"iS": 571,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/editor\/spoiler.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/faq-uniqness.gif": {
+		"ft": 4194304,
+		"iS": 1379,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/faq-uniqness.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/fire-red.png": {
+		"ft": 32768,
+		"iS": 672,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/fire-red.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-cairkan.jpg": {
+		"ft": 16384,
+		"iS": 10247,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-cairkan.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-menerima.jpg": {
+		"ft": 16384,
+		"iS": 9103,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-menerima.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-mengirim.jpg": {
+		"ft": 16384,
+		"iS": 4779,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-mengirim.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-sepakat.jpg": {
+		"ft": 16384,
+		"iS": 7661,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-sepakat.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-transfer.jpg": {
+		"ft": 16384,
+		"iS": 5691,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/fjb-guide\/banner-transfer.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/fjb-guide\/buyer-seller.png": {
+		"ft": 32768,
+		"iS": 13439,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/fjb-guide\/buyer-seller.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/fjb-guide\/dapur.png": {
+		"ft": 32768,
+		"iS": 5673,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/fjb-guide\/dapur.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/flag-country.png": {
+		"ft": 32768,
+		"iS": 239,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/flag-country.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/floating_banner_valentine.gif": {
+		"ft": 4194304,
+		"iS": 187630,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/floating_banner_valentine.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/gopro.jpg": {
+		"ft": 16384,
+		"iS": 5055,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/gopro.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/help-center-uniqness.gif": {
+		"ft": 4194304,
+		"iS": 1249,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/help-center-uniqness.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/hikmah-puasa-logo.png": {
+		"ft": 32768,
+		"iS": 1591,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/hikmah-puasa-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/hikmah-puasa-widget.png": {
+		"ft": 32768,
+		"iS": 7564,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/hikmah-puasa-widget.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/hubungi-kami-icon.png": {
+		"ft": 32768,
+		"iS": 6425,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/hubungi-kami-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/ic_jb_logo.png": {
+		"ft": 32768,
+		"iS": 762,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/ic_jb_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/ic_minus_quantity.png": {
+		"ft": 32768,
+		"iS": 139,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/ic_minus_quantity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/ic_plus_quantity.png": {
+		"ft": 32768,
+		"iS": 157,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/ic_plus_quantity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-chat-disabled.png": {
+		"ft": 32768,
+		"iS": 1314,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-chat-disabled.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-chat.png": {
+		"ft": 32768,
+		"iS": 371,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-chat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-help.png": {
+		"ft": 32768,
+		"iS": 1045,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-help.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-lampu-orange.png": {
+		"ft": 32768,
+		"iS": 1442,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-lampu-orange.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-mobile.png": {
+		"ft": 32768,
+		"iS": 225,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-mobile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-pm.png": {
+		"ft": 32768,
+		"iS": 824,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-pm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-smilies.png": {
+		"ft": 32768,
+		"iS": 1337,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-smilies.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-automotive.png": {
+		"ft": 32768,
+		"iS": 1045,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-automotive.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-camera.png": {
+		"ft": 32768,
+		"iS": 1080,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-camera.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-computers.png": {
+		"ft": 32768,
+		"iS": 567,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-computers.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-electronic.png": {
+		"ft": 32768,
+		"iS": 737,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-electronic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-fashion.png": {
+		"ft": 32768,
+		"iS": 1035,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-fashion.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-handphone.png": {
+		"ft": 32768,
+		"iS": 706,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-handphone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-hobbies.png": {
+		"ft": 32768,
+		"iS": 1366,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-hobbies.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-home.png": {
+		"ft": 32768,
+		"iS": 1008,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-home.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-interest.png": {
+		"ft": 32768,
+		"iS": 1034,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-interest.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-kaskus.png": {
+		"ft": 32768,
+		"iS": 672,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-kaskus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-knowledge.png": {
+		"ft": 32768,
+		"iS": 945,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-knowledge.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-life.png": {
+		"ft": 32768,
+		"iS": 958,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-life.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-lifestyle.png": {
+		"ft": 32768,
+		"iS": 933,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-lifestyle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-news.png": {
+		"ft": 32768,
+		"iS": 651,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-news.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-regional.png": {
+		"ft": 32768,
+		"iS": 746,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-regional.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-sports.png": {
+		"ft": 32768,
+		"iS": 1207,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-sports.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-technology.png": {
+		"ft": 32768,
+		"iS": 1152,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-technology.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-travel.png": {
+		"ft": 32768,
+		"iS": 867,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-tab\/icon-tab-travel.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon-vsl.png": {
+		"ft": 32768,
+		"iS": 9297,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon-vsl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/icon_hot.png": {
+		"ft": 32768,
+		"iS": 5323,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/icon_hot.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/image-icon.png": {
+		"ft": 32768,
+		"iS": 1628,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/image-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/jne-invoice.jpg": {
+		"ft": 16384,
+		"iS": 16746,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/jne-invoice.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/JURAGAN_PULSA.jpg": {
+		"ft": 16384,
+		"iS": 49571,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/JURAGAN_PULSA.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/kasad-widget.jpg": {
+		"ft": 16384,
+		"iS": 21456,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/kasad-widget.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/kob-1.png": {
+		"ft": 32768,
+		"iS": 15877,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/kob-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/kob-2.png": {
+		"ft": 32768,
+		"iS": 18392,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/kob-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/kob-3.png": {
+		"ft": 32768,
+		"iS": 25941,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/kob-3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/kob-4.png": {
+		"ft": 32768,
+		"iS": 10832,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/kob-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/kob-5.png": {
+		"ft": 32768,
+		"iS": 9952,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/kob-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/avatar-offer.png": {
+		"ft": 32768,
+		"iS": 2344,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/avatar-offer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/avatar.jpg": {
+		"ft": 16384,
+		"iS": 4660,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/avatar.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/bengkel-attr-1.png": {
+		"ft": 32768,
+		"iS": 7218,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/bengkel-attr-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/bengkel-sprites.png": {
+		"ft": 32768,
+		"iS": 19973,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/bengkel-sprites.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/floor.png": {
+		"ft": 32768,
+		"iS": 40965,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/floor.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/floor2.png": {
+		"ft": 32768,
+		"iS": 19952,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/floor2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/group-bubble-1.png": {
+		"ft": 32768,
+		"iS": 1842,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/group-bubble-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/group-bubble-2.png": {
+		"ft": 32768,
+		"iS": 1660,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/group-bubble-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/groupee-content-1.png": {
+		"ft": 32768,
+		"iS": 19301,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/groupee-content-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/groupee.png": {
+		"ft": 32768,
+		"iS": 4964,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/groupee.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/hikmah-puasa.png": {
+		"ft": 32768,
+		"iS": 6154,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/hikmah-puasa.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr1.png": {
+		"ft": 32768,
+		"iS": 2554,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr2.png": {
+		"ft": 32768,
+		"iS": 1005,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr3.png": {
+		"ft": 32768,
+		"iS": 529,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr4.png": {
+		"ft": 32768,
+		"iS": 718,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr5.png": {
+		"ft": 32768,
+		"iS": 264,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr6.png": {
+		"ft": 32768,
+		"iS": 272,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr7.png": {
+		"ft": 32768,
+		"iS": 226,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr7.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr8.png": {
+		"ft": 32768,
+		"iS": 199,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr8.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr9.png": {
+		"ft": 32768,
+		"iS": 1353,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-attr9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-content-1.png": {
+		"ft": 32768,
+		"iS": 5760,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost-content-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost.png": {
+		"ft": 32768,
+		"iS": 6146,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/infokost.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr1-shadow.png": {
+		"ft": 32768,
+		"iS": 2556,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr1-shadow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr1.png": {
+		"ft": 32768,
+		"iS": 5039,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr2-shadow.png": {
+		"ft": 32768,
+		"iS": 2620,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr2-shadow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr2.png": {
+		"ft": 32768,
+		"iS": 5304,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr3-shadow.png": {
+		"ft": 32768,
+		"iS": 2476,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr3-shadow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr3.png": {
+		"ft": 32768,
+		"iS": 4463,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang-attr3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang.png": {
+		"ft": 32768,
+		"iS": 4735,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/lelang.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio-attr1.png": {
+		"ft": 32768,
+		"iS": 1543,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio-attr1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio-attr2.png": {
+		"ft": 32768,
+		"iS": 1153,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio-attr2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio-attr3.png": {
+		"ft": 32768,
+		"iS": 1153,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio-attr3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio-content-1.png": {
+		"ft": 32768,
+		"iS": 20777,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio-content-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio.png": {
+		"ft": 32768,
+		"iS": 7294,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/radio.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tebak-harga-attr1.png": {
+		"ft": 32768,
+		"iS": 4823,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tebak-harga-attr1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tebak-harga-attr2.png": {
+		"ft": 32768,
+		"iS": 9566,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tebak-harga-attr2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tebak-harga.png": {
+		"ft": 32768,
+		"iS": 4313,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tebak-harga.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-airplane.png": {
+		"ft": 32768,
+		"iS": 3041,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-airplane.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-awan1.png": {
+		"ft": 32768,
+		"iS": 563,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-awan1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-awan2.png": {
+		"ft": 32768,
+		"iS": 423,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-awan2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-awan3.png": {
+		"ft": 32768,
+		"iS": 531,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-awan3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-gerbong.png": {
+		"ft": 32768,
+		"iS": 1964,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-gerbong.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-hotel.png": {
+		"ft": 32768,
+		"iS": 10182,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-hotel.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-hover.png": {
+		"ft": 32768,
+		"iS": 1767,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-hover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-star.png": {
+		"ft": 32768,
+		"iS": 986,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-star.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-train.png": {
+		"ft": 32768,
+		"iS": 6960,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket-train.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket.png": {
+		"ft": 32768,
+		"iS": 2081,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tiket.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-attr1.png": {
+		"ft": 32768,
+		"iS": 14121,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-attr1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-attr2.png": {
+		"ft": 32768,
+		"iS": 2275,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-attr2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-attr3.png": {
+		"ft": 32768,
+		"iS": 2112,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-attr3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-attr4.png": {
+		"ft": 32768,
+		"iS": 4328,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-attr4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-shadow.png": {
+		"ft": 32768,
+		"iS": 2224,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bengkel\/tupat-shadow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/bg-groupee-pattern.jpg": {
+		"ft": 16384,
+		"iS": 21188,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/bg-groupee-pattern.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/breadcrumb-arrow.png": {
+		"ft": 32768,
+		"iS": 336,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/breadcrumb-arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/capcha-img.jpeg": {
+		"ft": 16384,
+		"iS": 2805,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/capcha-img.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/cara-bertransaksi-min.png": {
+		"ft": 32768,
+		"iS": 6814,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/cara-bertransaksi-min.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/cara-bertransaksi.jpg": {
+		"ft": 16384,
+		"iS": 70451,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/cara-bertransaksi.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/category-preloader.gif": {
+		"ft": 4194304,
+		"iS": 8517,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/category-preloader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/cendolin-floating-REV.jpg": {
+		"ft": 16384,
+		"iS": 5344,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/cendolin-floating-REV.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/chosen-sprite.png": {
+		"ft": 32768,
+		"iS": 538,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/chosen-sprite.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/chosen-sprite@2x.png": {
+		"ft": 32768,
+		"iS": 738,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/chosen-sprite@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/close-but.png": {
+		"ft": 32768,
+		"iS": 822,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/close-but.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/close-button-24.png": {
+		"ft": 32768,
+		"iS": 2774,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/close-button-24.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/close-button-grey.png": {
+		"ft": 32768,
+		"iS": 1842,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/close-button-grey.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/close-button.png": {
+		"ft": 32768,
+		"iS": 6168,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/close-button.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/comp-sprites-backup.png": {
+		"ft": 32768,
+		"iS": 59228,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/comp-sprites-backup.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/comp-sprites.png": {
+		"ft": 32768,
+		"iS": 65574,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/comp-sprites.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/decor-epulsa.png": {
+		"ft": 32768,
+		"iS": 8750,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/decor-epulsa.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/decor-kplus.png": {
+		"ft": 32768,
+		"iS": 12403,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/decor-kplus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/envelope.png": {
+		"ft": 32768,
+		"iS": 1244,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/envelope.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/epulsa.jpg": {
+		"ft": 16384,
+		"iS": 74979,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/epulsa.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/face-green.png": {
+		"ft": 32768,
+		"iS": 1531,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/face-green.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/face-grey.png": {
+		"ft": 32768,
+		"iS": 1469,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/face-grey.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/face-red.png": {
+		"ft": 32768,
+		"iS": 1512,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/face-red.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/feedback.jpg": {
+		"ft": 16384,
+		"iS": 3401,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/feedback.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/fjb-image-sprites.png": {
+		"ft": 32768,
+		"iS": 9168,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/fjb-image-sprites.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/flag-recommended.png": {
+		"ft": 32768,
+		"iS": 4531,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/flag-recommended.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/floating-banner_02.gif": {
+		"ft": 4194304,
+		"iS": 318475,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/floating-banner_02.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/grabbing.png": {
+		"ft": 32768,
+		"iS": 116,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/grabbing.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/gridme.png": {
+		"ft": 32768,
+		"iS": 286,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/gridme.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/home-logo-n.png": {
+		"ft": 32768,
+		"iS": 4012,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/home-logo-n.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/home-logo.png": {
+		"ft": 32768,
+		"iS": 4013,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/home-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_date.png": {
+		"ft": 32768,
+		"iS": 770,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_date.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_face-green.png": {
+		"ft": 32768,
+		"iS": 1664,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_face-green.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_face-grey.png": {
+		"ft": 32768,
+		"iS": 1482,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_face-grey.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_face-red.png": {
+		"ft": 32768,
+		"iS": 1584,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_face-red.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_flag.png": {
+		"ft": 32768,
+		"iS": 381,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_flag.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_offer_rejected.png": {
+		"ft": 32768,
+		"iS": 874,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_offer_rejected.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_pengaduan_selesai.png": {
+		"ft": 32768,
+		"iS": 1111,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_pengaduan_selesai.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_printer.png": {
+		"ft": 32768,
+		"iS": 297,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_printer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_checkout.png": {
+		"ft": 32768,
+		"iS": 713,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_checkout.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_complaint_done.png": {
+		"ft": 32768,
+		"iS": 910,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_complaint_done.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_complaint_sent.png": {
+		"ft": 32768,
+		"iS": 582,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_complaint_sent.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_confirmation.png": {
+		"ft": 32768,
+		"iS": 434,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_confirmation.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_confirmation_accepted.png": {
+		"ft": 32768,
+		"iS": 827,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_confirmation_accepted.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_payment_accepted.png": {
+		"ft": 32768,
+		"iS": 727,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_payment_accepted.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_payment_confirmed.png": {
+		"ft": 32768,
+		"iS": 363,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_payment_confirmed.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_pembayaran_diverifikasi.png": {
+		"ft": 32768,
+		"iS": 1290,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_pembayaran_diverifikasi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_pesanan_disetujui.png": {
+		"ft": 32768,
+		"iS": 1406,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_pesanan_disetujui.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_pesanan_ditolak.png": {
+		"ft": 32768,
+		"iS": 1427,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_pesanan_ditolak.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_sent.png": {
+		"ft": 32768,
+		"iS": 712,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_sent.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_status_success.png": {
+		"ft": 32768,
+		"iS": 666,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_status_success.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory1.png": {
+		"ft": 32768,
+		"iS": 4403,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory10.png": {
+		"ft": 32768,
+		"iS": 546,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory10.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory2.png": {
+		"ft": 32768,
+		"iS": 4687,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory3.png": {
+		"ft": 32768,
+		"iS": 869,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory4.png": {
+		"ft": 32768,
+		"iS": 3560,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory5.png": {
+		"ft": 32768,
+		"iS": 1597,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory6.png": {
+		"ft": 32768,
+		"iS": 3858,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory7.png": {
+		"ft": 32768,
+		"iS": 3517,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory7.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory8.png": {
+		"ft": 32768,
+		"iS": 1126,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory8.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory9.png": {
+		"ft": 32768,
+		"iS": 707,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_subcategory9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_success.png": {
+		"ft": 32768,
+		"iS": 619,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_success.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_tag_terbeli.png": {
+		"ft": 32768,
+		"iS": 290,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_tag_terbeli.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_tag_terjual.png": {
+		"ft": 32768,
+		"iS": 306,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_tag_terjual.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_transaksi_dibatalkan.png": {
+		"ft": 32768,
+		"iS": 1368,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_transaksi_dibatalkan.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_transaksi_expired.png": {
+		"ft": 32768,
+		"iS": 1264,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_transaksi_expired.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_udahdapet.png": {
+		"ft": 32768,
+		"iS": 10300,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_udahdapet.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_udahlakugan.png": {
+		"ft": 32768,
+		"iS": 10060,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_udahlakugan.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_waiting_payment.png": {
+		"ft": 32768,
+		"iS": 818,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_waiting_payment.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_zero_transaction_buy.png": {
+		"ft": 32768,
+		"iS": 18246,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_zero_transaction_buy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ic_zero_transaction_sell.png": {
+		"ft": 32768,
+		"iS": 28284,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ic_zero_transaction_sell.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-activities.png": {
+		"ft": 32768,
+		"iS": 802,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-activities.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-calendar.png": {
+		"ft": 32768,
+		"iS": 824,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-calendar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-computer.png": {
+		"ft": 32768,
+		"iS": 1150,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-computer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-contributor.png": {
+		"ft": 32768,
+		"iS": 994,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-contributor.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-donut.png": {
+		"ft": 32768,
+		"iS": 1247,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-donut.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-fashion.png": {
+		"ft": 32768,
+		"iS": 805,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-fashion.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-featured.png": {
+		"ft": 32768,
+		"iS": 865,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-featured.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-flash.png": {
+		"ft": 32768,
+		"iS": 743,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-flash.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-gunting.png": {
+		"ft": 32768,
+		"iS": 925,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-gunting.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-handphone.png": {
+		"ft": 32768,
+		"iS": 1030,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-handphone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-hot-deals.png": {
+		"ft": 32768,
+		"iS": 1890,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-hot-deals.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-hot-reviews.png": {
+		"ft": 32768,
+		"iS": 686,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-hot-reviews.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-jb.png": {
+		"ft": 32768,
+		"iS": 809,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-jb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-kasad.png": {
+		"ft": 32768,
+		"iS": 1119,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-kasad.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-kaskus-small.png": {
+		"ft": 32768,
+		"iS": 580,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-kaskus-small.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-kob.png": {
+		"ft": 32768,
+		"iS": 1095,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-kob.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-kplus.png": {
+		"ft": 32768,
+		"iS": 1154,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-kplus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-lastseen.png": {
+		"ft": 32768,
+		"iS": 1628,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-lastseen.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-mobile-green.png": {
+		"ft": 32768,
+		"iS": 619,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-mobile-green.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-mobile.png": {
+		"ft": 32768,
+		"iS": 593,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-mobile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-news-thread.png": {
+		"ft": 32768,
+		"iS": 735,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-news-thread.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-picture.png": {
+		"ft": 32768,
+		"iS": 1187,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-picture.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-sista.png": {
+		"ft": 32768,
+		"iS": 948,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-sista.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-star.png": {
+		"ft": 32768,
+		"iS": 729,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-star.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-subscribe.png": {
+		"ft": 32768,
+		"iS": 680,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-subscribe.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-success-story.png": {
+		"ft": 32768,
+		"iS": 1501,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-success-story.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-trophy.png": {
+		"ft": 32768,
+		"iS": 765,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-trophy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon-video-thread.png": {
+		"ft": 32768,
+		"iS": 1083,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon-video-thread.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/api-biru.png": {
+		"ft": 32768,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/api-biru.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/api-merah.png": {
+		"ft": 32768,
+		"iS": 672,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/api-merah.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/bata-sm.png": {
+		"ft": 32768,
+		"iS": 3413,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/bata-sm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/cendol-sm.png": {
+		"ft": 32768,
+		"iS": 3685,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/cendol-sm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/clock.png": {
+		"ft": 32768,
+		"iS": 835,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/clock.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/comment.png": {
+		"ft": 32768,
+		"iS": 987,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/comment.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/comments.png": {
+		"ft": 32768,
+		"iS": 1068,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/comments.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/email.png": {
+		"ft": 32768,
+		"iS": 651,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/email.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/emailnew.png": {
+		"ft": 32768,
+		"iS": 1071,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/emailnew.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/emailopen.png": {
+		"ft": 32768,
+		"iS": 919,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/emailopen.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/forum.png": {
+		"ft": 32768,
+		"iS": 733,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/forum.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/forumthread.png": {
+		"ft": 32768,
+		"iS": 819,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/forumthread.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/friend.png": {
+		"ft": 32768,
+		"iS": 889,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/friend.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/group.png": {
+		"ft": 32768,
+		"iS": 1039,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/group.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/icon-success-stories.png": {
+		"ft": 32768,
+		"iS": 1700,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/icon-success-stories.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/package.png": {
+		"ft": 32768,
+		"iS": 978,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/package.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/star14-b.png": {
+		"ft": 32768,
+		"iS": 599,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/star14-b.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/status_online.png": {
+		"ft": 32768,
+		"iS": 1076,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/status_online.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/upload-image.png": {
+		"ft": 32768,
+		"iS": 1931,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/upload-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/user.png": {
+		"ft": 32768,
+		"iS": 888,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/user.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/usercp-k-ballon.png": {
+		"ft": 32768,
+		"iS": 4568,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/usercp-k-ballon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/VM.png": {
+		"ft": 32768,
+		"iS": 833,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/VM.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon\/wrench.png": {
+		"ft": 32768,
+		"iS": 701,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon\/wrench.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_avatar_default_groupee.jpg": {
+		"ft": 16384,
+		"iS": 4695,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_avatar_default_groupee.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_beli.png": {
+		"ft": 32768,
+		"iS": 290,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_beli.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_brankas.png": {
+		"ft": 32768,
+		"iS": 709,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_brankas.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_button_beli.png": {
+		"ft": 32768,
+		"iS": 420,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_button_beli.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_button_nego.png": {
+		"ft": 32768,
+		"iS": 1027,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_button_nego.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_email.png": {
+		"ft": 32768,
+		"iS": 545,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_email.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_fb.png": {
+		"ft": 32768,
+		"iS": 552,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_fb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_google_plus.png": {
+		"ft": 32768,
+		"iS": 820,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_google_plus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_share_link.png": {
+		"ft": 32768,
+		"iS": 699,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_share_link.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_tag_item.png": {
+		"ft": 32768,
+		"iS": 347,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_tag_item.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_twitter.png": {
+		"ft": 32768,
+		"iS": 737,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_fjb_twitter.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_grid_active.png": {
+		"ft": 32768,
+		"iS": 344,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_grid_active.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_grid_disable.png": {
+		"ft": 32768,
+		"iS": 344,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_grid_disable.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_jual.png": {
+		"ft": 32768,
+		"iS": 307,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_jual.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_list_active.png": {
+		"ft": 32768,
+		"iS": 230,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_list_active.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_list_disable.png": {
+		"ft": 32768,
+		"iS": 230,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_list_disable.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/icon_vsl.png": {
+		"ft": 32768,
+		"iS": 2882,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/icon_vsl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/image_offer.png": {
+		"ft": 32768,
+		"iS": 8660,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/image_offer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/lamp.png": {
+		"ft": 32768,
+		"iS": 4053,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/lamp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/logo-telkomsel.png": {
+		"ft": 32768,
+		"iS": 10057,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/logo-telkomsel.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/pattren-slider.png": {
+		"ft": 32768,
+		"iS": 1208,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/pattren-slider.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/placeholder-userpp.png": {
+		"ft": 32768,
+		"iS": 2923,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/placeholder-userpp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/placeholder.png": {
+		"ft": 32768,
+		"iS": 5162,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/placeholder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/preloader-blue-guy.gif": {
+		"ft": 4194304,
+		"iS": 9331,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/preloader-blue-guy.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/preloader.gif": {
+		"ft": 4194304,
+		"iS": 5063,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/preloader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/resolution-center-tv.jpg": {
+		"ft": 16384,
+		"iS": 5490,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/resolution-center-tv.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/ribbon-popular-group.png": {
+		"ft": 32768,
+		"iS": 6335,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/ribbon-popular-group.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/slide-banner-career.jpg": {
+		"ft": 16384,
+		"iS": 109910,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/slide-banner-career.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/sprite-menu.png": {
+		"ft": 32768,
+		"iS": 25352,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/sprite-menu.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/sprite_icon_sidebar.png": {
+		"ft": 32768,
+		"iS": 5850,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/sprite_icon_sidebar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/stamp.png": {
+		"ft": 32768,
+		"iS": 17375,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/stamp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/layout\/tesgambar.png": {
+		"ft": 32768,
+		"iS": 54780,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/layout\/tesgambar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-dompetku.png": {
+		"ft": 32768,
+		"iS": 13044,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-dompetku.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-hikmah-puasa-white.png": {
+		"ft": 32768,
+		"iS": 2837,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-hikmah-puasa-white.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-hikmah-puasa.png": {
+		"ft": 32768,
+		"iS": 1831,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-hikmah-puasa.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-hikmahpuasa-widget.png": {
+		"ft": 32768,
+		"iS": 2241,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-hikmahpuasa-widget.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-invoice.png": {
+		"ft": 32768,
+		"iS": 8332,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-invoice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-kaskus-n.png": {
+		"ft": 32768,
+		"iS": 527,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-kaskus-n.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-kaskus.png": {
+		"ft": 32768,
+		"iS": 527,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-kaskus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-kaspay.png": {
+		"ft": 32768,
+		"iS": 4583,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-kaspay.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-klikbca.jpg": {
+		"ft": 16384,
+		"iS": 12310,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-klikbca.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-klikbca.png": {
+		"ft": 32768,
+		"iS": 19228,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-klikbca.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-klikpay.jpg": {
+		"ft": 16384,
+		"iS": 13011,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-klikpay.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo-mataharimall.png": {
+		"ft": 32768,
+		"iS": 16536,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo-mataharimall.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_bank_bca.png": {
+		"ft": 32768,
+		"iS": 3281,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_bank_bca.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_bank_mandiri.png": {
+		"ft": 32768,
+		"iS": 4015,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_bank_mandiri.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_bank_permata.png": {
+		"ft": 32768,
+		"iS": 3806,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_bank_permata.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_indomaret.png": {
+		"ft": 32768,
+		"iS": 193490,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_indomaret.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_jne.png": {
+		"ft": 32768,
+		"iS": 7164,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_jne.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_kaskusplus.png": {
+		"ft": 32768,
+		"iS": 32839,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_kaskusplus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_kaspay.png": {
+		"ft": 32768,
+		"iS": 2619,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_kaspay.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_kplus.png": {
+		"ft": 32768,
+		"iS": 21400,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_kplus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_pos_indonesia.png": {
+		"ft": 32768,
+		"iS": 5000,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_pos_indonesia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/logo_sakuku.jpg": {
+		"ft": 16384,
+		"iS": 54902,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/logo_sakuku.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/mobile-apple.png": {
+		"ft": 32768,
+		"iS": 3937,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/mobile-apple.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/mobile-bb.png": {
+		"ft": 32768,
+		"iS": 6102,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/mobile-bb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/mobile-googleplay.png": {
+		"ft": 32768,
+		"iS": 4097,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/mobile-googleplay.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/mobile-wap.png": {
+		"ft": 32768,
+		"iS": 781,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/mobile-wap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/more-from-jb-thumb.jpg": {
+		"ft": 16384,
+		"iS": 3414,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/more-from-jb-thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/oppo-chelsea.png": {
+		"ft": 32768,
+		"iS": 61117,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/oppo-chelsea.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/oppo-reza.png": {
+		"ft": 32768,
+		"iS": 65003,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/oppo-reza.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/player-pin.png": {
+		"ft": 32768,
+		"iS": 1961,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/player-pin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/player-yt-icon-circle-big.png": {
+		"ft": 32768,
+		"iS": 3364,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/player-yt-icon-circle-big.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/player-yt-icon-circle.png": {
+		"ft": 32768,
+		"iS": 904,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/player-yt-icon-circle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/player-yt-icon.png": {
+		"ft": 32768,
+		"iS": 1970,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/player-yt-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/player-yt-image.jpg": {
+		"ft": 16384,
+		"iS": 10225,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/player-yt-image.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/player-yt-mockup.jpg": {
+		"ft": 16384,
+		"iS": 41603,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/player-yt-mockup.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/basket.png": {
+		"ft": 32768,
+		"iS": 1710,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/basket.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_angry.png": {
+		"ft": 32768,
+		"iS": 910,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_angry.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_cool.png": {
+		"ft": 32768,
+		"iS": 783,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_cool.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_eek.png": {
+		"ft": 32768,
+		"iS": 508,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_eek.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_grin.png": {
+		"ft": 32768,
+		"iS": 782,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_grin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_heart.png": {
+		"ft": 32768,
+		"iS": 466,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_heart.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_idea.png": {
+		"ft": 32768,
+		"iS": 1305,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_idea.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_laugh.png": {
+		"ft": 32768,
+		"iS": 1581,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_laugh.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_locked.png": {
+		"ft": 32768,
+		"iS": 1471,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_locked.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_movie.png": {
+		"ft": 32768,
+		"iS": 639,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_movie.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_poll.png": {
+		"ft": 32768,
+		"iS": 1320,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_poll.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_post.png": {
+		"ft": 32768,
+		"iS": 514,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_post.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_smile.png": {
+		"ft": 32768,
+		"iS": 721,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_smile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_star.png": {
+		"ft": 32768,
+		"iS": 696,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_star.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_thread.png": {
+		"ft": 32768,
+		"iS": 1268,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_thread.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_thumb-down.png": {
+		"ft": 32768,
+		"iS": 352,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_thumb-down.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_thumb.png": {
+		"ft": 32768,
+		"iS": 1123,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_thumb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/icon_warning.png": {
+		"ft": 32768,
+		"iS": 1233,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/icon_warning.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/money.png": {
+		"ft": 32768,
+		"iS": 2437,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/money.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/sold-out.png": {
+		"ft": 32768,
+		"iS": 2730,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/sold-out.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/post\/terjual.png": {
+		"ft": 32768,
+		"iS": 2127,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/post\/terjual.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/potd-btn.jpg": {
+		"ft": 16384,
+		"iS": 3437,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/potd-btn.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/Promo-Banner-KASKUS-STORE.png": {
+		"ft": 32768,
+		"iS": 120198,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/Promo-Banner-KASKUS-STORE.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/rc-banner-03.jpg": {
+		"ft": 16384,
+		"iS": 65338,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/rc-banner-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/RC-thumbnail.png": {
+		"ft": 32768,
+		"iS": 12227,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/RC-thumbnail.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/refunded-image.png": {
+		"ft": 32768,
+		"iS": 5128,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/refunded-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/resolution-center-icon.png": {
+		"ft": 32768,
+		"iS": 6685,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/resolution-center-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/seasonal\/17-agustus-kemerdekaan.png": {
+		"ft": 32768,
+		"iS": 6668,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/seasonal\/17-agustus-kemerdekaan.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/seasonal\/anniversary\/baloon.png": {
+		"ft": 32768,
+		"iS": 1776,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/seasonal\/anniversary\/baloon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/seasonal\/anniversary\/blueguy.png": {
+		"ft": 32768,
+		"iS": 2155,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/seasonal\/anniversary\/blueguy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/seasonal\/anniversary\/ribbon-blue.png": {
+		"ft": 32768,
+		"iS": 2037,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/seasonal\/anniversary\/ribbon-blue.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/seasonal\/anniversary\/ribbon-orange.png": {
+		"ft": 32768,
+		"iS": 2029,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/seasonal\/anniversary\/ribbon-orange.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/seasonal\/IDUL-ADHA.png": {
+		"ft": 32768,
+		"iS": 14850,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/seasonal\/IDUL-ADHA.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/seasonal\/idul-fitri2.png": {
+		"ft": 32768,
+		"iS": 13692,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/seasonal\/idul-fitri2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/entertainment-bg.gif": {
+		"ft": 4194304,
+		"iS": 56939,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/entertainment-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/entertainment-on.png": {
+		"ft": 32768,
+		"iS": 561,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/entertainment-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/entertainment.png": {
+		"ft": 32768,
+		"iS": 3286,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/entertainment.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/fashion.gif": {
+		"ft": 4194304,
+		"iS": 89298,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/fashion.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/interest-bg.gif": {
+		"ft": 4194304,
+		"iS": 64822,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/interest-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/interest-on.png": {
+		"ft": 32768,
+		"iS": 1151,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/interest-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/interest.png": {
+		"ft": 32768,
+		"iS": 3973,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/interest.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/kasak-kusuk-bg.gif": {
+		"ft": 4194304,
+		"iS": 53071,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/kasak-kusuk-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/kasak-kusuk-on.png": {
+		"ft": 32768,
+		"iS": 724,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/kasak-kusuk-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/kasak-kusuk.png": {
+		"ft": 32768,
+		"iS": 3451,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/kasak-kusuk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/knowledge-bg.gif": {
+		"ft": 4194304,
+		"iS": 77447,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/knowledge-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/knowledge-on.png": {
+		"ft": 32768,
+		"iS": 892,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/knowledge-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/knowledge.png": {
+		"ft": 32768,
+		"iS": 3729,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/knowledge.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/life-corner-bg.gif": {
+		"ft": 4194304,
+		"iS": 63248,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/life-corner-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/life-corner-on.png": {
+		"ft": 32768,
+		"iS": 1081,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/life-corner-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/life-corner.png": {
+		"ft": 32768,
+		"iS": 3821,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/life-corner.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/lifestyle-bg.gif": {
+		"ft": 4194304,
+		"iS": 67292,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/lifestyle-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/lifestyle-on.png": {
+		"ft": 32768,
+		"iS": 981,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/lifestyle-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/lifestyle.png": {
+		"ft": 32768,
+		"iS": 3780,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/lifestyle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/news-info-bg.gif": {
+		"ft": 4194304,
+		"iS": 66683,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/news-info-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/news-info-on.png": {
+		"ft": 32768,
+		"iS": 510,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/news-info-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/news-info.png": {
+		"ft": 32768,
+		"iS": 3253,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/news-info.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/regional-bg.gif": {
+		"ft": 4194304,
+		"iS": 41929,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/regional-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/regional-on.png": {
+		"ft": 32768,
+		"iS": 876,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/regional-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/regional.png": {
+		"ft": 32768,
+		"iS": 3601,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/regional.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/sport-bg.gif": {
+		"ft": 4194304,
+		"iS": 68390,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/sport-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/sport-on.png": {
+		"ft": 32768,
+		"iS": 1297,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/sport-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/sport.png": {
+		"ft": 32768,
+		"iS": 4144,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/sport.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/technology-bg.gif": {
+		"ft": 4194304,
+		"iS": 52159,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/technology-bg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/technology-on.png": {
+		"ft": 32768,
+		"iS": 1079,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/technology-on.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/sidenav\/technology.png": {
+		"ft": 32768,
+		"iS": 3869,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/sidenav\/technology.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/001.gif": {
+		"ft": 4194304,
+		"iS": 946,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/001.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/004.gif": {
+		"ft": 4194304,
+		"iS": 1167,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/004.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/005.gif": {
+		"ft": 4194304,
+		"iS": 636,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/005.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/006.gif": {
+		"ft": 4194304,
+		"iS": 996,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/006.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/007.gif": {
+		"ft": 4194304,
+		"iS": 369,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/007.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/008.gif": {
+		"ft": 4194304,
+		"iS": 372,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/008.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/01.gif": {
+		"ft": 4194304,
+		"iS": 737,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/01.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/014.gif": {
+		"ft": 4194304,
+		"iS": 728,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/014.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/017.gif": {
+		"ft": 4194304,
+		"iS": 399,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/017.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/020.gif": {
+		"ft": 4194304,
+		"iS": 372,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/020.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/05.gif": {
+		"ft": 4194304,
+		"iS": 722,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/05.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/06.gif": {
+		"ft": 4194304,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/06.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/07.gif": {
+		"ft": 4194304,
+		"iS": 745,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/07.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/1.gif": {
+		"ft": 4194304,
+		"iS": 1125,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/12.gif": {
+		"ft": 4194304,
+		"iS": 751,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/12.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/13.gif": {
+		"ft": 4194304,
+		"iS": 735,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/13.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/14.gif": {
+		"ft": 4194304,
+		"iS": 709,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/14.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/15.gif": {
+		"ft": 4194304,
+		"iS": 744,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/15.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/18.gif": {
+		"ft": 4194304,
+		"iS": 682,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/18.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/24.gif": {
+		"ft": 4194304,
+		"iS": 688,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/24.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/25.gif": {
+		"ft": 4194304,
+		"iS": 666,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/25.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/26.gif": {
+		"ft": 4194304,
+		"iS": 679,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/26.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/27.gif": {
+		"ft": 4194304,
+		"iS": 679,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/27.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/28.gif": {
+		"ft": 4194304,
+		"iS": 453,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/28.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/29.gif": {
+		"ft": 4194304,
+		"iS": 688,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/29.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/3.gif": {
+		"ft": 4194304,
+		"iS": 1121,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/30.gif": {
+		"ft": 4194304,
+		"iS": 660,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/30.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/31.gif": {
+		"ft": 4194304,
+		"iS": 626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/31.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/32.gif": {
+		"ft": 4194304,
+		"iS": 634,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/32.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/33.gif": {
+		"ft": 4194304,
+		"iS": 644,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/33.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/34.gif": {
+		"ft": 4194304,
+		"iS": 547,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/34.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/35.gif": {
+		"ft": 4194304,
+		"iS": 576,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/35.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/36.gif": {
+		"ft": 4194304,
+		"iS": 607,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/36.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/37.gif": {
+		"ft": 4194304,
+		"iS": 651,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/37.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/38.gif": {
+		"ft": 4194304,
+		"iS": 635,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/38.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/39.gif": {
+		"ft": 4194304,
+		"iS": 643,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/39.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/4.gif": {
+		"ft": 4194304,
+		"iS": 1110,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/40.gif": {
+		"ft": 4194304,
+		"iS": 641,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/40.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/41.gif": {
+		"ft": 4194304,
+		"iS": 654,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/41.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/42.gif": {
+		"ft": 4194304,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/42.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/43.gif": {
+		"ft": 4194304,
+		"iS": 274,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/43.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/44.gif": {
+		"ft": 4194304,
+		"iS": 680,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/44.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/47.gif": {
+		"ft": 4194304,
+		"iS": 606,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/47.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/48.gif": {
+		"ft": 4194304,
+		"iS": 616,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/48.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/49.gif": {
+		"ft": 4194304,
+		"iS": 673,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/49.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/5.gif": {
+		"ft": 4194304,
+		"iS": 1092,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/52.gif": {
+		"ft": 4194304,
+		"iS": 472,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/52.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/6.gif": {
+		"ft": 4194304,
+		"iS": 1115,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/60.gif": {
+		"ft": 4194304,
+		"iS": 435,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/60.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/7.gif": {
+		"ft": 4194304,
+		"iS": 1119,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/7.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/8.gif": {
+		"ft": 4194304,
+		"iS": 1081,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/8.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/add-friend-kecil.gif": {
+		"ft": 4194304,
+		"iS": 5547,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/add-friend-kecil.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/amazed.gif": {
+		"ft": 4194304,
+		"iS": 2956,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/amazed.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/angel1.gif": {
+		"ft": 4194304,
+		"iS": 6937,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/angel1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/army-kecil.gif": {
+		"ft": 4194304,
+		"iS": 4631,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/army-kecil.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/babyboy.gif": {
+		"ft": 4194304,
+		"iS": 7511,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/babyboy.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/babyboy1.gif": {
+		"ft": 4194304,
+		"iS": 6656,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/babyboy1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/babygirl.gif": {
+		"ft": 4194304,
+		"iS": 7304,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/babygirl.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/batas.gif": {
+		"ft": 4194304,
+		"iS": 2137,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/batas.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/berbusa-kecil.gif": {
+		"ft": 4194304,
+		"iS": 5346,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/berbusa-kecil.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/berduka.gif": {
+		"ft": 4194304,
+		"iS": 5173,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/berduka.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/berdukas.gif": {
+		"ft": 4194304,
+		"iS": 1804,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/berdukas.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/bingung.gif": {
+		"ft": 4194304,
+		"iS": 10035,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/bingung.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/bingungs.gif": {
+		"ft": 4194304,
+		"iS": 2338,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/bingungs.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/bola.gif": {
+		"ft": 4194304,
+		"iS": 18842,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/bola.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/bolakbalik.gif": {
+		"ft": 4194304,
+		"iS": 8497,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/bolakbalik.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/bookmark-kecil.gif": {
+		"ft": 4194304,
+		"iS": 3945,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/bookmark-kecil.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/capede.gif": {
+		"ft": 4194304,
+		"iS": 6235,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/capede.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/capedes.gif": {
+		"ft": 4194304,
+		"iS": 1729,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/capedes.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/cekpm.gif": {
+		"ft": 4194304,
+		"iS": 15599,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/cekpm.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/cekpms.gif": {
+		"ft": 4194304,
+		"iS": 1305,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/cekpms.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/cendols.gif": {
+		"ft": 4194304,
+		"iS": 1959,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/cendols.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/cewek.gif": {
+		"ft": 4194304,
+		"iS": 5530,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/cewek.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/cool2.gif": {
+		"ft": 4194304,
+		"iS": 9724,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/cool2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/crazy.gif": {
+		"ft": 4194304,
+		"iS": 1639,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/crazy.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/cystg.gif": {
+		"ft": 4194304,
+		"iS": 10864,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/cystg.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/dp.gif": {
+		"ft": 4194304,
+		"iS": 18442,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/dp.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/e02.gif": {
+		"ft": 4194304,
+		"iS": 345,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/e02.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/e03.gif": {
+		"ft": 4194304,
+		"iS": 299,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/e03.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fd_1.gif": {
+		"ft": 4194304,
+		"iS": 4214,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fd_1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fd_2.gif": {
+		"ft": 4194304,
+		"iS": 3398,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fd_2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fd_3.gif": {
+		"ft": 4194304,
+		"iS": 6040,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fd_3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fd_4.gif": {
+		"ft": 4194304,
+		"iS": 9843,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fd_4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fd_5.gif": {
+		"ft": 4194304,
+		"iS": 8996,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fd_5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fd_6.gif": {
+		"ft": 4194304,
+		"iS": 5455,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fd_6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fd_7.gif": {
+		"ft": 4194304,
+		"iS": 7134,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fd_7.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fd_8.gif": {
+		"ft": 4194304,
+		"iS": 6186,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fd_8.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/frog.gif": {
+		"ft": 4194304,
+		"iS": 113,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/frog.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fuck-4.gif": {
+		"ft": 4194304,
+		"iS": 250,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fuck-4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fuck-6.gif": {
+		"ft": 4194304,
+		"iS": 1027,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fuck-6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/fuck-8.gif": {
+		"ft": 4194304,
+		"iS": 1035,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/fuck-8.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/games.gif": {
+		"ft": 4194304,
+		"iS": 12314,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/games.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/hammer.gif": {
+		"ft": 4194304,
+		"iS": 11329,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/hammer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/hammers.gif": {
+		"ft": 4194304,
+		"iS": 2639,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/hammers.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/hi.gif": {
+		"ft": 4194304,
+		"iS": 132,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/hi.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/hoax.gif": {
+		"ft": 4194304,
+		"iS": 16163,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/hoax.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/hotnews.gif": {
+		"ft": 4194304,
+		"iS": 8399,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/hotnews.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/I-Luv-Indonesia.gif": {
+		"ft": 4194304,
+		"iS": 11349,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/I-Luv-Indonesia.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/iloveindonesias.gif": {
+		"ft": 4194304,
+		"iS": 1222,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/iloveindonesias.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/iluvkaskuss.gif": {
+		"ft": 4194304,
+		"iS": 766,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/iluvkaskuss.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/jempol1.gif": {
+		"ft": 4194304,
+		"iS": 6932,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/jempol1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/jempol2.gif": {
+		"ft": 4194304,
+		"iS": 8727,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/jempol2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/kaskus_radio.gif": {
+		"ft": 4194304,
+		"iS": 14739,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/kaskus_radio.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/kaskuslove.gif": {
+		"ft": 4194304,
+		"iS": 1107,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/kaskuslove.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/kimpoi.gif": {
+		"ft": 4194304,
+		"iS": 19319,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/kimpoi.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/kisss.gif": {
+		"ft": 4194304,
+		"iS": 1699,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/kisss.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/kribo.gif": {
+		"ft": 4194304,
+		"iS": 158,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/kribo.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/lebaran01.gif": {
+		"ft": 4194304,
+		"iS": 8505,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/lebaran01.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/lebaran02.gif": {
+		"ft": 4194304,
+		"iS": 27900,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/lebaran02.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/lebaran03.gif": {
+		"ft": 4194304,
+		"iS": 17187,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/lebaran03.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/lebaran04.gif": {
+		"ft": 4194304,
+		"iS": 8933,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/lebaran04.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/lebaran05.gif": {
+		"ft": 4194304,
+		"iS": 14336,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/lebaran05.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/mads.gif": {
+		"ft": 4194304,
+		"iS": 1555,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/mads.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/mahos.gif": {
+		"ft": 4194304,
+		"iS": 514,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/mahos.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/malu.gif": {
+		"ft": 4194304,
+		"iS": 5738,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/malu.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/malus.gif": {
+		"ft": 4194304,
+		"iS": 1297,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/malus.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/marah.gif": {
+		"ft": 4194304,
+		"iS": 7806,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/marah.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/matabelo1.gif": {
+		"ft": 4194304,
+		"iS": 1876,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/matabelo1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/mewek.gif": {
+		"ft": 4194304,
+		"iS": 2804,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/mewek.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/najis.gif": {
+		"ft": 4194304,
+		"iS": 5454,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/najis.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/najiss.gif": {
+		"ft": 4194304,
+		"iS": 1554,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/najiss.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/ngacir.gif": {
+		"ft": 4194304,
+		"iS": 1184,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/ngacir.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/ngacir2.gif": {
+		"ft": 4194304,
+		"iS": 8730,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/ngacir2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/ngacir3.gif": {
+		"ft": 4194304,
+		"iS": 19774,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/ngacir3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/ngakak.gif": {
+		"ft": 4194304,
+		"iS": 11318,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/ngakak.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/ngakaks.gif": {
+		"ft": 4194304,
+		"iS": 2410,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/ngakaks.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/nohope.gif": {
+		"ft": 4194304,
+		"iS": 10246,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/nohope.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/nosara.gif": {
+		"ft": 4194304,
+		"iS": 14785,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/nosara.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/paw.gif": {
+		"ft": 4194304,
+		"iS": 154,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/paw.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/peluk.gif": {
+		"ft": 4194304,
+		"iS": 8978,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/peluk.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/q03.gif": {
+		"ft": 4194304,
+		"iS": 1129,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/q03.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/q11.gif": {
+		"ft": 4194304,
+		"iS": 1144,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/q11.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/q17.gif": {
+		"ft": 4194304,
+		"iS": 1288,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/q17.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/q20.gif": {
+		"ft": 4194304,
+		"iS": 1106,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/q20.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/rate5.gif": {
+		"ft": 4194304,
+		"iS": 15459,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/rate5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/recseller.gif": {
+		"ft": 4194304,
+		"iS": 5967,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/recseller.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/reposts.gif": {
+		"ft": 4194304,
+		"iS": 1527,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/reposts.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/request.gif": {
+		"ft": 4194304,
+		"iS": 8314,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/request.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/rice.gif": {
+		"ft": 4194304,
+		"iS": 138,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/rice.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_big_batamerah.gif": {
+		"ft": 4194304,
+		"iS": 16502,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_big_batamerah.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_big_cendol.gif": {
+		"ft": 4194304,
+		"iS": 7108,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_big_cendol.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_sm_batamerah.gif": {
+		"ft": 4194304,
+		"iS": 1639,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_sm_batamerah.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_sm_cendol.gif": {
+		"ft": 4194304,
+		"iS": 2170,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_sm_cendol.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_sm_ilovekaskus.gif": {
+		"ft": 4194304,
+		"iS": 13833,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_sm_ilovekaskus.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_sm_maho.gif": {
+		"ft": 4194304,
+		"iS": 3263,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_sm_maho.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_sm_peace.gif": {
+		"ft": 4194304,
+		"iS": 661,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_sm_peace.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_sm_repost1.gif": {
+		"ft": 4194304,
+		"iS": 14528,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_sm_repost1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_sm_repost2.gif": {
+		"ft": 4194304,
+		"iS": 14628,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_sm_repost2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/s_sm_smile.gif": {
+		"ft": 4194304,
+		"iS": 311,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/s_sm_smile.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/salah_kamar.gif": {
+		"ft": 4194304,
+		"iS": 23039,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/salah_kamar.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/selamat.gif": {
+		"ft": 4194304,
+		"iS": 15165,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/selamat.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/shakehand2.gif": {
+		"ft": 4194304,
+		"iS": 17274,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/shakehand2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/shit-3.gif": {
+		"ft": 4194304,
+		"iS": 344,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/shit-3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/shutup-kecil.gif": {
+		"ft": 4194304,
+		"iS": 4603,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/shutup-kecil.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/smiley_beer.gif": {
+		"ft": 4194304,
+		"iS": 5865,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/smiley_beer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/smiley_couple.gif": {
+		"ft": 4194304,
+		"iS": 1160,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/smiley_couple.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/smileyfm329wj.gif": {
+		"ft": 4194304,
+		"iS": 4292,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/smileyfm329wj.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sorry.gif": {
+		"ft": 4194304,
+		"iS": 12781,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sorry.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/001.gif": {
+		"ft": 4194304,
+		"iS": 946,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/001.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/004.gif": {
+		"ft": 4194304,
+		"iS": 1167,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/004.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/005.gif": {
+		"ft": 4194304,
+		"iS": 636,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/005.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/006.gif": {
+		"ft": 4194304,
+		"iS": 996,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/006.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/007.gif": {
+		"ft": 4194304,
+		"iS": 369,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/007.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/008.gif": {
+		"ft": 4194304,
+		"iS": 372,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/008.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/01.gif": {
+		"ft": 4194304,
+		"iS": 737,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/01.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/014.gif": {
+		"ft": 4194304,
+		"iS": 728,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/014.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/017.gif": {
+		"ft": 4194304,
+		"iS": 399,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/017.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/020.gif": {
+		"ft": 4194304,
+		"iS": 372,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/020.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/05.gif": {
+		"ft": 4194304,
+		"iS": 722,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/05.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/06.gif": {
+		"ft": 4194304,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/06.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/07.gif": {
+		"ft": 4194304,
+		"iS": 745,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/07.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/1.gif": {
+		"ft": 4194304,
+		"iS": 1125,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/12.gif": {
+		"ft": 4194304,
+		"iS": 751,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/12.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/13.gif": {
+		"ft": 4194304,
+		"iS": 735,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/13.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/14.gif": {
+		"ft": 4194304,
+		"iS": 709,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/14.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/15.gif": {
+		"ft": 4194304,
+		"iS": 744,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/15.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/18.gif": {
+		"ft": 4194304,
+		"iS": 682,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/18.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/24.gif": {
+		"ft": 4194304,
+		"iS": 688,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/24.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/25.gif": {
+		"ft": 4194304,
+		"iS": 666,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/25.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/26.gif": {
+		"ft": 4194304,
+		"iS": 679,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/26.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/27.gif": {
+		"ft": 4194304,
+		"iS": 679,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/27.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/28.gif": {
+		"ft": 4194304,
+		"iS": 453,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/28.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/29.gif": {
+		"ft": 4194304,
+		"iS": 688,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/29.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/3.gif": {
+		"ft": 4194304,
+		"iS": 1121,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/30.gif": {
+		"ft": 4194304,
+		"iS": 660,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/30.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/31.gif": {
+		"ft": 4194304,
+		"iS": 626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/31.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/32.gif": {
+		"ft": 4194304,
+		"iS": 634,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/32.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/33.gif": {
+		"ft": 4194304,
+		"iS": 644,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/33.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/34.gif": {
+		"ft": 4194304,
+		"iS": 547,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/34.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/35.gif": {
+		"ft": 4194304,
+		"iS": 576,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/35.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/36.gif": {
+		"ft": 4194304,
+		"iS": 607,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/36.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/37.gif": {
+		"ft": 4194304,
+		"iS": 651,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/37.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/38.gif": {
+		"ft": 4194304,
+		"iS": 635,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/38.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/39.gif": {
+		"ft": 4194304,
+		"iS": 643,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/39.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/4.gif": {
+		"ft": 4194304,
+		"iS": 1110,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/40.gif": {
+		"ft": 4194304,
+		"iS": 641,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/40.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/41.gif": {
+		"ft": 4194304,
+		"iS": 654,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/41.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/42.gif": {
+		"ft": 4194304,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/42.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/43.gif": {
+		"ft": 4194304,
+		"iS": 274,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/43.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/44.gif": {
+		"ft": 4194304,
+		"iS": 680,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/44.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/47.gif": {
+		"ft": 4194304,
+		"iS": 606,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/47.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/48.gif": {
+		"ft": 4194304,
+		"iS": 616,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/48.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/49.gif": {
+		"ft": 4194304,
+		"iS": 673,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/49.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/5.gif": {
+		"ft": 4194304,
+		"iS": 1092,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/52.gif": {
+		"ft": 4194304,
+		"iS": 472,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/52.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/6.gif": {
+		"ft": 4194304,
+		"iS": 1115,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/60.gif": {
+		"ft": 4194304,
+		"iS": 435,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/60.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/7.gif": {
+		"ft": 4194304,
+		"iS": 1119,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/7.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/8.gif": {
+		"ft": 4194304,
+		"iS": 1081,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/8.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/amazed.gif": {
+		"ft": 4194304,
+		"iS": 2956,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/amazed.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/crazy.gif": {
+		"ft": 4194304,
+		"iS": 1639,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/crazy.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/e02.gif": {
+		"ft": 4194304,
+		"iS": 345,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/e02.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/e03.gif": {
+		"ft": 4194304,
+		"iS": 299,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/e03.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/frog.gif": {
+		"ft": 4194304,
+		"iS": 113,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/frog.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/fuck-4.gif": {
+		"ft": 4194304,
+		"iS": 250,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/fuck-4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/fuck-6.gif": {
+		"ft": 4194304,
+		"iS": 1027,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/fuck-6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/fuck-8.gif": {
+		"ft": 4194304,
+		"iS": 1035,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/fuck-8.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/hi.gif": {
+		"ft": 4194304,
+		"iS": 132,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/hi.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/kaskuslove.gif": {
+		"ft": 4194304,
+		"iS": 1107,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/kaskuslove.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/kribo.gif": {
+		"ft": 4194304,
+		"iS": 158,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/kribo.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/paw.gif": {
+		"ft": 4194304,
+		"iS": 154,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/paw.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/q03.gif": {
+		"ft": 4194304,
+		"iS": 1129,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/q03.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/q11.gif": {
+		"ft": 4194304,
+		"iS": 1144,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/q11.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/q17.gif": {
+		"ft": 4194304,
+		"iS": 1288,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/q17.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/q20.gif": {
+		"ft": 4194304,
+		"iS": 1106,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/q20.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/rice.gif": {
+		"ft": 4194304,
+		"iS": 138,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/rice.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/shit-3.gif": {
+		"ft": 4194304,
+		"iS": 344,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/shit-3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/smiley_beer.gif": {
+		"ft": 4194304,
+		"iS": 5865,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/smiley_beer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/smiley_couple.gif": {
+		"ft": 4194304,
+		"iS": 1160,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/smiley_couple.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/vana-bum-vanaweb-dot-com.gif": {
+		"ft": 4194304,
+		"iS": 1142,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/vana-bum-vanaweb-dot-com.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/woof.gif": {
+		"ft": 4194304,
+		"iS": 222,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sumbangan\/woof.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sundul.gif": {
+		"ft": 4194304,
+		"iS": 13987,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sundul.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/sundulgans.gif": {
+		"ft": 4194304,
+		"iS": 3326,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/sundulgans.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/tabrakan.gif": {
+		"ft": 4194304,
+		"iS": 4819,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/tabrakan.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/takut.gif": {
+		"ft": 4194304,
+		"iS": 5582,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/takut.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/takuts.gif": {
+		"ft": 4194304,
+		"iS": 2292,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/takuts.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/toastcendol.gif": {
+		"ft": 4194304,
+		"iS": 18499,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/toastcendol.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/traveller.gif": {
+		"ft": 4194304,
+		"iS": 13251,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/traveller.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/ultah.gif": {
+		"ft": 4194304,
+		"iS": 18814,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/ultah.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/vana-bum-vanaweb-dot-com.gif": {
+		"ft": 4194304,
+		"iS": 1142,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/vana-bum-vanaweb-dot-com.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/smilies\/woof.gif": {
+		"ft": 4194304,
+		"iS": 222,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/smilies\/woof.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-avatar-1.png": {
+		"ft": 32768,
+		"iS": 82944,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-avatar-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-avatar-2.gif": {
+		"ft": 4194304,
+		"iS": 22913,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-avatar-2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-avatar-3.gif": {
+		"ft": 4194304,
+		"iS": 13262,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-avatar-3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-avatar-5.png": {
+		"ft": 32768,
+		"iS": 290352,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-avatar-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-avatar-6.jpg": {
+		"ft": 16384,
+		"iS": 16883,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-avatar-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-banner-120x600.jpg": {
+		"ft": 16384,
+		"iS": 22647,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-banner-120x600.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-banner-150x180.jpg": {
+		"ft": 16384,
+		"iS": 23989,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-banner-150x180.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-banner_auction.jpg": {
+		"ft": 16384,
+		"iS": 50934,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-banner_auction.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-brand-1.jpg": {
+		"ft": 16384,
+		"iS": 1855,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-brand-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-brand-2.jpg": {
+		"ft": 16384,
+		"iS": 2588,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-brand-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-brand-3.jpg": {
+		"ft": 16384,
+		"iS": 2658,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-brand-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-brand-4.jpg": {
+		"ft": 16384,
+		"iS": 4745,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-brand-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-brand-5.jpg": {
+		"ft": 16384,
+		"iS": 2916,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-brand-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-brand-6.jpg": {
+		"ft": 16384,
+		"iS": 3679,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-brand-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-brand-7.jpg": {
+		"ft": 16384,
+		"iS": 4233,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-brand-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-brand-8.jpg": {
+		"ft": 16384,
+		"iS": 3193,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-brand-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-franda-lg.jpg": {
+		"ft": 16384,
+		"iS": 88221,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-franda-lg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-franda-sm.jpg": {
+		"ft": 16384,
+		"iS": 8115,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-franda-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-highlight-1.jpg": {
+		"ft": 16384,
+		"iS": 56250,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-highlight-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-highlight-2.jpg": {
+		"ft": 16384,
+		"iS": 68962,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-highlight-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-highlight-3.jpg": {
+		"ft": 16384,
+		"iS": 57044,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-highlight-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-hot-deals.jpg": {
+		"ft": 16384,
+		"iS": 27210,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-hot-deals.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-hot_feature-1.gif": {
+		"ft": 4194304,
+		"iS": 49793,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-hot_feature-1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-hot_feature-2.gif": {
+		"ft": 4194304,
+		"iS": 27758,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-hot_feature-2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-hot_feature-3.gif": {
+		"ft": 4194304,
+		"iS": 63881,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-hot_feature-3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-hot_feature-4.gif": {
+		"ft": 4194304,
+		"iS": 58629,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-hot_feature-4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-iab-300x100.jpg": {
+		"ft": 16384,
+		"iS": 12544,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-iab-300x100.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb-small-1.jpg": {
+		"ft": 16384,
+		"iS": 12308,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb-small-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb-small-2.jpg": {
+		"ft": 16384,
+		"iS": 8697,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb-small-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb-small-3.jpg": {
+		"ft": 16384,
+		"iS": 17094,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb-small-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb-small-4.jpg": {
+		"ft": 16384,
+		"iS": 10785,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb-small-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb.jpg": {
+		"ft": 16384,
+		"iS": 65748,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-image-slide-fjb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-kasads-1.jpg": {
+		"ft": 16384,
+		"iS": 3578,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-kasads-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-kasads-2.jpg": {
+		"ft": 16384,
+		"iS": 4854,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-kasads-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-kasads-3.jpg": {
+		"ft": 16384,
+		"iS": 8028,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-kasads-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-kasads-4.jpg": {
+		"ft": 16384,
+		"iS": 5001,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-kasads-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-kaskus-live.gif": {
+		"ft": 4194304,
+		"iS": 14736,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-kaskus-live.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-lb-2.jpg": {
+		"ft": 16384,
+		"iS": 24927,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-lb-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-lb.jpg": {
+		"ft": 16384,
+		"iS": 23414,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-lb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-1.jpg": {
+		"ft": 16384,
+		"iS": 7936,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-10.jpg": {
+		"ft": 16384,
+		"iS": 15608,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-11.jpg": {
+		"ft": 16384,
+		"iS": 9832,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-12.jpg": {
+		"ft": 16384,
+		"iS": 10403,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-13.jpg": {
+		"ft": 16384,
+		"iS": 18035,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-2.jpg": {
+		"ft": 16384,
+		"iS": 15365,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-3.jpg": {
+		"ft": 16384,
+		"iS": 14005,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-4.jpg": {
+		"ft": 16384,
+		"iS": 26330,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-5.jpg": {
+		"ft": 16384,
+		"iS": 16868,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-6.jpg": {
+		"ft": 16384,
+		"iS": 18698,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-7.jpg": {
+		"ft": 16384,
+		"iS": 20306,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-8.jpg": {
+		"ft": 16384,
+		"iS": 13676,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product-9.jpg": {
+		"ft": 16384,
+		"iS": 6957,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product-9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-product_of_the_week.jpg": {
+		"ft": 16384,
+		"iS": 9988,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-product_of_the_week.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-rectangle300x250.jpg": {
+		"ft": 16384,
+		"iS": 28054,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-rectangle300x250.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-rectangle300x250_1.jpg": {
+		"ft": 16384,
+		"iS": 34670,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-rectangle300x250_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-rectangle300x600.jpg": {
+		"ft": 16384,
+		"iS": 42397,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-rectangle300x600.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-regional.jpg": {
+		"ft": 16384,
+		"iS": 26457,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-regional.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-seller_story-1.jpg": {
+		"ft": 16384,
+		"iS": 10972,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-seller_story-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-seller_story-2.jpg": {
+		"ft": 16384,
+		"iS": 10813,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-seller_story-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-seller_story-3.jpg": {
+		"ft": 16384,
+		"iS": 10823,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-seller_story-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-seller_story-4.jpg": {
+		"ft": 16384,
+		"iS": 6764,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-seller_story-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-thumb-franda-sm.jpg": {
+		"ft": 16384,
+		"iS": 5919,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-thumb-franda-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-thumb-una-2-sm.jpg": {
+		"ft": 16384,
+		"iS": 4256,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-thumb-una-2-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-thumb-una-3-sm.jpg": {
+		"ft": 16384,
+		"iS": 7050,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-thumb-una-3-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-thumb-una-4-sm.jpg": {
+		"ft": 16384,
+		"iS": 3978,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-thumb-una-4-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-thumb-una-sm.jpg": {
+		"ft": 16384,
+		"iS": 6452,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-thumb-una-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-top_picture.gif": {
+		"ft": 4194304,
+		"iS": 44568,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-top_picture.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-top_video.gif": {
+		"ft": 4194304,
+		"iS": 11687,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-top_video.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-una-2-lg.jpg": {
+		"ft": 16384,
+		"iS": 373539,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-una-2-lg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-una-2-sm.jpg": {
+		"ft": 16384,
+		"iS": 4704,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-una-2-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-una-3-lg.jpg": {
+		"ft": 16384,
+		"iS": 182873,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-una-3-lg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-una-3-sm.jpg": {
+		"ft": 16384,
+		"iS": 9066,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-una-3-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-una-4-lg.jpg": {
+		"ft": 16384,
+		"iS": 471861,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-una-4-lg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-una-4-sm.jpg": {
+		"ft": 16384,
+		"iS": 4902,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-una-4-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-una-lg.jpg": {
+		"ft": 16384,
+		"iS": 295738,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-una-lg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp-una-sm.jpg": {
+		"ft": 16384,
+		"iS": 8013,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp-una-sm.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp_captcha.jpg": {
+		"ft": 16384,
+		"iS": 30414,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp_captcha.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp_hotfeature_1.jpg": {
+		"ft": 16384,
+		"iS": 5124,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp_hotfeature_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp_hotfeature_2.jpg": {
+		"ft": 16384,
+		"iS": 8329,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp_hotfeature_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp_hotfeature_3.jpg": {
+		"ft": 16384,
+		"iS": 6699,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp_hotfeature_3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/temp_hotfeature_4.jpg": {
+		"ft": 16384,
+		"iS": 5218,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/temp_hotfeature_4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/transparent.png": {
+		"ft": 32768,
+		"iS": 110,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/transparent.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/usercp-k-ballon.png": {
+		"ft": 32768,
+		"iS": 4306,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/usercp-k-ballon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/video-detail.jpg": {
+		"ft": 16384,
+		"iS": 64994,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/video-detail.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/video-icon.png": {
+		"ft": 32768,
+		"iS": 4645,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/video-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/windows-store.png": {
+		"ft": 32768,
+		"iS": 3760,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/windows-store.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/html5shiv.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/min\/html5shiv-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/html5shiv.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/min\/html5shiv.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/min\/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/jquery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/min\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/main.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/min\/main.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/min\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/min\/min\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/respond.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/min\/respond.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/separate\/onboarding.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/separate\/min\/onboarding-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/separate\/onboarding.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/separate\/min\/onboarding.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/vendor\/vendor.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/vendor\/min\/vendor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/javascripts\/vendor\/vendor.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/javascripts\/vendor\/min\/vendor.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/assets\/stylesheets\/banner-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/banner-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/djarum-mld-black\/assets\/stylesheets\/banner.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/banner-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/djarum-mld-black\/assets\/stylesheets\/crop.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/crop.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/djarum-mld-black\/assets\/stylesheets\/ht.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/ht.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/djarum-mld-black\/assets\/stylesheets\/main-ie.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/main-ie.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/djarum-mld-black\/assets\/stylesheets\/main.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/main.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/djarum-mld-black\/assets\/stylesheets\/playground.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/assets\/stylesheets\/playground.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/FAds Exp Revisi.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/FAds Exp Revisi.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/FAds Exp Revisi.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/min\/FAds Exp Revisi-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/FAds Exp.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/FAds Exp.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/FAds Exp.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/min\/FAds Exp-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/images\/Bitmap13.jpg": {
+		"ft": 16384,
+		"iS": 17574,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/images\/Bitmap13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/images\/Bitmap16.png": {
+		"ft": 32768,
+		"iS": 10242,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/images\/Bitmap16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/images\/Bitmap17.png": {
+		"ft": 32768,
+		"iS": 11994,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/images\/Bitmap17.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/images\/Bitmap18.png": {
+		"ft": 32768,
+		"iS": 34377,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/images\/Bitmap18.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/images\/Bitmap4copy.png": {
+		"ft": 32768,
+		"iS": 50795,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/images\/Bitmap4copy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/images\/Bitmap5.png": {
+		"ft": 32768,
+		"iS": 8626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/images\/Bitmap5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/images\/poster.jpg": {
+		"ft": 16384,
+		"iS": 48527,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/images\/poster.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Exp\/videos\/video.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/FAds-Exp\/videos\/video.mp4",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/FAds\/FAds.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/FAds\/FAds.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/FAds\/FAds.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds\/min\/FAds-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/FAds\/images\/Bitmap11.png": {
+		"ft": 32768,
+		"iS": 44630,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds\/images\/Bitmap11.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds\/images\/Bitmap4.png": {
+		"ft": 32768,
+		"iS": 50795,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds\/images\/Bitmap4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds\/images\/Bitmap5.png": {
+		"ft": 32768,
+		"iS": 8626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds\/images\/Bitmap5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds\/images\/Bitmap5_1.png": {
+		"ft": 32768,
+		"iS": 21809,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds\/images\/Bitmap5_1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds\/images\/Bitmap9.png": {
+		"ft": 32768,
+		"iS": 41337,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds\/images\/Bitmap9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/index.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap11.png": {
+		"ft": 32768,
+		"iS": 5904,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/images\/Bitmap11.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap12.png": {
+		"ft": 32768,
+		"iS": 7615,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB Exp\/images\/Bitmap12.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap13.png": {
+		"ft": 32768,
+		"iS": 1926,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB Exp\/images\/Bitmap13.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap16copy.png": {
+		"ft": 32768,
+		"iS": 11871,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB Exp\/images\/Bitmap16copy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap17.jpg": {
+		"ft": 16384,
+		"iS": 15149,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB Exp\/images\/Bitmap17.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap4.png": {
+		"ft": 32768,
+		"iS": 50795,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/images\/Bitmap4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap5.png": {
+		"ft": 32768,
+		"iS": 8626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/images\/Bitmap5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap8.png": {
+		"ft": 32768,
+		"iS": 2744,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/images\/Bitmap8.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap9.png": {
+		"ft": 32768,
+		"iS": 8548,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/images\/Bitmap9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/images\/poster.jpg": {
+		"ft": 16384,
+		"iS": 48527,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/images\/poster.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/RB Exp Revisi.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/RB Exp Revisi.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/RB Exp Revisi.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/min\/RB Exp Revisi-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/RB Exp.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/RB Exp.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/RB Exp.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/min\/RB Exp-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/videos\/video.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/videos\/video.mp4",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap11.png": {
+		"ft": 32768,
+		"iS": 5904,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap11.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap12.png": {
+		"ft": 32768,
+		"iS": 7615,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap12.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap13.png": {
+		"ft": 32768,
+		"iS": 1926,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap13.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap16copy.jpg": {
+		"ft": 16384,
+		"iS": 11300,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap16copy.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap17.png": {
+		"ft": 32768,
+		"iS": 9033,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap17.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap19.png": {
+		"ft": 32768,
+		"iS": 34377,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap19.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap4.png": {
+		"ft": 32768,
+		"iS": 50795,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap5.png": {
+		"ft": 32768,
+		"iS": 8626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap8.png": {
+		"ft": 32768,
+		"iS": 2744,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap8.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/images\/Bitmap9.png": {
+		"ft": 32768,
+		"iS": 8548,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/images\/Bitmap9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB\/RB.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/RB\/RB.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/RB\/RB.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB\/min\/RB-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/expanding-horizontal\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -7080,6 +14164,16 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/expanding-horizontal\/assets\/stylesheets\/banner-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/expanding-horizontal\/assets\/stylesheets\/banner-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/expanding-horizontal\/assets\/stylesheets\/banner.css": {
 		"aP": 0,
@@ -27377,9 +34471,9 @@
 		},
 	"\/gg-mild\/images\/Bitmap3.png": {
 		"ft": 32768,
-		"iS": 117798,
+		"iS": 29347,
 		"oA": 0,
-		"oAP": "\/gg-mild\/images\/Bitmap3.png",
+		"oAP": "\/gg-mild\/images\/Bitmap3-min.png",
 		"oF": 0,
 		"opt": 0
 		},
