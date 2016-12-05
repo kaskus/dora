@@ -36,7 +36,8 @@ body{
 			top: 0;
 		}
 		@media only screen and (max-width:550px){
-        	height: 600px;
+        	height: 610px;
+        	background-image: url(../images/bg-abu-wap.png);
     	}
     	.graphic-design{
     		>div{
@@ -168,13 +169,15 @@ body{
 			z-index: 2;
     		bottom: -10px;
     		@media only screen and (max-width:550px){
-	        	width: 107px;
-	        	bottom: -30px;
+	        	display: none;
 	    	}
 		}
 		.phone{
 			bottom: 20px;
 			right: 25px;
+			@media only screen and (max-width:550px){
+	        	display: none;
+	    	}
 		}
 		.oppo-logo{
 			bottom: 235px;
@@ -203,6 +206,27 @@ body{
 			}
 		}
 	}
+	&__footer{
+		background-color: #fff;
+		height: 60px;
+		display: none;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		@media only screen and (max-width:550px){
+        	display: block;
+    	}
+    	.raisa-wap{
+    		width: 85px;
+    		left: 30px;
+    		bottom: 55px;
+    		z-index: 2;
+    	}
+    	.phone-wap{
+    		right: 30px;
+    		bottom: 10px;
+    	}
+	}
 }
 .logo-wrapper{
 	width: 100%;
@@ -214,6 +238,10 @@ body{
 	// left: 185px;
 	display: inline-block;
     padding-top: 15px;
+    @media only screen and (max-width:550px){
+    	padding-top: 15px;
+    	height: 44px
+	}
 }
 .bg-graphic{
 	width: 100%;
@@ -269,7 +297,7 @@ body{
     		width: 100%;
     	}
     	@media only screen and (max-width:550px){
-			margin: 22px auto 0;
+			margin: 10px auto 0;
 		}
 	}
 	&__field{
@@ -353,6 +381,13 @@ body{
 			@media only screen and (max-width:550px){
 			    padding-top: 90px;
     		}
+    		button{
+    			@media only screen and (max-width:550px){
+					margin-top: 20px;
+	    			padding: 8px 85px;
+	    			margin-left: 0;
+    			}
+    		}
 	    }
 	    &.step-2{
 			
@@ -364,8 +399,8 @@ body{
 			margin-left: 12px;
 			@include animation(zoomInOut 1s ease-in-out infinite alternate);
 			@media only screen and (max-width:550px){
-			    width: 215px;
-			    margin-left: 13px;
+			    width: 230px;
+			    margin-left: 0;
 			    @include animation(none!important);
     		}
 		}
@@ -388,7 +423,7 @@ body{
 			}
 			@media only screen and (max-width:550px){
 				font-size: 15px;
-    			padding: 6px 52px;
+    			margin-left: 0;
     		}
 		}
 		h4{
@@ -400,7 +435,7 @@ body{
     		margin: 20px 0px 0 11px;
     		@media only screen and (max-width:550px){
 				font-size: 19px;
-				margin: -8px 0px 0 4px;
+				margin: 20px 0px 0 4px;
     		}
 		}
 		h3{
@@ -421,7 +456,7 @@ body{
     		margin: 0;
     		font-size: 27px;
     		@media only screen and (max-width:550px){
-				font-size: 20px;
+				font-size: 23px;
     		}
 		}
 		h1{
@@ -430,7 +465,7 @@ body{
 			margin: 30px 0 0;
 			font-size: 27px;
 			@media only screen and (max-width:550px){
-				font-size: 20px;
+				font-size: 25px;
     		}
 		}
 		.form__container{
@@ -441,6 +476,9 @@ body{
     		img{
     			width: 150px;
     			margin: 0 0 15px;
+    			@media only screen and (max-width:550px){
+		        	width: 130px;
+		    	}
     		}
     	}
 	}

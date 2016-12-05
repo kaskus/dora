@@ -313,7 +313,8 @@ body {
     top: 0; }
   @media only screen and (max-width: 550px) {
     .oppo__canvas {
-      height: 600px; } }
+      height: 610px;
+      background-image: url(../images/bg-abu-wap.png); } }
   .oppo__canvas .graphic-design > div {
     position: absolute; }
   .oppo__canvas .graphic-design .circle-gradient-dark {
@@ -450,11 +451,13 @@ body {
     bottom: -10px; }
     @media only screen and (max-width: 550px) {
       .oppo__decoration .raisa {
-        width: 107px;
-        bottom: -30px; } }
+        display: none; } }
   .oppo__decoration .phone {
     bottom: 20px;
     right: 25px; }
+    @media only screen and (max-width: 550px) {
+      .oppo__decoration .phone {
+        display: none; } }
   .oppo__decoration .oppo-logo {
     bottom: 235px;
     left: 29px; }
@@ -476,6 +479,25 @@ body {
       bottom: 35px;
       left: 45px; } }
 
+.oppo__footer {
+  background-color: #fff;
+  height: 60px;
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
+  @media only screen and (max-width: 550px) {
+    .oppo__footer {
+      display: block; } }
+  .oppo__footer .raisa-wap {
+    width: 85px;
+    left: 30px;
+    bottom: 55px;
+    z-index: 2; }
+  .oppo__footer .phone-wap {
+    right: 30px;
+    bottom: 10px; }
+
 .logo-wrapper {
   width: 100%;
   height: 10%;
@@ -484,6 +506,10 @@ body {
 .kaskus-oppo-logo {
   display: inline-block;
   padding-top: 15px; }
+  @media only screen and (max-width: 550px) {
+    .kaskus-oppo-logo {
+      padding-top: 15px;
+      height: 44px; } }
 
 .bg-graphic {
   width: 100%;
@@ -548,7 +574,7 @@ body {
     width: 100%; }
   @media only screen and (max-width: 550px) {
     .form__container {
-      margin: 22px auto 0; } }
+      margin: 10px auto 0; } }
 
 .form__field {
   margin: 0 0 10px; }
@@ -660,6 +686,11 @@ body {
     @media only screen and (max-width: 550px) {
       .form__section.step-1 {
         padding-top: 90px; } }
+    @media only screen and (max-width: 550px) {
+      .form__section.step-1 button {
+        margin-top: 20px;
+        padding: 8px 85px;
+        margin-left: 0; } }
   .form__section.step-3 {
     padding-top: 80px; }
   .form__section img {
@@ -672,8 +703,8 @@ body {
     animation: zoomInOut 1s ease-in-out infinite alternate; }
     @media only screen and (max-width: 550px) {
       .form__section img {
-        width: 215px;
-        margin-left: 13px;
+        width: 230px;
+        margin-left: 0;
         -webkit-animation: none !important;
         -khtml-animation: none !important;
         -moz-animation: none !important;
@@ -711,7 +742,7 @@ body {
     @media only screen and (max-width: 550px) {
       .form__section button {
         font-size: 15px;
-        padding: 6px 52px; } }
+        margin-left: 0; } }
   .form__section h4 {
     font-family: VAGRoundedLight;
     color: #58595B;
@@ -722,7 +753,7 @@ body {
     @media only screen and (max-width: 550px) {
       .form__section h4 {
         font-size: 19px;
-        margin: -8px 0px 0 4px; } }
+        margin: 20px 0px 0 4px; } }
   .form__section h3 {
     font-family: VAGRoundedBold;
     color: #58595B;
@@ -741,7 +772,7 @@ body {
     font-size: 27px; }
     @media only screen and (max-width: 550px) {
       .form__section h2 {
-        font-size: 20px; } }
+        font-size: 23px; } }
   .form__section h1 {
     font-family: VAGRoundedBold;
     color: #58595B;
@@ -749,10 +780,13 @@ body {
     font-size: 27px; }
     @media only screen and (max-width: 550px) {
       .form__section h1 {
-        font-size: 20px; } }
+        font-size: 25px; } }
   .form__section .form__container button {
     margin-left: 0;
     margin-top: 10px; }
   .form__section .form__container img {
     width: 150px;
     margin: 0 0 15px; }
+    @media only screen and (max-width: 550px) {
+      .form__section .form__container img {
+        width: 130px; } }
