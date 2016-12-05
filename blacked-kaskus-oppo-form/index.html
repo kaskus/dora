@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700,600,500,400,300" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+	<div class="oppo__canvas">
+		<div class="bg-graphic" style="display: none"></div>
+		<div class="logo-wrapper">
+			<img class="kaskus-oppo-logo" src="images/kaskus-x-oppo.png">
+		</div>
+		<div class="form__content">
+			<div class="form__section step-1">
+				<img src="images/perfect-story.png">
+				<h4>Sebelum Jawab Kuisnya,</h4>
+				<h3>LOGIN DULU, GAN!</h3>
+				<button onclick="goToStep2();">LOG IN</button>
+			</div>
+			<div class="form__section step-2" style="display: none;">
+				<div class="form__container">
+					<img src="images/perfect-story.png">
+					<form>
+						<div class="form__field form__field--info">
+							<input type="text" placeholder="Username KASKUS" readonly value="babono">
+						</div>
+						<div class="form__field form__field--info">
+							<input type="text" placeholder="Nama Lengkap">
+						</div>
+						<div class="form__field form__field--info">
+							<input type="text" placeholder="Alamat Lengkap">
+						</div>
+						<div class="form__field form__field--info">
+							<input type="text" placeholder="Email">
+						</div>
+						<div class="form__field form__field--info">
+							<input type="text" placeholder="No. Handphone">
+						</div>
+						<div class="form__field form__field--answer">
+							<input type="text" placeholder="Link Post">
+						</div>
+						<!-- <input type="submit" value="submit"> -->
+					</form>
+					<button onclick="goToStep3();">SUBMIT</button>
+				</div>
+			</div>
+			<div class="form__section step-3" style="display: none;">
+				<img src="images/perfect-story.png">
+				<h1>THANK YOU GAN</h1>
+				<h2>Semoga menang!</h2>
+			</div>
+		</div>
+		<div class="oppo__decoration">
+			<img class="absolute raisa" src="images/raisa.png">
+			<img class="absolute phone" src="images/phone.png">
+		</div>
+	</div>
+	<script src="scripts/main.js"></script>
+</body>
+</html>

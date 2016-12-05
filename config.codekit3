@@ -9,6 +9,209 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/blacked-kaskus-oppo-form\/css\/main.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/blacked-kaskus-oppo-form\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/blacked-kaskus-oppo-form\/css\/main.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blacked-kaskus-oppo-form\/css\/main.css.map",
+		"oF": 0
+		},
+	"\/blacked-kaskus-oppo-form\/fonts\/VAG_Rounded_Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blacked-kaskus-oppo-form\/fonts\/VAG_Rounded_Bold.ttf",
+		"oF": 0
+		},
+	"\/blacked-kaskus-oppo-form\/fonts\/VAG_Rounded_Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blacked-kaskus-oppo-form\/fonts\/VAG_Rounded_Light.ttf",
+		"oF": 0
+		},
+	"\/blacked-kaskus-oppo-form\/fonts\/VAG_Rounded_Std_Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blacked-kaskus-oppo-form\/fonts\/VAG_Rounded_Std_Light.ttf",
+		"oF": 0
+		},
+	"\/blacked-kaskus-oppo-form\/images\/bg-abu-wap.png": {
+		"ft": 32768,
+		"iS": 56064,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/images\/bg-abu-wap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/blacked-kaskus-oppo-form\/images\/bg-abu.jpg": {
+		"ft": 16384,
+		"iS": 29419,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/images\/bg-abu.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/blacked-kaskus-oppo-form\/images\/footer-wap.png": {
+		"ft": 32768,
+		"iS": 15963,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/images\/footer-wap.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/blacked-kaskus-oppo-form\/images\/kaskus-x-oppo.png": {
+		"ft": 32768,
+		"iS": 2109,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/images\/kaskus-x-oppo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/blacked-kaskus-oppo-form\/images\/perfect-story.png": {
+		"ft": 32768,
+		"iS": 24016,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/images\/perfect-story.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/blacked-kaskus-oppo-form\/images\/phone.png": {
+		"ft": 32768,
+		"iS": 31060,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/images\/phone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/blacked-kaskus-oppo-form\/images\/raisa.png": {
+		"ft": 32768,
+		"iS": 78696,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/images\/raisa.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/blacked-kaskus-oppo-form\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blacked-kaskus-oppo-form\/index.html",
+		"oF": 0
+		},
+	"\/blacked-kaskus-oppo-form\/scripts\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/scripts\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/blacked-kaskus-oppo-form\/scripts\/min\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/scripts\/min\/min\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/blacked-kaskus-oppo-form\/styles\/.sass-cache\/06071c3762948f92d02d525e391ed668226fbe8e\/_style.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/blacked-kaskus-oppo-form\/styles\/.sass-cache\/06071c3762948f92d02d525e391ed668226fbe8e\/_style.scssc",
+		"oF": 0
+		},
+	"\/blacked-kaskus-oppo-form\/styles\/.sass-cache\/06071c3762948f92d02d525e391ed668226fbe8e\/_variable.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/blacked-kaskus-oppo-form\/styles\/.sass-cache\/06071c3762948f92d02d525e391ed668226fbe8e\/_variable.scssc",
+		"oF": 0
+		},
+	"\/blacked-kaskus-oppo-form\/styles\/.sass-cache\/06071c3762948f92d02d525e391ed668226fbe8e\/main.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blacked-kaskus-oppo-form\/styles\/.sass-cache\/06071c3762948f92d02d525e391ed668226fbe8e\/main.scssc",
+		"oF": 0
+		},
+	"\/blacked-kaskus-oppo-form\/styles\/_animation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/blacked-kaskus-oppo-form\/css\/_animation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/blacked-kaskus-oppo-form\/styles\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/blacked-kaskus-oppo-form\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/blacked-kaskus-oppo-form\/styles\/_style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/blacked-kaskus-oppo-form\/css\/_style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/blacked-kaskus-oppo-form\/styles\/_variable.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/blacked-kaskus-oppo-form\/css\/_variable.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/blacked-kaskus-oppo-form\/styles\/main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/blacked-kaskus-oppo-form\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/blacked-kaskus-oppo-form\/wap.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blacked-kaskus-oppo-form\/wap.html",
+		"oF": 0
+		},
 	"\/BlurredText\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1251,6 +1454,14 @@
 		"iS": 9673,
 		"oA": 0,
 		"oAP": "\/djarum-mld-black\/assets\/images\/blueguy_kacapembesar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/assets\/images\/bolalob_color.png": {
+		"ft": 32768,
+		"iS": 4346,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/assets\/images\/bolalob_color.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -34489,7 +34700,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap1.jpg": {
 		"ft": 16384,
-		"iS": 18510,
+		"iS": 19682,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap1.jpg",
 		"oF": 0,
@@ -34505,7 +34716,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap3.png": {
 		"ft": 32768,
-		"iS": 117798,
+		"iS": 29347,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap3-min.png",
 		"oF": 0,
@@ -34521,7 +34732,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap5.png": {
 		"ft": 32768,
-		"iS": 130609,
+		"iS": 32305,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap5.png",
 		"oF": 0,
