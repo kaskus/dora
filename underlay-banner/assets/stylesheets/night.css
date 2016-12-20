@@ -1,0 +1,267 @@
+* {
+    -webkit-font-smoothing:antialiased
+}
+html, body {
+    background:#222 !important
+}
+.nightmode , 
+#list-category ,
+#search , 
+#wrapper , 
+.bar>ul , 
+.bar>table td , 
+.form-input form , 
+#site-footer ,
+#content-wrapper .header,
+.category-item,
+.u-bar,
+table.badge tr td, table.badge th,
+#content-wrapper .pagination,
+.entry,
+.reply-input,
+.c-list,
+#content-wrapper .post-list .list-entry
+{
+    background:#222 !important;
+    color:#ccc
+}
+
+#site-header .main-h{
+	background: #ebebeb;
+}
+
+#search{
+	background: #444 !important;
+}
+
+#content-wrapper .header .breadcrumbs,
+.category-item .head-title ,
+h4,
+body.fjb .entry-meta{
+	background: #181818 !important;
+}
+
+.entry-content div{
+	color: #555;
+}
+
+#site-footer small,
+.temp-band p{
+	background: #333 !important;
+	color: #fff;
+	border: none !important;
+}
+
+#field-report a, #e-cal a, #hot-threads a,
+#seller-stories a, #kaskus-hq a, #top-threads a{
+	color: #fff;
+}
+
+.form-input fieldset , 
+.table3 td,
+.table5 td,
+.pagination
+{
+	border-color: #181818 !important;
+}
+
+#site-footer,
+#list-category,
+.category-item ul li, .category-item .head-title,
+.form-input fieldset,
+h4{
+	border: none !important;
+}
+
+.nightmode #wrapper{
+    background:#111
+}
+#user-bar {
+    background:#111;
+    border:#000;
+    border-bottom:solid 1px #222
+}
+#user-bar a {
+    color:#ccc
+}
+#user-bar a.active {
+    background:#333
+}
+table th, table td {
+    border-color:#222
+}
+.notice-app {
+    background:#363636
+}
+.bar>ul>li a, #content-wrapper .post-list .list-entry>a {
+    color:#ccc
+}
+.hot-thread.list-entry a {
+    color: #fff;
+}
+#search, .bar>ul, .bar>ul>li,.bar h3, #content-wrapper .header, #content-wrapper .breadcrumbs, #content-wrapper .controls, #content-wrapper .action, .post-list .list-entry, .entry-meta, .entry, .pm-yml, .form-input, .form-input legend, #signup, .author, .u-panel .c-list .item, .ntc, .form-input .legend, #site-footer nav, .rd {
+    border-color:#222 !important
+}
+.forum .author {
+    border-top-color:#1375b6 !important
+}
+.fjb .author {
+    border-top-color:#61a002 !important
+}
+.in-txt {
+    border-color:#666 !important;
+    background:#282828
+}
+.in-btn {
+    border-color:#666 !important;
+    background:#484848
+}
+.in-btn input {
+    color:#ccc;
+    -webkit-font-smoothing:antialiased
+}
+.in-btn.blue {
+    border-color:#196597 !important;
+    background:#1e79b6
+}
+.in-txt-r {
+    background:#181818;
+    border-color:#222
+}
+.chr {
+    background:#111 !important;
+    border-color:#333 !important
+}
+.cpcy {
+    border-color:#666;
+    background:#181818
+}
+.bar h2, .bar h3, .form-input .legend, .author {
+    background:#181818;
+    color:#ccc
+}
+.author .fn {
+    color:#ccc
+}
+#site-nav {
+    background:#444;
+    border:0
+}
+#site-nav img {
+    opacity:0.75
+}
+#site-nav .x a {
+    color:#ccc
+}
+#site-nav sup {
+    color:#ccc !important
+}
+.main-h {
+    border:0 !important;
+    opacity:0.875
+}
+.btn {
+    background:#222;
+    border-color:#333
+}
+.btn.green {
+    border-color:#456f06;
+    background:#5a9108
+}
+.btn.orange {
+    border-color:#874b1b;
+    background:#a55c21
+}
+.btn.blue {
+    border-color:#196597;
+    background:#1e79b6
+}
+.u-profile, .tabnav {
+    background:#1c1c1c
+}
+.tabnav {
+    /*border-color:#222*/
+}
+.tabnav a {
+    /*border-color:#222;*/
+    background:#1c1c1c;
+    color:#ccc
+}
+.tabnav a.current {
+/*    border-bottom-color:#111;
+    background:#111*/
+}
+.entry-meta {
+    border:solid 1px #555;
+    background:#222;
+    color:#aaa
+}
+.post-quote>span+span {
+    border:solid 1px #333 !important;
+    background:#222 !important;
+    color:#aaa !important
+}
+.spoiler #bbcode_spoiler_content {
+    border:solid 1px #333 !important;
+    background:#222 !important
+}
+.spoiler #bbcode_inside_spoiler {
+    background:#222 !important
+}
+pre {
+    border:solid 1px #333 !important;
+    background:#222 !important
+}
+.swt a.current {
+    background:#181818
+}
+.u-panel h1, .ntc {
+    background:#1c1c1c
+}
+input[type=text], textarea {
+    color:#ccc
+}
+
+.nightmode .item__description,
+.nightmode .grid__item .item__image .image__photo {
+    border: 1px solid #000;
+}
+
+.nightmode #login small,
+.nightmode .bar.revamp,
+.nightmode .related-thread,
+.nightmode .mobile-menu-wrapper-inner,
+.nightmode .profile-menu,
+.nightmode .mobile-menu-wrapper {
+    background-color: #222;
+}
+
+.nightmode .bar.revamp h2.nav-arrow,
+.nightmode .nav-arrow .control .pagination,
+.nightmode #news-partner-widget .tabnav .current,
+.nightmode .grid__item .item__image {
+    background-color: #000 !important;
+}
+
+.nightmode .profile-menu li a,
+.nightmode .item__description .description__content,
+.nightmode .list-view__desc small,
+.nightmode .list-view__desc a,
+.nightmode .item__description .item__title,
+.nightmode .item__description .username,
+.nightmode .item__price .price__discount,
+.nightmode .block-grid__video--item a,
+.nightmode #subscribe_forum a,
+.nightmode #quick_update .title-desc,
+.nightmode .calendar-widget__title {
+    color: #ccc;
+}
+
+.nightmode #profile-login small {
+    color: #000;
+}
+
+.hot-thread-time {
+    background: #000;
+    border-bottom: 1px solid #000;
+}

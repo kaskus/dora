@@ -7,7 +7,7 @@
 		"uuidString": "2FDB5F65-C8AA-4871-AE5F-0C12D568200B"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/blacked-kaskus-oppo-form\/css\/main.css": {
 		"aP": 0,
@@ -7405,6 +7405,138 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/djarum-mld-black\/FAds-Combined.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/FAds-Combined.zip",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/FAds-Combined.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/FAds-Combined.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/FAds-Combined.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/min\/FAds-Combined-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap13.jpg": {
+		"ft": 16384,
+		"iS": 17574,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap16.png": {
+		"ft": 32768,
+		"iS": 10242,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap17.png": {
+		"ft": 32768,
+		"iS": 11994,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap17.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap18.png": {
+		"ft": 32768,
+		"iS": 34377,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap18.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap4copy.png": {
+		"ft": 32768,
+		"iS": 50795,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap4copy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap5.png": {
+		"ft": 32768,
+		"iS": 8626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images-expanded\/Bitmap5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images-expanded\/poster.jpg": {
+		"ft": 16384,
+		"iS": 48527,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images-expanded\/poster.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images\/Bitmap11.png": {
+		"ft": 32768,
+		"iS": 44630,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images\/Bitmap11.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images\/Bitmap4.png": {
+		"ft": 32768,
+		"iS": 50795,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images\/Bitmap4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images\/Bitmap5.png": {
+		"ft": 32768,
+		"iS": 8626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images\/Bitmap5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images\/Bitmap5_1.png": {
+		"ft": 32768,
+		"iS": 21809,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images\/Bitmap5_1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/images\/Bitmap9.png": {
+		"ft": 32768,
+		"iS": 41337,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/images\/Bitmap9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/min\/FAds-Combined-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/min\/min\/FAds-Combined-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/FAds-Combined\/videos\/video.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/FAds-Combined\/videos\/video.mp4",
+		"oF": 0
+		},
 	"\/djarum-mld-black\/FAds-Exp\/FAds-Exp-Revisi.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -7558,6 +7690,210 @@
 		"oAP": "\/djarum-mld-black\/index.html",
 		"oF": 0
 		},
+	"\/djarum-mld-black\/RB-Combined.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/RB-Combined.zip",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap11.png": {
+		"ft": 32768,
+		"iS": 5904,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap11.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap12.png": {
+		"ft": 32768,
+		"iS": 7615,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap12.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap13.png": {
+		"ft": 32768,
+		"iS": 1926,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap13.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap16copy.png": {
+		"ft": 32768,
+		"iS": 11871,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap16copy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap17.jpg": {
+		"ft": 16384,
+		"iS": 15149,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap17.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap4.png": {
+		"ft": 32768,
+		"iS": 50795,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap5.png": {
+		"ft": 32768,
+		"iS": 8626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap8.png": {
+		"ft": 32768,
+		"iS": 2744,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap8.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap9.png": {
+		"ft": 32768,
+		"iS": 8548,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/Bitmap9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images-expanded\/poster.jpg": {
+		"ft": 16384,
+		"iS": 48527,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images-expanded\/poster.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap11.png": {
+		"ft": 32768,
+		"iS": 5904,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap11.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap12.png": {
+		"ft": 32768,
+		"iS": 7615,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap12.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap13.png": {
+		"ft": 32768,
+		"iS": 1926,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap13.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap16copy.jpg": {
+		"ft": 16384,
+		"iS": 11300,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap16copy.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap17.png": {
+		"ft": 32768,
+		"iS": 9033,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap17.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap19.png": {
+		"ft": 32768,
+		"iS": 34377,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap19.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap4.png": {
+		"ft": 32768,
+		"iS": 50795,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap5.png": {
+		"ft": 32768,
+		"iS": 8626,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap8.png": {
+		"ft": 32768,
+		"iS": 2744,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap8.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/Bitmap9.png": {
+		"ft": 32768,
+		"iS": 8548,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/Bitmap9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/images\/poster.jpg": {
+		"ft": 16384,
+		"iS": 48527,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/images\/poster.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/min\/RB-Combined-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/min\/min\/RB-Combined-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/RB-Combined.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/RB-Combined.html",
+		"oF": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/RB-Combined.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/min\/RB-Combined-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/djarum-mld-black\/RB-Combined\/videos\/video.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/RB-Combined\/videos\/video.mp4",
+		"oF": 0
+		},
 	"\/djarum-mld-black\/RB-Exp\/images\/Bitmap11.png": {
 		"ft": 32768,
 		"iS": 5904,
@@ -7637,6 +7973,15 @@
 		"oAP": "\/djarum-mld-black\/RB-Exp\/images\/poster.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/djarum-mld-black\/RB-Exp\/min\/RB-Exp-Revisi-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/djarum-mld-black\/RB-Exp\/min\/min\/RB-Exp-Revisi-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/djarum-mld-black\/RB-Exp\/RB-Exp-Revisi.html": {
 		"ft": 8192,
@@ -7768,6 +8113,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/djarum-mld-black\/RB\/untitled.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/djarum-mld-black\/RB\/untitled.html",
+		"oF": 0
 		},
 	"\/expanding-horizontal\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.eot": {
 		"ft": 8192,
@@ -34724,7 +35075,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap4.png": {
 		"ft": 32768,
-		"iS": 11236,
+		"iS": 4138,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap4.png",
 		"oF": 0,
@@ -34732,7 +35083,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap5.png": {
 		"ft": 32768,
-		"iS": 32305,
+		"iS": 130609,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap5.png",
 		"oF": 0,
@@ -91826,6 +92177,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -91989,6 +92344,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -92354,6 +92713,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -92585,6 +92948,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -93418,6 +93785,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

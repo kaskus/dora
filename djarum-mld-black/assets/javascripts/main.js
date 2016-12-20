@@ -1203,13 +1203,14 @@ $(document).ready(function() {
 	$( ".banner-horizontal-expand" ).hover(
 	  function() {
 	    $(this).find('iframe').attr("src", "RB-Exp/RB-Exp-Revisi.html");
+	    $(this).addClass('expanded');
 	    setTimeout(function() {
 		    $(".banner-horizontal-expand").find('iframe').attr("width", "600");
 		}, 400);
 	  }, function() {
+	  	$(this).removeClass('expanded');
 	    $(this).find('iframe').attr("src", "RB/RB.html");
-		$(this).find('iframe').attr("width", "300");
-		
+		$(this).find('iframe').attr("width", "300");		
 	  }
 	);
 
