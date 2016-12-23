@@ -35067,7 +35067,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap3.png": {
 		"ft": 32768,
-		"iS": 117798,
+		"iS": 29347,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap3-min.png",
 		"oF": 0,
@@ -35075,7 +35075,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap4.png": {
 		"ft": 32768,
-		"iS": 11236,
+		"iS": 4138,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap4.png",
 		"oF": 0,
@@ -35083,7 +35083,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap5.png": {
 		"ft": 32768,
-		"iS": 130609,
+		"iS": 32305,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap5.png",
 		"oF": 0,
@@ -57652,11 +57652,59 @@
 		"oAP": "\/oppo-expandable\/assets\/fonts\/fontello.woff2",
 		"oF": 0
 		},
+	"\/oppo-expandable\/assets\/images\/115-60.jpg": {
+		"ft": 16384,
+		"iS": 1985,
+		"oA": 0,
+		"oAP": "\/oppo-expandable\/assets\/images\/115-60.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/oppo-expandable\/assets\/images\/14-mei-kenaikan-yesus.png": {
 		"ft": 32768,
 		"iS": 18055,
 		"oA": 0,
 		"oAP": "\/oppo-expandable\/assets\/images\/14-mei-kenaikan-yesus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/oppo-expandable\/assets\/images\/160-80.jpg": {
+		"ft": 16384,
+		"iS": 2197,
+		"oA": 0,
+		"oAP": "\/oppo-expandable\/assets\/images\/160-80.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/oppo-expandable\/assets\/images\/220-220.jpg": {
+		"ft": 16384,
+		"iS": 4807,
+		"oA": 0,
+		"oAP": "\/oppo-expandable\/assets\/images\/220-220.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/oppo-expandable\/assets\/images\/400-150.jpg": {
+		"ft": 16384,
+		"iS": 5513,
+		"oA": 0,
+		"oAP": "\/oppo-expandable\/assets\/images\/400-150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/oppo-expandable\/assets\/images\/480-245.jpg": {
+		"ft": 16384,
+		"iS": 9379,
+		"oA": 0,
+		"oAP": "\/oppo-expandable\/assets\/images\/480-245.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/oppo-expandable\/assets\/images\/550-550.jpg": {
+		"ft": 16384,
+		"iS": 21710,
+		"oA": 0,
+		"oAP": "\/oppo-expandable\/assets\/images\/550-550.jpg",
 		"oF": 0,
 		"opt": 0
 		},
