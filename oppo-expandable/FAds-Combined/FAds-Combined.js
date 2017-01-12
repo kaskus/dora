@@ -352,12 +352,6 @@ lib.properties = {
 	]
 };
 
-
-
-// symbols:
-
-
-
 (lib.a37 = function() {
 	this.initialize(img.a37);
 }).prototype = p = new cjs.Bitmap();
