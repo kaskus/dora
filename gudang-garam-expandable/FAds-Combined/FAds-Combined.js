@@ -305,15 +305,15 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_01kota.png?1484198047906", id:"_01kota"},
-		{src:"images/_02bulet.png?1484198047906", id:"_02bulet"},
-		{src:"images/_03panah.png?1484198047906", id:"_03panah"},
-		{src:"images/_04panah.png?1484198047906", id:"_04panah"},
-		{src:"images/_05sepeda.png?1484198047906", id:"_05sepeda"},
-		{src:"images/_06ilustrasi.png?1484198047906", id:"_06ilustrasi"},
-		{src:"images/_07tag.png?1484198047906", id:"_07tag"},
-		{src:"images/canvas.png?1484198047906", id:"canvas"},
-		{src:"images/logobesar.png?1484198047906", id:"logobesar"}
+		{src:"images/_01kota.png", id:"_01kota"},
+		{src:"images/_02bulet.png", id:"_02bulet"},
+		{src:"images/_03panah.png", id:"_03panah"},
+		{src:"images/_04panah.png", id:"_04panah"},
+		{src:"images/_05sepeda.png", id:"_05sepeda"},
+		{src:"images/_06ilustrasi.png", id:"_06ilustrasi"},
+		{src:"images/_07tag.png", id:"_07tag"},
+		{src:"images/canvas.png", id:"canvas"},
+		{src:"images/logobesar.png", id:"logobesar"}
 	],
 	preloads: []
 };
@@ -632,15 +632,15 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images-expanded/_01kota.png?1484198073468", id:"_01kota"},
-		{src:"images-expanded/_02bulet.png?1484198073468", id:"_02bulet"},
-		{src:"images-expanded/_03panah.png?1484198073468", id:"_03panah"},
-		{src:"images-expanded/_04panah.png?1484198073468", id:"_04panah"},
-		{src:"images-expanded/_05sepeda.png?1484198073468", id:"_05sepeda"},
-		{src:"images-expanded/_06ilustrasi.png?1484198073468", id:"_06ilustrasi"},
-		{src:"images-expanded/_07tag.png?1484198073468", id:"_07tag"},
-		{src:"images-expanded/canvas1.png?1484198073468", id:"canvas1"},
-		{src:"images-expanded/logo2.png?1484198073468", id:"logo2"}
+		{src:"images-expanded/_01kota.png", id:"_01kota"},
+		{src:"images-expanded/_02bulet.png", id:"_02bulet"},
+		{src:"images-expanded/_03panah.png", id:"_03panah"},
+		{src:"images-expanded/_04panah.png", id:"_04panah"},
+		{src:"images-expanded/_05sepeda.png", id:"_05sepeda"},
+		{src:"images-expanded/_06ilustrasi.png", id:"_06ilustrasi"},
+		{src:"images-expanded/_07tag.png", id:"_07tag"},
+		{src:"images-expanded/canvas1.png", id:"canvas1"},
+		{src:"images-expanded/logo2.png", id:"logo2"}
 	],
 	preloads: []
 };
