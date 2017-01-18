@@ -35067,7 +35067,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap3.png": {
 		"ft": 32768,
-		"iS": 29347,
+		"iS": 117798,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap3-min.png",
 		"oF": 0,
@@ -35075,7 +35075,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap4.png": {
 		"ft": 32768,
-		"iS": 11236,
+		"iS": 4138,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap4.png",
 		"oF": 0,
@@ -35083,7 +35083,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap5.png": {
 		"ft": 32768,
-		"iS": 130609,
+		"iS": 32305,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap5.png",
 		"oF": 0,
@@ -56230,36 +56230,6 @@
 		"oAP": "\/gudang-garam-expandable\/assets\/stylesheets\/playground.min-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/gudang-garam-expandable\/FAds-Combined\/970x200 GG.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/970x200 GG.html",
-		"oF": 0
-		},
-	"\/gudang-garam-expandable\/FAds-Combined\/970x200 GG.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/min\/970x200 GG-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/gudang-garam-expandable\/FAds-Combined\/970x315.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/970x315.html",
-		"oF": 0
-		},
-	"\/gudang-garam-expandable\/FAds-Combined\/970x315.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/min\/970x315-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/gudang-garam-expandable\/FAds-Combined\/FAds-Combined.html": {
 		"ft": 8192,

@@ -114,26 +114,36 @@ function handleComplete(evt) {
 			var v = document.getElementById('video-yt');
 			initNormal(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 			init();
+			$(curDoc.querySelector(banner_selector)).css( "height", "200" );
 
 			$('html', document).hover(
 			  function() {
 			  	var rndInt = Math.floor(Math.random() * 9999);
 				$(curDoc.querySelector(banner_selector)).addClass('expanded');
 			  	isExpanded = true;
+			  	//$(c).fadeToggle();
+			  	$(c).hide(0);
 			  	$(c).attr('height', '315');
 			  	$(v).css( "width", "560" );
+			  	
+			  	//$(curDoc.querySelector(banner_selector)).css( "height", "200" );
 		    	initExpand(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 		    	init();
+		    	$(c).delay(250).fadeIn(250);
 		    	$(document.getElementById('trk_img')).attr('src', 'https://p.kaskus.id/banner/1x1.gif?type=gg_projam_expandable_FAds_hover_in&rnd=' + rndInt);
 			  }, 
 			  function() {
 			  	var rndInt = Math.floor(Math.random() * 9999);
 				$(curDoc.querySelector(banner_selector)).removeClass('expanded');
 			  	isExpanded = false;
+			  	//$(c).fadeToggle();
+			  	$(c).hide(0);
 			  	$(c).attr('height', '200');
 			  	$(v).css( "width", "356" );
+			  	//$(curDoc.querySelector(banner_selector)).css( "height", "200" );
 			    initNormal(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 			    init();
+			    $(c).delay(250).fadeIn(250);
 		    	$(document.getElementById('trk_img')).attr('src', 'https://p.kaskus.id/banner/1x1.gif?type=gg_projam_expandable_FAds_hover_out&rnd=' + rndInt);
 			  }
 			);
