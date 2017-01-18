@@ -56246,67 +56246,67 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_01kota.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/01kota.png": {
 		"ft": 32768,
 		"iS": 4180,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_01kota.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/01kota.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_02bulet.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/02bulet.png": {
 		"ft": 32768,
 		"iS": 6792,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_02bulet.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/02bulet.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_03panah.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/03panah.png": {
 		"ft": 32768,
 		"iS": 6977,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_03panah.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/03panah.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_04panah.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/04panah.png": {
 		"ft": 32768,
 		"iS": 6967,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_04panah.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/04panah.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_05sepeda.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/05sepeda.png": {
 		"ft": 32768,
 		"iS": 14978,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_05sepeda.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/05sepeda.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_06ilustrasi.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/06ilustrasi.png": {
 		"ft": 32768,
 		"iS": 12113,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_06ilustrasi.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/06ilustrasi.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_07tag.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/07tag.png": {
 		"ft": 32768,
 		"iS": 17195,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_07tag.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/07tag.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_08alamat.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/08alamat.png": {
 		"ft": 32768,
 		"iS": 8738,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/_08alamat.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images-expanded\/08alamat.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -56334,31 +56334,23 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/970x200 GG_atlas_.png": {
-		"ft": 32768,
-		"iS": 47840,
-		"oA": 0,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/970x200 GG_atlas_.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/_01kota.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/01kota.png": {
 		"ft": 32768,
 		"iS": 4180,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_01kota.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/01kota.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/_02bulet.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/02bulet.png": {
 		"ft": 32768,
 		"iS": 6792,
-		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_02bulet.png",
+		"oA": 0,
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/02bulet.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/_03panah.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/03panah.png": {
 		"ft": 32768,
 		"iS": 6977,
 		"oA": 1,
@@ -56366,43 +56358,51 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/_04panah.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/04panah.png": {
 		"ft": 32768,
 		"iS": 6967,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_04panah.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/04panah.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/_05sepeda.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/05sepeda.png": {
 		"ft": 32768,
 		"iS": 18419,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_05sepeda.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/05sepeda.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/_06ilustrasi.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/06ilustrasi.png": {
 		"ft": 32768,
 		"iS": 14537,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_06ilustrasi.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/06ilustrasi.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/_07tag.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/07tag.png": {
 		"ft": 32768,
 		"iS": 16983,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_07tag.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/07tag.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/images\/_08alamat.png": {
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/08alamat.png": {
 		"ft": 32768,
 		"iS": 9327,
 		"oA": 1,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_08alamat.png",
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/08alamat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/gudang-garam-expandable\/FAds-Combined\/images\/970x200GGatlas.png": {
+		"ft": 32768,
+		"iS": 47840,
+		"oA": 0,
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/970x200GGatlas.png",
 		"oF": 0,
 		"opt": 0
 		},
