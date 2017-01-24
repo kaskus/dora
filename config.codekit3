@@ -7,7 +7,7 @@
 		"uuidString": "2FDB5F65-C8AA-4871-AE5F-0C12D568200B"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/blacked-kaskus-oppo-form\/css\/main.css": {
 		"aP": 0,
@@ -35059,7 +35059,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap2.jpg": {
 		"ft": 16384,
-		"iS": 27094,
+		"iS": 28827,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap2.jpg",
 		"oF": 0,
@@ -35067,7 +35067,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap3.png": {
 		"ft": 32768,
-		"iS": 117798,
+		"iS": 29347,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap3-min.png",
 		"oF": 0,
@@ -35075,7 +35075,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap4.png": {
 		"ft": 32768,
-		"iS": 4138,
+		"iS": 11236,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap4.png",
 		"oF": 0,
@@ -35083,7 +35083,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap5.png": {
 		"ft": 32768,
-		"iS": 32305,
+		"iS": 130609,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap5.png",
 		"oF": 0,
@@ -56231,6 +56231,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/gudang-garam-expandable\/FAds-Combined\/FAds-Combined.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/FAds-Combined.html",
+		"oF": 0
+		},
 	"\/gudang-garam-expandable\/FAds-Combined\/FAds-Combined.js": {
 		"ft": 64,
 		"mi": 1,
@@ -56346,7 +56352,7 @@
 		},
 	"\/gudang-garam-expandable\/FAds-Combined\/images\/03panah.png": {
 		"ft": 32768,
-		"iS": 6977,
+		"iS": 2013,
 		"oA": 1,
 		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_03panah.png",
 		"oF": 0,
@@ -56416,19 +56422,10 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/gudang-garam-expandable\/FAds-Combined\/min\/FAds-Combined-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/min\/min\/FAds-Combined-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/gudang-garam-expandable\/FAds-Combined\/videos\/video.mp4": {
+	"\/gudang-garam-expandable\/GG-Projam-Leaderboard-Expandable.zip": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/videos\/video.mp4",
+		"oAP": "\/gudang-garam-expandable\/GG-Projam-Leaderboard-Expandable.zip",
 		"oF": 0
 		},
 	"\/gudang-garam-expandable\/index.html": {
@@ -63846,6 +63843,18 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/mandi\/Romaria - Mandi [Official Music Video].mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mandi\/Romaria - Mandi [Official Music Video].mp4",
+		"oF": 0
+		},
+	"\/mandi\/Romaria-Mandi.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mandi\/Romaria-Mandi.mp4",
+		"oF": 0
 		},
 	"\/oppo-cendol\/.sass-cache\/dfa4ac050f5697659437d661573e2ed97af74195\/style.scssc": {
 		"ft": 8192,
@@ -123377,6 +123386,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -123916,6 +123929,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
