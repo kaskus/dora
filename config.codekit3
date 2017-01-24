@@ -35075,7 +35075,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap4.png": {
 		"ft": 32768,
-		"iS": 11236,
+		"iS": 4138,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap4.png",
 		"oF": 0,
@@ -63844,16 +63844,16 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/mandi\/Romaria - Mandi [Official Music Video].mp4": {
+	"\/mandi\/mandi-hd.mp4": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/mandi\/Romaria - Mandi [Official Music Video].mp4",
+		"oAP": "\/mandi\/mandi-hd.mp4",
 		"oF": 0
 		},
-	"\/mandi\/Romaria-Mandi.mp4": {
+	"\/mandi\/mandi.mp4": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/mandi\/Romaria-Mandi.mp4",
+		"oAP": "\/mandi\/mandi.mp4",
 		"oF": 0
 		},
 	"\/oppo-cendol\/.sass-cache\/dfa4ac050f5697659437d661573e2ed97af74195\/style.scssc": {
