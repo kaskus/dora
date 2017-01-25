@@ -35075,7 +35075,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap4.png": {
 		"ft": 32768,
-		"iS": 4138,
+		"iS": 11236,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap4.png",
 		"oF": 0,
@@ -35083,7 +35083,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap5.png": {
 		"ft": 32768,
-		"iS": 130609,
+		"iS": 32305,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap5.png",
 		"oF": 0,
@@ -56352,7 +56352,7 @@
 		},
 	"\/gudang-garam-expandable\/FAds-Combined\/images\/03panah.png": {
 		"ft": 32768,
-		"iS": 2013,
+		"iS": 6977,
 		"oA": 1,
 		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_03panah.png",
 		"oF": 0,
@@ -63855,6 +63855,14 @@
 		"oA": 2,
 		"oAP": "\/mandi\/mandi.mp4",
 		"oF": 0
+		},
+	"\/mandi\/mandi.png": {
+		"ft": 32768,
+		"iS": 884357,
+		"oA": 0,
+		"oAP": "\/mandi\/mandi.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/oppo-cendol\/.sass-cache\/dfa4ac050f5697659437d661573e2ed97af74195\/style.scssc": {
 		"ft": 8192,
