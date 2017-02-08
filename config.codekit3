@@ -35059,7 +35059,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap2.jpg": {
 		"ft": 16384,
-		"iS": 28827,
+		"iS": 27094,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap2.jpg",
 		"oF": 0,
@@ -56352,7 +56352,7 @@
 		},
 	"\/gudang-garam-expandable\/FAds-Combined\/images\/03panah.png": {
 		"ft": 32768,
-		"iS": 6977,
+		"iS": 2013,
 		"oA": 1,
 		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/_03panah.png",
 		"oF": 0,
@@ -63861,6 +63861,14 @@
 		"iS": 884357,
 		"oA": 0,
 		"oAP": "\/mandi\/mandi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/mandi\/romaria-mandi-play.jpg": {
+		"ft": 16384,
+		"iS": 892076,
+		"oA": 0,
+		"oAP": "\/mandi\/romaria-mandi-play.jpg",
 		"oF": 0,
 		"opt": 0
 		},
