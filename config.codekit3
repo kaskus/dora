@@ -7,7 +7,7 @@
 		"uuidString": "2FDB5F65-C8AA-4871-AE5F-0C12D568200B"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/blacked-kaskus-oppo-form\/css\/main.css": {
 		"aP": 0,
@@ -35051,7 +35051,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap1.jpg": {
 		"ft": 16384,
-		"iS": 18510,
+		"iS": 19682,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap1.jpg",
 		"oF": 0,
@@ -35059,7 +35059,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap2.jpg": {
 		"ft": 16384,
-		"iS": 27094,
+		"iS": 28827,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap2.jpg",
 		"oF": 0,
@@ -35067,7 +35067,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap3.png": {
 		"ft": 32768,
-		"iS": 29347,
+		"iS": 117798,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap3-min.png",
 		"oF": 0,
@@ -35083,7 +35083,7 @@
 		},
 	"\/gg-mild\/images\/Bitmap5.png": {
 		"ft": 32768,
-		"iS": 32305,
+		"iS": 130609,
 		"oA": 0,
 		"oAP": "\/gg-mild\/images\/Bitmap5.png",
 		"oF": 0,
@@ -56344,7 +56344,7 @@
 		},
 	"\/gudang-garam-expandable\/FAds-Combined\/images\/02bulet.png": {
 		"ft": 32768,
-		"iS": 1850,
+		"iS": 6792,
 		"oA": 0,
 		"oAP": "\/gudang-garam-expandable\/FAds-Combined\/images\/02bulet.png",
 		"oF": 0,
@@ -85125,6 +85125,22 @@
 		"oAP": "\/tangkas\/index.html",
 		"oF": 0
 		},
+	"\/template-edm\/css\/app.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/template-edm\/css\/app-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/template-edm\/marketing.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-edm\/marketing.html",
+		"oF": 0
+		},
 	"\/think-fresh\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -108182,6 +108198,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/underlay-banner\/images\/blibli.jpeg": {
+		"ft": 16384,
+		"iS": 6396,
+		"oA": 0,
+		"oAP": "\/underlay-banner\/images\/blibli.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/underlay-banner\/images\/blue-guy-cry.png": {
 		"ft": 32768,
 		"iS": 13407,
@@ -108411,6 +108435,14 @@
 		"iS": 153080,
 		"oA": 0,
 		"oAP": "\/underlay-banner\/images\/cover-image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/underlay-banner\/images\/creative.jpg": {
+		"ft": 16384,
+		"iS": 100376,
+		"oA": 0,
+		"oAP": "\/underlay-banner\/images\/creative.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -130721,6 +130753,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -131049,6 +131085,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -131142,6 +131182,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
