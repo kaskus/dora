@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html style="background-color: #fff;">
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>FAds Exp Revisi</title>
+<!-- write your code here -->
+<script src="https://code.createjs.com/easeljs-0.8.1.min.js"></script>
+<script src="https://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+<script src="https://code.createjs.com/movieclip-0.8.1.min.js"></script>
+<script src="https://code.createjs.com/preloadjs-0.6.1.min.js"></script>
+<!-- <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script> -->
+<script src="FAds-Combined.js"></script>
+<script>
+var $ = window.parent.$, jQuery = window.parent.jQuery;
+curWin = window.parent.window;
+curDoc = window.parent.document;
+var banner_selector = '.bt-frame-ads';
+
+var canvas, stage, exportRoot;
+var isExpanded = false;
+
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function initExpand(){
+	var canvas = document.getElementById('canvasExpand');
+	var context = canvas.getContext('2d');
+	var bannerExpand = new Image();
+
+	bannerExpand.onload = function() {
+		context.drawImage(bannerExpand, 0, 0);
+	};
+
+	bannerExpand.src = 'https://s.kaskus.id/img/seasonal/march2017/tematik/wp_background_fboib9kjcqk0.png';
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib.FAds();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script>
+<!-- write your code here -->
+</head>
+<body style="margin:0px; background-color: #fff;">
+	<canvas id="canvas" width="970" height="50" style="background-color:#FFFFFF"></canvas>
+	<canvas id="canvasExpand" width="970" height="250" style="background-color:#FFFFFF"></canvas>
+	<div id="video-container" style="display:none; width: 358px; height: 200px; margin: 25px 0 0 238px; position: absolute; z-index: 99; top:0">
+		<div id="player"></div>
+		<script>
+		var tag = document.createElement('script');
+
+		tag.src = "https://www.youtube.com/iframe_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		var player;
+		function onYouTubeIframeAPIReady() {
+			player = new YT.Player('player', {
+			height: '200',
+			width: '358',
+			playerVars: {
+			autoplay: 1,
+			loop: 1,
+			controls: 1,
+			showinfo: 0,
+			autohide: 1,
+			modestbranding: 1,
+			vq: 'hd1080'},
+			videoId: 'h71xdqTnkFs',
+			events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPlayerStateChange
+		}
+		});
+		}
+
+		function onPlayerReady(event) {
+			event.target.playVideo();
+			player.mute();
+		}
+
+		   var done = false;
+		   function onPlayerStateChange(event) {
+		       
+		   }
+		   function stopVideo() {
+		   	player.stopVideo();
+		   }
+		</script>
+	</div>
+	<img id="trk_img" style="display:none;" src="https://www.kaskus.id/banner/1x1.gif?type=oppo_f3s_expandable_FAds_hover_out" alt="trk_bnr">
+	<script>
+		$(curDoc).ready(function(){
+			var c = document.getElementById('canvas');
+			var cExp = document.getElementById('canvasExpand');
+			var vCont = document.getElementById('video-container');
+			initNormal(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
+			init();
+
+			$('html', document).hover(
+			  function() {
+			  	var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).addClass('expanded');
+			  	isExpanded = true;
+			  	$(c).hide();
+			  	$(cExp).show();
+			  	$(vCont).show();
+		    	initExpand();
+		    	$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=oppo_f3s_expandable_FAds_hover_in&rnd=' + rndInt);
+			  }, 
+			  function() {
+			  	var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).removeClass('expanded');
+			  	isExpanded = false;
+			  	$(c).show();
+			  	$(cExp).hide();
+			  	$(vCont).hide();
+			    initNormal(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
+			    init();
+		    	$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=oppo_f3s_expandable_FAds_hover_out&rnd=' + rndInt);
+			  }
+			);
+		});
+	</script>
+</body>
+</html>
