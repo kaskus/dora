@@ -35,9 +35,8 @@ $(searchbtn).on('click', function(){
 //top apps recommend script
 $(window).bind('scroll', function() {
 	var noticeAppHeight = $(".notice-app").height();
-  var expandableBannerHeight = $("#banner-frame").height();
 
-	if($(window).scrollTop() > noticeAppHeight + expandableBannerHeight) {
+	if($(window).scrollTop() > noticeAppHeight) {
 		$("#site-header").addClass("fixed");
 	} else {
 		$("#site-header").removeClass("fixed");
