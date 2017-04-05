@@ -12059,9 +12059,9 @@ body.fjb:not(.forum) .fjb-header {
   color: #1f94e1 !important; }
 
 #banner-frame {
-  height: 100px;
-  width: 60%;
-  transition: all 0.3s ease-out;
+  height: 50px;
+  width: 320px;
+  transition: height 0.3s ease-out;
 }
 
 #banner-frame.stretched {

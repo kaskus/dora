@@ -5,12 +5,11 @@
   <body>
     <div id="banner-content">
       <div class="banner-bg">
-        <div id="banner-condensed-bg"></div>
+        <div id="banner-condensed-bg" onclick="expandBanner(this)"></div>
         <div id="banner-expanded-bg"></div>
       </div>
-      <video id="banner-video" type="video/mp4" autoplay muted loop></video>
+      <video id="banner-video" autoplay muted loop controls></video>
       <button id="close-button" onclick="shrinkBanner(this)">&#10006;</button>
-      <button id="expand-button" onclick="expandBanner(this)">TAP TO EXPAND</button>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="../assets/js/banner.js"></script>
