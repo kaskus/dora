@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kaskus - Game Interactive Banner</title>
+    <script src="../assets/js/jquery-1.7.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700,600,500,400,300" rel="stylesheet" type="text/css">
+    <link href="../assets/stylesheets/main.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+
+  <body style="margin: 0 auto;">
+
+    <div class="l-body">
+      <div class="c-page c-page--step1" >
+        <div class="c-gamescreen">
+          <div class="c-ornaments">
+              <div class="o-ornament ornament-1"></div>
+              <div class="o-ornament ornament-2"></div>
+              <div class="o-ornament ornament-3"></div>
+              <div class="o-ornament ornament-4"></div>
+              <div class="o-ornament ornament-5"></div>
+              <div class="o-ornament ornament-6"></div>
+              <div class="o-ornament ornament-7"></div>
+              <div class="o-ornament ornament-8"></div>
+              <div class="o-ornament ornament-9"></div>
+              <div class="o-ornament ornament-12"></div>
+              <div class="o-ornament ornament-10"></div>
+              <div class="o-ornament ornament-11"></div>
+              <div class="o-ornament ornament-13"></div>
+          </div>
+          <div class="c-cards">
+            <div class="c-cards__row">
+              <div class="o-card jsCard" data-match='1'> 
+                <div class="o-card__front front">Depan</div> 
+                <div class="o-card__back o-card__back--image o-card__back--image--match1 back">Belakang</div> 
+              </div>
+              <div class="o-card jsCard" data-match='2'> 
+                <div class="o-card__front front">Depan</div> 
+                <div class="o-card__back o-card__back--image o-card__back--image--match2 back">Belakang</div> 
+              </div>
+              <div class="o-card jsCard" data-match='3'> 
+                <div class="o-card__front front">Depan</div> 
+                <div class="o-card__back o-card__back--image o-card__back--image--match3 back">Belakang</div> 
+              </div>
+              <div class="o-card jsCard" data-match='4'> 
+                <div class="o-card__front front">Depan</div> 
+                <div class="o-card__back o-card__back--image o-card__back--image--match4 back">Belakang</div> 
+              </div>
+            </div>
+            <div class="c-cards__row">
+              <div class="o-card jsCard" data-match='1'> 
+                <div class="o-card__front front">Depan</div> 
+                <div class="o-card__back o-card__back--text back">Bandung</div> 
+              </div>
+              <div class="o-card jsCard" data-match='2'> 
+                <div class="o-card__front front">Depan</div> 
+                <div class="o-card__back o-card__back--text back">Padang</div> 
+              </div>
+              <div class="o-card jsCard" data-match='3'> 
+                <div class="o-card__front front">Depan</div> 
+                <div class="o-card__back o-card__back--text back">Jakarta</div> 
+              </div>
+              <div class="o-card jsCard" data-match='4'> 
+                <div class="o-card__front front">Depan</div> 
+                <div class="o-card__back o-card__back--text back">Kediri</div> 
+              </div>
+            </div>
+          </div>
+          <div class="c-info">
+            <div class="o-logo--kaskus-x-djarum text-center">
+              <img src="../assets/images/logo-kaskus-x-djarum.png" alt="logo djarum x kaskus" />
+            </div>
+            <div class="o-title-instruction">
+              <div class="o-title-instruction--main">Uji pengetahuanmu tentang ikon terkenal di Indonesia</div>
+              <div class="o-title-instruction--sub">Cocokkan ikon kota disamping dengan daerah asalnya</div>
+            </div>
+            <button class="o-button o-button--action" onclick="countdown(1);">Mulai, Gan</button>
+            <div id="countDown" class="o-countdown o-countdown--timer" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+      <!-- AYUSHITA RESULT -->
+      <div class="c-page c-page--step2" style="display: none;">
+        <div class="c-results">
+          <div class="c-ornaments c-ornaments--logo">
+              <div class="o-ornament ornament-14"></div>
+          </div>
+          <div class="c-results--explanation">
+            <div class="o-result">
+              Agan cocok banget traveling bareng <b>Ayushita</b>, karena sama-sama menyukai tantangan ekstrim dan suka mencoba hal baru. Yuk kenali keberagaman tradisi Ramadan lainnya lewat chat based game ini dan dapatkan badge KASKUS Tualang Ramadhan
+            </div>
+            <div class="o-button--badge m-top-30"><a href="https://www.hikmahpuasa.com/kaskus/loginkaskus.php?login=1" target="_blank">dapatkan badge di sini</a></div>
+          </div>
+          <div class="c-info--result">
+            <div class="c-ornaments">
+              <div class="o-ornament ornament-15"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-page c-page--step2" style="display: none;">
+        <div class="c-results">
+          <div class="c-ornaments c-ornaments--logo">
+              <div class="o-ornament ornament-14"></div>
+          </div>
+          <div class="c-results--explanation">
+            <div class="o-result">
+              Sifatmu yang ramah dan supel seperti <b>Ayushita</b>, membuat Agan mudah mendapatkan teman baru saat traveling ke berbagai tempat. Yuk kenali keberagaman tradisi Ramadan lainnya lewat chat based game ini dan dapatkan badge KASKUS Tualang Ramadhan.
+            </div>
+            <div class="o-button--badge m-top-30"><a href="https://www.hikmahpuasa.com/kaskus/loginkaskus.php?login=1" target="_blank">dapatkan badge di sini</a></div>
+          </div>
+          <div class="c-info--result">
+            <div class="c-ornaments">
+              <div class="o-ornament ornament-15"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-page c-page--step2" style="display: none;">
+        <div class="c-results">
+          <div class="c-ornaments c-ornaments--logo">
+              <div class="o-ornament ornament-14"></div>
+          </div>
+          <div class="c-results--explanation">
+            <div class="o-result">
+              Sama seperti <b>Ayushita</b>, rasa ingin tahumu sangat besar. Hal ini membuat Agan senang mengunjungi berbagai tempat untuk mempelajari kebudayaannya. Pas banget nih, kenali keberagaman tradisi Ramadan lainnya lewat chat based game ini dan dapatkan badge KASKUS Tualang Ramadhan.
+            </div>
+            <div class="o-button--badge m-top-20"><a href="https://www.hikmahpuasa.com/kaskus/loginkaskus.php?login=1" target="_blank">dapatkan badge di sini</a></div>
+          </div>
+          <div class="c-info--result">
+            <div class="c-ornaments">
+              <div class="o-ornament ornament-15"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- DIMAS ANGGARA RESULT -->
+      <div class="c-page c-page--step2" style="display: none">
+        <div class="c-results">
+          <div class="c-ornaments c-ornaments--logo">
+              <div class="o-ornament ornament-14"></div>
+          </div>
+          <div class="c-results--explanation">
+            <div class="o-result">
+              Agan lebih suka jalan-jalan bareng teman-teman daripada solo traveling. Coba ajak <b>Dimas Anggara</b> yang juga suka pergi bareng komunitas motornya. Yuk rame-rame kenali keberagaman tradisi Ramadan lainnya lewat chat based game ini dan dapatkan badge KASKUS Tualang Ramadhan.
+            </div>
+            <div class="o-button--badge m-top-10"><a href="https://www.hikmahpuasa.com/kaskus/loginkaskus.php?login=1" target="_blank">dapatkan badge di sini</a></div>
+          </div>
+          <div class="c-info--result">
+            <div class="c-ornaments">
+              <div class="o-ornament ornament-16"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-page c-page--step2" style="display: none">
+        <div class="c-results">
+          <div class="c-ornaments c-ornaments--logo">
+              <div class="o-ornament ornament-14"></div>
+          </div>
+          <div class="c-results--explanation">
+            <div class="o-result">
+              Kehadiranmu yang paling ditunggu-tunggu setiap ada acara liburan bareng. Karena Agan selalu bisa menghidupkan suasana, sama seperti <b>Dimas Anggara</b>. Tunjukkan juga semangatmu untuk mengenali keberagaman tradisi Ramadan lewat chat based game ini dan Dapatkan badge KASKUS Tualang Ramadhan.
+            </div>
+            <div class="o-button--badge m-top-10"><a href="https://www.hikmahpuasa.com/kaskus/loginkaskus.php?login=1" target="_blank">dapatkan badge di sini</a></div>
+          </div>
+          <div class="c-info--result">
+            <div class="c-ornaments">
+              <div class="o-ornament ornament-16"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-page c-page--step2" style="display: none">
+        <div class="c-results">
+          <div class="c-ornaments c-ornaments--logo">
+              <div class="o-ornament ornament-14"></div>
+          </div>
+          <div class="c-results--explanation">
+            <div class="o-result">
+              Ketahuan nih, Agan doyan makan kayak <b>Dimas Anggara</b>. Kemana pun kalian pergi, tujuan utamanya pasti kuliner. Tapi jangan cuma jajan aja, Gan. Kenali juga keberagaman tradisi Ramadan lainnya lewat chat based game ini dan dapatkan badge KASKUS Tualang Ramadhan.
+            </div>
+            <div class="o-button--badge m-top-30"><a href="https://www.hikmahpuasa.com/kaskus/loginkaskus.php?login=1" target="_blank">dapatkan badge di sini</a></div>
+          </div>
+          <div class="c-info--result">
+            <div class="c-ornaments">
+              <div class="o-ornament ornament-16"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+		<script type="text/javascript" src="../assets/js/vendor.min.js"></script>
+		<script type="text/javascript" src="../assets/js/script.min.js"></script>
+
+	</body>
+</html>
