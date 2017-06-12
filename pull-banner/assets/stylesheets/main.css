@@ -1713,6 +1713,7 @@ ul.tagit input[type="text"] {
 
 #wrapper {
   background: #fff;
+  width: 100%;
   max-width: 620px;
   margin: 0 auto;
   overflow: hidden;
@@ -12057,14 +12058,4 @@ body.fjb:not(.forum) .fjb-header {
 
 #content-wrapper .post-list .hot-thread .sub-meta a {
   color: #1f94e1 !important; }
-
-#banner-frame {
-  height: 50px;
-  width: 320px;
-  transition: height 0.3s ease-out;
-}
-
-#banner-frame.stretched {
-  height: 400px;
-  width: 100%;
-}
+  

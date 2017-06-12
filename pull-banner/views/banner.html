@@ -1,17 +1,74 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="../assets/stylesheets/banner.css">
-  </head>
-  <body>
-    <div id="banner-content">
-      <div class="banner-bg">
-        <div id="banner-condensed-bg" onclick="expandBanner(this)"></div>
-        <div id="banner-expanded-bg"></div>
-      </div>
-      <video id="banner-video" autoplay muted loop controls></video>
-      <button id="close-button" onclick="shrinkBanner(this)">&#10006;</button>
+<div class="invitation">
+    <button aria-label="Close" class="invitation__close">&times;</button>
+    <div class="invitation__ad">
+        <div>Hello World!</div>
+        <button aria-label="Swipe up" class="swipe-up"></button>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="../assets/js/banner.js"></script>
-  </body> 
-</html>
+</div>
+<style>
+    @-webkit-keyframes swipe {
+        0%{
+            background-position: 0px 0px;
+        }
+        40%{
+            background-position: -50px 0px;
+        }
+        80%{
+            background-position: -100px 0px;
+        }
+        100%{
+            background-position: -150px 0px;
+        }
+    } 
+
+    @keyframes swipe {
+        0%{
+            background-position: 0px 0px;
+        }
+        40%{
+            background-position: -50px 0px;
+        }
+        80%{
+            background-position: -100px 0px;
+        }
+        100%{
+            background-position: -150px 0px;
+        }
+    }
+    body{
+        margin: 0;
+        overflow: hidden;
+    }
+    .invitation{
+        position: relative;
+        padding: 0 20px;
+    }
+    .invitation__ad{
+        display: table;
+        width: 100%;
+    }
+    .invitation__ad > div{
+        display: table-cell;
+    }
+    .invitation__close{
+        -webkit-appearance: none;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .swipe-up{
+        background-image: url(http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/sprite_up.png);
+        width: 50px;
+        height: 50px;
+        background-position: 0px 0px;
+        animation: swipe 0.8s steps(1, end) infinite;
+        -webkit-animation: swipe 0.8s steps(1, end) infinite;
+    }
+</style>
