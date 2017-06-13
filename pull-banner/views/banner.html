@@ -1,11 +1,17 @@
 <div class="invitation">
-    <button aria-label="Close" class="invitation__close">&times;</button>
-    <div class="invitation__wrapper">
-        <div class="invitation__ad">
+    <button aria-label="Close" class="invitation__close invitation__close--small">&times;</button>
+    <div class="invitation__container--small">
+        <div class="invitation__ad--small">
             <img src="http://network.innity.com/adtech/mobile/mobile_engage_pull/assets/pu/img_engage_more_2.png"/>
         </div>
-        <div class="invitation__ad">
+        <div class="invitation__ad--small">
             <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background_mobile.jpg"/>
+        </div>
+    </div>
+    <div class="invitation__container--large">
+        <button aria-label="Close" class="invitation__close invitation__close--large">&times;</button>
+        <div class="invitation__ad--large">
+            <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background.jpg"/>
         </div>
     </div>
 </div>
@@ -13,42 +19,64 @@
     body{
         margin: 0;
         overflow: hidden;
-        background-color: rgba(0,0,0,0.8);
     }
     .invitation{
-        position: relative;    
+        position: relative;
+        text-align: center;
     }
-    .invitation__wrapper{
+    .invitation__container--small{
         height: 50px;
         overflow: hidden;
     }
-    .invitation__ad{
-        overflow: hidden;
-        height: 50px;
+    .invitation__container--large{
+        position: relative;
+    }
+    .invitation__ad--small{
         transition-delay: 1s;
         transition-duration: 0.3s;
         transition-property: margin-top;
     }
+    .invitation__ad--small img{
+        height: 50px;
+    }
+    .invitation__ad--large{
+        padding-top: 100px;
+    }
+    .invitation__ad--large img{
+        max-width: 80%;
+    }
     .invitation__close{
         -webkit-appearance: none;
-        width: 20px;
-        height: 20px;
         text-align: center;
         background-color: black;
         color: white;
         border: none;
-        position: fixed;
+        position: absolute;
         right: 0;
         top: 0;
+    }
+    .invitation__close--small{
+        width: 20px;
+        height: 20px;
+    }
+    .invitation__close--large{
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 0 0 0 40px;
+        padding: 0 0 10px 10px;
     }
 </style>
 <script>
     window.onload = function(e){
-        document.getElementsByClassName('invitation__ad')[0].style.marginTop =  '-50px';
+        document.getElementsByClassName('invitation__ad--small')[0].style.marginTop =  '-50px';
 
-        document.getElementsByClassName('invitation__wrapper')[0].addEventListener('touchstart', handleTouchStart, false);        
-        document.getElementsByClassName('invitation__wrapper')[0].addEventListener('touchmove', handleTouchMove, false);
-        document.getElementsByClassName('invitation__close')[0].addEventListener('click', closeBanner, false);
+        document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);        
+        document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
+        document.querySelectorAll('.invitation__close').forEach(function(el) {
+            el.addEventListener('click', closeBanner, false);
+        });
         var xDown = null;                                                        
         var yDown = null;                                                      
 

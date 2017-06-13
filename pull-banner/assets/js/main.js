@@ -6,7 +6,7 @@ window.addEventListener('message', function(e) {
       $(document.body).css('overflow', 'auto');
       break;
     case 'pull-banner':
-      $('#pull-banner').height('100%');
+      $('#pull-banner').height('100%').css('padding-bottom', '50px');
       $(document.body).css('overflow', 'hidden');
       break;
     default:
