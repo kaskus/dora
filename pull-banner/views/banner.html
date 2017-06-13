@@ -1,54 +1,34 @@
 <div class="invitation">
     <button aria-label="Close" class="invitation__close">&times;</button>
-    <div class="invitation__ad">
-        <div>Hello World!</div>
-        <button aria-label="Swipe up" class="swipe-up"></button>
+    <div class="invitation__wrapper">
+        <div class="invitation__ad">
+            <img src="http://network.innity.com/adtech/mobile/mobile_engage_pull/assets/pu/img_engage_more_2.png"/>
+        </div>
+        <div class="invitation__ad">
+            <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background_mobile.jpg"/>
+        </div>
     </div>
 </div>
 <style>
-    @-webkit-keyframes swipe {
-        0%{
-            background-position: 0px 0px;
-        }
-        40%{
-            background-position: -50px 0px;
-        }
-        80%{
-            background-position: -100px 0px;
-        }
-        100%{
-            background-position: -150px 0px;
-        }
-    } 
-
-    @keyframes swipe {
-        0%{
-            background-position: 0px 0px;
-        }
-        40%{
-            background-position: -50px 0px;
-        }
-        80%{
-            background-position: -100px 0px;
-        }
-        100%{
-            background-position: -150px 0px;
-        }
-    }
     body{
         margin: 0;
         overflow: hidden;
     }
     .invitation{
-        position: relative;
+        position: relative;    
+    }
+    .invitation__wrapper{
         padding: 0 20px;
+        transition-delay: 3s;
+        transition-duration: 0.3s;
+        transition-property: margin-top;
+    }
+    .invitation__wrapper.scrolled{
+        margin-top: -50px;
     }
     .invitation__ad{
-        display: table;
-        width: 100%;
-    }
-    .invitation__ad > div{
-        display: table-cell;
+        overflow: hidden;
+        height: 50px;
     }
     .invitation__close{
         -webkit-appearance: none;
@@ -58,17 +38,13 @@
         background-color: black;
         color: white;
         border: none;
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
     }
-
-    .swipe-up{
-        background-image: url(http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/sprite_up.png);
-        width: 50px;
-        height: 50px;
-        background-position: 0px 0px;
-        animation: swipe 0.8s steps(1, end) infinite;
-        -webkit-animation: swipe 0.8s steps(1, end) infinite;
-    }
 </style>
+<script>
+    window.onload = function(e){
+        document.getElementsByClassName('invitation__wrapper')[0].className += ' scrolled';
+    }
+</script>
