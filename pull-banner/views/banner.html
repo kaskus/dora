@@ -1,5 +1,4 @@
 <div class="invitation">
-    <button aria-label="Close" class="invitation__close invitation__close--small">&times;</button>
     <div class="invitation__container--small">
         <div class="invitation__ad--small">
             <img src="http://network.innity.com/adtech/mobile/mobile_engage_pull/assets/pu/img_engage_more_2.png"/>
@@ -7,12 +6,13 @@
         <div class="invitation__ad--small">
             <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background_mobile.jpg"/>
         </div>
+        <button aria-label="Close" class="invitation__close invitation__close--small">&times;</button>
     </div>
     <div class="invitation__container--large">
-        <button aria-label="Close" class="invitation__close invitation__close--large">&times;</button>
         <div class="invitation__ad--large">
             <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background.jpg"/>
         </div>
+        <button aria-label="Close" class="invitation__close invitation__close--large">&times;</button>
     </div>
 </div>
 <style>
@@ -21,15 +21,16 @@
         overflow: hidden;
     }
     .invitation{
-        position: relative;
         text-align: center;
     }
     .invitation__container--small{
         height: 50px;
+        position: relative;
         overflow: hidden;
     }
     .invitation__container--large{
         position: relative;
+        overflow: hidden;
     }
     .invitation__ad--small{
         transition-delay: 1s;
@@ -40,10 +41,17 @@
         height: 50px;
     }
     .invitation__ad--large{
-        padding-top: 100px;
+        height: 100%;
+        position: relative;
     }
     .invitation__ad--large img{
         max-width: 80%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
     .invitation__close{
         -webkit-appearance: none;
