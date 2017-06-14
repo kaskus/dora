@@ -1,3 +1,44 @@
+#ad-container{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  z-index: 9999;
+}
+#ad-overlay{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 9999;
+  display: none;
+}
+#ad-dialog{
+  width: 300px;
+  position: fixed;
+  margin: auto;
+  top: 35%;
+  left: 0;
+  right: 0;
+  padding: 50px 10px 20px 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: #e0e0e0;
+  z-index: 10000;
+  display: none;
+}
+#ad-dialog p{
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+#ad-dialog button{
+  width: 138px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
 #ad-pull{
   position: fixed;
   bottom: 0;
@@ -6,7 +47,6 @@
   height: 50px;
   background-color: rgba(0,0,0,0.8);
   transition: height 0s;
-  z-index: 9999;
 }
 #ad-pull.stretched{
   height: 100%;

@@ -879,7 +879,15 @@
 			<small>&copy; 2012 Kaskus – The Largest Indonesian Community</small>
 		</footer>
 
-		<iframe id="ad-pull" src="banner.html" frameborder="0">This browser does not support iframe</iframe>
+		<div id="ad-container">
+			<div id="ad-overlay"></div>
+			<div id="ad-dialog" role="dialog">
+				<p>Would you like to visit the website to find out more?</p>
+				<button type="button" onclick="hideAdDialog();">No thanks</button>
+				<button type="button" autofocus onclick="goTo('http://bkdelivery.id')">OK</button>
+			</div>
+			<iframe id="ad-pull" src="banner.html" frameborder="0">This browser does not support iframe</iframe>
+		</div>
 	</div>
 
 	<script type="text/javascript" src="../assets/js/nav-arrow.js"></script>
