@@ -6,13 +6,16 @@
         <div class="invitation__ad--small">
             <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background_mobile.jpg"/>
         </div>
-        <button aria-label="Close" class="invitation__close invitation__close--small">&times;</button>
+        <button aria-label="Remove" class="invitation__close invitation__close--small">&times;</button>
     </div>
     <div class="invitation__container--large">
         <div class="invitation__ad--large">
             <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background.jpg"/>
         </div>
-        <button aria-label="Close" class="invitation__close invitation__close--large">&times;</button>
+        <button aria-label="Shrink" class="invitation__close invitation__close--large">&times;</button>
+    </div>
+    <div class="invitation__container--large">
+        
     </div>
 </div>
 <style>
@@ -83,12 +86,32 @@
         document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);        
         document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
         document.querySelectorAll('.invitation__close').forEach(function(el) {
-            el.addEventListener('click', closeBanner, false);
+            switch (el.getAttribute('aria-label').toLowerCase()) {
+                case 'shrink':
+                    addListenerMulti(el, 'touchstart click', shrinkBanner, false);
+                    break;
+                case 'remove':
+                    addListenerMulti(el, 'touchstart click', removeBanner, false);
+                    break;
+                default:
+                    break;
+            }
         });
         var xDown = null;                                                        
-        var yDown = null;                                                      
+        var yDown = null;
 
-        function closeBanner() {
+        function addListenerMulti(element, eventNames, listener) {
+            var events = eventNames.split(' ');
+            for (var i=0, iLen=events.length; i<iLen; i++) {
+                element.addEventListener(events[i], listener, false);
+            }
+        }                                                      
+
+        function shrinkBanner() {
+            window.parent.postMessage({message: 'shrink-banner'}, '*')
+        };
+
+        function removeBanner() {
             window.parent.postMessage({message: 'remove-banner'}, '*')
         };
 

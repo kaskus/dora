@@ -2,12 +2,16 @@ window.addEventListener('message', function(e) {
   var message = e.data.message;
   switch (message) {
     case 'remove-banner':
-      $('#pull-banner').remove();
+      $('#ad-pull').remove();
       $(document.body).css('overflow', 'auto');
       break;
     case 'pull-banner':
-      $('#pull-banner').height('100%').css('padding-bottom', '50px');
+      $('#ad-pull').addClass('stretched');
       $(document.body).css('overflow', 'hidden');
+      break;
+    case 'shrink-banner':
+      $('#ad-pull').removeClass('stretched');
+      $(document.body).css('overflow', 'auto');
       break;
     default:
       break;
