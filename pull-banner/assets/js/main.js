@@ -5,7 +5,7 @@ window.addEventListener('message', function(e) {
       $('#ad-pull').remove();
       $(document.body).css('overflow', 'auto');
       break;
-    case 'pull-banner':
+    case 'stretch-banner':
       $('#ad-pull').addClass('stretched');
       $(document.body).css('overflow', 'hidden');
       break;

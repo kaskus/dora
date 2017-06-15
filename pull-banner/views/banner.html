@@ -17,22 +17,19 @@
         margin: 0;
         overflow: hidden;
     }
-    .invitation{
-        text-align: center;
-    }
     .invitation__container--small{
         height: 50px;
         position: relative;
         overflow: hidden;
     }
     .invitation__container--large{
+        height: 100vh;
         position: relative;
         overflow: hidden;
-        height: 100vh;
         background-color: rgba(0,0,0,0.8);
     }
     .invitation__ad--small{
-        height: 50px;
+        height: 100%;
         max-width: 320px;
         overflow: hidden;
         margin: auto;
@@ -73,38 +70,72 @@
         padding: 0 0 10px 10px;
     }
 </style>
+<script type="text/javascript" src="https://cdn.rawgit.com/alexgibson/shake.js/master/shake.js"></script>
 <script>
     window.onload = function(e){
-        document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);        
-        document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
-        document.getElementsByClassName('invitation__container--small')[0].addEventListener('click', pullBanner, false);
-        document.querySelectorAll('.invitation__close').forEach(function(el) {
-            switch (el.getAttribute('aria-label').toLowerCase()) {
-                case 'shrink':
-                    el.addEventListener('click', shrinkBanner, false);
-                    break;
-                case 'remove':
-                    el.addEventListener('click', removeBanner, false);
-                    break;
-                default:
-                    break;
-            }
-        });
         var xDown = null;                                                        
         var yDown = null;
+        var shakeEvent = new Shake({threshold: 15});
+        registerEventHandlers();
+        
+        function registerEventHandlers() {
+            document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);        
+            document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
+            document.getElementsByClassName('invitation__container--small')[0].addEventListener('click', stretchBanner, false);
+            document.querySelectorAll('.invitation__close').forEach(function(el) {
+                switch (el.getAttribute('aria-label').toLowerCase()) {
+                    case 'shrink':
+                        el.addEventListener('click', shrinkBanner, false);
+                        break;
+                    case 'remove':
+                        el.addEventListener('click', removeBanner, false);
+                        break;
+                    default:
+                        break;
+                }
+            });
+            if (("ondevicemotion" in window)) {
+                shakeEvent.start();
+                window.addEventListener('shake', function(){
+                    alert("Shaked");
+                }, false);
+            }
+        }
+
+        function unregisterEventHandlers() {
+            document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchstart', handleTouchStart);        
+            document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchmove', handleTouchMove);
+            document.getElementsByClassName('invitation__container--small')[0].removeEventListener('click', stretchBanner);
+            document.querySelectorAll('.invitation__close').forEach(function(el) {
+                switch (el.getAttribute('aria-label').toLowerCase()) {
+                    case 'shrink':
+                        el.removeEventListener('click', shrinkBanner);
+                        break;
+                    case 'remove':
+                        el.removeEventListener('click', removeBanner);
+                        break;
+                    default:
+                        break;
+                }
+            });
+            if (("ondevicemotion" in window)) shakeEvent.stop();
+        }
 
         function shrinkBanner() {
-            window.parent.postMessage({message: 'shrink-banner'}, '*')
+            document.getElementsByClassName('invitation__container--small')[0].style.display = 'block';
+            window.parent.postMessage({message: 'shrink-banner'}, '*');
         };
 
-        function removeBanner() {
-            window.parent.postMessage({message: 'remove-banner'}, '*')
-        };
-
-        function pullBanner() {
-            window.parent.postMessage({message: 'pull-banner'}, '*')
+        function stretchBanner() {
+            document.getElementsByClassName('invitation__container--small')[0].style.display = 'none';
+            window.parent.postMessage({message: 'stretch-banner'}, '*');
         }
         
+        function removeBanner() {
+            unregisterEventHandlers();
+            window.parent.postMessage({message: 'remove-banner'}, '*');
+        };
+
         function handleTouchStart(evt) {
             xDown = evt.touches[0].clientX;                                      
             yDown = evt.touches[0].clientY;                                      
@@ -130,7 +161,7 @@
             } else {
                 if ( yDiff > 0 ) {
                     /* up swipe */ 
-                    pullBanner();
+                    stretchBanner();
                 } else { 
                     /* down swipe */
                 }                                                                 
@@ -139,25 +170,5 @@
             xDown = null;
             yDown = null;                                             
         };
-    }
-
-    function deviceMotionHandler(eventData) {
-        var info, xyz = "[X, Y, Z]";
-
-        // Grab the acceleration from the results
-        var acceleration = eventData.acceleration;
-        console.log(acceleration);
-
-        // Grab the acceleration including gravity from the results
-        acceleration = eventData.accelerationIncludingGravity;
-        console.log(acceleration);
-
-        // Grab the rotation rate from the results
-        var rotation = eventData.rotationRate;
-        console.log(rotation);
-
-        // // Grab the refresh interval from the results
-        info = eventData.interval;
-        console.log(info);
     }
 </script>
