@@ -1,9 +1,6 @@
 <div class="invitation">
     <div class="invitation__container--small">
         <div class="invitation__ad--small">
-            <img src="http://network.innity.com/adtech/mobile/mobile_engage_pull/assets/pu/img_engage_more_2.png"/>
-        </div>
-        <div class="invitation__ad--small">
             <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background_mobile.jpg"/>
         </div>
         <button aria-label="Remove" class="invitation__close invitation__close--small">&times;</button>
@@ -31,14 +28,14 @@
     .invitation__container--large{
         position: relative;
         overflow: hidden;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.8);
     }
     .invitation__ad--small{
-        transition-delay: 1s;
-        transition-duration: 0.3s;
-        transition-property: margin-top;
-    }
-    .invitation__ad--small img{
         height: 50px;
+        max-width: 320px;
+        overflow: hidden;
+        margin: auto;
     }
     .invitation__ad--large{
         height: 100%;
@@ -78,17 +75,16 @@
 </style>
 <script>
     window.onload = function(e){
-        document.getElementsByClassName('invitation__ad--small')[0].style.marginTop =  '-50px';
-
         document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);        
         document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
+        document.getElementsByClassName('invitation__container--small')[0].addEventListener('click', pullBanner, false);
         document.querySelectorAll('.invitation__close').forEach(function(el) {
             switch (el.getAttribute('aria-label').toLowerCase()) {
                 case 'shrink':
-                    addListenerMulti(el, 'touchstart click', shrinkBanner, false);
+                    el.addEventListener('click', shrinkBanner, false);
                     break;
                 case 'remove':
-                    addListenerMulti(el, 'touchstart click', removeBanner, false);
+                    el.addEventListener('click', removeBanner, false);
                     break;
                 default:
                     break;
@@ -96,13 +92,6 @@
         });
         var xDown = null;                                                        
         var yDown = null;
-
-        function addListenerMulti(element, eventNames, listener) {
-            var events = eventNames.split(' ');
-            for (var i=0, iLen=events.length; i<iLen; i++) {
-                element.addEventListener(events[i], listener, false);
-            }
-        }                                                      
 
         function shrinkBanner() {
             window.parent.postMessage({message: 'shrink-banner'}, '*')
@@ -117,13 +106,11 @@
         }
         
         function handleTouchStart(evt) {
-            evt.preventDefault();
             xDown = evt.touches[0].clientX;                                      
             yDown = evt.touches[0].clientY;                                      
         };                                                
 
         function handleTouchMove(evt) {
-            evt.preventDefault();
             if ( ! xDown || ! yDown ) {
                 return;
             }
@@ -152,5 +139,25 @@
             xDown = null;
             yDown = null;                                             
         };
+    }
+
+    function deviceMotionHandler(eventData) {
+        var info, xyz = "[X, Y, Z]";
+
+        // Grab the acceleration from the results
+        var acceleration = eventData.acceleration;
+        console.log(acceleration);
+
+        // Grab the acceleration including gravity from the results
+        acceleration = eventData.accelerationIncludingGravity;
+        console.log(acceleration);
+
+        // Grab the rotation rate from the results
+        var rotation = eventData.rotationRate;
+        console.log(rotation);
+
+        // // Grab the refresh interval from the results
+        info = eventData.interval;
+        console.log(info);
     }
 </script>

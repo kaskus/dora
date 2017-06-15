@@ -45,11 +45,9 @@
   width: 100%;
   max-width: 620px;
   height: 50px;
-  background-color: rgba(0,0,0,0.8);
   transition: height 0s;
 }
 #ad-pull.stretched{
   height: 100%;
-  padding-bottom: 50px;
   transition: height 0.3s ease-in-out;
 }
