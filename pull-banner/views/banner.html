@@ -6,8 +6,11 @@
         <button aria-label="Remove" class="invitation__close invitation__close--small">&times;</button>
     </div>
     <div class="invitation__container--large">
-        <div class="invitation__ad--large">
+        <div class="invitation__ad--large large-1">
             <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background.jpg"/>
+        </div>
+        <div class="invitation__ad--large large-2">
+            <img src="https://2.bp.blogspot.com/-paeJqLQ4nIc/WRRdVCqeEOI/AAAAAAAB-No/NcDX-L8XG2UpM6pWP0Bt3LKLq0DT1MHYgCLcB/s320/Veg%2BSupreme%2Band%2BVed%2BSurprise-01.jpg"/>
         </div>
         <button aria-label="Shrink" class="invitation__close invitation__close--large">&times;</button>
     </div>
@@ -76,6 +79,7 @@
         var xDown = null;                                                        
         var yDown = null;
         var shakeEvent = new Shake({threshold: 15});
+        document.querySelectorAll('.invitation__ad--large.large-2')[0].style.display = 'none';
         registerEventHandlers();
         
         function registerEventHandlers() {
@@ -97,7 +101,7 @@
             if (("ondevicemotion" in window)) {
                 shakeEvent.start();
                 window.addEventListener('shake', function(){
-                    alert("Shaked");
+                    switchAdLarge();
                 }, false);
             }
         }
@@ -135,6 +139,11 @@
             unregisterEventHandlers();
             window.parent.postMessage({message: 'remove-banner'}, '*');
         };
+
+        function switchAdLarge() {
+            document.querySelectorAll('.invitation__ad--large.large-1')[0].style.display = 'none';
+            document.querySelectorAll('.invitation__ad--large.large-2')[0].style.display = 'block';
+        }
 
         function handleTouchStart(evt) {
             xDown = evt.touches[0].clientX;                                      
