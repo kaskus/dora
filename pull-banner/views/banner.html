@@ -2,8 +2,10 @@
     <div id="ad-overlay"></div>
     <div id="ad-dialog" role="dialog">
         <p>Would you like to visit the website to find out more?</p>
-        <button id="no-button" type="button">No thanks</button>
-        <button id="ok-button" type="button" autofocus>OK</button>
+        <div class="dialog__actions">
+            <button id="no-button" type="button">No thanks</button>
+            <button id="ok-button" type="button" autofocus>OK</button>
+        </div>
     </div>
 	<div id="ad-invitation">
         <div class="invitation__container--small">
@@ -17,7 +19,7 @@
                 <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background.jpg"/>
             </div>
             <div class="invitation__ad--large large-2">
-                <img src="https://2.bp.blogspot.com/-paeJqLQ4nIc/WRRdVCqeEOI/AAAAAAAB-No/NcDX-L8XG2UpM6pWP0Bt3LKLq0DT1MHYgCLcB/s320/Veg%2BSupreme%2Band%2BVed%2BSurprise-01.jpg"/>
+                <img src="https://4.bp.blogspot.com/-bnSF1RVRFpc/WGDwRTxXF1I/AAAAAAAAEQo/0fCtL1Ck3DINutmp1GAye34ldiz2jpdTgCLcB/s320/burgerkingkw_26_12_2016_12_58_13_542.jpg"/>
             </div>
             <button aria-label="Shrink" class="invitation__close invitation__close--large">&times;</button>
         </div>
@@ -57,11 +59,19 @@
         font-size: 16px;
         padding-bottom: 20px;
     }
+    #ad-dialog .dialog__actions{
+        display: table;
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+    }
     #ad-dialog button{
-        width: 138px;
+        display: table-cell;
+        width: 120px;
         height: 50px;
         font-weight: bold;
         font-size: 20px;
+        margin: 0 5px;
     }
     .invitation__container--small{
         height: 50px;
