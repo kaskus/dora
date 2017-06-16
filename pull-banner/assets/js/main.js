@@ -11,23 +11,9 @@ window.addEventListener('message', function(e) {
       break;
     case 'shrink-banner':
       $('#ad-pull').removeClass('stretched');
-      showAdDialog();   
+      $(document.body).css('overflow', 'auto');
       break;
     default:
       break;
   }
 });
-
-function hideAdDialog(){
-  $('#ad-overlay').hide(); 
-  $('#ad-dialog').hide();
-}
-
-function showAdDialog(){
-  $('#ad-overlay').show(); 
-  $('#ad-dialog').show();
-}
-
-function goTo(url){
-  window.location.href = url;
-}

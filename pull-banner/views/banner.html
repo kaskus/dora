@@ -1,24 +1,67 @@
-<div class="invitation">
-    <div class="invitation__container--small">
-        <div class="invitation__ad--small">
-            <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background_mobile.jpg"/>
-        </div>
-        <button aria-label="Remove" class="invitation__close invitation__close--small">&times;</button>
+<div id="ad-container">
+    <div id="ad-overlay"></div>
+    <div id="ad-dialog" role="dialog">
+        <p>Would you like to visit the website to find out more?</p>
+        <button id="no-button" type="button">No thanks</button>
+        <button id="ok-button" type="button" autofocus>OK</button>
     </div>
-    <div class="invitation__container--large">
-        <div class="invitation__ad--large large-1">
-            <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background.jpg"/>
+	<div id="ad-invitation">
+        <div class="invitation__container--small">
+            <div class="invitation__ad--small">
+                <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background_mobile.jpg"/>
+            </div>
+            <button aria-label="Remove" class="invitation__close invitation__close--small">&times;</button>
         </div>
-        <div class="invitation__ad--large large-2">
-            <img src="https://2.bp.blogspot.com/-paeJqLQ4nIc/WRRdVCqeEOI/AAAAAAAB-No/NcDX-L8XG2UpM6pWP0Bt3LKLq0DT1MHYgCLcB/s320/Veg%2BSupreme%2Band%2BVed%2BSurprise-01.jpg"/>
+        <div class="invitation__container--large">
+            <div class="invitation__ad--large large-1">
+                <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background.jpg"/>
+            </div>
+            <div class="invitation__ad--large large-2">
+                <img src="https://2.bp.blogspot.com/-paeJqLQ4nIc/WRRdVCqeEOI/AAAAAAAB-No/NcDX-L8XG2UpM6pWP0Bt3LKLq0DT1MHYgCLcB/s320/Veg%2BSupreme%2Band%2BVed%2BSurprise-01.jpg"/>
+            </div>
+            <button aria-label="Shrink" class="invitation__close invitation__close--large">&times;</button>
         </div>
-        <button aria-label="Shrink" class="invitation__close invitation__close--large">&times;</button>
     </div>
 </div>
 <style>
     body{
         margin: 0;
         overflow: hidden;
+    }
+    #ad-overlay{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(0,0,0,0.8);
+        z-index: 9999;
+        display: none;
+    }
+    #ad-dialog{
+        width: 300px;
+        position: fixed;
+        margin: auto;
+        top: 35%;
+        left: 0;
+        right: 0;
+        padding: 50px 10px 20px 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background: #e0e0e0;
+        z-index: 10000;
+        display: none;
+    }
+    #ad-dialog p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    #ad-dialog button{
+        width: 138px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 20px;
     }
     .invitation__container--small{
         height: 50px;
@@ -83,13 +126,15 @@
         registerEventHandlers();
         
         function registerEventHandlers() {
+            document.getElementById('no-button').addEventListener('click', shrinkBanner, false);
+            document.getElementById('ok-button').addEventListener('click', goTo, false);
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);        
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('click', stretchBanner, false);
             document.querySelectorAll('.invitation__close').forEach(function(el) {
                 switch (el.getAttribute('aria-label').toLowerCase()) {
                     case 'shrink':
-                        el.addEventListener('click', shrinkBanner, false);
+                        el.addEventListener('click', showAdDialog, false);
                         break;
                     case 'remove':
                         el.addEventListener('click', removeBanner, false);
@@ -107,13 +152,15 @@
         }
 
         function unregisterEventHandlers() {
+            document.getElementById('no-button').removeEventListener('click', shrinkBanner);
+            document.getElementById('ok-button').removeEventListener('click', goTo);
             document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchstart', handleTouchStart);        
             document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchmove', handleTouchMove);
             document.getElementsByClassName('invitation__container--small')[0].removeEventListener('click', stretchBanner);
             document.querySelectorAll('.invitation__close').forEach(function(el) {
                 switch (el.getAttribute('aria-label').toLowerCase()) {
                     case 'shrink':
-                        el.removeEventListener('click', shrinkBanner);
+                        el.removeEventListener('click', showAdDialog);
                         break;
                     case 'remove':
                         el.removeEventListener('click', removeBanner);
@@ -128,6 +175,7 @@
         function shrinkBanner() {
             document.getElementsByClassName('invitation__container--small')[0].style.display = 'block';
             window.parent.postMessage({message: 'shrink-banner'}, '*');
+            hideAdDialog();
         };
 
         function stretchBanner() {
@@ -139,6 +187,20 @@
             unregisterEventHandlers();
             window.parent.postMessage({message: 'remove-banner'}, '*');
         };
+
+        function hideAdDialog(){
+            document.getElementById('ad-overlay').style.display = 'none';
+            document.getElementById('ad-dialog').style.display = 'none';
+        }
+
+        function showAdDialog(){
+            document.getElementById('ad-overlay').style.display = 'block';
+            document.getElementById('ad-dialog').style.display = 'block';
+        }
+
+        function goTo(){
+            window.location.href = 'http://bkdelivery.id';
+        }
 
         function switchAdLarge() {
             document.querySelectorAll('.invitation__ad--large.large-1')[0].style.display = 'none';
