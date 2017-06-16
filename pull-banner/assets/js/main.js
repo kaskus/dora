@@ -13,6 +13,9 @@ window.addEventListener('message', function(e) {
       $('#ad-pull').removeClass('stretched');
       $(document.body).css('overflow', 'auto');
       break;
+    case 'open-url':
+      window.location.href = e.data.url;
+      break;
     default:
       break;
   }

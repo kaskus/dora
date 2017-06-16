@@ -15,10 +15,10 @@
             <button aria-label="Remove" class="invitation__close invitation__close--small">&times;</button>
         </div>
         <div class="invitation__container--large">
-            <div class="invitation__ad--large large-1">
+            <div class="invitation__ad--large instruction">
                 <img src="http://network.innity.com/adtech/display/mobile/mobile_engage_pull/assets/pu/background.jpg"/>
             </div>
-            <div class="invitation__ad--large large-2">
+            <div class="invitation__ad--large target">
                 <img src="https://4.bp.blogspot.com/-bnSF1RVRFpc/WGDwRTxXF1I/AAAAAAAAEQo/0fCtL1Ck3DINutmp1GAye34ldiz2jpdTgCLcB/s320/burgerkingkw_26_12_2016_12_58_13_542.jpg"/>
             </div>
             <button aria-label="Shrink" class="invitation__close invitation__close--large">&times;</button>
@@ -131,8 +131,7 @@
     window.onload = function(e){
         var xDown = null;                                                        
         var yDown = null;
-        var shakeEvent = new Shake({threshold: 15});
-        document.querySelectorAll('.invitation__ad--large.large-2')[0].style.display = 'none';
+        var shakeEvent = new Shake({threshold: 5});
         registerEventHandlers();
         
         function registerEventHandlers() {
@@ -156,8 +155,11 @@
             if (("ondevicemotion" in window)) {
                 shakeEvent.start();
                 window.addEventListener('shake', function(){
-                    switchAdLarge();
+                    showTargetAd();
                 }, false);
+            } else {
+                // not supported. Show target ad
+                showTargetAd();
             }
         }
 
@@ -186,6 +188,7 @@
             document.getElementsByClassName('invitation__container--small')[0].style.display = 'block';
             window.parent.postMessage({message: 'shrink-banner'}, '*');
             hideAdDialog();
+            showInstructionAd();
         };
 
         function stretchBanner() {
@@ -209,12 +212,17 @@
         }
 
         function goTo(){
-            window.location.href = 'http://bkdelivery.id';
+            window.parent.postMessage({message: 'open-url', url: 'http://bkdelivery.id'}, '*');
         }
 
-        function switchAdLarge() {
-            document.querySelectorAll('.invitation__ad--large.large-1')[0].style.display = 'none';
-            document.querySelectorAll('.invitation__ad--large.large-2')[0].style.display = 'block';
+        function showInstructionAd(){
+            document.querySelectorAll('.invitation__ad--large.instruction')[0].style.display = 'block';
+            document.querySelectorAll('.invitation__ad--large.target')[0].style.display = 'none';
+        }
+
+        function showTargetAd(){
+            document.querySelectorAll('.invitation__ad--large.instruction')[0].style.display = 'none';
+            document.querySelectorAll('.invitation__ad--large.target')[0].style.display = 'block';
         }
 
         function handleTouchStart(evt) {
