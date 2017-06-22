@@ -9,6 +9,13 @@
   <!--<link href="assets/stylesheets/night.css" rel="stylesheet" type="text/css" media="all"/>-->
   <link rel="apple-touch-icon-precomposed" href="assets/img/apps_icon.png" />
   <style>
+	#underlay-frame{
+		width: 100%;
+		height: 100vh;
+	}
+	.underlay__show{
+		height: 100vh;
+	}
   	.underlay__show__fix {
     	max-width: 620px;
 	}
@@ -277,7 +284,8 @@
 									<div class="underlay__show__inner">
 										<div class="underlay__show__fix">
 											<div class="underlay__show__banner">
-												<img src="images/creative.jpg">
+												<!--<img src="images/creative.jpg">-->
+												<iframe id="underlay-frame" src="banner.html" frameborder="0">This browser does not support iframe</iframe>
 											</div>
 										</div>
 									</div>
@@ -833,8 +841,7 @@
 	</div>
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script>
-		var tinggiScreenSize = $(window).height();
-		$('.underlay__show').css('height',tinggiScreenSize);
+		
 	</script>
 
 </body>
