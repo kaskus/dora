@@ -1,9 +1,19 @@
 <section id="ad-container">
-    <video id="ad-video" src="http://techslides.com/demos/sample-videos/small.mp4"></video>
+    <video id="ad-video" src="http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"></video>
 </section>
 <script>
-    window.onload = function() {
-
+    window.onmessage = function(e) {
+        var videoElm = document.getElementById('ad-video');
+        switch (e.data) {
+            case 'BANNER_VISIBLE':
+                if (!videoElm.playing && !videoElm.ended) videoElm.play();
+                break;
+            case 'BANNER_INVISIBLE':
+                if (!videoElm.paused && !videoElm.ended) videoElm.pause();
+                break;
+            default: 
+                break;
+        }
     }
 </script>
 <style>
