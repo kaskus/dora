@@ -11,10 +11,11 @@
             <div class="invitation__ad--large instruction">
                 <div class="invitation__ad--video">
                         <div class="invitation__ad--link">
-                            <img src="../assets/images/bg-video.jpg"/>
-                            <div id="ad-video">
-                                <iframe  width="300" height="198" src="https://www.youtube.com/embed/WHdYxRHkMfI" frameborder="0" allowfullscreen></iframe>
-                                <p>Klik Disini</p>
+                            <div class="invitation__ad--video--wrapper">
+                                <img src="../assets/images/bg-video.jpg"/>
+                                <div id="ad-video">
+                                    <iframe  width="300" height="198" src="https://www.youtube.com/embed/WHdYxRHkMfI" frameborder="0" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -89,34 +90,36 @@
         margin: auto;
     }
     .invitation__ad--large{
-        height: 100vh;
+        height: 100%;
         position: relative;
     }
     .invitation__ad--large img{
-        max-width: 80%;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
+        max-width: 100%;
     }
     .invitation__ad--video{
         position: relative;
         height: 100%
     }
     .invitation__ad--link{
-        display: block;
-        color: white;
-        text-align: center;
-        font-size: 14px;
-        cursor: pointer;
+        position: relative;
+        max-width: 320px;
+        margin:0 auto;
+        display: table;
+        height: 100vh;
+    }
+
+    .invitation__ad--video--wrapper{
+        display: table-cell;
+        vertical-align: middle;
+        margin:0 auto;
+        position: relative;
     }
     #ad-video{
             position: absolute;
             max-width: 300px;
-            top: 100px;
-            left: 0;
+            top: 50%;
+            transform: translate(0%, -50%);
+            left: 0%;
             right: 0;
             margin: 0 auto;
     }
