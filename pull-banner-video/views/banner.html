@@ -1,6 +1,6 @@
 <div id="ad-container">
     <div id="ad-overlay"></div>
-	<div id="ad-invitation">
+    <div id="ad-invitation">
         <div class="invitation__container--small">
             <div class="invitation__ad--small">
                 <img src="../assets/images/ads.jpg"/>
@@ -14,7 +14,8 @@
                             <div class="invitation__ad--video--wrapper">
                                 <img src="../assets/images/bg-video.jpg"/>
                                 <div id="ad-video">
-                                    <iframe  width="300" height="198" src="https://www.youtube.com/embed/WHdYxRHkMfI" frameborder="0" allowfullscreen></iframe>
+                                    <iframe  id="video-banner" width="300" height="198" src="https://www.youtube.com/embed/WHdYxRHkMfI" frameborder="0" allowfullscreen></iframe>
+                                    <!-- <video id="video-item" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls></video> -->
                                 </div>
                             </div>
                         </div>
@@ -127,6 +128,12 @@
     #ad-video iframe{
         box-shadow: 0 8px 10px rgba(0,0,0,0.5);
     }
+
+    #ad-video video{
+        box-shadow: 0 8px 10px rgba(0,0,0,0.5);
+        width: 100%;
+    }
+
     .invitation__close{
         -webkit-appearance: none;
         text-align: center;
@@ -156,7 +163,6 @@
         var yDown = null;
         registerEventHandlers();
         function registerEventHandlers() {
-            document.getElementsByClassName('invitation__ad--link')[0].addEventListener('click', goTo, false);
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);        
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('click', stretchBanner, false);
@@ -176,6 +182,18 @@
             
             showInstructionAd();
         }
+
+        var stopVideo = function ( element ) {
+            var iframe = document.getElementById('video-banner');
+            //var video = document.getElementById( 'video-item' );
+            if ( iframe !== null ) {
+                var iframeSrc = iframe.src;
+                iframe.src = iframeSrc;
+            }
+            // if ( video !== null && !video.ended ) {
+            //     video.pause();
+            // }
+        };
 
         function unregisterEventHandlers() {
             document.getElementsByClassName('invitation__ad--link')[0].addEventListener('click', goTo);
@@ -199,8 +217,8 @@
         function shrinkBanner() {
             document.getElementsByClassName('invitation__container--small')[0].style.display = 'block';
             window.parent.postMessage({message: 'shrink-banner'}, '*');
-            hideAdDialog();
             showInstructionAd();
+            stopVideo();
         };
 
         function stretchBanner() {
@@ -212,10 +230,6 @@
             unregisterEventHandlers();
             window.parent.postMessage({message: 'remove-banner'}, '*');
         };
-
-        function goTo(){
-            window.parent.postMessage({message: 'open-url', url: 'http://bkdelivery.id'}, '*');
-        }
 
         function showInstructionAd(){
             document.querySelectorAll('.invitation__ad--large.instruction')[0].style.display = 'block';
