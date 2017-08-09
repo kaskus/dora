@@ -14,7 +14,7 @@
                             <div class="invitation__ad--video--wrapper">
                                 <img src="../assets/images/bg-video.jpg"/>
                                 <div id="ad-video">
-                                    <iframe  id="video-banner" width="300" height="198" src="https://www.youtube.com/embed/WHdYxRHkMfI" frameborder="0" allowfullscreen></iframe>
+                                    <iframe  id="video-banner" width="300" height="198"  frameborder="0" allowfullscreen></iframe>
                                     <!-- <video id="video-item" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls></video> -->
                                 </div>
                             </div>
@@ -186,14 +186,26 @@
 
         var stopVideo = function ( element ) {
             var iframe = document.getElementById('video-banner');
-            //var video = document.getElementById( 'video-item' );
             if ( iframe !== null ) {
-                var iframeSrc = iframe.src;
-                iframe.src = iframeSrc;
+                iframe.src = "";
             }
+
+            // var video = document.getElementById( 'video-item' );
+            
             // if ( video !== null && !video.ended ) {
             //     video.pause();
+            //     video.currentTime = 0;
             // }
+        };
+
+        var startVideo = function ( element ) {
+            var iframe = document.getElementById('video-banner');
+            iframe.src="https://www.youtube.com/embed/WHdYxRHkMfI?autoplay=1";
+            // var video = document.getElementById( 'video-item' );
+            // if ( video !== null && !video.ended ) {
+            //     video.play();
+            // }
+
         };
 
         function unregisterEventHandlers() {
@@ -225,6 +237,7 @@
         function stretchBanner() {
             document.getElementsByClassName('invitation__container--small')[0].style.display = 'none';
             window.parent.postMessage({message: 'stretch-banner'}, '*');
+            startVideo();
         }
 
         function goTo(){
