@@ -1190,6 +1190,32 @@ $(document).ready(function() {
     }
 	});
 
+	$( ".banner-vertical-expand" ).hover(
+	  function() {
+	    $(this).find('iframe').attr("src", "FAds-Exp/FAds-Exp-Revisi.html");
+	    $(this).find('iframe').attr("height", "150");
+	  }, function() {
+	    $(this).find('iframe').attr("src", "FAds/FAds.html");
+	    $(this).find('iframe').attr("height", "50");
+	  }
+	);
+
+	$( ".banner-horizontal-expand" ).hover(
+	  function() {
+	    $(this).find('iframe').attr("src", "RB-Exp/RB-Exp-Revisi.html");
+	    $(this).addClass('expanded');
+	    setTimeout(function() {
+		    $(".banner-horizontal-expand").find('iframe').attr("width", "600");
+		}, 400);
+	  }, function() {
+	  	$(this).removeClass('expanded');
+	    $(this).find('iframe').attr("src", "RB/RB.html");
+		$(this).find('iframe').attr("width", "300");		
+	  }
+	);
+
+	$("#I2", window.parent.document).attr("src", "Content/some_other_html_page.html");
+
 	$('body').on('click', '.gp__close', function (e) {
 		$('.popover').popover('hide');
 		return false;

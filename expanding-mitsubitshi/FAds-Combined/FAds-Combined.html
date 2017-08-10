@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>Mitsubitshi</title>
+<script>
+var $ = window.parent.$, jQuery = window.parent.jQuery;
+curWin = window.parent.window;
+curDoc = window.parent.document;
+var banner_selector = '#leader-banner';
+</script>
+<!-- write your code here -->
+</head>
+<body style="margin:0px;">
+	<img id="exImg" src="images/banner970x90.jpg">
+	<img src="https://www.kaskus.co.id/banner/1x1.gif?type=test_expandable_hover_out" id="trk_img">
+	<script>
+		$(curDoc).ready(function(){
+			initNormal(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
+			init();
+			$(curDoc.querySelector(banner_selector)).css( "height", "90" );
+
+			$('html', document).hover(
+			  function() {
+			  	var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).addClass('expanded');
+			  	isExpanded = true;
+			  	//$(c).fadeToggle();
+			  	
+			  	//$(curDoc.querySelector(banner_selector)).css( "height", "200" );
+		    	initExpand(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
+		    	init();
+		    	$(document.getElementById('exImg')).attr('src', 'images/banner970x200.jpg');
+		    	$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=test_expandable_hover_in&rnd=' + rndInt);
+			  }, 
+			  function() {
+			  	var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).removeClass('expanded');
+			  	isExpanded = false;
+			  	//$(c).fadeToggle();
+			  	//$(curDoc.querySelector(banner_selector)).css( "height", "200" );
+			    initNormal(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
+			    init();
+		    	$(document.getElementById('exImg')).attr('src', 'images/banner970x90.jpg');
+		    	$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=test_expandable_hover_out&rnd=' + rndInt);
+			  }
+			);
+		});
+	</script>
+</body>
+</html>
