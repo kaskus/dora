@@ -26,12 +26,7 @@ var banner_selector = '#leader-banner';
 	<script>
 		$(curDoc).ready(function(){
 			$(curDoc.querySelector(banner_selector)).css( "height", "90" );
-			$.fn.preload = function() {
-			    this.each(function(){
-			        $('<img/>')[0].src = this;
-			    });
-			}
-			$(['images/banner970x200.jpg']).preload();
+			$('<img src="images/banner970x200.jpg"/>');
 
 			$('html', document).hover(
 			  function() {
