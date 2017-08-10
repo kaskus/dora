@@ -26,7 +26,13 @@ var banner_selector = '#leader-banner';
 	<script>
 		$(curDoc).ready(function(){
 			$(curDoc.querySelector(banner_selector)).css( "height", "90" );
-			$('<img src="https://s.kaskus.id/images/2017/08/10/8426807_20170810035413.jpg"/>');
+			function preloadImage(url)
+			{
+			    var img=new Image();
+			    img.src=url;
+			}
+
+			preloadImage("https://s.kaskus.id/images/2017/08/10/8426807_20170810035413.jpg");
 
 			$('html', document).hover(
 			  function() {
