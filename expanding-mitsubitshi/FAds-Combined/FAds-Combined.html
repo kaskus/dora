@@ -25,8 +25,6 @@ var banner_selector = '#leader-banner';
 	<img src="https://www.kaskus.co.id/banner/1x1.gif?type=test_expandable_hover_out" id="trk_img">
 	<script>
 		$(curDoc).ready(function(){
-			initNormal(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
-			init();
 			$(curDoc.querySelector(banner_selector)).css( "height", "90" );
 
 			$('html', document).hover(
@@ -37,8 +35,6 @@ var banner_selector = '#leader-banner';
 			  	//$(c).fadeToggle();
 			  	
 			  	//$(curDoc.querySelector(banner_selector)).css( "height", "200" );
-		    	initExpand(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
-		    	init();
 		    	$(document.getElementById('exImg')).attr('src', 'images/banner970x200.jpg');
 		    	$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=test_expandable_hover_in&rnd=' + rndInt);
 			  }, 
@@ -48,8 +44,6 @@ var banner_selector = '#leader-banner';
 			  	isExpanded = false;
 			  	//$(c).fadeToggle();
 			  	//$(curDoc.querySelector(banner_selector)).css( "height", "200" );
-			    initNormal(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
-			    init();
 		    	$(document.getElementById('exImg')).attr('src', 'images/banner970x90.jpg');
 		    	$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=test_expandable_hover_out&rnd=' + rndInt);
 			  }
