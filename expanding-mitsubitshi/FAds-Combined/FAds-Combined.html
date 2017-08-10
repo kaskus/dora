@@ -38,7 +38,7 @@ var banner_selector = '#leader-banner';
 			  function() {
 			  	var rndInt = Math.floor(Math.random() * 9999);
 				$(curDoc.querySelector(banner_selector)).addClass('expanded');
-				$(curDoc.querySelector(banner_selector)).find('iframe').css( "height", "200px" );
+				// $(curDoc.querySelector(banner_selector)).find('iframe').css( "height", "200px" );
 			  	isExpanded = true;
 			  	//$(c).fadeToggle();
 			  	
@@ -49,7 +49,7 @@ var banner_selector = '#leader-banner';
 			  function() {
 			  	var rndInt = Math.floor(Math.random() * 9999);
 				$(curDoc.querySelector(banner_selector)).removeClass('expanded');
-				$(curDoc.querySelector(banner_selector)).find('iframe').css( "height", "90px" );
+				// $(curDoc.querySelector(banner_selector)).find('iframe').css( "height", "90px" );
 			  	isExpanded = false;
 			  	//$(c).fadeToggle();
 			  	//$(curDoc.querySelector(banner_selector)).css( "height", "200" );

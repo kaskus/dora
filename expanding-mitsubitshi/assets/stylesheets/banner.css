@@ -127,15 +127,17 @@
 }
 
 #leader-banner{
-	height: 200px;
+	/*height: 200px;*/
+	height: 90px;
 	position: relative;
 }
 
 #leader-banner iframe{
-	height: 200px;
+	/*height: 200px;*/
 	transition: height 0.4s ease-out;
 	-webkit-transition: height 0.4s ease-out;
 	overflow:hidden;
+	height: 90px;
 }
 
 #leader-banner.expanded iframe{
@@ -143,7 +145,8 @@
 	z-index: 100;
 	top: 0;
 	left: 0;
-	height: 315px;
+	height: 200px;
+	/*height: 315px;*/
 }
 
 #video-yt{
