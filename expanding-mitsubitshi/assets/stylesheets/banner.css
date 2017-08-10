@@ -1,0 +1,33 @@
+.banner-horizontal-expand {
+	position: relative;
+	height: 90px;
+}
+
+.banner-horizontal-expand:hover .banner-horizontal-expand__content {
+	height: 200px;
+}
+
+.banner-horizontal-expand__content {
+	background-color: #dedede;
+	top: 0;
+	height: 90px;
+	width: 970px;
+	position: absolute;
+	z-index: 6;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.banner-horizontal-expand:hover .banner-horizontal-expand__content iframe{
+	height: 200px;
+}
+
+.banner-horizontal-expand__content iframe{
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;	
+	width: 970px;
+	height: 90px;
+}
+
+
+

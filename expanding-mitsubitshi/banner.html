@@ -1,0 +1,22 @@
+<img id="exImg" src="assets/images/banner970x90.jpg">
+<style>
+	#exImg{
+		width: 100%;
+		display: block;
+		transition: all 0.3s ease-in-out;
+	    -webkit-transition: all 0.3s ease-in-out;
+	}
+</style>
+<script>
+window.onload = function(e){
+	var img = document.getElementById('exImg');
+
+	img.onmouseout = function () {
+	   this.src = 'assets/images/banner970x90.jpg';
+	};
+
+	img.onmouseover = function () {
+	   this.src = 'assets/images/banner970x200.jpg';
+	};
+}
+</script>
