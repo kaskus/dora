@@ -14,7 +14,7 @@
                             <div class="invitation__ad--video--wrapper">
                                 <img src="../assets/images/bg-video.jpg"/>
                                 <div id="ad-video">
-                                    <video id="video-item" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls></video>
+                                    <iframe   src="https://www.youtube.com/embed/WHdYxRHkMfI?enablejsapi=1&version=3&playerapiid=ytplayer" width="300" height="198" allowscriptaccess="always" frameborder="0" allowfullscreen ></iframe>
                                 </div>
                             </div>
                         </div>
@@ -160,6 +160,10 @@
     window.onload = function(e){
         var xDown = null;                                                        
         var yDown = null;
+
+        var iframe = document.getElementById('ad-video');
+        var youtubeFunc ='';
+        var youtubeIframe = iframe.getElementsByTagName("iframe")[0].contentWindow;
         registerEventHandlers();
         function registerEventHandlers() {
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);
@@ -184,20 +188,15 @@
         }
 
         var stopVideo = function ( element ) {
-
-            var video = document.getElementById( 'video-item' );
             
-            if ( video !== null && !video.ended ) {
-                video.pause();
-                video.currentTime = 0;
-            }
+                youtubeFunc = 'stopVideo';
+                youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
         };
 
         var startVideo = function ( element ) {
-            var video = document.getElementById( 'video-item' );
-            if ( video !== null && !video.ended ) {
-                video.play();
-            }
+            youtubeFunc = 'playVideo';
+            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+            
 
         };
 
