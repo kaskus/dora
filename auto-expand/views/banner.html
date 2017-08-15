@@ -104,9 +104,11 @@
     }
 </style>
 <script>
+    var first = true;
     window.onload = function(e){
         var xDown = null;                                                        
         var yDown = null;
+        
         registerEventHandlers();
         function registerEventHandlers() {
             document.getElementsByClassName('invitation__ad--link')[0].addEventListener('click', goTo);  
@@ -156,18 +158,22 @@
             }
         };
 
-        var startVideo = function ( element ) {
-            var video = document.getElementById( 'video-item' );
-            if ( video !== null && !video.ended ) {
-                video.play();
-            }
+        // var startVideo = function ( element ) {
+        //     var video = document.getElementById( 'video-item' );
+        //     if ( video !== null && !video.ended ) {
+        //         video.play();
+        //     }
 
-        };
+        // };
 
 
 
         function autoClose() {
-          shrinkBanner();
+          if ( first ){
+             console.log('iy');
+             shrinkBanner();
+             first= false;
+          }
         }
 
         function autoStretch() {
@@ -187,8 +193,8 @@
             document.getElementsByClassName('invitation__container--small')[0].setAttribute('style','visibility:hidden;opacity :0;height: 0px; ');
             document.getElementsByClassName('invitation__container--large')[0].style.opacity = '1';
             window.parent.postMessage({message: 'stretch-banner'}, '*');
-            setTimeout(autoClose, 5000);
-            startVideo();
+            setTimeout(autoClose, 2000);
+            // startVideo();
         }
 
         function goTo(){
