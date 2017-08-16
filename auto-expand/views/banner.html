@@ -12,7 +12,7 @@
                         <div class="invitation__ad--link">
                             <img src="https://unsplash.it/640"/>
                             <div id="ad-video">
-                                <video id="video-item" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls height="150"></video>
+                                <video id="video-item" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" poster="http://camendesign.com/code/video_for_everybody/poster.jpg" controls height="150"></video>
                             </div>
                         </div>
                     </div>
@@ -78,6 +78,7 @@
     #ad-video video{
         box-shadow: 0 8px 10px rgba(0,0,0,0.5);
         margin:0 auto;
+        width: 100%;
     }
 
     .invitation__close{
@@ -170,7 +171,6 @@
 
         function autoClose() {
           if ( first ){
-             console.log('iy');
              shrinkBanner();
              first= false;
           }
