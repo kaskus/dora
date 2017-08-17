@@ -184,14 +184,14 @@ body{
     	background-image: url('../images/bg-screen-first.jpg');
     }
 	&--game{
-		background-image: url('../images/bg-screen-game.jpg');
+		background-image: url('../images/bg-screen-game.png');
 		cursor: url('../images/ic-cursor.png') 108 90, auto;
 	}
 	&--lose-screen{
-    	background-image: url('../images/bg-screen-lose.jpg');
+    	background-image: url('../images/bg-screen-lose.png');
     }
     &--win-screen{
-    	background-image: url('../images/bg-screen-win.jpg');
+    	background-image: url('../images/bg-screen-win.png');
     }
 }
 
@@ -315,7 +315,18 @@ h1, h2 {
 	&.is-off{
 		background-image: url(../images/ic-start-off.gif);	
 	}
-	
+	&__sign{
+		position: absolute;
+		z-index: 49;
+		width: 143px;
+		height: 72px;
+		left: 50px;
+		top: 95px;
+		background-image: url(../images/object-start-sign.png);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 }
 
 #end{
@@ -324,16 +335,36 @@ h1, h2 {
     top: 410px;
     height: 50px;
     width: 50px;
+    z-index: 50;
+    &__sign{
+		position: absolute;
+		z-index: 49;
+		width: 143px;
+		height: 72px;
+		left: 286px;
+		bottom: 30px;
+		background-image: url(../images/object-finish-sign.png);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+    }
 }
 
-div.youlose {
- background-color: #ff8888;
+#cursor{
+	&__sign{
+		display: none;
+		position: absolute;
+		width: 114px;
+		height: 99px;
+		top: 40px;
+		left: 140px;
+		z-index: 50;
+		background-image: url(../images/ic-cursor.png);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 }
-
-/*
-Hack hack hack; these are CSS "sibling selectors" for selecting
-neighboring elements.  Necessary to avoid giving ids to the boundary divs
-*/
 
 div.path {
 	position: absolute;
@@ -503,9 +534,9 @@ div.path {
 	}
 	&:nth-child(23){
 		z-index: 23;
-	    top: 280px;
+	    top: 255px;
 	    left: 498px;
-	    height: 70px;
+	    height: 95px;
 	    width: 8px;
 	}
 	&:nth-child(24){
@@ -520,5 +551,110 @@ div.path {
 		width: 67px;
 	    background-color: transparent;
 	    box-shadow: none;
+	}
+}
+
+.c-instruction{
+	width: 100%;
+	height: 100%;
+	z-index: 48;
+	position: absolute;
+	&__overlay{
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.5);
+		z-index: 100;
+	}
+	&__man{
+		background-image: url(../images/object-instructionman.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 500px;
+		width: 950px;
+		position: absolute;
+		right: 0;
+		top: 2px;
+		z-index: 100;
+	}
+}
+
+@keyframes carPurple{
+	30%{
+		transform: translate(-45px,-15px);
+	}
+	50%{
+		transform: translate(-45px,-15px);
+	}
+	100{
+		transform: translate(0,0);
+	}
+}
+
+@keyframes carGreen{
+	30%{
+		transform: translate(-45px, 10px);
+	}
+	50%{
+		transform: translate(-45px, 10px);
+	}
+	100{
+		transform: translate(0,0);
+	}
+}
+
+@keyframes gerobakNyungsep{
+	20%{
+		transform: translate(15px,18px) rotate(-5deg);
+	}
+	40%{
+		transform: translate(30px,36px) rotate(5deg);
+	}
+	60%{
+		transform: translate(45px,55px) rotate(-5deg);
+	}
+	80%{
+		transform: translate(45px,55px) rotate(10deg);
+	}
+	100%{
+		transform: translate(45px,55px) rotate(40deg);
+	}
+}
+
+.c-obstacle{
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 45;
+	&--car-purple{
+		background-image: url(../images/object-car-purple.png);
+		width: 95px;
+		height: 51px;
+		top: 145px;
+		left: 580px;
+		&.is-moving{
+			animation: carPurple 3s ease-in;	
+		}
+	}
+	&--car-green{
+		background-image: url(../images/object-car-green.png);
+		width: 68px;
+		height: 38px;
+		bottom: 105px;    
+		left: 640px;	
+		&.is-reverse{
+			animation: carGreen 2.5s ease-in;
+		}
+	}
+	&--gerobak{
+		background-image: url(../images/object-gerobak.png);
+		width: 66px;
+		height: 86px;
+		top: 165px;
+		left: 365px;
+		&.is-nyungsep{
+			animation: gerobakNyungsep 2s linear;	
+			animation-fill-mode: forwards;
+		}
 	}
 }

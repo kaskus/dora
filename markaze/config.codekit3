@@ -21,6 +21,18 @@
 		"oAP": "\/audio\/bgm-maze.webm",
 		"oF": 0
 		},
+	"\/audio\/sfx-bell.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/sfx-bell.wav",
+		"oF": 0
+		},
+	"\/audio\/sfx-car-purple.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/sfx-car-purple.wav",
+		"oF": 0
+		},
 	"\/audio\/sfx-clash.wav": {
 		"ft": 8192,
 		"oA": 2,
@@ -37,6 +49,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/audio\/sfx-lose.wav",
+		"oF": 0
+		},
+	"\/audio\/sfx-mundur.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/sfx-mundur.wav",
+		"oF": 0
+		},
+	"\/audio\/sfx-nyungsep.wav": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/audio\/sfx-nyungsep.wav",
 		"oF": 0
 		},
 	"\/audio\/sfx-on.wav": {
@@ -111,6 +135,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bg-screen-game copy.jpg": {
+		"ft": 16384,
+		"iS": 175761,
+		"oA": 0,
+		"oAP": "\/images\/bg-screen-game copy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/bg-screen-game.jpg": {
 		"ft": 16384,
 		"iS": 175761,
@@ -119,6 +153,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bg-screen-game.png": {
+		"ft": 32768,
+		"iS": 216954,
+		"oA": 0,
+		"oAP": "\/images\/bg-screen-game.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/bg-screen-lose.jpg": {
@@ -131,6 +176,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bg-screen-lose.png": {
+		"ft": 32768,
+		"iS": 81182,
+		"oA": 0,
+		"oAP": "\/images\/bg-screen-lose.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bg-screen-win.jpg": {
 		"ft": 16384,
 		"iS": 94971,
@@ -139,6 +195,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bg-screen-win.png": {
+		"ft": 32768,
+		"iS": 80006,
+		"oA": 0,
+		"oAP": "\/images\/bg-screen-win.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/ic-close.png": {
@@ -371,6 +438,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/object-car-green.png": {
+		"ft": 32768,
+		"iS": 7017,
+		"oA": 0,
+		"oAP": "\/images\/object-car-green.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/object-car-purple.png": {
+		"ft": 32768,
+		"iS": 13936,
+		"oA": 0,
+		"oAP": "\/images\/object-car-purple.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/object-cendol-empty.png": {
 		"ft": 32768,
 		"iS": 2421,
@@ -393,11 +482,55 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/object-finish-sign.png": {
+		"ft": 32768,
+		"iS": 11325,
+		"oA": 0,
+		"oAP": "\/images\/object-finish-sign.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/object-gerobak.png": {
+		"ft": 32768,
+		"iS": 12557,
+		"oA": 0,
+		"oAP": "\/images\/object-gerobak.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/object-instructionman.png": {
+		"ft": 32768,
+		"iS": 38158,
+		"oA": 0,
+		"oAP": "\/images\/object-instructionman.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/object-panggung.png": {
 		"ft": 32768,
 		"iS": 31852,
 		"oA": 0,
 		"oAP": "\/images\/object-panggung.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/object-start-sign.png": {
+		"ft": 32768,
+		"iS": 12122,
+		"oA": 0,
+		"oAP": "\/images\/object-start-sign.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
