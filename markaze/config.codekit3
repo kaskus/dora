@@ -114,6 +114,17 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/images\/bg-bubble.png": {
+		"ft": 32768,
+		"iS": 3133,
+		"oA": 0,
+		"oAP": "\/images\/bg-bubble.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bg-button-embossed.png": {
 		"ft": 32768,
 		"iS": 8796,
@@ -133,6 +144,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bg-screen-first.png": {
+		"ft": 32768,
+		"iS": 171970,
+		"oA": 0,
+		"oAP": "\/images\/bg-screen-first.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/bg-screen-game copy.jpg": {
@@ -157,7 +179,7 @@
 		},
 	"\/images\/bg-screen-game.png": {
 		"ft": 32768,
-		"iS": 216954,
+		"iS": 232595,
 		"oA": 0,
 		"oAP": "\/images\/bg-screen-game.png",
 		"oF": 0,
@@ -213,6 +235,17 @@
 		"iS": 1636,
 		"oA": 0,
 		"oAP": "\/images\/ic-close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ic-cursor-bola.png": {
+		"ft": 32768,
+		"iS": 415,
+		"oA": 0,
+		"oAP": "\/images\/ic-cursor-bola.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -306,7 +339,7 @@
 		},
 	"\/images\/img-instruction-board.png": {
 		"ft": 32768,
-		"iS": 49524,
+		"iS": 70917,
 		"oA": 0,
 		"oAP": "\/images\/img-instruction-board.png",
 		"oF": 0,
@@ -317,9 +350,9 @@
 		},
 	"\/images\/img-success-board.png": {
 		"ft": 32768,
-		"iS": 43047,
+		"iS": 42734,
 		"oA": 0,
-		"oAP": "\/images\/img-success-board.png",
+		"oAP": "\/images\/Berhasil.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -506,9 +539,20 @@
 		},
 	"\/images\/object-instructionman.png": {
 		"ft": 32768,
-		"iS": 38158,
+		"iS": 21991,
 		"oA": 0,
 		"oAP": "\/images\/object-instructionman.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/object-instuction-text.png": {
+		"ft": 32768,
+		"iS": 14794,
+		"oA": 0,
+		"oAP": "\/images\/object-instuction-text.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -525,6 +569,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/object-path-animated.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/object-path-animated.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/object-start-sign.png": {
 		"ft": 32768,
@@ -566,6 +620,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/min\/maze-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/vivus.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/vivus.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

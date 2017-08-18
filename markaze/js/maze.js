@@ -35,9 +35,13 @@ $(document).ready(function(){
 
     // masuk ke starting point
     $(document).on('mouseenter', '#start', function(e) {
+        $('.jsInstruction').fadeOut();
         setTimeout(function() {
             sfxOn.play();
             if(cendol == 3){
+                $('.jsInstructionMan').hide();
+                $('.jsInstructionBubble').hide();
+                $('.jsInstructionPath').hide();
                 $('.jsTriggerCarPurple').one('mousemove', function(e) { 
                     $('.jsObstacleCarPurple').addClass('is-moving');
                     sfxCarPurple.play(); 
@@ -55,7 +59,6 @@ $(document).ready(function(){
                         sfxNyungsep.play(); 
                     }, 1500);   
                 });
-                $('.jsInstructionMan').hide();
             }
             if(cendol == 2){
                 BGM.rate(1.1);
@@ -66,8 +69,9 @@ $(document).ready(function(){
             gameStart = true;
             jalan.removeClass('is-disabled');
             $('.route').addClass('is-ready');
-            $('.jsTiban').css('z-index', '31');
+            $('.jsTiban').css('z-index', '50');
             start.removeClass('is-off');
+
             $("#status").text("Cemunggudh");
         }, 100);
     });
@@ -121,7 +125,6 @@ $(document).ready(function(){
 
     function won(){
         gameStart = false;
-        $("#status").text("MANTABZZZ GANNN");
         goToSection('win-screen');
         $('.jsSucceedSign').addClass('animated swing');
         BGM.stop();
@@ -193,6 +196,11 @@ function goToSection(section){
     var destination = $('.c-section--'+ section);
     $('.c-section').removeClass('is-current');
     $(destination).addClass('is-current');
+    if(section == 'game'){
+        setTimeout(function() {
+            $('.jsInstructionPath').show();
+        }, 1000);       
+    }
 }
 
 function goToWebsite(){
