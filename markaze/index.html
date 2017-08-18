@@ -14,12 +14,13 @@
             <section class="c-section c-section--main-screen is-current">
                 <div class="o-object o-object--logo-game"></div>
                 <div class="o-object o-object--board-instruction"></div>
-                <button class="btn btn-embosed jsBtn" onClick="goToSection('game'); _gaq.push(['_trackEvent', 'Markas Maze - screen 1', 'click', 'play']);dataLayer.push({'event': 'trackEvent','eventDetails.category': 'Markas Maze - screen 1', 'eventDetails.action': 'click', 'eventDetails.label': 'play'});"></button>
+                <button class="btn btn-embosed jsBtn" onClick="goToSection('game');"></button>
             </section>
             <section class="c-section c-section--game">
                 <div id="start" class="is-off"></div>
                 <div class="route">
                     <div class="path is-disabled"></div>
+                    <div class="path is-disabled jsTriggerCarPurple"></div>
                     <div class="path is-disabled"></div>
                     <div class="path is-disabled"></div>
                     <div class="path is-disabled"></div>
@@ -36,12 +37,11 @@
                     <div class="path is-disabled"></div>
                     <div class="path is-disabled"></div>
                     <div class="path is-disabled"></div>
+                    <div class="path is-disabled jsTriggerCarGreen"></div>
                     <div class="path is-disabled"></div>
                     <div class="path is-disabled"></div>
                     <div class="path is-disabled"></div>
-                    <div class="path is-disabled"></div>
-                    <div class="path is-disabled"></div>
-                    <div class="path is-disabled"></div>
+                    <div class="path is-disabled jsTriggerGerobak"></div>
                     <div class="path is-disabled jsTiban"></div>
                 </div>
                 <div id="end"></div>
@@ -52,6 +52,19 @@
                         <li class="c-cendol__item c-cendol__item--filled"></li>
                     </ul>
                 </div>
+                <div class="c-obstacle__container">
+                    <div class="c-obstacle c-obstacle--car-purple jsObstacleCarPurple"></div>
+                    <div class="c-obstacle c-obstacle--car-green jsObstacleCarGreen"></div>
+                    <div class="c-obstacle c-obstacle--gerobak jsObstacleGerobak"></div>
+                </div>
+                <div class="c-instruction jsInstruction">
+                    <div class="c-instruction__overlay"></div>
+                    <div class="c-instruction__man jsInstructionMan"></div>
+                    <div class="c-instruction__cursor"></div>
+                </div>
+                <div id="start__sign"></div>
+                <div id="cursor__sign"></div>
+                <div id="end__sign"></div>
             </section>
             <section class="c-section c-section--lose-screen">
                 <div class="o-object o-object--failed-sign jsFailedSign"></div>
@@ -60,7 +73,7 @@
                 <div class="o-object o-object--panggung"></div>
                 <div class="o-object o-object--artis-ball-1 jsArtisBall1" style="background-image: url(images/logo-sheila.jpg)"></div>
                 <div class="o-object o-object--artis-ball-2 jsArtisBall2" style="background-image: url(images/logo-kahitna.jpg)"></div>
-                <button class="btn btn-blue jsBtn" onClick="goToWebsite(); _gaq.push(['_trackEvent', 'Markas Maze - screen game over', 'click', 'Beli tiket']);dataLayer.push({'event': 'trackEvent','eventDetails.category': 'Markas Maze - screen game over', 'eventDetails.action': 'click', 'eventDetails.label': ''Beli tiket'});"></button>
+                <button class="btn btn-blue jsBtn" onClick="goToWebsite();"></button>
             </section>
             <section class="c-section c-section--win-screen">
                 <div class="o-object o-object--succeed-sign jsSucceedSign"></div>
@@ -69,7 +82,7 @@
                 <div class="o-object o-object--panggung"></div>
                 <div class="o-object o-object--artis-ball-1 jsArtisBall1" style="background-image: url(images/logo-sheila.jpg)"></div>
                 <div class="o-object o-object--artis-ball-2 jsArtisBall2" style="background-image: url(images/logo-kahitna.jpg)"></div>
-                <button class="btn btn-orange jsBtn" onClick="goToWebsite(); _gaq.push(['_trackEvent', 'Markas Maze - screen win', 'click', 'Beli tiket']);dataLayer.push({'event': 'trackEvent','eventDetails.category': 'Markas Maze - screen win', 'eventDetails.action': 'click', 'eventDetails.label': ''Beli tiket'});"></button>
+                <button class="btn btn-orange jsBtn" onClick="goToWebsite();"></button>
             </section>
         </div>
         <script src="js/howler.min.js" type="text/javascript"></script>

@@ -24,6 +24,10 @@ $(document).ready(function(){
     var sfxLose = new Howl({src: ['audio/sfx-lose.wav']});
     var sfxSucceed = new Howl({src: ['audio/sfx-succeed.wav']});
     var sfxClick = new Howl({src: ['audio/sfx-click.wav']});
+    var sfxCarPurple = new Howl({src: ['audio/sfx-car-purple.wav']});
+    var sfxNyungsep = new Howl({src: ['audio/sfx-nyungsep.wav']});
+    var sfxMundur = new Howl({src: ['audio/sfx-mundur.wav']});
+    var sfxBell = new Howl({src: ['audio/sfx-bell.wav']});
 
     var suaraKena = [sfxZap, sfxClash];
 
@@ -33,6 +37,26 @@ $(document).ready(function(){
     $(document).on('mouseenter', '#start', function(e) {
         setTimeout(function() {
             sfxOn.play();
+            if(cendol == 3){
+                $('.jsTriggerCarPurple').one('mousemove', function(e) { 
+                    $('.jsObstacleCarPurple').addClass('is-moving');
+                    sfxCarPurple.play(); 
+                });
+
+                $('.jsTriggerCarGreen').one('mousemove', function(e) { 
+                    $('.jsObstacleCarGreen').addClass('is-reverse');
+                    sfxMundur.play();  
+                });
+
+                $('.jsTriggerGerobak').one('mousemove', function(e) { 
+                    $('.jsObstacleGerobak').addClass('is-nyungsep');
+                    sfxBell.play(); 
+                    setTimeout(function() {
+                        sfxNyungsep.play(); 
+                    }, 1500);   
+                });
+                $('.jsInstructionMan').hide();
+            }
             if(cendol == 2){
                 BGM.rate(1.1);
             }
@@ -41,6 +65,7 @@ $(document).ready(function(){
             }
             gameStart = true;
             jalan.removeClass('is-disabled');
+            $('.route').addClass('is-ready');
             $('.jsTiban').css('z-index', '31');
             start.removeClass('is-off');
             $("#status").text("Cemunggudh");
@@ -76,9 +101,12 @@ $(document).ready(function(){
         }, 150);
     });
 
-    // keluar jalur yang sudah ditetapkan
     $(document).on('click', '.jsBtn', function(e) {
         sfxClick.play(); 
+    });
+
+    $(document).on('mouseenter', '#start__sign', function(e) {
+        $('.jsInstruction').fadeOut();
     });
 
     // sampe ke tempat tujuan
@@ -107,6 +135,7 @@ $(document).ready(function(){
             $("#status").text('cobalagi deh');
             jalan.addClass('is-disabled');
             start.addClass('is-off');
+            $('.jsInstruction').fadeIn();
             $('.jsTiban').css('z-index', '24');
             suaraKena[Math.floor(Math.random()*suaraKena.length)].play();
             if (cendol > 1){
