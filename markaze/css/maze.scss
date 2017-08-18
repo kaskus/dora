@@ -181,11 +181,11 @@ body{
     	top: 0;
     }
     &--main-screen{
-    	background-image: url('../images/bg-screen-first.jpg');
+    	background-image: url('../images/bg-screen-first.png');
     }
 	&--game{
 		background-image: url('../images/bg-screen-game.png');
-		cursor: url('../images/ic-cursor.png') 108 90, auto;
+		cursor: url('../images/ic-cursor-bola.png') 4 4, auto;
 	}
 	&--lose-screen{
     	background-image: url('../images/bg-screen-lose.png');
@@ -303,25 +303,30 @@ h1, h2 {
 
 #start{
 	position: absolute;
-	top: 110px;
-	left: 205px;
-    height: 39px;
-	width: 67px;
-	z-index: 30;
+	// top: 110px;
+	// left: 205px;
+ //    height: 39px;
+	// width: 67px;
+	width: 86px;
+	height: 60px;
+	left: 155px;
+	top: 101px;;
+	z-index: 49;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-image: url(../images/ic-start-on.png);
+	// background-image: url(../images/ic-start-on.png);
+	background-image: url(../images/object-start-sign.png);
 	&.is-off{
-		background-image: url(../images/ic-start-off.gif);	
+		// background-image: url(../images/ic-start-off.gif);
 	}
 	&__sign{
 		position: absolute;
 		z-index: 49;
-		width: 143px;
-		height: 72px;
-		left: 50px;
-		top: 95px;
+		width: 86px;
+	    height: 60px;
+	    left: 195px;
+	    top: 101px;;
 		background-image: url(../images/object-start-sign.png);
 		background-size: contain;
 		background-position: center;
@@ -339,10 +344,10 @@ h1, h2 {
     &__sign{
 		position: absolute;
 		z-index: 49;
-		width: 143px;
-		height: 72px;
-		left: 286px;
-		bottom: 30px;
+		width: 86px;
+		height: 60px;
+		left: 342px;
+    	bottom: 30px;
 		background-image: url(../images/object-finish-sign.png);
 		background-size: contain;
 		background-position: center;
@@ -545,10 +550,10 @@ div.path {
 	    // left: 200px;
 	    // height: 45px;
 	    // width: 72px;
-	    top: 110px;
-		left: 205px;
-	    height: 39px;
-		width: 67px;
+	    left: 155px;
+		top: 101px;;
+	    height: 60px;
+    	width: 86px;
 	    background-color: transparent;
 	    box-shadow: none;
 	}
@@ -575,6 +580,28 @@ div.path {
 		right: 0;
 		top: 2px;
 		z-index: 100;
+	}
+	&__bubble{
+		font-size: 18px;
+		background-image: url(../images/object-instuction-text.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		text-align: center;
+		font-size: 14px;
+		width: 405px;
+		height: 120px;
+		position: absolute;
+		right: 100px;
+		top: 100px;
+		z-index: 100;
+	}
+	&__path{
+		position: absolute;
+	    width: 632px;
+	    height: 324px;
+	    top: 127px;
+    	left: 182px;
+	    z-index: 99;
 	}
 }
 
@@ -603,20 +630,35 @@ div.path {
 }
 
 @keyframes gerobakNyungsep{
-	20%{
+	10%{
 		transform: translate(15px,18px) rotate(-5deg);
 	}
-	40%{
+	20%{
 		transform: translate(30px,36px) rotate(5deg);
 	}
+	30%{
+		transform: translate(45px,55px) rotate(-5deg);
+	}
+	40%{
+		transform: translate(45px,55px) rotate(10deg);
+	}
+	50%{
+		transform: translate(45px,55px) rotate(40deg);
+	}
 	60%{
+		transform: translate(45px,55px) rotate(10deg);
+	}
+	70%{
 		transform: translate(45px,55px) rotate(-5deg);
 	}
 	80%{
-		transform: translate(45px,55px) rotate(10deg);
+		transform: translate(30px,36px) rotate(-5deg);
+	}
+	90%{
+		transform: translate(15px,18px) rotate(5deg);
 	}
 	100%{
-		transform: translate(45px,55px) rotate(40deg);
+		transform: translate(0,0) rotate(-5deg);
 	}
 }
 
