@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="ID">
+
+<head>
+  <meta charset="UTF-8">
+  <title>M Framework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, target-densitydpi=device-dpi" />
+  <link href="../assets/stylesheets/main.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="../assets/img/apps_icon.png" rel="apple-touch-icon-precomposed" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" />
+  <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+</head>
+<body class="forum">
+	<style type="text/css">
+		.cube_ads{
+			position: relative !important;
+    		width: 100% !important;
+		    border: none !important;
+		    margin: 15px 0 !important;
+		    padding: 0 !important;
+		    height: 250px !important;
+		    display: block;
+		}
+
+		#cube_ads_iframe{
+			    width: 100% !important;
+			    border: none !important;
+			    margin: 0 !important;
+			    padding: 0 !important;
+			    height: 100% !important;
+    			overflow: hidden !important;
+		}
+	</style>
+	<div id="wrapper">
+
+		<div class="nm nm-forum notice-app">
+			<a href="" target="_blank">
+				<img src="../assets/img/icon-notice-fjb.png" class="left">
+			</a>
+			<div class="nm-title">
+				<span>KASKUS</span>
+				<a href="#" class="x">&times;</a>
+			</div>
+			<div>
+				<span><a href="https://play.google.com/store/apps/details?id=com.kaskus.android&utm_source=kaskusmsite" target="_blank">Get the App</a></span>
+				<span class="right"><a href="https://play.google.com/store/apps/details?id=com.kaskus.android&utm_source=kaskusmsite" target="_blank">View in App</a></span>
+			</div>
+		</div>
+
+		<header id="site-header">
+			<div class="main-h r">
+				<div class="c c-3">
+					<nav class="n">
+						<a href="#" class="logo">
+							<img src="../assets/img/logo.png" height="30" width="30" alt="">
+						</a>
+						<a href="#" class="current" id="kk-forum">Forum</a>
+						<a href="#" id="kk-fjb">FJB</a>
+					</nav>
+				</div>
+				<div class="c c-1">
+					<nav class="u">
+						<a href="#">Sign In</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<div id="main" role="main">
+			<div id="search">
+				<form>
+					<div class="r">
+						<div class="c c-4">
+							<div class="in-txt">
+								<input type="text" placeholder="search" autofocus="autofocus" autocorrect="off" spellcheck="false" required>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+			<div id="content-wrapper" class="bar ">
+				<div class="header">
+					<div class="breadcrumbs">
+						<a href="/">Home</a>
+						<a href="#">Forum</a>
+						<a href="#">Hewan Peliharaan</a>
+						<a href="#">Mamalia</a>
+					</div>
+
+					<h1>Karya seni unik and keren dari Pita Kaset bikin kepala pusing</h1>
+					<div class="action mr10">
+						<a href="#" class="btn blue">Post Reply</a>
+						<a href="#" class="btn list-orange">Subscribe</a>
+					</div>
+				</div>
+				<hr>
+				<div class="header">
+					<div class="row total-share r mt10">
+						<div class="c c-2">
+							<span>234</span>
+							<span class="caption">Shares</span>
+						</div>
+						<div class="tools c c-2 text-right">
+							<div id="r-bar" style="display:inline-block">
+								<select name="rating">
+									<option value="0">Rate this thread!</option>
+									<option>5</option>
+									<option>4</option>
+									<option>3</option>
+									<option>2</option>
+									<option>1</option>
+									<option value="0">Remove your vote</option>
+								</select>
+								<span class="r-star"></span>
+								<span style="display:inline-block; vertical-align:middle; color: #454545;">
+									3,2
+									<small style="color:#999;">/5</small>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="row mb20">
+						<table>
+							<tr>
+								<td class="share-ic facebook">
+									<a href="#">
+										<img class="img-share" src="../assets/img/facebook-square.jpg" alt="facebook">
+									</a>
+								</td>
+								<td class="share-ic twitter">
+									<a href="#">
+										<img class="img-share" src="../assets/img/twitter-square.jpg" alt="twitter">
+									</a>
+								</td>
+								<td class="share-ic gplus">
+									<a href="#">
+										<img class="img-share" src="../assets/img/google-icon-large.jpg" alt="gplus">
+									</a>
+								</td>
+								<td class="share-ic whatsapp">
+									<a href="#">
+										<img class="img-share" src="../assets/img/whatsapp-icon-large.jpg" alt="whatsapp">
+									</a>
+								</td>
+								<td class="share-ic mail">
+									<a href="#">
+										<img class="img-share" src="../assets/img/mail-icon-large.jpg" alt="mail">
+									</a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="r">
+					<div class="u-bar">
+						<b>Poll: Menurut agan apakah BB masih memimpin pasar smartphone?</b>
+					</div>
+					<hr>
+					<div class="u-bar">
+              <label class="dis-table" for="opt-1">
+                  <input type="radio" class="tab-cell" name="gender" value="1" id="opt-1" checked="">
+                  <span class="tab-cell">Tentu gan, kan indonesia banyak yang memakai BB</span>
+              </label>
+              <label class="dis-table" for="opt-2">
+                  <input type="radio" class="tab-cell" name="gender" value="2" id="opt-2">
+                  <span class="tab-cell">Nggak gan, pasti kegeser sama pesaingnya mungkin sama android</span>
+              </label>
+              <label class="dis-table" for="opt-3">
+                  <input type="radio" class="tab-cell" name="gender" value="2" id="opt-3">
+                  <span class="tab-cell">Menurut ane BB akan bangkrut tapi masih dalam jangka waktu yang lama gan</span>
+              </label>
+              <div class="text-center">
+            	<a href="#" class="btn blue">Post Reply</a>
+            </div>
+					</div>
+
+					<div class="u-bar result-bar-con">
+            <label>
+                <span>Tentu gan, kan indonesia banyak yang memakai BB <div class="req">16%</span> (16 Votes)</div>
+                <div class="result-bar-wrapper">
+                	<span class="result-bar" style="width:60%;"></span>
+                </div>
+            </label>
+            <label>
+                <span>Nggak gan, pasti kegeser sama pesaingnya mungkin sama android <div class="req">16%</span> (16 Votes)</div>
+                <div class="result-bar-wrapper">
+                	<span class="result-bar" style="width:40%;"></span>
+                </div>
+            </label>
+            <label>
+                <span>Menurut ane BB akan bangkrut tapi masih dalam jangka waktu yang lama gan <div class="req">16%</span> (16 Votes)</div>
+                <div class="result-bar-wrapper">
+                	<span class="result-bar" style="width:30%;"></span>
+                </div>
+            </label>
+					</div>
+				</div>
+
+				<div class="controls">
+					<div class="pagination">
+						<div class="pagination-center">
+							<span class="pagination-page-count">Page 1 of 815</span>
+							<span class="text-right p-right">
+								<a href="#" class="arr">«</a>
+								<a href="#">199</a>
+								<a href="#" class="current">200</a>
+								<a href="#">201</a>
+								<a href="#">202</a>
+								<a href="#">203</a>
+								<a href="#" class="arr">»</a>
+							</span>
+						</div>
+					</div>
+				</div>
+				<!--
+					<div class="form-input pools">
+						<fieldset>
+							<div class="r">
+								<input type="radio"> Pilihan Polling #1
+							</div>
+							<div class="r">
+								<input type="radio"> Pilihan Polling #2
+							</div>
+							<div class="r">
+								<input type="radio"> Pilihan Polling #3
+							</div>
+							<div class="r">
+								<input type="radio"> Pilihan Polling #4
+							</div>
+							<div class="r">
+								<div class="in-btn c-1" style="margin-left:25%;">
+									<input type="submit" value="Vote" >
+								</div>
+							</div>	
+						</fieldset>
+					</div>
+					-->
+
+				<div itemscope itemtype="http://schema.org/Article">
+					<!-- FIRST POST	 -->
+					<div class="entry">
+						<div class="author">
+							<span class="vcard">
+								<img src="http://kkcdn-static.kaskus.co.id/user/avatar/2007/08/28/avatar321768_1.gif" alt="" class="photo">
+								<div class="usr">
+									<a href="http://m.kaskus.com/user/profile/2412594" class="fn">Namasayaraka</a>
+									<a href="#" class="grp" title="Give reputation">
+										<img src="http://kkcdn-static.kaskus.co.id/themes_2.0/img/icon/add.png" alt="reputation">
+									</a>
+								</div>
+								<div>
+									<span class="title">(kaskus addict)</span>
+									<a href="#id-post" class="permalink">28/01/2012 06:30 PM</a>
+								</div>
+							</span>
+
+						</div>
+						<div id="post_id" class="post">
+							<h2 class="entry-title">[TOP 11 MUST SEE] 11 Sutradarax film terbaik di dunia [TOP 11 MUST SEE] 11 Sutradara film terbaik di dunia 
+							<span class="p-right">
+									<img src="../assets/img/layout/api-merah.png" height="15" alt="">
+								</span>
+							</h2>
+							<div class="entry-content">
+
+								JAKARTA - Kementerian Pendidikan dan Kebudayaan (Kemendikbud) menetapkan formulasi baru dalam Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN) 2013 mendatang. Tahun depan, SNMPTN hanya dilakukan dengan jalur undangan. SNMPTN jalur tulis di hapus.
+								<br />
+								<br />
+								<img src="http://i39.photobucket.com/albums/e181/remus02/IMG_6376.jpg" alt="Image" />
+								<br />
+								<br />Kebijakan menetapkan
+								<a href="#">menghapus SNMPTN</a>jalur ujian tulis merupakan implementasi dari Peraturan Menteri Pendidikan Nasional No. 34 Tahun 2010. Dalam Peraturan Menteri tersebut dinyatakan penerimaan mahasiswa baru di PTN melalui dua skema, yaitu SNMPTN dan/atau jalur mandiri.
+								<br />
+								<br />
+								<div style="width: 98%; margin: 0 auto;">
+									<div style="font-size: 8pt;">Quote:</div>
+									<div style="border: solid 1px #aaa; background: #E1E4F2; padding: 5px;">
+										Agan pasti suka nonton film kan? Agan pun pasti mengetahui siapa yang membuat film yang agan suka( masa ga tau :hammer: ) Karena itu, gw bikin list ini di kaskus, yaitu 11 Sutradara film terbaik di dunia :D
+										<br />
+										<br />
+										<div style="width: 98%; margin: 0 auto;">
+											<div style="font-size: 8pt;">Quote:</div>
+											<div style="border: solid 1px #aaa; background: #E1E4F2; padding: 5px;">
+												<div>
+													Agan pasti suka nonton film kan? Agan pun pasti mengetahui siapa yang membuat film yang agan suka( masa ga tau :hammer: ) Karena itu, gw bikin list ini di kaskus, yaitu 11 Sutradara film terbaik di dunia :D
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer-act">
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-edit.png" alt=""> Edit</a>
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-comment.png" alt=""> Quote</a>
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-reply.png" alt=""> Reply</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Underlay Banner --><!-- 
+					<div class="underlay__banner">
+						<div class="underlay__wrapper">
+							<div class="underlay__show">
+								<a href="#">
+									<div class="underlay__show__inner">
+										<div class="underlay__show__fix">
+											<div class="underlay__show__banner">
+												<img src="images/banner_underlay_sample.png">
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div> -->
+
+					<!--cube-ads-->
+					<div class="cube_ads">
+						<iframe id="cube_ads_iframe"  src="banner.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
+					</div>
+
+					<!-- RECOMMENDED THREAD -->
+					<div id="recommended-thread" class="bar mb10">
+	          <h2 class="nav-arrow">Recommended For You
+	              <div class="control">
+	                  <div class="page">
+	                      <b id="page-selectedrelated-thread">1 </b>/ 5 
+	                  </div>
+	                  <div class="pagination">
+	                      <a href="#" onClick="showNextPrev('related-thread',false);return false;" class="arrow left">&#10094;</a>
+	                      <a href="#" onClick="showNextPrev('related-thread',true);return false;" class="arrow right">&#10095;</a>
+	                  </div>
+	              </div>
+	          </h2>
+	          <div class="item-list related-thread" id="item-listrelated-thread1">
+	          	<div class="img-desc">
+	          		<img src="http://s.kaskus.id/c100x60/e3.1/img/default-forum-encore-n.png" class="photo" alt="profile picture" width="50" height="50">
+	          	</div>
+	          	<div class="title-desc">
+	          		<a href="#">
+	          			1. Warga Ibu Kota Juga Tolak Pilkada Lewat DPRD
+	          		</a>
+	          	</div>
+	          </div>
+	          <div class="item-list related-thread" id="item-listrelated-thread2" style="display:none;">
+	          	<div class="img-desc">
+	          		<img src="http://s.kaskus.id/c100x60/e3.1/img/default-forum-encore-n.png" class="photo" alt="profile picture" width="50" height="50">
+	          	</div>
+	          	<div class="title-desc">
+	          		<a href="#">
+	          			2. Warga Ibu Kota Juga Tolak Pilkada Lewat DPRD
+	          		</a>
+	          	</div>
+	          </div>
+	          <div class="item-list related-thread" id="item-listrelated-thread3" style="display:none;">
+	          	<div class="img-desc">
+	          		<img src="http://s.kaskus.id/c100x60/e3.1/img/default-forum-encore-n.png" class="photo" alt="profile picture" width="50" height="50">
+	          	</div>
+	          	<div class="title-desc">
+	          		<a href="#">
+	          			3. Warga Ibu Kota Juga Tolak Pilkada Lewat DPRD
+	          		</a>
+	          	</div>
+	          </div>
+	          <div class="item-list related-thread" id="item-listrelated-thread4" style="display:none;">
+	          	<div class="img-desc">
+	          		<img src="http://s.kaskus.id/c100x60/e3.1/img/default-forum-encore-n.png" class="photo" alt="profile picture" width="50" height="50">
+	          	</div>
+	          	<div class="title-desc">
+	          		<a href="#">
+	          			4. Warga Ibu Kota Juga Tolak Pilkada Lewat DPRD
+	          		</a>
+	          	</div>
+	          </div>
+	          <div class="item-list related-thread" id="item-listrelated-thread5" style="display:none;">
+	          	<div class="img-desc">
+	          		<img src="http://s.kaskus.id/c100x60/e3.1/img/default-forum-encore-n.png" class="photo" alt="profile picture" width="50" height="50">
+	          	</div>
+	          	<div class="title-desc">
+	          		<a href="#">
+	          			5. Warga Ibu Kota Juga Tolak Pilkada Lewat DPRD
+	          		</a>
+	          	</div>
+	          </div>
+	        </div>
+
+					<!-- SECOND POST	 -->
+					<div class="entry">
+
+						<div class="author">
+							<span class="vcard">
+								<img src="http://kkcdn-static.kaskus.co.id/user/avatar/2007/08/28/avatar321768_1.gif" alt="" class="photo">
+								<div class="usr">
+									<a href="http://m.kaskus.com/user/profile/2412594" class="fn">Namasayaraka</a>
+									<a href="#" class="grp" title="Give reputation">
+										<img src="http://kkcdn-static.kaskus.co.id/themes_2.0/img/icon/add.png" alt="reputation">
+									</a>
+								</div>
+								<div>
+									<span class="title">(kaskus addict)</span>
+									<a href="#id-post" class="permalink">28/01/2012 06:30 PM</a>
+								</div>
+
+							</span>
+						</div>
+
+						<div class="post">
+							<div class="entry-content">
+								JAKARTA - Kementerian Pendidikan dan Kebudayaan (Kemendikbud) menetapkan formulasi baru dalam Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN) 2013 mendatang. Tahun depan, SNMPTN hanya dilakukan dengan jalur undangan. SNMPTN jalur tulis di hapus.
+							</div>
+							<div class="footer-act">
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-edit.png" alt=""> Edit</a>
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-comment.png" alt=""> Quote</a>
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-reply.png" alt=""> Reply</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- THIRD POST	 -->
+					<div class="entry">
+
+						<div class="author">
+							<span class="vcard">
+								<img src="http://kkcdn-static.kaskus.co.id/user/avatar/2007/08/28/avatar321768_1.gif" alt="" class="photo">
+								<div class="usr">
+									<a href="http://m.kaskus.com/user/profile/2412594" class="fn">Namasayaraka</a>
+									<a href="#" class="grp" title="Give reputation">
+										<img src="http://kkcdn-static.kaskus.co.id/themes_2.0/img/icon/add.png" alt="reputation">
+									</a>
+								</div>
+								<div>
+									<span class="title">(kaskus addict)</span>
+									<a href="#id-post" class="permalink">28/01/2012 06:30 PM</a>
+								</div>
+
+							</span>
+						</div>
+
+						<div class="post">
+							<div class="entry-content">
+								JAKARTA - Kementerian Pendidikan dan Kebudayaan (Kemendikbud) menetapkan formulasi baru dalam Seleksi Nasional Masuk Perguruan Tinggi Negeri (SNMPTN) 2013 mendatang. Tahun depan, SNMPTN hanya dilakukan dengan jalur undangan. SNMPTN jalur tulis di hapus.
+							</div>
+							<div class="footer-act">
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-edit.png" alt=""> Edit</a>
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-comment.png" alt=""> Quote</a>
+								<a href="#" class="user-post-tool"><img src="../assets/img/icon-reply.png" alt=""> Reply</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="controls">
+					<div class="pagination">
+						<div class="pagination-center">
+							<span class="pagination-page-count">Page 1 of 815</span>
+							<span class="text-right p-right">
+								<a href="#" class="arr">«</a>
+								<a href="#">199</a>
+								<a href="#" class="current">200</a>
+								<a href="#">201</a>
+								<a href="#">202</a>
+								<a href="#">203</a>
+								<a href="#" class="arr">»</a>
+							</span>
+						</div>
+					</div>
+					<div class="action mr10">
+						<a href="#" class="btn orange">Post Reply</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-input reply-input">
+				<div class="legend">
+					<span>Quick Reply</span>
+				</div>
+				<form>
+					<fieldset>
+						<label class="r">
+							<span>Title</span>
+							<div class="in-txt">
+								<input type="text" autocorrect="off" spellcheck="false" autofocus="yes" required>
+							</div>
+						</label>
+
+						<label class="r">
+							<span>Body</span>
+							<div class="in-txt">
+								<textarea id="textArea" spellcheck="false" onKeyDown="countChars()" onKeyUp="countChars()" name="textArea" rows="7" value=""></textarea>
+								<div class="chr">
+									<input disabled size="3" value="10000" name="txtLen" id="txtLen">
+								</div>
+							</div>
+						</label>
+
+						<div class="r">
+							<div>
+								<div class="in-btn blue">
+									<input type="submit" value="Submit Reply">
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+
+			<div id="more-like-this" class="bar">
+				<h2>More Like This</h2>
+				<a href="#" class="back-to-top">
+					<img src="../assets/img/arrow-top.png" height="10" width="10" alt="">
+				</a>
+				<ul>
+					<li><a href="#">1. Wanita Gila Seks Memaksa Supir Taxi Yang Ia Tumpangi Berhubungan Badan.</a></li>
+					<li><a href="#">2. Wanita Gila Seks Memaksa Supir Taxi Yang Ia Tumpangi Berhubungan Badan.</a></li>
+					<li><a href="#">3. Wanita Gila Seks Memaksa Supir Taxi Yang Ia Tumpangi Berhubungan Badan.</a></li>
+					<li><a href="#">4. Wanita Gila Seks Memaksa Supir Taxi Yang Ia Tumpangi Berhubungan Badan.</a></li>
+					<li><a href="#">5. Wanita Gila Seks Memaksa Supir Taxi Yang Ia Tumpangi Berhubungan Badan.</a></li>
+				</ul>
+			</div>
+
+			<div id="hot-threads" class="bar">
+        <h2>Hot Threads</h2>
+        <ul>
+          <li>
+            <a href="#">11 Sutradara Film Terbaik Dunia</a>
+          </li>
+          <li>
+            <a href="#">11 Film Teknologi Wajib Tonton</a>
+          </li>
+          <li>
+            <a href="#">Siap Bikin Heboh #HitsWithoutViolence ?</a>
+          </li>
+          <li>
+            <a href="#">Kumpulan Foto Jadul Seleb Hollywood</a>
+          </li>
+          <li>
+            <a href="#">2013, SNMPTN Ujian Tulis Akan Dihapuskan</a>
+          </li>
+          <li>
+            <a href="#">Ikutan KULKAS Yuk, Kuis Ala KASKUS</a>
+          </li>
+          <li>
+            <a href="#">Karikatur Lucu Puluhan Selebriti Dunia</a>
+          </li>
+        </ul>
+	    </div>
+    	<div id="online-bazaar" class="bar">
+                <h2 class="nav-arrow" id="otherTitle" >More from Others</h2>
+                <ul class="item-list online-bazaar r" id="otherList">
+                    <li class="item-bazaar">
+                        <a href="#">
+                            <img src="../assets/img/kob1.png" alt="image">
+                            <div class="item-detail">
+                                <p class="name">11 Sutradara Film Terbaik Dunia</p>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/kob2.png" alt="image" />
+                            <div class="item-detail">
+                                <p class="name">Siap Bikin Heboh #HitsWithoutViolence ?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/kob3.png" alt="image" />
+                            <div class="item-detail">
+                                <p class="name">2013, SNMPTN Ujian Tulis Akan Dihapuskan</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+			 <!-- NEWS LIST -->
+			<div id="news-partner-widget" class="bar">
+        <h2>News</h2>
+
+        <a href="#" class="back-to-top">
+          <img src="../assets/img/arrow-top.png" height="10" width="10" alt="">
+        </a>
+
+        <div class="tabnav">
+          <a id="tab-nav-news1" href="#" onclick="navTabs('tab-content-news1', 'tab-nav-news1'); return false;" class="current">Beritagar</a>
+          <span class="separator">|</span>
+          <a id="tab-nav-news2" href="#" onclick="navTabs('tab-content-news2', 'tab-nav-news2'); return false;">Metronews</a>
+          <span class="separator">|</span>
+          <a id="tab-nav-news3" href="#" onclick="navTabs('tab-content-news3', 'tab-nav-news3'); return false;">Liputan6</a>
+          <div class="clr"></div>
+        </div>
+
+        <div class="c-list">
+          <div class="bar">
+            <ul id="tab-content-news1" style="display: block;">
+		          <li>
+		            <a href="#">11 Sutradara Film Terbaik Dunia</a>
+		          </li>
+		          <li>
+		            <a href="#">11 Film Teknologi Wajib Tonton</a>
+		          </li>
+		          <li>
+		            <a href="#">Ikutan KULKAS Yuk, Kuis Ala KASKUS</a>
+		          </li>
+		          <li>
+		            <a href="#">Karikatur Lucu Puluhan Selebriti Dunia</a>
+		          </li>
+		          <li>
+		            <a href="#">Siap Bikin Heboh #HitsWithoutViolence ?</a>
+		          </li>
+            </ul>
+            <ul id="tab-content-news2" style="display: none;">
+            	<li>
+		            <a href="#">2013, SNMPTN Ujian Tulis Akan Dihapuskan</a>
+		          </li>
+		          <li>
+		            <a href="#">Ikutan KULKAS Yuk, Kuis Ala KASKUS</a>
+		          </li>
+		          <li>
+		            <a href="#">Karikatur Lucu Puluhan Selebriti Dunia</a>
+		          </li>
+            	<li>
+		            <a href="#">11 Sutradara Film Terbaik Dunia</a>
+		          </li>
+		          <li>
+		            <a href="#">11 Film Teknologi Wajib Tonton</a>
+		          </li>
+            </ul>
+            <ul id="tab-content-news3" style="display: none;">
+            	<li>
+		            <a href="#">11 Sutradara Film Terbaik Dunia</a>
+		          </li>
+		          <li>
+		            <a href="#">11 Film Teknologi Wajib Tonton</a>
+		          </li>
+		          <li>
+		            <a href="#">Siap Bikin Heboh #HitsWithoutViolence ?</a>
+		          </li>
+		          <li>
+		            <a href="#">Kumpulan Foto Jadul Seleb Hollywood</a>
+		          </li>
+		          <li>
+		            <a href="#">2013, SNMPTN Ujian Tulis Akan Dihapuskan</a>
+		          </li>
+            </ul>
+          </div>
+        </div>
+    	</div>
+
+	    <!-- NEWS WITH IMAGE -->
+			<!-- <div id="news-partner-widget" class="bar">
+        <h2>News</h2>
+
+        <a href="#" class="back-to-top">
+          <img src="../assets/img/arrow-top.png" height="10" width="10" alt="">
+        </a>
+
+        <div class="tabnav">
+          <a id="tab-nav-news1" href="#" onclick="navTabs('tab-content-news1', 'tab-nav-news1'); return false;" class="current">Beritagar</a>
+          <span class="separator">|</span>
+          <a id="tab-nav-news2" href="#" onclick="navTabs('tab-content-news2', 'tab-nav-news2'); return false;">Metronews</a>
+          <span class="separator">|</span>
+          <a id="tab-nav-news3" href="#" onclick="navTabs('tab-content-news3', 'tab-nav-news3'); return false;">Liputan6</a>
+          <div class="clr"></div>
+        </div>
+
+        <div class="c-list">
+          <div class="bar">
+            <ul id="tab-content-news1" style="display: block;">
+            	<div class="r">
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd1.png)"></div>
+											<h3>Laju Rupiah Masih Lemah Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd2.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="r">
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd3.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd4.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+            </ul>
+            <ul id="tab-content-news2" style="display: none;">
+            	<div class="r">
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd4.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd3.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="r">
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd2.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd1.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+            </ul>
+            <ul id="tab-content-news3" style="display: none;">
+            	<div class="r">
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd4.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd3.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="r">
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd1.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+								<div class="news-item c c-2">
+									<div class="news-item-wrapper">
+										<a href="">
+											<div class="news-thumb" style="background-image:url(img/potd2.png)"></div>
+											<h3>Laju Rupiah Masih Lemah</h3>
+										</a>
+									</div>
+								</div>
+							</div>
+            </ul>
+          </div>
+        </div>
+    	</div> -->
+
+			<!-- NEWS TAB FUNCTION -->
+			<script>
+				var selected = 'tab-content-news1';
+				var selectedLink = 'tab-nav-news1';
+				function navTabs(a, id){
+					document.getElementById(selected).style.display = "none";
+					document.getElementById(a).style.display = "block";
+					document.getElementById(selectedLink).className = "";
+					document.getElementById(id).className = "current";
+					selected = a;
+					selectedLink = id;
+				}
+				navTabs(selected, selectedLink);
+			</script>
+
+			<div id="login" class="bar form-input">
+				<h2>KASKUS Sign In</h2>
+				<a href="#" class="back-to-top">
+					<img src="../assets/img/arrow-top.png" height="10" width="10" alt="">
+				</a>
+				<form>
+					<fieldset>
+						<label class="r">
+							<div class="c c-2">
+								<span>Username</span>
+							</div>
+							<div class="c c-2">
+								<div class="in-txt">
+									<input type="text" autocorrect="off" required>
+								</div>
+							</div>
+						</label>
+						<label class="r">
+							<div class="c c-2">
+								<span>Password</span>
+							</div>
+							<div class="c c-2">
+								<div class="in-txt">
+									<input type="password" autocorrect="off" required>
+								</div>
+							</div>
+						</label>
+						<div class="r">
+							<div class="in-btn c-1" style="margin-left:75%;">
+								<input type="submit" value="Sign in">
+							</div>
+						</div>
+
+						<div class="r">
+							<div class="c c-2">
+								<span>or Sign in with</span>
+							</div>
+							<div class="c c-2">
+								<ul class="social-media">
+									<li>
+										<a href="#">
+											<img src="../assets/img/mindtalk.png" height="19" width="19" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../assets/img/facebook.png" height="19" width="9" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../assets/img/twitter-login.png" height="14" width="17" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../assets/img/google-plus.png" height="18" width="18" alt="">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+
+		</div>
+
+		<nav class="kaskusnetworks">
+			<div class="title-kn">kaskus networks:</div>
+			<div class="list-kn">
+				<a href="#" target="_blank">Opini</a>
+				<a href="#" target="_blank">Bolalob</a>
+				<a href="#" target="_blank">Womantalk</a>
+				<a href="#" target="_blank">Beritagar</a>
+				<a href="#" target="_blank">Kincir</a>
+			</div>
+		</nav>
+
+		<div class="whatsapp-notice p-all-10">
+			<div class="title-kn">Kirim info menarik di sekitarmu ke whatsapp</div>
+			<!-- add more text here -->
+			<a href="" class="green-box p-all-10 radius-5">
+				<img src="../assets/img/whatsapp.png" alt="whatsapp-icon"/>
+				<strong>+62811-9527-587</strong>
+			</a>
+		</div>
+
+		<footer id="site-footer">
+			<nav>
+				<a href="#site-header">Back to top</a>
+				<a href="http://kaskus.com">Desktop version</a>
+				<a href="http://kaskus.com">Night mode</a>
+				<a href="http://kaskus.com">Image off</a>
+				<a href="#" class="out">Logout</a>
+			</nav>
+			<img src="../assets/img/banner1.jpg" height="250" width="300" alt="">
+			<small>&copy; 2012 Kaskus – The Largest Indonesian Community</small>
+		</footer>
+
+		
+	</div>
+
+	<script type="text/javascript" src="../assets/js/nav-arrow.js"></script>
+	<script type="text/javascript" src="../assets/js/header.js"></script>
+	<script type="text/javascript" src="../assets/js/user-agent.js"></script>
+
+</body>
+
+</html>
