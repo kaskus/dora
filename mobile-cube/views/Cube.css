@@ -1,6 +1,6 @@
 #Cube-container {
-    width: 250px;
-    height: 250px;
+    width: 255px;
+    height: 255px;
     position: relative;
     top: 0%;
     margin: auto;
@@ -22,8 +22,8 @@
     -webkit-transition: -webkit-transform 0.6s;
 }
 .Cube-face {
-    width: 246px;
-    height: 246px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     background-color: white;
     margin: 0;
@@ -31,26 +31,26 @@
 }
 
 #Cube .Cube-front {
-    transform: rotateY(0deg) translateZ(123px);
-    -webkit-transform: rotateY(0deg) translateZ(123px);
+    transform: rotateY(0deg) translateZ(125px);
+    -webkit-transform: rotateY(0deg) translateZ(125px);
 }
 #Cube .Cube-back {
-    transform: rotateX(180deg) translateZ(123px);
-    -webkit-transform: rotateX(180deg) translateZ(123px);
+    transform: rotateX(180deg) translateZ(125px);
+    -webkit-transform: rotateX(180deg) translateZ(125px);
 }
 #Cube .Cube-right {
-    transform: rotateY(90deg) translateZ(123px);
-    -webkit-transform: rotateY(90deg) translateZ(123px);
+    transform: rotateY(90deg) translateZ(125px);
+    -webkit-transform: rotateY(90deg) translateZ(125px);
 }
 #Cube .Cube-left {
-    transform: rotateY(-90deg) translateZ(123px);
-    -webkit-transform: rotateY(-90deg) translateZ(123px);
+    transform: rotateY(-90deg) translateZ(125px);
+    -webkit-transform: rotateY(-90deg) translateZ(125px);
 }
 #Cube .Cube-top {
-    transform: rotateX(90deg) translateZ(123px);
-    -webkit-transform: rotateX(90deg) translateZ(123px);
+    transform: rotateX(90deg) translateZ(125px);
+    -webkit-transform: rotateX(90deg) translateZ(125px);
 }
 #Cube .innityAppsCube-bottom {
-    transform: rotateX(-90deg) translateZ(123px);
-    -webkit-transform: rotateX(-90deg) translateZ(123px);
+    transform: rotateX(-90deg) translateZ(125px);
+    -webkit-transform: rotateX(-90deg) translateZ(125px);
 }
