@@ -122,7 +122,7 @@
             'height': height + "px"
           }
 
-          console.log('joni'+ height);
+          // console.log('joni'+ height);
 
           window.parent.postMessage(message, "*");
       });
@@ -171,10 +171,10 @@
     $("body").prepend("<style>#banner-frame { height: 50px; width: 320px; transition: height 0.3s ease-out;}#banner-frame.stretched {  width: 100%;}</style>")
 
     window.parent.addEventListener('message', function(e) {
-      console.log(e);
+      // console.log(e);
       var message = e.data.message;
       var height = e.data.height;
-      console.log("ini pas terima message" + height);
+      // console.log("ini pas terima message" + height);
       switch (message) {
         case 'update-height':
           $('#banner-frame').css('height', height);   
