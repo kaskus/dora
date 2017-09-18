@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lift Img</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <style>
+        body{ margin:0; }
+        #overlay-title{
+            display:block;
+            text-align:left;
+            margin:0;
+            line-height: 24px;
+            font-size:12px;
+            padding:10px 5px;
+            font-family:Arial, Helvetica, sans-serif;
+            color:#fff;
+            background:#000;
+            z-index: 999;
+        }
+        #overlay-close{
+            background: url('http://cdn.klimg.com/d.kapanlaginetwork.com/banner/asset/tilt/frame/assets/delete-20-1.png') no-repeat 50% 50%;
+            width: 20px;
+            height: 20px;
+            float: right;
+            margin: 3px 10px 0 0;
+        }
+    </style>
+    <script>
+        var $ = window.parent.$, jQuery = window.parent.jQuery;
+        curWin = window.parent.window;
+        curDoc = window.parent.document;
+    </script>
+</head>
+<body>
+    <h6 id="overlay-title">
+        Advertisement - Keep Scrolling To Continue
+        <div id="overlay-close" onclick="closeAds();"></div>
+    </h6>
+    <a href="https://markas.kaskus.co.id/" style="display: block;" target="_blank"><img id="overlay-img" src="markas.jpg" style="width:100%;"/></a>
+    <script>
+       $("body").prepend("<style>#overlay-ads.active{display:block;visibility:visible;} #overlay-ads {position: fixed;top: 0; bottom: 0; z-index: 99999; left: 0; right: 0; overflow-x: hidden; overflow-y: auto; visibility: hidden; display: none; }#overlay-content{  position: relative; max-width: 620px; margin:0 auto; }#overlay-box { position: absolute;left: 0;right: 0;bottom: 0;overflow: hidden;}#tilt-relative {  width: 100%;height: auto;overflow: hidden; position: relative;}</style>") ;
+
+        
+        $(window).on("load", function() {
+          initOverlay();
+        });
+
+        
+
+       function  initOverlay(){
+            var alreadyScrolled = false;
+
+            var viewPortHeight = $(window).height();
+            var minIframeHeight =  document.getElementById('overlay-img').height;
+            var contentHeight = 3 * viewPortHeight;
+            var bottomBox = contentHeight - (2 * viewPortHeight);
+            var message = {
+              'height': minIframeHeight
+            }
+
+            $("#overlay-ads").on( 'scroll', function(){
+               console.log();
+               if($(this).scrollTop() > (viewPortHeight + minIframeHeight) + 50){ // 50 itu tinggi item"nya
+                $('#overlay-ads').removeClass('active');
+               }
+            });
+
+            window.parent.postMessage(message, "*");
+            
+            $('#overlay-content').css("height", contentHeight + 'px');
+            $('#overlay-box').css("bottom", bottomBox + 'px');
+                  
+            window.parent.addEventListener('scroll', function() {
+
+              var scrollTopParent = $(window.parent).scrollTop();
+              var firstPost = $('.first-post').offset().top;
+              var contentHeight = 1 * (document.getElementById('overlay-img').height);
+              var batas = firstPost + (0.5 * contentHeight);
+              
+              if( scrollTopParent > firstPost && scrollTopParent < batas && alreadyScrolled == false){
+                  $('#overlay-ads').addClass('active');
+                  $('#overlay-ads').show();
+                  alreadyScrolled = true;
+              }
+              else if( scrollTopParent > batas && alreadyScrolled == true){
+                  $('#overlay-ads').removeClass('active');
+              }    
+            });  
+              
+        }
+
+      
+
+      window.parent.addEventListener('message', function(e) {
+      var message = e.data.message;
+      var height = e.data.height;
+      console.log("woy");
+
+      $('#overlay-ads-iframe').attr('height', height);   
+
+
+    });
+
+       
+
+       function closeAds(){
+            $('#overlay-ads').removeClass('active');
+       }
+
+    </script>
+</body>
+</html>   
+
