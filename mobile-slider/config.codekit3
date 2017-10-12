@@ -11033,27 +11033,29 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/views\/a.png": {
-		"ft": 32768,
-		"iS": 184202,
-		"oA": 0,
-		"oAP": "\/views\/a.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+	"\/views\/banner-full.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/banner-full.html",
+		"oF": 0
 		},
-	"\/views\/b.png": {
-		"ft": 32768,
-		"iS": 180464,
-		"oA": 0,
-		"oAP": "\/views\/b.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+	"\/views\/banner-mix.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/banner-mix.html",
+		"oF": 0
+		},
+	"\/views\/banner-video-full.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/banner-video-full.html",
+		"oF": 0
+		},
+	"\/views\/banner-video.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/banner-video.html",
+		"oF": 0
 		},
 	"\/views\/banner.html": {
 		"ft": 8192,
@@ -11061,51 +11063,64 @@
 		"oAP": "\/views\/banner.html",
 		"oF": 0
 		},
-	"\/views\/c.png": {
-		"ft": 32768,
-		"iS": 165989,
-		"oA": 0,
-		"oAP": "\/views\/c.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+	"\/views\/index-full.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/index-full.html",
+		"oF": 0
 		},
-	"\/views\/cubeslide-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/views\/cubeslide-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+	"\/views\/index-mix.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/index-mix.html",
+		"oF": 0
 		},
-	"\/views\/cubeslide.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/views\/cubeslide-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+	"\/views\/index-video-full.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/index-video-full.html",
+		"oF": 0
 		},
-	"\/views\/d.png": {
-		"ft": 32768,
-		"iS": 148988,
-		"oA": 0,
-		"oAP": "\/views\/d.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+	"\/views\/index-video.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/index-video.html",
+		"oF": 0
 		},
 	"\/views\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/views\/index.html",
 		"oF": 0
+		},
+	"\/views\/slick-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/views\/slick-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/views\/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/views\/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/views\/slick.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/views\/slick.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/views\/template\/footer-old.html": {
 		"ft": 8192,
