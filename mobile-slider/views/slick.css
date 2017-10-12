@@ -173,15 +173,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-prev:hover,
-.slick-prev:focus{
-    left: 0;
-}
-
-.slick-next:hover,
-.slick-next:focus{
-    right: 0;
-}
 
 .slick-next:before
 {
@@ -194,9 +185,9 @@
 
 .slick-prev
 {
-    left: 0px;
+    left: -10px;
 }
 .slick-next
 {
-    right: 0px;
+    right: -10px;
 }
