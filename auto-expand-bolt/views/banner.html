@@ -1,21 +1,21 @@
 <div id="ad-container">
     <div id="ad-invitation">
         <div class="invitation__container--small">
-            <a href="javascript:window.open(window.clickTag)">
-              <div class="invitation__ad--small">
-                  <img src="https://s.kaskus.id/img/seasonal/november2017/tematik/wp_background_fbpao54l8rbp.jpg"/>
-              </div>
-            </a>
+
+            <div class="invitation__ad--small">
+                <img src="https://s.kaskus.id/img/seasonal/november2017/tematik/wp_background_fbpao54l8rbp.jpg"/>
+            </div>
+
         </div>
         <div class="invitation__container--large">
             <div class="invitation__ad--large instruction">
-                <a href="javascript:window.open(window.clickTag)">
-                  <div class="invitation__ad--video">
-                    <div class="invitation__ad--link">
-                        <img src="https://s.kaskus.id/img/seasonal/november2017/tematik/wp_background_fbpao54ewqaq.jpg"/>
-                    </div>
+
+                <div class="invitation__ad--video">
+                  <div class="invitation__ad--link">
+                      <img src="https://s.kaskus.id/img/seasonal/november2017/tematik/wp_background_fbpao54ewqaq.jpg"/>
                   </div>
-                </a>
+                </div>
+
             </div>
         </div>
     </div>
@@ -148,6 +148,18 @@
                 }
             });
         }
+
+        var stopVideo = function ( element ) {
+
+            var video = document.getElementById( 'video-item' );
+
+            if ( video !== null && !video.ended ) {
+                video.pause();
+                video.currentTime = 0;
+            }
+        };
+
+
 
         function autoClose() {
           if ( first ){
