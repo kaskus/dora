@@ -4775,6 +4775,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/mock-up1.png": {
+		"ft": 32768,
+		"iS": 1069331,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/more-from-jb-thumb.jpg": {
 		"ft": 16384,
 		"iS": 3414,
@@ -8628,6 +8639,12 @@
 		"oAP": "\/assets\/stylesheets\/vendor\/fontello-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/index-lama.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-lama.html",
+		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,

@@ -8266,9 +8266,33 @@
 		<script>
 			$(document).ready(function() {
 				$("body").addClass("amSkin");
-				$(".amSkin .main").prepend('<a href="https://ads.kaskus.co.id/" target="_blank" class="immersiveAds"></a>');
 
 			});
+			
+			$(window).scroll(function() {
+				var windowTop = $(document).scrollTop() + 50;
+				var controlLanding = $('.main-content-full');
+				if (windowTop > controlLanding.offset().top){
+					$("body").css('background-position','center 50px');
+			    }
+			    else{
+			    	$("body").css('background-position','center 89px');
+			    }
+			});
+
+			// $(window).scroll(function() {
+			// 	var header = $(".site-header--top");
+			//     var content = $(".main-content-full");
+			//     var headerTop = header.offset().top;
+			//     var contentTop = content.offset().top;
+			//     var headerBottom = headerTop + header.height();
+			//     if (headerBottom >= contentTop ) {
+			//         $("body").css('background-position','center 50px');
+			//     }
+			//     else{
+			//     	$("body").css('background-position','center 89px');
+			//     }
+			// });
 
 		</script>
 
