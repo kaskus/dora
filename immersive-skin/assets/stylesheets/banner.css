@@ -1,0 +1,71 @@
+/*html {
+	background-image: url(../images/mock-up-vivo2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body {
+	background-color: #f7f7f7;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+body.active {
+	background-color: transparent !important;
+}
+
+body.active .main-content-full{
+	background-color: #f7f7f7;
+}*/
+
+body.amSkin{
+	cursor:default;
+	background-position:center 89px;
+	background-repeat:no-repeat ;
+	background-image:none;
+	background-color:#FDFDFD ;
+	background-attachment:fixed;
+	margin-left:auto;
+	margin-right:auto ;
+	margin-top:310px ;
+	background-image:url("../images/mock-up.png");
+	transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+
+}
+body.amSkin .main-content-full{
+	background-color: #f7f7f7;
+}
+
+body.amSkin .main{
+	padding-top: 0;
+}
+
+body.amSkin .header__category{
+	margin-top: 0;
+}
+
+/*body.active .header__title,
+body.active .sidebar-trigger,
+body.active .navbar-default .navbar-nav>li>a, 
+body.active .navbar-default .navbar-text {
+	color: #fff;
+}
+
+body.active .site-header {
+	background-color: #006e6f;
+}
+
+body.active .sidebar-trigger {
+	background-color: #0b3b3d;
+}
+
+.navbar-default .navbar-nav>li>a, 
+.navbar-default .navbar-text,
+.sidebar-trigger,
+.header__title,
+.site-header {
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}*/
