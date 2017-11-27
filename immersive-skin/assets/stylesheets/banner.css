@@ -36,6 +36,7 @@ body.amSkin{
 }
 body.amSkin .main-content-full{
 	background-color: #f7f7f7;
+	padding-bottom: 40px;
 }
 
 body.amSkin .main{
@@ -44,6 +45,10 @@ body.amSkin .main{
 
 body.amSkin .header__category{
 	margin-top: 0;
+}
+
+body.amSkin .site-footer{
+	margin-top: 0px;
 }
 
 /*body.active .header__title,
