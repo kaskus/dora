@@ -1,4 +1,4 @@
-#ad-pull{
+#my-ad-slot{
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -7,6 +7,6 @@
   z-index: 9999;
   transition: height 0.3s ease-in-out;
 }
-#ad-pull.stretched{
+#my-ad-slot.stretched{
   height: 150px;
 }

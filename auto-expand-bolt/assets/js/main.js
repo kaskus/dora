@@ -2,19 +2,18 @@ window.addEventListener('message', function(e) {
   var message = e.data.message;
   switch (message) {
     case 'remove-banner':
-      $('#ad-pull').remove();
-      $(document.body).css('overflow', 'auto');
+      $('#my-ad-slot').remove();
       break;
     case 'stretch-banner':
-      $('#ad-pull').addClass('stretched');
-      $(document.body).css('overflow', 'hidden');
+      $('#my-ad-slot').find('iframe').addClass('stretched');
+      $('#my-ad-slot > a').hide();
       break;
     case 'shrink-banner':
-      $('#ad-pull').removeClass('stretched');
-      $(document.body).css('overflow', 'auto');
+      $('#my-ad-slot').find('iframe').removeClass('stretched');
+      $('#my-ad-slot > a').show();
       break;
     case 'open-url':
-      window.location.href = e.data.url;
+      window.open(e.data.url, '_blank');
       break;
     default:
       break;
