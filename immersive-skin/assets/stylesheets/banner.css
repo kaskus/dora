@@ -1,4 +1,3 @@
-
 body.amSkin{
 	cursor:default;
 	background-repeat:no-repeat ;
@@ -9,7 +8,7 @@ body.amSkin{
 	background-size: cover;
 	margin-left:auto;
 	margin-right:auto ;
-	background-image:url("../images/mock-up-vivo2.jpg");
+	background-image:url("../images/mock-up-bg.jpg");
 	transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
 
@@ -34,9 +33,32 @@ body.amSkin .site-footer{
 .immersiveAds{
 	position: relative;
 	width: 100%;
-	height:310px;
+	height: 310px;
+	display: block;
+	z-index: 1;
+}
+.immersiveSkin{
+	position: fixed;
+	width: 100%;
+	height: 100%;
 	display: block;
 }
+
+.immersiveSkin-center{
+	position: fixed;
+    width: 970px;
+    z-index: 1;
+    left: calc( 50% - 485px);
+    height: 250px;
+   	top: 90px;
+}
+
+.immersiveSkin-center img{
+	max-width: 100%;
+	height: 250px;
+}
+
+
 
 /*body.amSkin{
 	cursor:default;

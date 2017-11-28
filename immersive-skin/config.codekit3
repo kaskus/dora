@@ -4744,6 +4744,38 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/mock-up-bg.jpg": {
+		"ft": 16384,
+		"iS": 51287,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/mock-up-center.png": {
+		"ft": 32768,
+		"iS": 40491,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up-center.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/mock-up-lt.png": {
+		"ft": 32768,
+		"iS": 130037,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up-lt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/mock-up-vivo-bg.jpg": {
 		"ft": 16384,
 		"iS": 469707,
