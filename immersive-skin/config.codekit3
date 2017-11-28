@@ -4756,20 +4756,9 @@
 		},
 	"\/assets\/images\/mock-up-center.png": {
 		"ft": 32768,
-		"iS": 40491,
+		"iS": 69314,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up-center.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/images\/mock-up-lt.png": {
-		"ft": 32768,
-		"iS": 130037,
-		"oA": 0,
-		"oAP": "\/assets\/images\/mock-up-lt.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -8466,6 +8455,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/javascripts\/scrolling.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/javascripts\/scrolling.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/javascripts\/separate\/onboarding.js": {
 		"ft": 64,
 		"mi": 1,
@@ -8518,9 +8516,9 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/stylesheets\/banner-min.css",
-		"oF": 0,
-		"oS": 3
+		"oAP": "\/assets\/stylesheets\/banner.css",
+		"oF": 2,
+		"oS": 0
 		},
 	"\/assets\/stylesheets\/crop.css": {
 		"aP": 1,
@@ -8606,9 +8604,9 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/stylesheets\/main-min.css",
-		"oF": 0,
-		"oS": 3
+		"oAP": "\/assets\/stylesheets\/main.css",
+		"oF": 2,
+		"oS": 0
 		},
 	"\/assets\/stylesheets\/main.css.map": {
 		"ft": 8192,

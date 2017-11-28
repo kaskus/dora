@@ -8262,12 +8262,15 @@
 
 		<script src="assets/javascripts/vendor/vendor.js"></script>
 		<script src="assets/javascripts/main.js"></script>
+		<script src="assets/javascripts/scrolling.js"></script>
 
 		<script>
 			$(document).ready(function() {
 				$("body").addClass("amSkin");
-				$(".amSkin .main").prepend('<a href="https://ads.kaskus.co.id/" target="_blank" class="immersiveAds"></a><div class="immersiveSkin"><div class="immersiveSkin-lt"></div><div class="immersiveSkin-center"><img src="assets/images/mock-up-center.png" alt="" title="" border="0"></div><div class="immersiveSkin-rt"></div></div></a>');
-
+				$(".amSkin .main").prepend('<a href="https://ads.kaskus.co.id/" target="_blank" class="immersiveAds"></a>');
+				$(".amSkin").prepend('<div class="immersiveSkin"><div class="immersiveSkin-center"><img src="assets/images/mock-up-center.png" alt="" title="" border="0"></div></div>');
+				$(".amSkin #main > .container:first").prepend('<div class="skin-banner"><div class="skin-banner__left"><a href="https://ads.kaskus.co.id/" target="_blank"><img src="assets/images/mock-up-lt.png" alt="" title="" border="0"></a></div><div class="skin-banner__right"><a href="https://ads.kaskus.co.id/" target="_blank"><img src="assets/images/mock-up-lt.png" alt="" title="" border="0"></a></div></div>');
+				
 			});
 
 		</script>
