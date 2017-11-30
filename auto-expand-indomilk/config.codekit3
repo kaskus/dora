@@ -10944,6 +10944,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/main.js": {
 		"ft": 64,
 		"mi": 1,
@@ -11051,6 +11060,16 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/stylesheets\/banner-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/stylesheets\/banner-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/assets\/stylesheets\/banner.css": {
 		"aP": 1,
