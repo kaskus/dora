@@ -8286,7 +8286,7 @@
 			  width: 100%;
 			  height: 291px;
 			  display: block;
-			  z-index: 0; }
+			  z-index: 3; }
 
 			.immersiveSlider {
 			  position: fixed;
@@ -8296,13 +8296,13 @@
 			  top: 89px;
 			  transition: all 0.4s ease-in-out;
     		  -webkit-transition: all 0.4s ease-in-out;
-    		  z-index: 1;
+    		  z-index: 0;
 			}
 		</style>
 		<script>
 			$(document).ready(function() {
 				$("body").addClass("amSlider");
-				$(".amSlider .main").prepend('<div" target="_blank" class="immersiveSlider_link"></div>');
+				$(".amSlider .main").prepend('<a target="_blank" class="immersiveSlider_link" href="https://ads.kaskus.co.id/"></a>');
 				$(".amSlider").prepend('<div class="immersiveSlider"><iframe width="100%" height="100%" id="immersiveSlider_iframe" src="banner.html" frameborder="0">This browser does not support iframe</iframe></div>');
 
 				$(window).scroll(function() {
