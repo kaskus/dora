@@ -6,46 +6,43 @@
         margin:0;
         padding: 0;
       }
-      .immersiveSlider__center {
-        position: relative;
-        z-index: 1;
-        margin-top: 89px;
-        height: 200px;
-        width: 100%; 
-      }
-
-      .immersiveSlider__center img {
-        height: 200px;
-      }
-
-      .immersiveSlider__wrapper {
+      #immersiveSlider__wrapper {
           width: 100%;
-          position: relative;
+          height: 100%;
+          display: block;
+      }
+      #immersiveSlider__bg {
+        cursor:default;
+        background-position:center top;
+        background-repeat:no-repeat ;
+        background-attachment:fixed;
+        margin-left:auto;
+        margin-right:auto ;
+        margin-top:0px ;
+        width: 100%;
+        height: 100%;
+        background-image:url("assets/images/mock-up.png");
+        z-index: 2;
+        position: absolute;
+      }
+
+      #immersiveSlider__bg__btm{
+          background-image:url("assets/images/mock-up-1.png");
           z-index: 1;
-          height: calc(100% - 290px);
-      }
-      .immersiveSlider__container {
-          position: relative;
-          width:990px;
-          margin:0 auto;
+          position: absolute;
+          cursor:default;
+          background-position:center top;
+          background-repeat:no-repeat ;
+          background-attachment:fixed;
+          margin-left:auto;
+          margin-right:auto ;
+          margin-top:0px ;
+          width: 100%;
+          height: 100%;
+
       }
 
-      .immersiveSlider__left{ 
-        float: left;
-        left: -190px;
-        width: 200px;
-        position: relative; 
-      }
-
-      .immersiveSlider__right {
-        float: right;
-        right: -190px;
-        width: 200px;
-        position: relative; 
-      }
-
-      .immersiveSlider__left img, .immersiveSlider__right img {
-        width: 100%; }
+      
     </style>
       <script>
         var $ = window.parent.$, jQuery = window.parent.jQuery;
@@ -63,28 +60,34 @@
   </head>
 
   <body>
-    <div class="immersiveSlider__center">
-      <img src="https://ads.ayads.co/delivery/redirect-9f019dc474e85231552a01c09db56290.jpg" alt="" title="" border="0">
-    </div>
-    <div class="immersiveSlider__wrapper">
-      <div class="immersiveSlider__container">
-        <div class="immersiveSlider__left">
-          <a href="https://ads.kaskus.co.id/" target="_blank">
-            <img src="https://ads.ayads.co/delivery/redirect-1f4ab711251f93fa4f110e4c4534bf41.jpg" alt="" title="" border="0">
-          </a>
-        </div>
-        <div class="immersiveSlider__right">
-          <a href="https://ads.kaskus.co.id/" target="_blank">
-            <img src="https://ads.ayads.co/delivery/redirect-8bfa83019feb36806b904522ee171959.jpg" alt="" title="" border="0">
-          </a>
-        </div>
+    <div id="immersiveSlider__wrapper">
+      <div id="immersiveSlider__bg__btm">
+      </div>
+      <div id="immersiveSlider__bg">
       </div>
     </div>
 
     <script type="text/javascript">
 
       $(curDoc).ready(function(){
-          
+          $(document.getElementById('immersiveSlider__wrapper')).mousemove(function(e) {
+              // // get the mouse x (horizontal) position and offset of the div
+              var offset =  $(document.getElementById('immersiveSlider__wrapper')).offset();
+              var iTopWidth = (e.pageX - offset.left);
+
+              // // set width of bottomimage div
+              $(document.getElementById('immersiveSlider__wrapper')).find(document.getElementById('immersiveSlider__bg')).width(iTopWidth);
+            }
+          );
+          $(curWin).mousemove(function(e) {
+              // // get the mouse x (horizontal) position and offset of the div
+              var offset =  $(document.getElementById('immersiveSlider__wrapper')).offset();
+              var iTopWidth = (e.pageX - offset.left);
+
+              // // set width of bottomimage div
+              $(document.getElementById('immersiveSlider__wrapper')).find(document.getElementById('immersiveSlider__bg')).width(iTopWidth);
+            }
+          );
       });
 
 
