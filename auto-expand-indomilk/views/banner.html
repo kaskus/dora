@@ -7,12 +7,12 @@
         </div>
         <div class="invitation__container--large">
             <div class="invitation__ad--large instruction">
-                <div class="invitation__ad--link">
+                <a href=""  class="invitation__ad--link">
                     <img src="https://s.kaskus.id/images/2017/12/03/6212937_20171203082644.jpg"/>
                     <div id="ad-video">
                         <video id="video-item" src="https://v.kaskus.id/videos/6212937/3072/900/p0blg7_1512195422.404_.mp4" controls></video>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -60,6 +60,7 @@
         position: relative;
         max-width: 100%;
         margin:0 auto;
+        display: block;
         height: 150px;
     }
     #ad-video{
@@ -84,24 +85,17 @@
     .invitation__close{
         -webkit-appearance: none;
         text-align: center;
-        background-color: black;
-        color: white;
         border: none;
+        outline: none;
         position: absolute;
         right: 0;
         top: 0;
-    }
-    .invitation__close--small{
-        width: 20px;
-        height: 20px;
-    }
-    .invitation__close--large{
-        font-size: 30px;
-        width: 40px;
-        height: 40px;
-        font-weight: bold;
-        border-radius: 0 0 0 40px;
-        padding: 0 0 10px 10px;
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('https://s.kaskus.id/img/seasonal/november2017/tematik/wp_background_fbpao7bhnk7d.png');
     }
 </style>
 <script>
