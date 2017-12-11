@@ -86,6 +86,8 @@
 body.amSkinVid .main-content-full{
    background-color: #f7f7f7;
    padding-bottom: 40px;
+   position: relative;
+   z-index: 4;
  }
  
 
