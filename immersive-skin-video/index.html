@@ -14,7 +14,7 @@
 		<!-- <link rel="stylesheet" href="assets/stylesheets/vendor/font-awesome.css"> -->
 		<link rel="stylesheet" href="assets/stylesheets/vendor/fontello.css">
 		<link rel="stylesheet" href="assets/stylesheets/main.css">
-		<link rel="stylesheet" href="assets/stylesheets/banner.css">
+		<!-- <link rel="stylesheet" href="assets/stylesheets/banner.css"> -->
 		<!-- <link rel="stylesheet" href="assets/stylesheets/print.css" media="print"> -->
 		
 
@@ -1123,7 +1123,7 @@
 		<div class="container">
 				<div class="row">
 		<div id="leader-banner" class="banner-skin-hover">
-			
+			<iframe id="cube_ads_iframe" src="banner.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
 		</div>
 		
 	</div>
@@ -8264,56 +8264,56 @@
 		<script src="assets/javascripts/main.js"></script>
 
 		<script>
-			$(document).ready(function() {
-				$("body").addClass("amSkinVid");
-				$('.amSkinVid').prepend('<video id="amSkinVid-video-bg" src="https://ads.ayads.co/delivery/video-bg-15265.mp4" preload="true" loop="" autoplay muted></video><div id="amSkinVid-video-layer"><a href="https://www.burberry.com/" target="_blank"></a></div>');
-				$('.amSkinVid #main').prepend('<div id="amSkinVid-video-wrapper"><div id="amSkinVid-video-container"><div id="amSkinVid-video-controls"><i class="fa fa-pause" aria-hidden="true"></i><i class="fa fa-play" aria-hidden="true"></i></div><div id="amSkinVid-video-mute"><img id="soundMute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-off.png"><img id="soundUnmute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-on.png"></div><video id="amSkinVid-video" src="https://ads.ayads.co/delivery/video-15265.mp4" autoplay="" preload="true" loop="" ></video></div></div>');
+			// $(document).ready(function() {
+			// 	$("body").addClass("amSkinVid");
+			// 	$('.amSkinVid').prepend('<video id="amSkinVid-video-bg" src="https://ads.ayads.co/delivery/video-bg-15265.mp4" preload="true" loop="" autoplay muted></video><div id="amSkinVid-video-layer"><a href="https://www.burberry.com/" target="_blank"></a></div>');
+			// 	$('.amSkinVid #main').prepend('<div id="amSkinVid-video-wrapper"><div id="amSkinVid-video-container"><div id="amSkinVid-video-controls"><i class="fa fa-pause" aria-hidden="true"></i><i class="fa fa-play" aria-hidden="true"></i></div><div id="amSkinVid-video-mute"><img id="soundMute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-off.png"><img id="soundUnmute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-on.png"></div><video id="amSkinVid-video" src="https://ads.ayads.co/delivery/video-15265.mp4" autoplay="" preload="true" loop="" ></video></div></div>');
 
-				var video = $("#amSkinVid-video")[0];
-				var video1 = $("#amSkinVid-video-bg")[0];
-				$("#amSkinVid-video").prop('muted', true);
+			// 	var video = $("#amSkinVid-video")[0];
+			// 	var video1 = $("#amSkinVid-video-bg")[0];
+			// 	$("#amSkinVid-video").prop('muted', true);
 
-				function playVid() {
-				    $("#amSkinVid-video-controls > .fa-play").show();
-				    $("#amSkinVid-video-controls > .fa-pause").hide();
-				    video.pause();
-				    video1.pause();
-				}
+			// 	function playVid() {
+			// 	    $("#amSkinVid-video-controls > .fa-play").show();
+			// 	    $("#amSkinVid-video-controls > .fa-pause").hide();
+			// 	    video.pause();
+			// 	    video1.pause();
+			// 	}
 
-				function pauseVid() {
-				    $("#amSkinVid-video-controls > .fa-play").hide();
-				    $("#amSkinVid-video-controls > .fa-pause").show();
-				    video.play();
-				    video1.play();
-				}
+			// 	function pauseVid() {
+			// 	    $("#amSkinVid-video-controls > .fa-play").hide();
+			// 	    $("#amSkinVid-video-controls > .fa-pause").show();
+			// 	    video.play();
+			// 	    video1.play();
+			// 	}
 
-			 	$(document).on('click', '#amSkinVid-video-controls > .fa', function (e) {
+			//  	$(document).on('click', '#amSkinVid-video-controls > .fa', function (e) {
 				    
-				    if (video.paused === false) {
-				       	playVid(); 
-				    } else {
-				         pauseVid();
-				    }
+			// 	    if (video.paused === false) {
+			// 	       	playVid(); 
+			// 	    } else {
+			// 	         pauseVid();
+			// 	    }
 
-				    return false;
-				});
+			// 	    return false;
+			// 	});
 
-				$(document).on('click', '#amSkinVid-video-mute > img', function (e) {
-					if ($("#amSkinVid-video").prop('muted')) {
-						$("#amSkinVid-video").prop('muted', false);
-						$("#soundMute").hide();
-						$("#soundUnmute").show();
-					}
-					else{
-						$("#amSkinVid-video").prop('muted', true);
-						$("#soundMute").show();
-						$("#soundUnmute").hide();
-					}
-					return false;
+			// 	$(document).on('click', '#amSkinVid-video-mute > img', function (e) {
+			// 		if ($("#amSkinVid-video").prop('muted')) {
+			// 			$("#amSkinVid-video").prop('muted', false);
+			// 			$("#soundMute").hide();
+			// 			$("#soundUnmute").show();
+			// 		}
+			// 		else{
+			// 			$("#amSkinVid-video").prop('muted', true);
+			// 			$("#soundMute").show();
+			// 			$("#soundUnmute").hide();
+			// 		}
+			// 		return false;
 
-				});
+			// 	});
 
-			});
+			// });
 			
 			// $(window).scroll(function() {
 			// 	var windowTop = $(document).scrollTop() + 50;
