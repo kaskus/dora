@@ -4765,6 +4765,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/mock-up-lt.png": {
+		"ft": 32768,
+		"iS": 180592,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up-lt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/mock-up-vivo-bg.jpg": {
 		"ft": 16384,
 		"iS": 469707,
@@ -8670,11 +8681,22 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/index-lama.html": {
+	"\/banner.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index-lama.html",
+		"oAP": "\/banner.html",
 		"oF": 0
+		},
+	"\/bg-guide.png": {
+		"ft": 32768,
+		"iS": 755380,
+		"oA": 0,
+		"oAP": "\/bg-guide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -8689,7 +8711,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 533445091,
-	"displayValue": "immersive-skin",
+	"displayValue": "immersive-skin-mix",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-krieger"
 	},
