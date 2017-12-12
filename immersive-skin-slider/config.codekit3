@@ -4824,6 +4824,17 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up1.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/mock-up2.png": {
+		"ft": 32768,
+		"iS": 1050664,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up2.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,

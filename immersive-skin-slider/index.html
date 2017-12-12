@@ -1123,7 +1123,7 @@
 		<div class="container">
 				<div class="row">
 		<div id="leader-banner" class="banner-skin-hover">
-			
+			<iframe id="cube_ads_iframe" src="banner.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
 		</div>
 		
 	</div>
@@ -8266,7 +8266,7 @@
 
 		<style>
 
-			body.amSlider .main-content-full {
+			/*body.amSlider .main-content-full {
 			  background-color: #f7f7f7;
 			  padding-bottom: 40px; position: relative;
 			  z-index: 2 }
@@ -8297,26 +8297,26 @@
 			  transition: all 0.4s ease-in-out;
     		  -webkit-transition: all 0.4s ease-in-out;
     		  z-index: 0;
-			}
+			}*/
 		</style>
 		<script>
-			$(document).ready(function() {
-				$("body").addClass("amSlider");
-				$(".amSlider .main").prepend('<a target="_blank" class="immersiveSlider_link" href="https://ads.kaskus.co.id/"></a>');
-				$(".amSlider").prepend('<div class="immersiveSlider"><iframe width="100%" height="100%" id="immersiveSlider_iframe" src="banner.html" frameborder="0">This browser does not support iframe</iframe></div>');
+			// $(document).ready(function() {
+			// 	$("body").addClass("amSlider");
+			// 	$(".amSlider .main").prepend('<a target="_blank" class="immersiveSlider_link" href="https://ads.kaskus.co.id/"></a>');
+			// 	$(".amSlider").prepend('<div class="immersiveSlider"><iframe width="100%" height="100%" id="immersiveSlider_iframe" src="banner.html" frameborder="0">This browser does not support iframe</iframe></div>');
 
-				$(window).scroll(function() {
-					var windowTop = $(document).scrollTop() + 50;
-					var controlLanding = $('.main-content-full');
-					if (windowTop > controlLanding.offset().top){
-						$(".immersiveSlider").css('top','50px');
-				    }
-				    else{
-				    	$(".immersiveSlider").css('top','89px');
-				    }
-				});
+			// 	$(window).scroll(function() {
+			// 		var windowTop = $(document).scrollTop() + 50;
+			// 		var controlLanding = $('.main-content-full');
+			// 		if (windowTop > controlLanding.offset().top){
+			// 			$(".immersiveSlider").css('top','50px');
+			// 	    }
+			// 	    else{
+			// 	    	$(".immersiveSlider").css('top','89px');
+			// 	    }
+			// 	});
 				
-			});
+			// });
 
 		</script>
 

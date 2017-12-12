@@ -6,44 +6,44 @@
         margin:0;
         padding: 0;
       }
-      #immersiveSlider__wrapper {
-          width: 100%;
-          height: 100%;
-          display: block;
-          cursor: pointer;
-      }
-      #immersiveSlider__bg {
-        cursor:default;
-        background-position:center top;
-        background-repeat:no-repeat ;
-        background-attachment:fixed;
-        margin-left:auto;
-        margin-right:auto ;
-        margin-top:0px ;
-        width: 100%;
-        height: 100%;
-        background-image:url("assets/images/mock-up.png");
-        z-index: 2;
-        position: absolute;
-      }
 
-      #immersiveSlider__bg__btm{
-          background-image:url("assets/images/mock-up-1.png");
-          z-index: 1;
-          position: absolute;
-          cursor:default;
-          background-position:center top;
-          background-repeat:no-repeat ;
-          background-attachment:fixed;
-          margin-left:auto;
-          margin-right:auto ;
-          margin-top:0px ;
-          width: 100%;
-          height: 100%;
+      /*#immersiveSlider__wrapper {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
 
-      }
+#immersiveSlider__bg {
+    cursor: default;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/images/mock-up.png");
+    z-index: 2;
+    position: absolute;
+}
 
-      
+#immersiveSlider__bg__btm {
+    background-image: url("assets/images/mock-up-1.png");
+    z-index: 1;
+    position: absolute;
+    cursor: default;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}*/
+    
     </style>
       <script>
         var $ = window.parent.$, jQuery = window.parent.jQuery;
@@ -61,14 +61,54 @@
   </head>
 
   <body>
-    <div id="immersiveSlider__wrapper">
+    <script type="text/javascript">
+      $(curDoc).ready(function(){
+        $("body").addClass("amSlider");
+        $("body").prepend("<style>.amSlider #leader-banner{ height: 0;}.amSlider #leader-banner iframe{ height: 0 !important;} body.amSlider .main-content-full{background-color: #f7f7f7; padding-bottom: 40px; position: relative; z-index: 2}body.amSlider .main{padding-top: 0;}body.amSlider .header__category{margin-top: 0;}body.amSlider .site-footer{margin-top: 0px;}.immersiveSlider_div{height: 200px;width: 100%; margin:0 auto; padding-top: 10px; margin-top: 90px; position: relative;}.immersiveSlider{top: 0; position: fixed; width: 100%; height: 100%; display: block;   z-index: 0;}#immersiveSlider__wrapper{width: 100%; height: 100%; display: block; cursor: pointer;}.immersiveSlider__bg{transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out;} #immersiveSlider__bg{cursor:default; background-position:center top; background-repeat:no-repeat ; background-attachment:fixed; margin-left:auto; margin-right:auto ; margin-top:0px ; width: 100%; height: 100%; background-image:url('assets/images/mock-up1.png'); z-index: 2; position: absolute;}#immersiveSlider__bg__btm{background-image:url('assets/images/mock-up2.png'); z-index: 1; position: absolute; cursor:default; background-position:center top; background-repeat:no-repeat ; background-attachment:fixed; margin-left:auto; margin-right:auto ; margin-top:0px ; width: 100%; height: 100%;}</style>");
+        $("body").addClass("amSkinVid");
+        $(".amSlider #main").prepend('<div class="immersiveSlider_div"></div>');
+        $(".amSlider").prepend('<div class="immersiveSlider"><div id="immersiveSlider__wrapper"><div class="immersiveSlider__bg" id="immersiveSlider__bg__btm"></div><div class="immersiveSlider__bg" id="immersiveSlider__bg"></div></div> </div>');
+
+        $('#immersiveSlider__wrapper').mousemove(function(e) {
+            // // get the mouse x (horizontal) position and offset of the div
+            var offset =  $('#immersiveSlider__wrapper').offset();
+            var iTopWidth = (e.pageX - offset.left);
+
+            // // set width of bottomimage div
+            $('#immersiveSlider__wrapper').find('#immersiveSlider__bg').width(iTopWidth);
+          }
+        );
+        $(curWin).mousemove(function(e) {
+            // // get the mouse x (horizontal) position and offset of the div
+            var offset =  $('#immersiveSlider__wrapper').offset();
+            var iTopWidth = (e.pageX - offset.left);
+
+            // // set width of bottomimage div
+            $('#immersiveSlider__wrapper').find('#immersiveSlider__bg').width(iTopWidth);
+          }
+        );
+      });
+
+      $(curWin).scroll(function() {
+       var windowTop = $(curDoc).scrollTop() + 50;
+       var controlLanding = $('.main-content-full');
+       if (windowTop > controlLanding.offset().top){
+         $(".immersiveSlider__bg").css('background-position','center -50px');
+         }
+         else{
+           $(".immersiveSlider__bg").css('background-position','center 0px');
+         }
+     });
+        
+    </script>
+    <!-- <div id="immersiveSlider__wrapper">
       <div id="immersiveSlider__bg__btm">
       </div>
       <div id="immersiveSlider__bg">
       </div>
-    </div>
+    </div> -->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
 
       $(curDoc).ready(function(){
           $(document.getElementById('immersiveSlider__wrapper')).mousemove(function(e) {
@@ -94,7 +134,7 @@
 
     
 
-    </script>
+    </script> -->
   </body> 
 
 </html>
