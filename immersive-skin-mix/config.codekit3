@@ -8681,6 +8681,12 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/banner-smallVid.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/banner-smallVid.html",
+		"oF": 0
+		},
 	"\/banner.html": {
 		"ft": 8192,
 		"oA": 2,

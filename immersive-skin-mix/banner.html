@@ -1,111 +1,5 @@
 <html>
   <head>
-  		<style type="text/css">
-  			#amSkinVid-video-bg{
-			  min-width: 100%;
-			  min-height: 100%;
-			  position: fixed;
-			  top: 0;
-			  left: 0;
-			  right: 0;
-			  z-index: -1;
-			  cursor: pointer;
-			}
-			 
-			#amSkinVid-video-layer{
-			  position: fixed;
-			  z-index: 1;
-			  width: 100%;
-			  height: 1000px;
-			  left: 0;
-			  right: 0;
-			  cursor: pointer;
-			  background: url(../../bg-guide.png) no-repeat top center;
-			  background-position:center top;
-			  /*background-position:center 89px;*/
-			  background-repeat:no-repeat ;
-			  background-attachment:fixed;
-			  margin-left:auto;
-			  margin-right:auto ;
-			  transition: all 0.4s ease-in-out;
-			  -webkit-transition: all 0.4s ease-in-out;
-			}
-
-			#amSkinVid-video-link{
-			  width: 100%;
-			  height: 1000px;
-			  display: block;
-			  cursor: pointer;
-			  position: absolute;
-			  z-index: 2;
-			}
-			 
-			#amSkinVid-video-wrapper{
-			  width: 100%;
-			  margin:0 auto;
-			  padding-top: 99px;
-			  position: relative;
-			  z-index: 3;
-			}
-
-			#amSkinVid-video-container{
-			  width: 355px;
-			  margin:0 auto;
-			  height: 200px;
-			  position: relative;
-			}
-			#amSkinVid-video-controls{
-			  position: absolute;
-			  bottom:5px;
-			  left: 5px;
-			}
-			#amSkinVid-video-controls .fa{
-			  font-size: 24px;
-			  color: rgba(255,255,255,0.6);
-			  cursor: pointer;
-			}
-			#amSkinVid-video-controls .fa-play{
-			  display: none;
-			}
-			#amSkinVid-video-mute{
-			  position: absolute;
-			  bottom: 7px;
-			  right: 5px;
-			  z-index: 4;
-			}
-			#soundMute, #soundUnmute{
-			 max-width: 25px;
-			 opacity: 0.6;
-			 cursor: pointer;
-			}
-			#soundUnmute{
-			 display: none;
-			}
-			#amSkinVid-video{
-			  height: 100%;
-			}
-
-			body.amSkinVid .main-content-full{
-			   background-color: #f7f7f7;
-			   padding-bottom: 40px;
-			   position: relative;
-			   z-index: 4;
-			 }
-			 
-
-			body.amSkinVid .main{
-			   padding-top: 0;
-			   z-index: 2;
-			}
-
-			body.amSkinVid .header__category{
-			   margin-top: 0;
-			}
-			 
-			body.amSkinVid .site-footer{
-			   margin-top: 0px;
-			}
-  		</style>
 		<script>
 	        var $ = window.parent.$, jQuery = window.parent.jQuery;
 	        curWin = window.parent.window;
@@ -122,15 +16,14 @@
 	</head>
 
   	<body>
-
 		<script type="text/javascript">
 
 			$(curDoc).ready(function() {
-				var isiBanner = '<a id="amSkinVid-video-link" href="https://www.burberry.com/" target="_blank"></a><div id="amSkinVid-video-wrapper"><div id="amSkinVid-video-container"><div id="amSkinVid-video-controls"><i class="fa fa-pause" aria-hidden="true" id="pauseVids"></i><i class="fa fa-play" aria-hidden="true" id="playVids"></i></div><div id="amSkinVid-video-mute"><img id="soundMute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-off.png"><img id="soundUnmute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-on.png"></div><video id="amSkinVid-video" src="https://ads.ayads.co/delivery/video-15265.mp4" autoplay="" preload="true" loop="" ></video></div></div>';
-				$("body").prepend("<style>.amSkinVid #leader-banner iframe{ height: 0 !important;}</style>");
+				var isiBanner = '<a id="amSkinVid-video-link" href="https://www.burberry.com/" target="_blank"></a><div id="amSkinVid-video-wrapper"><div id="amSkinVid-video-container"><div id="amSkinVid-video-controls"><i class="fa fa-pause" aria-hidden="true" id="pauseVids"></i><i class="fa fa-play" aria-hidden="true" id="playVids"></i></div><div id="amSkinVid-video-mute"><img id="soundMute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-off.png"><img id="soundUnmute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-on.png"></div><img id="amSkinVid-video-background" src="https://ads.ayads.co/delivery/creatives/creatives-60970/background-video.png"><video id="amSkinVid-video" src="https://ads.ayads.co/delivery/video-60970.mp4" autoplay="" preload="true" loop="" ></video></div></div>';
+				$("body").prepend("<style>.amSkinVid #leader-banner iframe{ height: 0 !important;}#amSkinVid-video-bg{min-width: 100%; min-height: 100%; position: fixed; top: 0; left: 0; right: 0; z-index: -1; cursor: pointer;}#amSkinVid-video-layer{position: fixed; z-index: 1; width: 100%; height: 1000px; left: 0; right: 0; cursor: pointer; background: url(https://ads.ayads.co/delivery/image-60970.jpg?1482489093) no-repeat top center; background-position:center top; /*background-position:center 89px;*/ background-repeat:no-repeat ; background-attachment:fixed; margin-left:auto; margin-right:auto ; transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out;}#amSkinVid-video-link{width: 100%; height: 1000px; display: block; cursor: pointer; position: absolute; z-index: 2;}#amSkinVid-video-wrapper{width: 100%; margin:0 auto; padding-top: 89px; position: relative; z-index: 3;}#amSkinVid-video-container{width: 970px; margin:0 auto; height: 200px; position: relative;}#amSkinVid-video-controls{position: absolute; bottom:5px; left: 5px;}#amSkinVid-video-controls .fa{font-size: 24px; color: rgba(255,255,255,0.6); cursor: pointer;}#amSkinVid-video-controls .fa-play{display: none;}#amSkinVid-video-mute{position: absolute; bottom: 7px; right: 5px; z-index: 4;}#soundMute, #soundUnmute{max-width: 25px; opacity: 0.6; cursor: pointer;}#soundUnmute{display: none;}#amSkinVid-video-background{position: absolute;width: 100%;}#amSkinVid-video{width:100%;}body.amSkinVid .main-content-full{background-color: #f7f7f7; padding-bottom: 40px; position: relative; z-index: 4;}body.amSkinVid .main{padding-top: 0; z-index: 2;}body.amSkinVid .header__category{margin-top: 0;}body.amSkinVid .site-footer{margin-top: 0px;}</style>");
 				$("body").addClass("amSkinVid");
 				$('.amSkinVid').prepend('<div id="amSkinVid-video-layer"></div>');
-				$('.amSkinVid #main').prepend('<a id="amSkinVid-video-link" href="https://www.burberry.com/" target="_blank"></a><div id="amSkinVid-video-wrapper"><div id="amSkinVid-video-container"><div id="amSkinVid-video-controls"><i class="fa fa-pause" aria-hidden="true"></i><i class="fa fa-play" aria-hidden="true"></i></div><div id="amSkinVid-video-mute"><img id="soundMute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-off.png"><img id="soundUnmute" src="https://s.kaskus.id/ms/assets/ktkm/images/icon-on.png"></div><video id="amSkinVid-video" src="https://ads.ayads.co/delivery/video-15265.mp4" autoplay="" preload="true" loop="" ></video></div></div>');
+				$('.amSkinVid #main').prepend(isiBanner);
 
 				video = $("#amSkinVid-video")[0];
 				$("#amSkinVid-video").prop('muted', true);
