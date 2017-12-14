@@ -72,12 +72,43 @@
 
 		</style>
 				<a href="https://www.kaskus.co.id/" target="_blank" class="slider-cards-link">
-					 <iframe  id="slide-video" src="https://www.youtube.com/embed/WHdYxRHkMfI?enablejsapi=1&version=3&playerapiid=ytplayer" width="300" height="148" allowscriptaccess="always" frameborder="0" allowfullscreen ></iframe>
+					 
+					 <div id="ytplayer"></div>
 					 <div class="slider-cards-desc">
 						<h2>New 911 R</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar tellus nec ante sodales sagittis. Suspendisse potenti. Integer molestie ligula tortor, sit amet consectetur leo dignissim ut</p>
 					</div>
 					<div class="slider-cards-btn">Learn more</div>
 				</a>
+		<script type="text/javascript">
+
+
+
+		  // Replace the 'ytplayer' element with an <iframe> and
+		  // YouTube player after the API code downloads.
+		  var player;
+		  function onYouTubePlayerAPIReady() {
+		    player = new YT.Player('ytplayer', {
+		      height: '148',
+		      width: '300',
+		      videoId: 'WHdYxRHkMfI'
+		    });
+		  }
+
+					  // Load the IFrame Player API code asynchronously.
+		  var tag = document.createElement('script');
+		  tag.src = "https://www.youtube.com/player_api";
+		  var firstScriptTag = document.getElementsByTagName('script')[0];
+		  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		  window.addEventListener('message',function(event) {
+			//console.log(event.data);
+			if(event.data === "active"){
+				player.pauseVideo();	
+			}
+			
+			//document.getElementById("slide-video-youtube").stopVideo();
+		}, "*");
+		</script>
 	</body>
 </html>

@@ -295,6 +295,7 @@
 							</div>
 						</div>
 					</div> -->
+					<!---start mobile slider script-->
 					<script type="text/javascript" src="https://s.kaskus.id/themes_3.0/mobile/js/slick.min.js"></script>
 					<style>
 						.cube_ads{
@@ -355,11 +356,11 @@
 								<div class="slider-cards">
 									<iframe class="cube_ads_iframe"  src="banner1.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
 								</div>
-								<div class="slider-cards">
-									<iframe class="cube_ads_iframe"  src="banner2.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
+								<div class="slider-cards" id="slideYoutube">
+									<iframe class="cube_ads_iframe" src="banner2.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
 								</div>
-								<div class="slider-cards">
-									<iframe class="cube_ads_iframe"  src="banner3.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
+								<div class="slider-cards" id="slideVideo">
+									<iframe class="cube_ads_iframe" src="banner3.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
 								</div>
 							</div>
 						</div>
@@ -375,20 +376,17 @@
 							  slidesToShow: 2
 							});
 
-							$('#slide-video-tag').controls = false;
 
-							$(".jsSlider").on("beforeChange", function (){
-							    if(!$('.slick-slide').hasClass('.slick-current')){
-								  	$('#slide-video').each(function(){
-									   $(this).stopVideo();
-									});
-									$('#slide-video-tag').trigger('pause');
-							  };
-							})
+							$(".jsSlider").on("beforeChange", function (event, slick, currentSlide, nextSlide){
+							  var currentSlideObject = $("[data-slick-index='" +currentSlide+ "']");
+							  var frame = currentSlideObject.find("iframe").get(0);
+							  frame.contentWindow.postMessage("active", "*"); 
+							});
 
-						})
+						});
 
 					</script>
+					<!---end mobile cube script-->
 
 					<!-- RECOMMENDED THREAD -->
 					<div id="recommended-thread" class="bar mb10">

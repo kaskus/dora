@@ -71,8 +71,17 @@
 			}
 
 		</style>
-				<a href="https://www.kaskus.co.id/" target="_blank" class="slider-cards-link">
-					<video controls="false" id="slide-video-tag" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls width="300" height="250" poster="http://camendesign.com/code/video_for_everybody/poster.jpg"></video>
-				</a>
+		<a href="https://www.kaskus.co.id/" target="_blank" class="slider-cards-link">
+			<video controls="false" id="slide-video-tag" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls width="300" height="250" poster="http://camendesign.com/code/video_for_everybody/poster.jpg"></video>
+		</a>
+		<script type="text/javascript">
+
+			
+			window.addEventListener('message',function(event) {
+				console.log(event.data);
+				document.getElementById("slide-video-tag").pause();
+			}, "*");
+		</script>
+
 	</body>
 </html>
