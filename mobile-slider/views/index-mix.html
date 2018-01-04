@@ -323,7 +323,7 @@
 					</div>
 					<script>
 					jQuery(function($){ 
-					  if ( window.opera && opera.toString() == "[object Opera]" || window.opera || checkit.Browser.UCBrowser() || checkit.Browser.MSIE.any() || navigator.userAgent.match(/^Mozilla\/5\.0 .+ Gecko\/$/)) {
+					  if ( window.opera && opera.toString() == "[object Opera]" || /Opera/.test (navigator.userAgent) || checkit.Browser.UCBrowser() || checkit.Browser.MSIE.any() || navigator.userAgent.match(/^Mozilla\/5\.0 .+ Gecko\/$/)) {
 					    $('.cube_ads,.cube_ads iframe ').css('height', 'auto !important'); 
 					    alert('no');
 					  }
