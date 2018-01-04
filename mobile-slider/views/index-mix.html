@@ -9,6 +9,7 @@
   <link href="../assets/img/apps_icon.png" rel="apple-touch-icon-precomposed" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" />
   <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+  <script src="checkit.js"></script>	
 </head>
 <body class="forum">
 	<style type="text/css">
@@ -320,6 +321,20 @@
 					<div class="cube_ads">
 						<iframe id="cube_ads_iframe"  src="banner-mix.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
 					</div>
+					<script>
+					jQuery(function($){ 
+					  if ( window.opera && opera.toString() == "[object Opera]" || window.opera || checkit.Browser.UCBrowser() || checkit.Browser.MSIE.any() || navigator.userAgent.match(/^Mozilla\/5\.0 .+ Gecko\/$/)) {
+					    $('.cube_ads,.cube_ads iframe ').css('height', 'auto !important'); 
+					    alert('no');
+					  }
+					  else {
+					    $('.cube_ads').css('height', '268px !important'); 
+					    $('.cube_ads iframe').css('height', '100% !important'); 
+						alert('yes');
+					  };
+					});
+
+		</script>
 
 					<!-- RECOMMENDED THREAD -->
 					<div id="recommended-thread" class="bar mb10">
