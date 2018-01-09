@@ -1,0 +1,12 @@
+#my-ad-slot{
+  position: fixed;
+  /*bottom -5 cuma untuk disini,di live ga usah*/
+  bottom: -5px;
+  width: 100%;
+  max-width: 620px;
+  z-index: 9999;
+  transition: height 0.3s ease-in-out;
+}
+#my-ad-slot.stretched{
+  
+}
