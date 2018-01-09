@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mobile Cube</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- <script src="../assets/js/jquery.min.js"></script> 
+		<script src="cubeslide.js"></script>		 -->
+	</head>
+
+	<body>
+		<style>
+
+			body{
+				margin:0;
+			}
+
+		</style>
+		<a id="cubeLink" href="http://dynamicdrive.com"></a>
+		<img id="cubeImg" src="b.png">
+		
+		<script>
+
+		var cubeLink = document.getElementById("cubeLink").getAttribute("href"); 
+		var cubeImg = document.getElementById("cubeImg").src; 
+
+		var pass_data = {
+		    'cubeLink': cubeLink, 'cubeImg': cubeImg
+		};
+
+		
+		parent.postMessage(JSON.stringify(pass_data), "*");
+
+		</script>
+	</body>
+</html>

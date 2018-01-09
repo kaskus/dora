@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ID">
+
+<head>
+  <meta charset="UTF-8">
+  <title>M Framework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, target-densitydpi=device-dpi" />
+  <link href="../assets/stylesheets/main.css" rel="stylesheet" type="text/css" media="all"/>
+  <!--<link href="../assets/stylesheets/night.css" rel="stylesheet" type="text/css" media="all"/>-->
+  <link rel="apple-touch-icon-precomposed" href="../assets/img/apps_icon.png" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+</head>
+
+<body class="">
+  <div id="wrapper" style="background:white;" class="header-body">
+    <!-- FORUM NOTICE -->
+    <div class="nm nm-forum notice-app">
+      <a href="https://play.google.com/store/apps/details?id=com.kaskus.android&utm_source=kaskusmsite" target="_blank">
+        <img src="img/icon-notice-forum.png" class="left">
+      </a>
+      <div class="nm-title">
+        <span>KASKUS</span>
+        <a href="#" class="x">&times;</a>
+      </div>
+      <div>
+        <span>
+          <a href="https://play.google.com/store/apps/details?id=com.kaskus.android&utm_source=kaskusmsite" target="_blank">Get the App</a>
+        </span>
+        <span class="right">
+          <a href="https://play.google.com/store/apps/details?id=com.kaskus.android&utm_source=kaskusmsite" target="_blank">View in App</a>
+        </span>
+      </div>
+    </div>
+    <div class="header-body-top-header">
+      <header id="site-header-main">
+        <div class="header-body-main-h">
+          <nav class="n">
+            <a href="#" class="header-body-kaskus-logo">
+              <img src="img/logo.png"alt="">
+            </a>
+            <div class="header-text-button">
+              <a href="#" class="active-forum">Forum</a>
+              <a href="#" class="active-fjb">Jual Beli</a>
+              <a href="#" class="premium"><img src="images/logo-sundul-eropa.png" alt=""></a>
+              <a href="#" class="premium"><img src="images/logo-sundul-eropa.png" alt=""></a>
+            </div>
+          </nav>
+          <nav class="right-nav login">
+            <a class="header-body-user-photo">
+              <div class="search-button">
+                <img src="img/search-abu.png" alt="user photo" class="search-btn-img">
+              </div>
+            </a>
+            <span id="mobile-menu-btn" class="">
+              <a href="#" class="header-body-user-photo">
+                Masuk
+              </a>
+            </span>
+          </nav>
+        </div>
+
+        <div id="mobile-menu">
+          <div class="mobile-menu-wrapper">
+            <div class="mobile-menu-wrapper-inner">
+
+              <!-- When User is not logged in -->
+              <div id="profile-login" class="form-input profile-menu">
+                <div class="p-all-10">
+                  <form action="" name="" method="" class="category-filter">
+                    <div class="r relative">
+                      <input class="search-category" type="text" id="filter-cat" placeholder="Filter Categories">
+                      <a href="" class="search-icon"><img src="img/search-icon.png" alt=""></a>
+                    </div>
+                  </form>
+                </div>
+
+                <div id="filter-content" class=""></div>
+                <form>
+                  <fieldset class="border-none">
+                    <div class="">
+                      <img src="img/layout/ic_lock.png" class="section__icon">
+                      <span class="section__title"><b>KASKUS Sign In</b></span>
+                    </div>
+                    <label class="r">
+                      <span>Username</span>
+                      <div class="in-txt">
+                        <input type="text" autocorrect="off" required>
+                      </div>
+                    </label>
+                    <label class="r">
+                      <span>Password</span>
+                      <div class="in-txt">
+                        <input type="password" autocorrect="off" required>
+                      </div>
+                    </label>
+                    <div class="r">
+                      <div class="in-btn btn-block">
+                        <input type="submit" value="Sign in">
+                      </div>
+                      <span style="font-size: 12px;font-weight: 400;">
+                        <a href="">
+                          <i>Forgot Password?</i>
+                        </a>
+                      </span>
+                    </div>
+                    <div class="r text-center">
+                      <small><i>or sign in with</i></small>
+                      <hr style="margin-top: -12px;margin-bottom: 20px;">
+                      <ul class="social-media">
+                        <li>
+                          <a href="#">
+                          <img src="img/facebook.png" height="19" width="9" alt="">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                          <img src="img/twitter-login.png" height="14" width="17" alt="">
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                          <img src="img/google-plus.png" alt="">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <hr style="margin-bottom: 15px;">
+                    <label class="r">
+                     <a href="" class="btn orange btn-block reset-margin" style="text-transform: uppercase;">Join Now!</a>
+                    </label>
+                  </fieldset>
+                </form>
+              </div>
+
+              <!-- When User is logged in -->
+             <!--  <div class="profile-menu" class="text-left">
+                <div class="p-all-10">
+                  <form action="" name="" method="" class="category-filter">
+                    <div class="r relative">
+                      <input class="search-category" type="text" id="filter-cat" placeholder="Filter Categories">
+                      <a href="" class="search-icon"><img src="img/search-icon.png" alt=""></a>
+                    </div>
+                  </form>
+                </div>
+                <div id="filter-content" class=""></div>
+                <ul>
+                  <li>
+                    <a href="#" class="user-photo">
+                      <div class="photo-wrapper">
+                          <img src="img/kob1.png" alt="user photo">
+                      </div>
+                      <span>Zenk</span>
+                    </a>
+                  </li>
+                  <li class="notice-plus">
+                    <a href="#">
+                      <img src="img/icon-kplus-grey.png" alt="" class="icon">
+                      <span>Upgrade Akun ke Plus</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-kplus-grey.png" alt="" class="icon">
+                      <span>KASKUS Plus</span>
+                      <h6>20-08-2016</h6>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-rp-grey.png" alt="" class="icon">
+                      <span>Saldo BranKas</span>
+                      <h6>Rp. 1.250.000</h6>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a href="#" class="">
+                      <img src="img/icon-bell.png" alt="" class="icon">
+                      <span>Notifications</span>
+                      <span class="notif-count">99+</span>
+                    </a>
+                    <ul class="">
+                      <li>
+                        <a href="">
+                          <span>New Private Message</span>
+                          <span class="notif-count">10</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <span>New Visitor Message</span>
+                          <span class="notif-count">1</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <span>Quoted Post</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href=""><span>Feedback</span>
+                          <span class="notif-count">9</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class=" close">
+                    <a href="#" class="">
+                      <img src="img/icon-bubble.png" alt="" class="icon">
+                      <span>Forum Activities</span>
+                    </a>
+                  </li>
+                  <li class=" close">
+                    <a href="#" class="">
+                      <img src="img/icon-basket.png" alt="" class="icon">
+                      <span>Jual Beli Activities</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-envelope.png" alt="" class="icon">
+                      <span>Private Message</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-gear.png" alt="" class="icon">
+                      <span>Account Settings</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="img/icon-exit.png" alt="" class="icon">
+                      <span>Sign Out</span>
+                    </a>
+                  </li>
+                </ul>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="search-space">
+          <div class="search-space__input">
+            <input type="text" placeholder="Cari di sini">
+            <a class="search-cancel-btn search-button">Batal</a>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="header-body-add active">
+      <div class="pick-category">
+        <img src="img/ic-right-white.png">
+        <span>pilih kategori</span>
+      </div>
+      <span class="right-nav">
+        <a href="">
+          <img src="img/icon_add.png" class="img-plus">
+          <span class="choice">Thread</span>
+        </a>
+        <a href="">
+          <img src="img/icon_add.png" class="img-plus">
+          <span class="choice">Jual</span>
+        </a>
+        <a href="">
+          <img src="img/ic-cart-2.png" class="img-cart">
+          <span class="user-notice">12</span>
+        </a>
+      </span>
+    </div>
+    <div class="below-add">
+      <div class="header-body-category active">
+        <a href="">Plus</a>
+        <a href="">KasAds</a>
+        <a href="">ePulsa</a>
+        <a href="">News</a>
+        <a href="">Video</a>
+        <a href="">Komunitas</a>
+      </div>
+      <div class="header-body-top-banner">
+        <a href="#">
+          <img src="img/ads_1.jpg">
+        </a>
+      </div>
+      <div id="hot_threads" class="bar revamp border-none">
+        <div class="header-body-hot-thread">
+          <i class="section__icon" style="background-image:url(img/layout/ic_hotdeals.png);"></i>
+          <span class="section__title">Hot Threads</span>
+        </div>
+        <div class="item-list hot-thread">
+          <div class="small-block-grid-2">
+            <div class="block-grid__item">
+              <a href="" class="grid__item">
+                <div class="item__image">
+                  <div class="image__photo">
+                    <img src="img/ht-banner-1.jpg" alt="img/ht-banner-1.jpg">
+                  </div>
+                </div>
+                <div class="item__description">
+                  <div class="item__title">Cara Mempromosikan Kentang Yang Kreatif</div>
+                </div>
+              </a>
+            </div>
+            <div class="block-grid__item">
+              <a href="" class="grid__item">
+                <div class="item__image">
+                  <div class="image__photo">
+                    <img src="img/ht-banner-2.jpg" alt="img/ht-banner-2.jpg">
+                  </div>
+                </div>
+                <div class="item__description">
+                  <div class="item__title">Museum Bawah Laut Yang Sangat Indah</div>
+                </div>
+              </a>
+            </div>
+            <div class="block-grid__item">
+              <a href="" class="grid__item">
+                <div class="item__image">
+                  <div class="image__photo">
+                    <img src="img/ht-banner-3.jpg" alt="img/ht-banner-3.jpg">
+                  </div>
+                </div>
+                <div class="item__description">
+                  <div class="item__title">Foto-foto Paus untuk Meperingati Hari Paus Sedunia</div>
+                </div>
+              </a>
+            </div>
+            <div class="block-grid__item">
+              <a href="" class="grid__item">
+                <div class="item__image">
+                  <div class="image__photo">
+                    <img src="img/ht-banner-4.jpg" alt="img/ht-banner-4.jpg">
+                  </div>
+                </div>
+                <div class="item__description">
+                  <div class="item__title">Rute Kereta Di Kanada Yang Sangat Ekstrim</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pick-category-list">
+      <div class="tab-list">
+        <ul>
+          <li class="active-forum" id="forum-tab">Forum</li>
+          <li id="fjb-tab">Jual Beli</li>
+        </ul>
+      </div>
+      <div class="forum-category active">
+        <div class="search">
+          <span class="fa fa-search"></span>
+          <input type="text" placeholder="Cari Forum">
+        </div>
+        <div class="list">
+          <div class="list__subscribe">
+            <img src="img/tag-orange.png" alt="">
+            <span>Subsribed Forum</span>
+          </div>
+          <div class="list__item">
+            <ul>
+              <li><a href="">aaaaaaa aaaaaaaaa aaa aaaaaaaaaaa aaaaa aaaaa aaaaa aaaaaa aaa aaaaa aaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</a></li>
+              <li>The Lounge</li>
+              <li>Indonesia</li>
+              <li class="see-all">Lihat Semua Subscribe...</li>
+            </ul>
+          </div>
+          <div class="list__section">
+            <span>A</span>
+          </div>
+          <div class="list__item">
+            <ul>
+              <li>Anime & Manga Heaven</li>
+              <li>Antik</li>
+              <li>Amerika</li>
+              <li>Asia</li>
+              <li>Antik</li>
+              <li>America</li>
+            </ul>
+          </div>
+        </div>
+        <div class="list search-result">
+          <div class="list__item">
+            <ul>
+              <li>No result</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="fjb-category">
+        <div class="search">
+          <span class="fa fa-search"></span>
+          <input type="text" placeholder="Cari FJB">
+        </div>
+        <div class="list disappear">
+          <div class="list__subscribe">
+            <img src="img/tag-orange.png" alt="">
+            <span>Subsribed FJB</span>
+          </div>
+          <div class="list__item">
+            <ul>
+              <li>Anime & Manga Heaven</li>
+              <li>The Lounge</li>
+              <li>Indonesia</li>
+              <li class="see-all">Lihat Semua Subscribe...</li>
+            </ul>
+          </div>
+          <div class="list__section">
+            <span>A</span>
+          </div>
+          <div class="list__item">
+            <ul>
+              <li>Anime & Manga Heaven</li>
+              <li>Antik</li>
+              <li>Amerika</li>
+              <li>Asia</li>
+              <li>Antik</li>
+              <li>America</li>
+            </ul>
+          </div>
+        </div>
+        <div class="list search-result appear">
+          <div class="list__item">
+            <ul>
+              <li>No result</li>
+              <li>Pada</li>
+              <li>Suatu</li>
+              <li>Hari</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
