@@ -8687,17 +8687,6 @@
 		"oAP": "\/banner.html",
 		"oF": 0
 		},
-	"\/bg-guide.png": {
-		"ft": 32768,
-		"iS": 755380,
-		"oA": 0,
-		"oAP": "\/bg-guide.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -8711,7 +8700,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 533445091,
-	"displayValue": "immersive-skin-dota",
+	"displayValue": "immersive-skin-battleground",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-krieger"
 	},
