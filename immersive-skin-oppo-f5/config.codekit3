@@ -8687,6 +8687,16 @@
 		"oAP": "\/banner.html",
 		"oF": 0
 		},
+	"\/bg (2).jpg": {
+		"ft": 16384,
+		"iS": 41574,
+		"oA": 0,
+		"oAP": "\/bg (2).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/bg.jpg": {
 		"ft": 16384,
 		"iS": 2144,
@@ -8723,6 +8733,39 @@
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/test-banner-1 (4).png": {
+		"ft": 32768,
+		"iS": 384788,
+		"oA": 0,
+		"oAP": "\/test-banner-1 (4).png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/test-banner-1.png": {
+		"ft": 32768,
+		"iS": 563567,
+		"oA": 0,
+		"oAP": "\/test-banner-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/test-banner.png": {
+		"ft": 32768,
+		"iS": 264906,
+		"oA": 0,
+		"oAP": "\/test-banner.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [
