@@ -8681,12 +8681,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/banner-smallVid.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/banner-smallVid.html",
-		"oF": 0
-		},
 	"\/banner.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -8717,7 +8711,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 533445091,
-	"displayValue": "immersive-skin-mix",
+	"displayValue": "immersive-skin-black-panther",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-krieger"
 	},
