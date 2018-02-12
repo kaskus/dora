@@ -8698,6 +8698,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/bg-guide1.png": {
+		"ft": 32768,
+		"iS": 677436,
+		"oA": 0,
+		"oAP": "\/bg-guide1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bg-guide2.png": {
+		"ft": 32768,
+		"iS": 511805,
+		"oA": 0,
+		"oAP": "\/bg-guide2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
