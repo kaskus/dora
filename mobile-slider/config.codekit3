@@ -11063,6 +11063,15 @@
 		"oAP": "\/views\/banner.html",
 		"oF": 0
 		},
+	"\/views\/checkit.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/views\/checkit-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/views\/index-full.html": {
 		"ft": 8192,
 		"oA": 2,
