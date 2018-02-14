@@ -31,29 +31,31 @@
 				function playVid(e) {
 				    $("#amSkinVid-video-controls > .fa-play").show();
 				    $("#amSkinVid-video-controls > .fa-pause").hide();
-				    video.play();
+				    video.pause();
 				    ga('send', 'event', {'eventCategory' : 'Banner Immersive Black Panther','eventAction' : 'Click','eventLabel' : 'pause'}); 
-				    $(this).one("click", pauseVid);
+				    // $(this).one("click", pauseVid);
 				}
 
 				function pauseVid(e) {
 				    $("#amSkinVid-video-controls > .fa-play").hide();
 				    $("#amSkinVid-video-controls > .fa-pause").show();
-				    video.pause();
+				    video.play();
 				    ga('send', 'event', {'eventCategory' : 'Banner Immersive Black Panther','eventAction' : 'Click','eventLabel' : 'play'});
-				    $(this).one("click", playVid);
+				    // $(this).one("click", playVid);
 				}
 
-				$("#amSkinVid-video-btn").one("click", playVid);
+				// $("#amSkinVid-video-btn").one("click", playVid);
 
-				$('#amSkinVid-video-controls > .fa').click(function(){
-					 if (video.paused === false) {
-				       	pauseVid(); 
+				$('#amSkinVid-video-controls > .fa, #amSkinVid-video-btn' ).click(function(){
+					 if (video.paused == false) {
+				       	 playVid();
 				    } else {
-				         playVid();
+				         pauseVid();
 				    }	
 
 				});
+
+			
 				$('#amSkinVid-video-mute > img').click(function(){
 					if ($("#amSkinVid-video").prop('muted')) {
 						$("#amSkinVid-video").prop('muted', false);
