@@ -1,65 +1,107 @@
-<section id="ad-container">
-    <img id="ad-image" src="https://s-media-cache-ak0.pinimg.com/736x/2e/c6/b5/2ec6b5e14fe0cba0cb0aa5d2caeeccc6.jpg"/>
+<html>
+    <head>
+        <script>
+            var $ = window.parent.$, jQuery = window.parent.jQuery;
+            curWin = window.parent.window;
+            curDoc = window.parent.document;
+        </script>
+    </head>
+    <body>
+        <section id="ad-container">
+            <img id="ad-image" src="https://s-media-cache-ak0.pinimg.com/736x/2e/c6/b5/2ec6b5e14fe0cba0cb0aa5d2caeeccc6.jpg"/>
 
-    <div id="ad-video-wrap" >
-        <iframe   src="https://www.youtube.com/embed/WHdYxRHkMfI?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" frameborder="0" allowfullscreen></iframe>
-    </div> 
-   
-</section>
+            <div id="ad-video-wrap" >
+                <iframe   src="https://www.youtube.com/embed/WHdYxRHkMfI?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <a href="#" id="ad-close">x</a>  
+           
+        </section>
 
-<script>
-    window.onmessage = function(e) {
-        var videoElm = document.getElementById('ad-video-wrap');
-        var youtubeFunc ='';
-        var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
-        switch (e.data) {
-            case 'BANNER_VISIBLE':
-                if (!videoElm.playing && !videoElm.ended) {
-                    youtubeFunc = 'playVideo';
-                    youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+        <script>
+            window.onmessage = function(e) {
+                var videoElm = document.getElementById('ad-video-wrap');
+                var youtubeFunc ='';
+                var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
+                switch (e.data) {
+                    case 'BANNER_VISIBLE':
+                        if (!videoElm.playing && !videoElm.ended) {
+                            youtubeFunc = 'playVideo';
+                            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+                        }
+                        break;
+                    case 'BANNER_INVISIBLE':
+                        if (!videoElm.paused && !videoElm.ended) {
+                            youtubeFunc = 'pauseVideo';
+                            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+                        }
+                        break;
+                    default: 
+                        break;
                 }
-                break;
-            case 'BANNER_INVISIBLE':
-                if (!videoElm.paused && !videoElm.ended) {
+            }
+            $(curDoc).ready(function(){
+                $(document.getElementById('ad-close')).on('click', function() {
+                    var videoElm = document.getElementById('ad-video-wrap');
+                    var youtubeFunc ='';
+                    var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
                     youtubeFunc = 'pauseVideo';
                     youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
-                }
-                break;
-            default: 
-                break;
-        }
-    }
-</script>
+                    $('.underlay__show').hide();
+                });
+            });
+        </script>
 
-<style>
-    #ad-container{
-        position: relative;
-    }
-    #ad-image{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    #ad-video{
-        position: fixed;
-        width: 80%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-    #ad-video-wrap iframe{
-        position: fixed;
-        width: 80%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        min-height: 250px;
-    }
-</style>
+        <style>
+            #ad-container{
+                position: relative;
+            }
+            #ad-image{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            #ad-video{
+                position: fixed;
+                width: 80%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            #ad-video-wrap iframe{
+                position: fixed;
+                width: 80%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                min-height: 250px;
+            }
+            #ad-close{
+                position: fixed;
+                width: 35px;
+                height: 35px;
+                top: 50px;
+                right: -6px;
+                margin: auto;
+                border-bottom-left-radius: 70px;
+                background: black;
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                font-family: 'Roboto';
+                padding-left: 8px;
+                padding-top: 2px;
+                -webkit-box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.4);
+                box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.4);
+                cursor: pointer;
+                text-decoration: none;
+            }
+        </style>
+    </body>
+</html>
