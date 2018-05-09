@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <script>
+            var $ = window.parent.$, jQuery = window.parent.jQuery;
+            curWin = window.parent.window;
+            curDoc = window.parent.document;
+        </script>
+    </head>
+    <body>
+        <section id="ad-container">
+            <img id="ad-image" src="https://s.kaskus.id/img/seasonal/may2018/tematik/wp_background_fbyjcb0ywmov.gif"/>
+
+            <div id="ad-video-wrap" ">
+                <iframe  id="joni" style="display: none" src="https://www.youtube.com/embed/OGI3UFzOgxQ?enablejsapi=1&version=3&loop=1&playerapiid=ytplayer"  allow="autoplay; encrypted-media"  allowscriptaccess="always" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <a href="#" id="ad-close">x</a>  
+           
+        </section>
+
+        <script>
+            window.onmessage = function(e) {
+                var videoElm = document.getElementById('ad-video-wrap');
+                var youtubeFunc ='';
+                var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
+                switch (e.data) {
+                    case 'BANNER_VISIBLE':
+                        if (!videoElm.playing && !videoElm.ended) {
+                            youtubeFunc = 'playVideo';
+                            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+                            calculateIframe();
+                            document.getElementById('joni').style.display="block";
+                        }
+                        break;
+                    case 'BANNER_INVISIBLE':
+                        if (!videoElm.paused && !videoElm.ended) {
+                            youtubeFunc = 'pauseVideo';
+                            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+                        }
+                        break;
+                    default: 
+                        break;
+                }
+            }
+
+            function calculateIframe(){
+                var height= document.getElementById('ad-image').offsetHeight;
+               var width= document.getElementById('ad-image').offsetWidth;
+               var top = Math.round((745/1290 * height) * 100) / 100;
+               var widthIframe = Math.round((300/640 * width) * 100) / 100;
+               var heightIframe = Math.round((168/1290 * height) * 100) / 100;                
+               
+               document.getElementById('joni').style.top = top+'px';
+               document.getElementById('joni').style.width = widthIframe+'px';
+               document.getElementById('joni').style.height = heightIframe+'px';
+            }
+            $(curDoc).ready(function(){
+                $(document.getElementById('ad-close')).on('click', function() {
+                    var videoElm = document.getElementById('ad-video-wrap');
+                    var youtubeFunc ='';
+                    var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
+                    youtubeFunc = 'pauseVideo';
+                    youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+                    $('.underlay__show').hide();
+                });
+
+                $(window).resize(function(){
+                   calculateIframe();
+                });
+            });
+
+            
+        </script>
+
+        <style>
+            #ad-container{
+                position: relative;
+            }
+            #ad-image{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                /*height: 100%;*/
+                object-fit: cover;
+            }
+            #ad-video{
+                position: fixed;
+                width: 80%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            #ad-video-wrap iframe{
+                position: fixed;
+                width: 80%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+            }
+            #ad-close{
+                position: fixed;
+                width: 35px;
+                height: 35px;
+                top: 50px;
+                right: -6px;
+                margin: auto;
+                border-bottom-left-radius: 70px;
+                background: black;
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                font-family: 'Roboto';
+                padding-left: 8px;
+                padding-top: 2px;
+                -webkit-box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.4);
+                box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.4);
+                cursor: pointer;
+                text-decoration: none;
+            }
+        </style>
+    </body>
+</html>
