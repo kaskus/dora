@@ -8,11 +8,8 @@
   <link href="assets/stylesheets/main.css" rel="stylesheet" type="text/css" media="all"/>
   <!--<link href="assets/stylesheets/night.css" rel="stylesheet" type="text/css" media="all"/>-->
   <link rel="apple-touch-icon-precomposed" href="assets/img/apps_icon.png" />
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
   <style>
-	#underlay-frame{
-		width: 100%;
-		height: 100vh;
-	}
 	.underlay__show{
 		height: 100vh;
 	}
@@ -210,7 +207,7 @@
 								<div class="in-btn c-1" style="margin-left:25%;">
 									<input type="submit" value="Vote" >
 								</div>
-							</div>	
+							</div>
 						</fieldset>
 					</div>
 					-->
@@ -235,7 +232,7 @@
 
 						</div>
 						<div id="post_id" class="post">
-							<h2 class="entry-title">[TOP 11 MUST SEE] 11 Sutradarax film terbaik di dunia [TOP 11 MUST SEE] 11 Sutradara film terbaik di dunia 
+							<h2 class="entry-title">[TOP 11 MUST SEE] 11 Sutradarax film terbaik di dunia [TOP 11 MUST SEE] 11 Sutradara film terbaik di dunia
 							<span class="p-right">
 									<img src="img/layout/api-merah.png" height="15" alt="">
 								</span>
@@ -276,7 +273,7 @@
 						</div>
 					</div>
 
-					<!-- Underlay Banner -->
+					<!-- Underlay Banner
 					<aside class="underlay__banner">
 						<div class="underlay__wrapper">
 							<div class="underlay__show">
@@ -285,21 +282,25 @@
 										<div class="underlay__show__fix">
 											<div class="underlay__show__banner">
 												<!--<img src="images/creative.jpg">-->
-												<iframe id="underlay-frame" src="banner-youtube.html" frameborder="0">This browser does not support iframe</iframe>
-											</div>
+
+											<!-- </div>
 										</div>
 									</div>
 								</a>
 							</div>
 						</div>
-					</aside>
+					</aside>-->
+          <div>
+            <iframe id="underlay-frame" src="banner-youtube.html" frameborder="0" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" style="border: 0px; vertical-align: bottom;">This browser does not support iframe</iframe>
+          </div>
+          <div id="underlay_selector"></div>
 
 					<!-- RECOMMENDED THREAD -->
 					<div id="recommended-thread" class="bar mb10">
 	          <h2 class="nav-arrow">Recommended For You
 	              <div class="control">
 	                  <div class="page">
-	                      <b id="page-selectedrelated-thread">1 </b>/ 5 
+	                      <b id="page-selectedrelated-thread">1 </b>/ 5
 	                  </div>
 	                  <div class="pagination">
 	                      <a href="#" onClick="showNextPrev('related-thread',false);return false;" class="arrow left">&#10094;</a>
@@ -744,6 +745,17 @@
 					selectedLink = id;
 				}
 				navTabs(selected, selectedLink);
+
+        $('#ad-close').on('click', function() {
+          console.log("woooy");
+            var videoElm = document.getElementById('ad-video-wrap');
+            var youtubeFunc ='';
+            var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
+            youtubeFunc = 'pauseVideo';
+            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+            $("#joni").remove();
+            $('.underlay__show').hide();
+        });
 			</script>
 
 			<div id="login" class="bar form-input">
@@ -815,8 +827,8 @@
 		</div>
 
 		    <footer id="site-footer">
-		
-		
+
+
 		        <nav>
 		            <a href="#site-header">Back to top</a>
 		            <a href="http://kaskus.com">Desktop version</a>
@@ -834,12 +846,12 @@
 					</div>
 
 				</div>
-		
+
 		        <img src="assets/img/banner1.jpg" height="250" width="300" alt="">
 		        <small>&copy; 2012 Kaskus – The Largest Indonesian Community</small>
 		    </footer>
 	</div>
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
 	<script type="text/javascript" src="assets/js/scroll.js"></script>
 </body>
 

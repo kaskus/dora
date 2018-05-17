@@ -7,12 +7,13 @@
         </script>
     </head>
     <body>
+        <div class="wrapper">
         <section id="ad-container">
             <img id="ad-image" src="https://s-media-cache-ak0.pinimg.com/736x/2e/c6/b5/2ec6b5e14fe0cba0cb0aa5d2caeeccc6.jpg"/>
             <div id="ad-video-wrap" >
                 <iframe  id="ad-video" frameborder="0" allowfullscreen></iframe>
-            </div> 
-            <a href="#" id="ad-close">x</a> 
+            </div>
+            <a href="#" id="ad-close"></a>
         </section>
 
         <script>
@@ -25,7 +26,7 @@
                     case 'BANNER_INVISIBLE':
                         if (!videoElm.paused && !videoElm.ended) videoElm.src='https://www.kaskus.co.id/embed/59893933c1d770e9558b4569';
                         break;
-                    default: 
+                    default:
                         break;
                 }
             }
@@ -71,21 +72,13 @@
             }
             #ad-close{
                 position: fixed;
-                width: 35px;
-                height: 35px;
+                width: 48px;
+                height: 48px;
                 top: 50px;
-                right: -6px;
                 margin: auto;
-                border-bottom-left-radius: 70px;
-                background: black;
-                color: white;
-                text-align: center;
-                font-size: 16px;
-                font-family: 'Roboto';
-                padding-left: 8px;
-                padding-top: 2px;
-                -webkit-box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.4);
-                box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.4);
+                background-image: url('https://s.kaskus.id/img/seasonal/may2018/header_fbyjeue2rwio.png');
+                background-position: center;
+                background-size: contain;
                 cursor: pointer;
                 text-decoration: none;
             }

@@ -1,76 +1,16 @@
 <html>
     <head>
         <script>
-            var $ = window.parent.$, jQuery = window.parent.jQuery;
-            curWin = window.parent.window;
-            curDoc = window.parent.document;
+            var $ = window.parent.$;
+            var jQuery = window.parent.jQuery;
+            var curWin = window.parent.window;
+            var curDoc = window.parent.document;
+            var banner_selector = '#underlay_selector';
         </script>
+
     </head>
     <body>
-        <section id="ad-container">
-            <img id="ad-image" src="https://s.kaskus.id/img/seasonal/may2018/tematik/wp_background_fbyjcb0ywmov.gif"/>
-
-            <div id="ad-video-wrap" ">
-                <iframe  id="joni" style="display: none" src="https://www.youtube.com/embed/OGI3UFzOgxQ?enablejsapi=1&version=3&loop=1&playerapiid=ytplayer"  allow="autoplay; encrypted-media"  allowscriptaccess="always" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <a href="#" id="ad-close">x</a>  
-           
-        </section>
-
-        <script>
-            window.onmessage = function(e) {
-                var videoElm = document.getElementById('ad-video-wrap');
-                var youtubeFunc ='';
-                var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
-                switch (e.data) {
-                    case 'BANNER_VISIBLE':
-                        if (!videoElm.playing && !videoElm.ended) {
-                            youtubeFunc = 'playVideo';
-                            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
-                            calculateIframe();
-                            document.getElementById('joni').style.display="block";
-                        }
-                        break;
-                    case 'BANNER_INVISIBLE':
-                        if (!videoElm.paused && !videoElm.ended) {
-                            youtubeFunc = 'pauseVideo';
-                            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
-                        }
-                        break;
-                    default: 
-                        break;
-                }
-            }
-
-            function calculateIframe(){
-                var height= document.getElementById('ad-image').offsetHeight;
-               var width= document.getElementById('ad-image').offsetWidth;
-               var top = Math.round((745/1290 * height) * 100) / 100;
-               var widthIframe = Math.round((300/640 * width) * 100) / 100;
-               var heightIframe = Math.round((168/1290 * height) * 100) / 100;                
-               
-               document.getElementById('joni').style.top = top+'px';
-               document.getElementById('joni').style.width = widthIframe+'px';
-               document.getElementById('joni').style.height = heightIframe+'px';
-            }
-            $(curDoc).ready(function(){
-                $(document.getElementById('ad-close')).on('click', function() {
-                    var videoElm = document.getElementById('ad-video-wrap');
-                    var youtubeFunc ='';
-                    var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
-                    youtubeFunc = 'pauseVideo';
-                    youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
-                    $('.underlay__show').hide();
-                });
-
-                $(window).resize(function(){
-                   calculateIframe();
-                });
-            });
-
-            
-        </script>
-
+      <div id="underlay-banner" class="underlay__banner" style="display: none">
         <style>
             #ad-container{
                 position: relative;
@@ -103,24 +43,110 @@
             }
             #ad-close{
                 position: fixed;
-                width: 35px;
-                height: 35px;
+                width: 32px;
+                height: 32px;
                 top: 50px;
-                right: -6px;
+                right: 0;
                 margin: auto;
-                border-bottom-left-radius: 70px;
-                background: black;
-                color: white;
-                text-align: center;
-                font-size: 16px;
-                font-family: 'Roboto';
-                padding-left: 8px;
-                padding-top: 2px;
-                -webkit-box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.4);
-                box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.4);
+                background-image: url('https://s.kaskus.id/img/seasonal/may2018/header_fbyjeue2rwio.png');
+                background-position: center;
+                background-size: contain;
                 cursor: pointer;
                 text-decoration: none;
             }
         </style>
+        <div class="underlay__wrapper">
+          <div class="underlay__show">
+            <a href="%%CLICK_URL_UNESC%%http://meikarta.com/?utm_source=kaskus&utm_medium=mobile&utm_campaign=underlay%20ad" target="_blank">
+              <div class="underlay__show__inner">
+                <div class="underlay__show__fix">
+                  <div class="underlay__show__banner">
+                    <section id="ad-container">
+                      <img id="ad-image" src="https://s.kaskus.id/img/seasonal/may2018/tematik/wp_background_fbyjeugln6mm.gif"/>
+                      <div id="ad-video-wrap">
+                          <iframe  id="joni" style="display: none" src="https://www.youtube.com/embed/OGI3UFzOgxQ?enablejsapi=1&version=3&loop=1&playerapiid=ytplayer&playlist=OGI3UFzOgxQ" allow="autoplay; encrypted-media"  allowscriptaccess="always" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                      <a href="" id="ad-close" onclick="$('.underlay__show').hide();document.getElementById('video-container').getElementsByTagName('iframe')[0].contentWindow.postMessage(JSON.stringify({'event': 'command','func': 'pauseVideo','args': ''}), '*');"></a>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+        <script>
+
+            window.onmessage = function(e) {
+                var videoElm = document.getElementById('ad-video-wrap');
+                var youtubeFunc ='';
+                var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
+                switch (e.data) {
+                    case 'BANNER_VISIBLE':
+                        if (!videoElm.playing && !videoElm.ended) {
+                            youtubeFunc = 'playVideo';
+                            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+                            calculateIframe();
+                            // document.getElementById('joni').style.display="block";
+                        }
+                        break;
+                    case 'BANNER_INVISIBLE':
+                        if (!videoElm.paused && !videoElm.ended) {
+                            youtubeFunc = 'pauseVideo';
+                            youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            function calculateIframe(){
+              console.log();
+               //  var height= document.getElementById('ad-image').offsetHeight;
+               // var width= document.getElementById('ad-image').offsetWidth;
+               var height = $('#ad-image').height();
+               var width = $('#ad-image').width();
+               var top = Math.round((580/1290 * height) * 100) / 100;
+               var widthIframe = Math.round((544/640 * width) * 100) / 100;
+               var heightIframe = Math.round((306/1290 * height) * 100) / 100;
+
+               // document.getElementById('joni').style.top = top+'px';
+               // document.getElementById('joni').style.width = widthIframe+'px';
+               // document.getElementById('joni').style.height = heightIframe+'px';
+               $("#joni").css('top', top+'px');
+               $("#joni").css('width', widthIframe+'px');
+               $("#joni").css('height', heightIframe+'px');
+               $("#joni").show();
+            }
+            $(curDoc).ready(function(){
+              var banner_element = $(document.getElementById('underlay-banner'));
+              var div_banner = $(curDoc.querySelector(banner_selector));
+                div_banner.html(banner_element);
+                banner_element.css('display', 'block');
+                calculateIframe();
+            });
+
+            var tinggiScreenSize = $(curWin).height();
+
+            $('.underlay__show').css('height',tinggiScreenSize);
+
+            $('#ad-close').on('click', function() {
+                console.log("woooy");
+                var videoElm = document.getElementById('ad-video-wrap');
+                var youtubeFunc = '';
+                var youtubeIframe = videoElm.getElementsByTagName("iframe")[0].contentWindow;
+                youtubeFunc = 'pauseVideo';
+                youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
+                $("#joni").remove();
+                $('.underlay__show').hide();
+            });
+
+            $(window).resize(function(){
+              console.log("hoy");
+               calculateIframe();
+            });
+
+        </script>
     </body>
 </html>
