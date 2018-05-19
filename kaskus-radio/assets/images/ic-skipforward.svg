@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="504px" height="504px" viewBox="0 0 504 504" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" fill="#FFFFFF">
+            <g id="redo-alt" fill-rule="nonzero">
+                <path d="M504,32.015 L504,160 C504,177.673 489.673,192 472,192 L344.032,192 C315.55,192 301.305,157.472 321.405,137.373 L375.022,83.749 C338.671,56.872 294.514,42 248,42 C129.589,42 34,137.974 34,256 C34,374.415 129.978,470 248,470 C301.682,470 352.151,450.203 391.108,415.116 C395.836,410.858 403.081,411.081 407.58,415.58 L414.659,422.659 C419.531,427.531 419.29,435.474 414.177,440.092 C370.202,479.813 311.926,504 248,504 C111.189,504 0.252,393.219 -4.36282954e-16,256.467 C-0.251,119.827 111.183,8.096 247.822,8 C304.843,7.96 357.367,27.177 399.278,59.489 L449.373,9.388 C469.436,-10.676 504,3.54 504,32.015 Z M472,32 L344,160 L472,160 L472,32 Z" id="Shape"></path>
+            </g>
+            <text id="15" font-family="GoogleSans-Medium, Google Sans" font-size="200" font-weight="400">
+                <tspan x="152" y="354">15</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
