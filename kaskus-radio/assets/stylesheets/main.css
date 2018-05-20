@@ -11276,8 +11276,8 @@ readers do not read off random characters that represent icons */
   left: calc(50% - 48px);
   top: 55px;
   z-index: 101;
-  opacity: 0.5; }
-  .c-hero__button:focus, .c-hero__button:active {
+  opacity: 0.75; }
+  .c-hero__button:focus, .c-hero__button:active, .c-hero__button.is-playing {
     opacity: 1;
     outline: none; }
 
@@ -11290,7 +11290,13 @@ readers do not read off random characters that represent icons */
   z-index: 103;
   width: 100%;
   height: 45px;
-  top: 160px; }
+  top: 160px;
+  transition: all 0.2s ease-out;
+  opacity: 1;
+  transform: translateY(0); }
+  .c-progress.is-hide {
+    opacity: 0;
+    transform: translateY(-100%); }
   .c-progress__time {
     position: absolute;
     top: 35px; }
