@@ -11256,6 +11256,12 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900; }
 
+.c-album__link {
+  transition: all 0.1s ease-in !important; }
+  .c-album__link:hover, .c-album__link:focus {
+    transform: scale(0.95);
+    outline: none; }
+
 .c-hero__cover {
   max-height: 450px;
   height: 450px;
@@ -11297,18 +11303,16 @@ readers do not read off random characters that represent icons */
   .c-progress.is-hide {
     opacity: 0;
     transform: translateY(-100%); }
-  .c-progress__time {
-    position: absolute;
-    top: 35px; }
-    .c-progress__time--current {
-      left: -15px; }
-    .c-progress__time--duration {
-      right: -15px; }
-    .c-progress__time__wrapper {
-      position: relative; }
+  .c-progress__time--current {
+    left: -15px; }
+  .c-progress__time--duration {
+    right: -15px; }
+  .c-progress__time__wrapper {
+    position: relative; }
   .c-progress__button {
-    width: 64px;
-    height: 64px;
+    line-height: 1;
+    width: 46px;
+    height: 46px;
     padding: 0;
     background-repeat: no-repeat;
     background-size: contain;
@@ -11322,17 +11326,16 @@ readers do not read off random characters that represent icons */
     .c-progress__button__wrapper {
       position: relative; }
     .c-progress__button--skipprevious {
-      background-image: url(../images/ic-skipprevious.svg);
-      left: 5px; }
+      background-image: url(../images/ic-skipprevious-black.svg); }
     .c-progress__button--skipforward {
-      background-image: url(../images/ic-skipforward.svg);
-      right: 5px; }
+      background-image: url(../images/ic-skipforward-black.svg); }
   .c-progress__scale {
     height: 100%;
     position: relative; }
     .c-progress__scale:before {
       position: absolute;
       left: 0;
+      border: 1px solid #d9d9d9;
       background-color: white;
       height: 1px;
       top: calc(50% - 1px);
@@ -11343,13 +11346,26 @@ readers do not read off random characters that represent icons */
       position: absolute;
       left: 0;
       background-color: red;
-      height: 1px;
+      height: 3px;
       top: calc(50% - 1px);
       top: -webkit-calc(50% - 1px);
       width: 100%;
       content: ''; }
 
+.c-popup {
+  z-index: 300; }
+  .c-popup__area {
+    opacity: 0;
+    overflow: auto;
+    transition: all 0.25s ease-in; }
+    .c-popup__area.is-show {
+      opacity: 1;
+      transform: translateY(0) !important; }
+  .c-popup_button {
+    z-index: 200; }
+
 .c-player {
+  z-index: 200;
   transition: all 0.2s ease-in-out; }
   .c-player__button {
     font-size: 36px; }
@@ -11357,6 +11373,28 @@ readers do not read off random characters that represent icons */
       outline: none; }
   .c-player.is-hide {
     transform: translateY(100px); }
+  .c-player__progress__scale {
+    height: 25px;
+    position: relative; }
+    .c-player__progress__scale:before {
+      position: absolute;
+      left: -2px;
+      border: 1px solid #d9d9d9;
+      background-color: white;
+      height: 3px;
+      top: calc(50% - 1px);
+      top: -webkit-calc(50% - 1px);
+      width: 100%;
+      content: ''; }
+    .c-player__progress__scale__bar {
+      position: absolute;
+      left: -1px;
+      background-color: red;
+      height: 5px;
+      top: calc(50% - 1px);
+      top: -webkit-calc(50% - 1px);
+      width: 100%;
+      content: ''; }
 
 @font-face {
   font-family: vagRoundedBold;
@@ -11384,3 +11422,12 @@ nav + section {
 
 nav {
   z-index: 200; }
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+
+.o-hidden {
+  overflow: hidden; }
