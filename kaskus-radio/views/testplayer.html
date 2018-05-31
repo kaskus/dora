@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KASKUS Radio</title>
+		<link href="../assets/js/vendor/flowplayer-7.2.5/skin/skin.css" type="text/css" rel="stylesheet">
+		<link href="../assets/js/vendor/flowplayer-7.2.5/skin/flowplayer.audio.css" type="text/css" rel="stylesheet">
+		<style type="text/css">
+			#fp-audio .fp-timestamp {
+				display: none;
+			}
+			#fp-audio .fp-color {
+				background-color: #f00;
+			}
+			#fp-audio .fp-controls {
+				background-color: #600;
+				background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(120,0,0,0.85)), to(rgba(120,0,0,0.85)));
+				background-image: -webkit-linear-gradient(top, rgba(220,0,0,0.85), rgba(120,0,0,0.85));
+				background-image: linear-gradient(to bottom, rgba(220,0,0,0.85), rgba(120,0,0,0.85));
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div id="fp-audio" data-audio-only="true" class="fp-fat fp-edgy fp-outlined">
+			<video data-title="The National - Fake Empire">
+				<source type="application/x-mpegurl" src="//edge.flowplayer.org/fake_empire.m3u8">
+				<source type="audio/mp3" src="//edge.flowplayer.org/fake_empire.mp3">
+			</video>
+		</div>
+
+		<p>Now playing: <span id="audio-title"></span></p> -->
+		<h2>Mixed playlist</h2>
+ 
+<div id="mixed" class="fp-outlined">
+   <a class="fp-prev"></a>
+   <a class="fp-next"></a>
+</div>
+ 
+<h2>Iceast stream</h2>
+ 
+<div id="icecast" class="fp-playful fp-edgy"></div>
+ 
+<p class="doc" id="icecast-info">&nbsp;</p>
+	</body>
+	<script src="../assets/js/vendor.min.js" ></script>
+	<script src="../assets/js/main.min.js" ></script>
+	<script src="../assets/js/vendor/flowplayer-7.2.5/flowplayer.min.js" ></script>
+	<script src="../assets/js/vendor/flowplayer-7.2.5/flowplayer.audio.min.js" ></script>
+	<script>
+		// $("#fp-audio").flowplayer({
+		// 	splash: true,
+		// 	flashls: {
+		// 		startfromlevel: 0
+		// 	}
+		// });
+
+		// flowplayer($("#fp-audio")).on("ready", function (e, api, media) {
+		// 	$("#audio-title").text(media.title);
+		// });
+		window.onload = function () {
+			flowplayer("#mixed", {
+				ratio: 9/16,
+				splash: true,
+
+				playlist: [{
+					audio: true,
+					coverImage: "//releases.flowplayer.org/data/national.jpg",
+					sources: [
+						{ type: "application/x-mpegurl", src: "//edge.flowplayer.org/fake_empire.m3u8" },
+						{ type: "audio/mpeg", src: "//edge.flowplayer.org/fake_empire.mp3" }
+					]
+				}, {
+					sources: [
+						{ type: "application/x-mpegurl", src: "//cdn.flowplayer.org/202777/161579.m3u8" },
+						{ type: "video/mp4", src: "//cdn.flowplayer.org/202777/161579.mp4" }
+					]
+				}]
+
+			});
+		}
+
+
+		// var icecastContainer = document.getElementById("icecast"),
+		// 	icecastSources = [
+		// 	// native HLS support accepts icecast source
+		// 	{ type: "audio/x-mpegurl", engine: "html5",
+		// 		src: "http://live-aacplus-64.kexp.org/kexp64.aac" },
+		// 	{ type: "audio/mp4; codecs=mp4a.40.5",
+		// 		src: "http://live-aacplus-64.kexp.org/kexp64.aac" },
+		// 	{ type: "video/flash",
+		// 		src: "http://live-aacplus-64.kexp.org/kexp64.aac?type=.flv" }
+		// 	];
+
+		// 	// icecast streams are not delivered with mime-type
+		// 	// remove HTML5 media sources for IE < 12
+		// if (flowplayer.support.browser.msie || navigator.userAgent.indexOf("Trident/7") > -1) {
+		// 	icecastSources.splice(0, 2);
+		// }
+
+		// flowplayer(icecastContainer, {
+		// 	live: true,
+		// 	splash: true,
+		// 	audioOnly: true,
+		// 	clip: {
+		// 		sources: icecastSources
+		// 	}
+
+		// 	}).on("ready error", function (e, api, arg) {
+		// 	document.getElementById("icecast-info").innerHTML = arg.src
+		// 		? ("Now playing: " + arg.src)
+		// 		: arg.message;
+
+		// 	}).on("progress.android", function (e, api) {
+		// 	// *if* Android plays it, it botches up duration initially, overwrite
+		// 	if (api.video.time < 4) {
+		// 		icecastContainer.querySelector(".fp-duration").innerHTML = "Live";
+		// 	} else {
+		// 		api.off("progress.android");
+		// 	}
+		// 	});
+		// };
+	</script>
+</html>
