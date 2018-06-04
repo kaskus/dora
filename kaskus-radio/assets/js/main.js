@@ -1,23 +1,32 @@
-function sendEventTracking(category, action, label, value, customDimention) {
-
+function sendEventTracking(category, action, audioTitle, userId, durationPlayed, percentageFinished) {
+	window.dataLayer = window.dataLayer || [];
+	if (durationPlayed > 5 || action == 'initial play') {
+		dataLayer.push({
+			"DL_eventDetailsCategory" : category,
+			"DL_eventDetailsAction" : action,
+			"DL_eventDetailsLabel" : audioTitle,
+			"DL_eventDetailsValue" : durationPlayed,
+			"userID" : userId,
+			"percentageFinished" : percentageFinished,
+			"audioTitle" : audioTitle
+		});
+	}
 }
 
 $(document).ready(function(){
 
 	var dataNumber = 0;
 	var audioCurrentTime = 0;
+	var audioPercentageFinished = 0;
+	var audioTitle = '';
 	var timeInterval;
 
-	var playerObject = flowplayer('#hidden-player', {
+	var playerObject = flowplayer("#hidden-player", {
 		live: true,
 		splash: true,
 		audioOnly: true,
 		clip: { sources : [] }
 	});
-
-	window.onbeforeunload = function (e) {
-		//kirim audioCurrentTime ke analytic
-	};
 
 	// play button on detail
 	$(".jsPlayButton").click(function(){
@@ -42,10 +51,12 @@ $(document).ready(function(){
 			if (currentDataNumber != dataNumber) {
 				var audioFile = $(this).attr("data-src");
 				var dataType = $(this).attr("data-type");
+				audioTitle = $(this + '.jsPlayTitle').text();
 				playerObject.load([{ type: dataType, src: audioFile }]);
 				dataNumber = currentDataNumber;
 
 				updateView(this, true, false);
+				sendEventTracking('radio', 'initial play', audioTitle, 0, 0, 0);
 			}
 			else {
 				playerObject.play();
@@ -63,6 +74,7 @@ $(document).ready(function(){
 
 				var audioFile = $(this).attr("data-src");
 				var dataType = $(this).attr("data-type");
+				audioTitle = $(this + '.jsPlayTitle').text();
 				playerObject.load([{ type: dataType, src: audioFile }]);
 				dataNumber = currentDataNumber;
 				setTimeInterval("start");
@@ -91,6 +103,7 @@ $(document).ready(function(){
 	});
 
 	$(".jsSkipForwardButton").click(function(){
+		sendEventTracking('radio', 'forward 15', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		var skipForwardTime = audioCurrentTime + 15;
 		if (skipForwardTime > playerObject.video.duration) {
 			playerObject.seek(Math.round(playerObject.video.duration) - 1);
@@ -101,6 +114,7 @@ $(document).ready(function(){
 	});
 
 	$(".jsSkipPreviousButton").click(function(){
+		sendEventTracking('radio', 'backward 15', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		var skipPreviousTime = audioCurrentTime - 15;
 		if (skipPreviousTime < 0) {
 			playerObject.seek(0);
@@ -110,11 +124,13 @@ $(document).ready(function(){
 		}
 	});
 
-	$(".jsPrevButton").click(function(){
+	$(".jsPrevButton").click(function() {
+		sendEventTracking('radio', 'previous track', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		prev();
 	});
 
 	$(".jsNextButton").click(function() {
+		sendEventTracking('radio', 'next track', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		next();
 	});
 
@@ -124,6 +140,7 @@ $(document).ready(function(){
 		if (nextElement.attr("data-src")) {
 			var audioFile = nextElement.attr("data-src");
 			var dataType = nextElement.attr("data-type");
+			audioTitle = nextElement.find('.jsPlayTitle').text();
 			currentDataNumber = nextElement.attr("data-number");
 			playerObject.stop();
 			setTimeInterval("stop");
@@ -141,6 +158,7 @@ $(document).ready(function(){
 		if (prevElement.attr("data-src")) {
 			var audioFile = prevElement.attr("data-src");
 			var dataType = prevElement.attr("data-type");
+			audioTitle = prevElement.find('.jsPlayTitle').text();
 			currentDataNumber = prevElement.attr("data-number");
 			playerObject.stop();
 			setTimeInterval("stop");
@@ -175,12 +193,14 @@ $(document).ready(function(){
 
 	function updateAudioTime() {
 		audioCurrentTime = Math.round(playerObject.video.time);
-		var timePercentage = (playerObject.video.time / playerObject.video.duration) * 100;
+		audioPercentageFinished = (playerObject.video.time / playerObject.video.duration) * 100;
 		var formattedTime = formatTime(audioCurrentTime);
-		$("[data-number=" + dataNumber + "]").find(".jsProgressBar").css("width", timePercentage + "%");
-		$(".c-player__progress__scale").find(".jsProgressBar").css("width", timePercentage + "%");
+		$("[data-number=" + dataNumber + "]").find(".jsProgressBar").css("width", audioPercentageFinished + "%");
+		$(".c-player__progress__scale").find(".jsProgressBar").css("width", audioPercentageFinished + "%");
 		$(".c-progress__time--current").html(formattedTime);
 		$(".c-progress__time--duration").html(formatTime(Math.round(playerObject.video.duration)));
+
+		audioPercentageFinished = Math.round(audioPercentageFinished);
 
 		if (playerObject.finished == true) {
 			next();
