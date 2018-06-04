@@ -1,3 +1,7 @@
+function sendEventTracking(category, action, label, value, customDimention) {
+
+}
+
 $(document).ready(function(){
 	var dataNumber = 0;
 	var audioCurrentTime = 0;
@@ -9,6 +13,10 @@ $(document).ready(function(){
 		audioOnly: true,
 		clip: { sources : [] }
 	});
+
+	window.onbeforeunload = function (e) {
+		//kirim audioCurrentTime ke analytic
+	};
 
 	$(".jsPlayButton").click(function(){
 		if(playerObject.playing == false){
@@ -30,12 +38,12 @@ $(document).ready(function(){
 		var currentDataNumber = $(this).attr("data-number");
 		if(playerObject.playing == false){
 			if (currentDataNumber != dataNumber) {
-				console.log('me');
 				var audioFile = $(this).attr("data-src");
-				playerObject.load([{ type: "audio/mpeg", src: audioFile }]);
+				var dataType = $(this).attr("data-type");
+				playerObject.load([{ type: dataType, src: audioFile }]);
 				dataNumber = currentDataNumber;
 
-				updateView(this, true);
+				updateView(this, true, false);
 			}
 			else {
 				playerObject.play();
@@ -52,11 +60,12 @@ $(document).ready(function(){
 				setTimeInterval("stop");
 
 				var audioFile = $(this).attr("data-src");
-				playerObject.load([{ type: "audio/mpeg", src: audioFile }]);
+				var dataType = $(this).attr("data-type");
+				playerObject.load([{ type: dataType, src: audioFile }]);
 				dataNumber = currentDataNumber;
 				setTimeInterval("start");
 
-				updateView(this);
+				updateView(this, false, false);
 			}
 
 			else {
@@ -67,6 +76,16 @@ $(document).ready(function(){
 				$(".jsPlayTitle").removeClass("green");
 			}
 		}
+	});
+
+	$('.c-player__progress__scale').click(function(e){
+		var wrapperWidth = $('.c-player__progress__scale').width();
+		var xCoordinate = e.pageX - this.offsetLeft;
+		xCoordinate = (xCoordinate / wrapperWidth) * 100;
+
+		var targetTime = (playerObject.video.duration / 100) * xCoordinate;
+
+		playerObject.seek(targetTime);
 	});
 
 	$(".jsSkipForwardButton").click(function(){
@@ -102,13 +121,14 @@ $(document).ready(function(){
 		var nextElement = $("[data-number=" + nextNumber + "]");
 		if (nextElement.attr("data-src")) {
 			var audioFile = nextElement.attr("data-src");
+			var dataType = nextElement.attr("data-type");
 			currentDataNumber = nextElement.attr("data-number");
 			playerObject.stop();
 			setTimeInterval("stop");
 
-			playerObject.load([{ type: "audio/mpeg", src: audioFile }]);
+			playerObject.load([{ type: dataType, src: audioFile }]);
 			dataNumber = currentDataNumber;
-			updateView(nextElement);
+			updateView(nextElement, false, false);
 			setTimeInterval("start");
 		}
 	}
@@ -118,18 +138,19 @@ $(document).ready(function(){
 		var prevElement = $("[data-number=" + prevNumber + "]");
 		if (prevElement.attr("data-src")) {
 			var audioFile = prevElement.attr("data-src");
+			var dataType = prevElement.attr("data-type");
 			currentDataNumber = prevElement.attr("data-number");
 			playerObject.stop();
 			setTimeInterval("stop");
 
-			playerObject.load([{ type: "audio/mpeg", src: audioFile }]);
+			playerObject.load([{ type: dataType, src: audioFile }]);
 			dataNumber = currentDataNumber;
-			updateView(prevElement);
+			updateView(prevElement, false, false);
 			setTimeInterval("start");
 		}
 	}
 
-	function updateView(element, firstPlay = false, fromPaused = false) {
+	function updateView(element, firstPlay, fromPaused) {
 		if (firstPlay) {
 			$(".jsPlayTitle").removeClass("green");
 			$(".jsPlayer, .jsProgress").removeClass("is-hide");
@@ -152,6 +173,7 @@ $(document).ready(function(){
 
 	function updateAudioTime() {
 		audioCurrentTime = Math.round(playerObject.video.time);
+		console.log(audioCurrentTime);
 		var timePercentage = (playerObject.video.time / playerObject.video.duration) * 100;
 		var formattedTime = formatTime(audioCurrentTime);
 		$("[data-number=" + dataNumber + "]").find(".jsProgressBar").css("width", timePercentage + "%");
