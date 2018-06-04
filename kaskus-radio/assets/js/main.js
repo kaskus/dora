@@ -3,7 +3,8 @@ function sendEventTracking(category, action, label, value, customDimention) {
 }
 
 $(document).ready(function(){
-	var dataNumber = 0;
+
+  var dataNumber = 0;
 	var audioCurrentTime = 0;
 	var timeInterval;
 
@@ -14,11 +15,12 @@ $(document).ready(function(){
 		clip: { sources : [] }
 	});
 
-	window.onbeforeunload = function (e) {
+  window.onbeforeunload = function (e) {
 		//kirim audioCurrentTime ke analytic
 	};
 
-	$(".jsPlayButton").click(function(){
+  // play button on detail
+  $(".jsPlayButton").click(function(){
 		if(playerObject.playing == false){
 			$(".jsPlayer, .jsProgress").removeClass("is-hide");
 			$(".jsPlayButton").toggleClass("is-playing");
@@ -34,7 +36,7 @@ $(document).ready(function(){
 		}
 	});
 
-	$(".jsPlayLink").click(function(){
+  $(".jsPlayLink").click(function(){
 		var currentDataNumber = $(this).attr("data-number");
 		if(playerObject.playing == false){
 			if (currentDataNumber != dataNumber) {
@@ -78,7 +80,7 @@ $(document).ready(function(){
 		}
 	});
 
-	$('.c-player__progress__scale').click(function(e){
+  $('.c-player__progress__scale').click(function(e){
 		var wrapperWidth = $('.c-player__progress__scale').width();
 		var xCoordinate = e.pageX - this.offsetLeft;
 		xCoordinate = (xCoordinate / wrapperWidth) * 100;
@@ -88,7 +90,7 @@ $(document).ready(function(){
 		playerObject.seek(targetTime);
 	});
 
-	$(".jsSkipForwardButton").click(function(){
+  $(".jsSkipForwardButton").click(function(){
 		var skipForwardTime = audioCurrentTime + 15;
 		if (skipForwardTime > playerObject.video.duration) {
 			playerObject.seek(Math.round(playerObject.video.duration) - 1);
@@ -108,7 +110,7 @@ $(document).ready(function(){
 		}
 	});
 
-	$(".jsPrevButton").click(function(){
+  $(".jsPrevButton").click(function(){
 		prev();
 	});
 
@@ -116,7 +118,7 @@ $(document).ready(function(){
 		next();
 	});
 
-	function next() {
+  function next() {
 		var nextNumber = parseInt(dataNumber) + 1;
 		var nextElement = $("[data-number=" + nextNumber + "]");
 		if (nextElement.attr("data-src")) {
@@ -173,7 +175,6 @@ $(document).ready(function(){
 
 	function updateAudioTime() {
 		audioCurrentTime = Math.round(playerObject.video.time);
-		console.log(audioCurrentTime);
 		var timePercentage = (playerObject.video.time / playerObject.video.duration) * 100;
 		var formattedTime = formatTime(audioCurrentTime);
 		$("[data-number=" + dataNumber + "]").find(".jsProgressBar").css("width", timePercentage + "%");
@@ -186,7 +187,13 @@ $(document).ready(function(){
 		}
 	}
 
-	function setTimeInterval(action) {
+  function formatTime(secs) {
+    var minutes = Math.floor(secs / 60) || 0;
+    var seconds = (secs - minutes * 60) || 0;
+    return minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+  }
+
+  function setTimeInterval(action) {
 		if (action == "start") {
 			timeInterval = setInterval(updateAudioTime, 10);
 		}
@@ -195,31 +202,26 @@ $(document).ready(function(){
 		}
 	}
 
-	function formatTime(secs) {
-		var minutes = Math.floor(secs / 60) || 0;
-		var seconds = (secs - minutes * 60) || 0;
-		return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
-	}
+  $('.jsPopupArea').css('transform','translateY('+ $(window).height() +'px)');
 
-	$(".jsPopupArea").css("transform","translateY("+ $(window).height() +"px)");
+  $('.jsPopupShowButton').click(function(){
+    $("body").addClass("o-hidden");
+    $(".jsPopupArea").toggleClass("is-show");
+    $(".jsPopupToolbar").show();
+  });
+  $('.jsPopupCloseButton').click(function(){
+    $("body").removeClass("o-hidden");
+    $(".jsPopupArea").toggleClass("is-show");
+    $(".jsPopupToolbar").hide();
+  });
 
-	$(".jsPopupShowButton").click(function(){
-		$("body").addClass("o-hidden");
-		$(".jsPopupArea").toggleClass("is-show");
-		$(".jsPopupToolbar").show();
-	});
-	$(".jsPopupCloseButton").click(function(){
-		$("body").removeClass("o-hidden");
-		$(".jsPopupArea").toggleClass("is-show");
-		$(".jsPopupToolbar").hide();
-	});
 
-	$(window).scroll(function() {
-		if($(window).scrollTop() > 0) {
-			$(".jsNav").addClass("shadow-2");
-		}
-		else{
-			$(".jsNav").removeClass("shadow-2");
-		}
-	});
+  $(window).scroll(function() {
+      if($(window).scrollTop() > 0) {
+          $('.jsNav').addClass('shadow-2');
+      }
+      else{
+          $('.jsNav').removeClass('shadow-2');
+      }
+  });
 });
