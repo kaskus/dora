@@ -250,8 +250,6 @@ $(document).ready(function() {
 
     audioPercentageFinished = Math.round(audioPercentageFinished);
 
-    //console.log(playerObject.video.buffer);
-
     if (playerObject.finished == true) {
       next();
     }
