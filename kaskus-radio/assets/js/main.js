@@ -38,12 +38,14 @@ $(document).ready(function(){
 			$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
 			playerObject.play();
 			setTimeInterval("start");
+			sendEventTracking('radio', 'play', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		}
 		else {
 			$(".jsPlayButton").toggleClass("is-playing");
 			$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
 			playerObject.pause();
 			setTimeInterval("stop");
+			sendEventTracking('radio', 'pause', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		}
 	});
 
@@ -63,6 +65,7 @@ $(document).ready(function(){
 			else {
 				playerObject.play();
 				updateView(this, false, true);
+				sendEventTracking('radio', 'play', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 			}
 
 			setTimeInterval("start");
@@ -74,8 +77,6 @@ $(document).ready(function(){
 				playerObject.stop();
 				setTimeInterval("stop");
 
-				sendEventTracking('radio', 'play', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
-
 				var audioFile = $(this).attr("data-src");
 				var dataType = $(this).attr("data-type");
 				audioTitle = $(this + '.jsPlayTitle').text();
@@ -84,10 +85,12 @@ $(document).ready(function(){
 				setTimeInterval("start");
 
 				updateView(this, false, false);
+				sendEventTracking('radio', 'initial play', audioTitle, 0, 0, 0);
 			}
 			else {
 				playerObject.pause();
 				setTimeInterval("stop");
+				sendEventTracking('radio', 'pause', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 
 				$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
 				$(".jsPlayTitle").removeClass("green");
