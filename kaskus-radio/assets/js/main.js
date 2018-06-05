@@ -1,7 +1,8 @@
+var minimumDuration = 5;
 window.dataLayer = window.dataLayer || [];
 
 function sendEventTracking(category, action, audioTitle, userId, durationPlayed, percentageFinished) {
-	if (durationPlayed > 5 || action == 'initial play') {
+	if (durationPlayed >= minimumDuration || action == 'initial play') {
 		dataLayer.push({
 			"eventDetailsCategory" : category,
 			"eventDetailsAction" : action,
@@ -11,6 +12,8 @@ function sendEventTracking(category, action, audioTitle, userId, durationPlayed,
 			"percentageFinished" : percentageFinished,
 			"audioTitle" : audioTitle
 		});
+
+		console.log(dataLayer);
 	}
 }
 
@@ -83,7 +86,6 @@ $(document).ready(function(){
 
 				updateView(this, false, false);
 			}
-
 			else {
 				playerObject.pause();
 				setTimeInterval("stop");
@@ -180,7 +182,6 @@ $(document).ready(function(){
 			$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
 			$(".jsProgressBar").css("width", "0%");
 		}
-
 		else {
 			$(".jsPlayTitle").removeClass("green");
 			$(element).find(".jsPlayTitle").toggleClass("green");
