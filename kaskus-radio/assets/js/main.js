@@ -4,16 +4,15 @@ window.dataLayer = window.dataLayer || [];
 function sendEventTracking(category, action, audioTitle, userId, durationPlayed, percentageFinished) {
 	if (durationPlayed >= minimumDuration || action == 'initial play') {
 		dataLayer.push({
-			"eventDetailsCategory" : category,
-			"eventDetailsAction" : action,
-			"eventDetailsLabel" : audioTitle,
-			"eventDetailsValue" : durationPlayed,
+			"event" : "trackEvent",
+			"eventDetails.category" : category,
+			"eventDetails.action" : action,
+			"eventDetails.label" : audioTitle,
+			"eventDetails.value" : durationPlayed,
 			"userID" : userId,
 			"percentageFinished" : percentageFinished,
 			"audioTitle" : audioTitle
 		});
-
-		console.log(dataLayer);
 	}
 }
 
