@@ -1,11 +1,12 @@
+window.dataLayer = window.dataLayer || [];
+
 function sendEventTracking(category, action, audioTitle, userId, durationPlayed, percentageFinished) {
-	window.dataLayer = window.dataLayer || [];
 	if (durationPlayed > 5 || action == 'initial play') {
 		dataLayer.push({
-			"DL_eventDetailsCategory" : category,
-			"DL_eventDetailsAction" : action,
-			"DL_eventDetailsLabel" : audioTitle,
-			"DL_eventDetailsValue" : durationPlayed,
+			"eventDetailsCategory" : category,
+			"eventDetailsAction" : action,
+			"eventDetailsLabel" : audioTitle,
+			"eventDetailsValue" : durationPlayed,
 			"userID" : userId,
 			"percentageFinished" : percentageFinished,
 			"audioTitle" : audioTitle
@@ -28,7 +29,6 @@ $(document).ready(function(){
 		clip: { sources : [] }
 	});
 
-	// play button on detail
 	$(".jsPlayButton").click(function(){
 		if(playerObject.playing == false){
 			$(".jsPlayer, .jsProgress").removeClass("is-hide");
@@ -71,6 +71,8 @@ $(document).ready(function(){
 			if (currentDataNumber != dataNumber) {
 				playerObject.stop();
 				setTimeInterval("stop");
+
+				sendEventTracking('radio', 'play', audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 
 				var audioFile = $(this).attr("data-src");
 				var dataType = $(this).attr("data-type");
