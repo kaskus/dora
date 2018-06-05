@@ -25,7 +25,7 @@ $(document).ready(function() {
   var timeInterval;
 
   var playerObject = flowplayer('#hidden-player', {
-    live: true,
+    live: false, //jika true semua file stream nggak akan bisa di seek (utamanya yang m3u8)
     splash: true,
     audioOnly: true,
     clip: {
@@ -65,6 +65,8 @@ $(document).ready(function() {
       if (currentDataNumber != dataNumber) {
         var audioFile = $(this).attr("data-src");
         var dataType = $(this).attr("data-type");
+        var dataStream = $(this).data("stream");
+        playerObject.live = dataStream;
         audioTitle = $(this + '.jsPlayTitle').text();
         playerObject.load([{
           type: dataType,
@@ -90,6 +92,8 @@ $(document).ready(function() {
 
         var audioFile = $(this).attr("data-src");
         var dataType = $(this).attr("data-type");
+        var dataStream = $(this).data("stream");
+        playerObject.live = dataStream;
         audioTitle = $(this + '.jsPlayTitle').text();
         playerObject.load([{
           type: dataType,
@@ -159,6 +163,8 @@ $(document).ready(function() {
     if (nextElement.attr("data-src")) {
       var audioFile = nextElement.attr("data-src");
       var dataType = nextElement.attr("data-type");
+      var dataStream = nextElement.data("stream");
+      playerObject.live = dataStream;
       audioTitle = nextElement.find('.jsPlayTitle').text();
       currentDataNumber = nextElement.attr("data-number");
       playerObject.stop();
@@ -180,6 +186,8 @@ $(document).ready(function() {
     if (prevElement.attr("data-src")) {
       var audioFile = prevElement.attr("data-src");
       var dataType = prevElement.attr("data-type");
+      var dataStream = prevElement.data("stream");
+      playerObject.live = dataStream;
       audioTitle = prevElement.find('.jsPlayTitle').text();
       currentDataNumber = prevElement.attr("data-number");
       playerObject.stop();
