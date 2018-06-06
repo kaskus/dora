@@ -87,7 +87,6 @@ $(document).ready(function() {
       currentDataNumber = $(this).attr("data-number");
 
       if (currentDataNumber != dataNumber) {
-        playerObject.stop();
         setTimeInterval("stop");
 
         var audioFile = $(this).attr("data-src");
@@ -167,7 +166,6 @@ $(document).ready(function() {
       playerObject.live = dataStream;
       audioTitle = nextElement.find('.jsPlayTitle').text();
       currentDataNumber = nextElement.attr("data-number");
-      playerObject.stop();
       setTimeInterval("stop");
 
       playerObject.load([{
@@ -190,7 +188,6 @@ $(document).ready(function() {
       playerObject.live = dataStream;
       audioTitle = prevElement.find('.jsPlayTitle').text();
       currentDataNumber = prevElement.attr("data-number");
-      playerObject.stop();
       setTimeInterval("stop");
 
       playerObject.load([{
