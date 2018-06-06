@@ -25,7 +25,7 @@ $(document).ready(function() {
   var timeInterval;
 
   var playerObject = flowplayer('#hidden-player', {
-    live: false, //jika true semua file stream nggak akan bisa di seek (utamanya yang m3u8)
+    live: false,
     splash: true,
     audioOnly: true,
     clip: {
