@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KASKUS | Kaskus Creator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, height=device-height">
+
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:site_name" content="KASKUS Creator" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kaskus" />
+    <meta name="twitter:creator" content="@kaskus">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href="../assets/stylesheets/main.css" rel="stylesheet" type='text/css'>
+    <!-- Start of kaskussupport Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","066d0d84-b59b-4453-87be-d1555b512185");/*]]>*/</script>
+    <script type="text/JavaScript">
+      // Hide Zendesk Widget by default
+      window.zESettings = {
+        webWidget: {
+          helpCenter: {
+            title: {
+              '*': 'Bantuan'
+            },
+            messageButton: {
+              '*': 'Hubungi Kami'
+            }
+          },
+          contactForm: {
+            title: {
+              '*': 'Hubungi Kami'
+            }
+          }
+        }
+      };
+      zE(function() {
+        zE.hide();
+      });
+
+
+
+      // Function to load Zendesk Widget, with custom helpers
+      function showWidget() {
+        // $head.append($('\
+        //   <style> \
+        //   .Icon--zendesk { display:none !important; } \
+        //   .ScrollContainer-header { background: #298FCE!important;color:#FFF;} \
+        //   form.src-component-helpCenter-HelpCenterDesktop-form.u-cf.src-styles-components-Form-Form{display: none;} \
+        //   .src-component-helpCenter-HelpCenterResults-item:before{content:"\e804"; color: #efb558; display: inline-block; font: normal normal normal 14px/1 fontello; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} \
+        //   </style> \
+        //   '));
+
+        var $head = $("#webWidget").contents().find("head");
+        var url = "../assets/stylesheets/zendesk.css";
+        $head.prepend($("<link/>", { rel: "stylesheet", href: url, type: "text/css" } ));
+
+          // Show the widget
+          zE.activate({hideOnClose: true});
+        };
+    </script>
+    <!-- End of kaskussupport Zendesk Widget script -->
+  </head>
+  <body>
+
+<header class="c-header jsHeader">
+    <div class="c-header__row c-header__row__top">
+      <div class="c-header__nav c-header__nav--flex">
+        <a href="#" class="hide-above-768 c-navbar--mobile__btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <div class="c-header__logo">
+            <h1><a class="o-logo o-logo--poin" href="#">Kaskus Poin</a></h1>
+        </div>
+        <div class="c-header__user">
+            <!-- <div class="c-header__action">
+
+            </div> -->
+            <div class="c-header__action">
+                <!-- <a href="#" class="c-header__action__button c-header__action__button--is-disabled">Daftar Sekarang</a> -->
+                <a class="c-header__action__menu" href="#">Dashboard</a>
+                <a class="c-header__action__menu" href="#">Kumpulkan Poin</a>
+                <a class="c-header__action__menu" href="#">Kreator Lounge</a>
+                <a class="c-header__action__menu" href="#">Event &amp; Promo</a>
+                <a href="#" class="c-header__action__button">Buat Thread</a>
+                <div class="c-header__wrapper__action jsDropdown">
+                  <a class="c-header__action__avatar" style="background-image:url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')">
+                  </a>
+                  <div class="c-header__action__dropdown jsDropdownMenu">
+                     <ul>
+                         <li><a href="">rizzk</a></li>
+                         <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+                         <hr class="seperator" />
+                         <li><a href="">My Account</a></li>
+                         <li><a href="">Kirim Kritik dan Saran</a></li>
+                         <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+                     </ul>
+                  </div>
+                  <!-- <a class="c-header__action__name hide-below-768">nyanyacat</a> -->
+                  <i class="fa fa-angle-down jsDropdownIcon"></i>
+                </div>
+            </div>
+            <!-- <a href="#" class="c-header__action__link">Masuk</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- <div class="c-header__row c-header__row--grey hide-below-768">
+      <div class="c-header__nav">
+          <ul class="c-navbar--web jsNavbarWeb">
+              <li class="jsNavbarWebItem active"><a href="">Dashboard</a></li>
+              <li class="jsNavbarWebItem"><a href="">Kumpulkan Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Redeem Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Creator Lounge</a></li>
+              <li class="jsNavbarWebItem"><a href="">Referral System</a></li>
+              <li class="jsNavbarWebItem"><a href="">Event &amp; Promo</a></li>
+              <span class="c-navbar--web__indicator jsNavbarWebIndicator"></span>
+          </ul>
+      </div>
+    </div> -->
+</header>
+<div class="c-navbar__overlay"></div>
+<div class="c-navbar--mobile">
+    <div class="c-navbar--mobile__header">
+        <h3>MENU</h3>
+        <div class="c-navbar--mobile__header__close close-button"><span aria-hidden="true">×</span></div>
+    </div>
+    <ul>
+        <li><a href="">rizzk</a></li>
+        <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+        <hr class="seperator" />
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Kumpulkan Poin</a></li>
+        <li><a href="">Krator Lounge</a></li>
+        <li><a href="">Event &amp; Promo</a></li>
+        <li class="active"><a href="">Creator Lounge</a></li>
+        <li><a href="">Bantuan</a></li>
+        <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action">Buat Thread</button>
+    </div>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action c-navbar--mobile__action--is-disabled">Daftar Sekarang</button>
+    </div>
+    <div class="c-share--mobile">
+        <p>Bagikan ke teman</p>
+        <ul>
+            <li class="c-share--fb">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="c-share--tw">
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="c-share--gp">
+                <a href="#">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="c-share">
+    <ul>
+        <li class="c-share--fb">
+            <a href="#">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li class="c-share--tw">
+            <a href="#">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li class="c-share--gp">
+            <a href="#">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="c-share--faq">
+            <a href="#" onclick="showWidget();">
+                <i class="fa fa-question"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="c-header__seperator c-header__seperator--tall"></div>
+<div class="c-home__blue-gradient">
+	<div class="l-wrap l-wrap--xlarge">
+		<div class="row">
+			<div class="medium-6 columns">
+				<div class="c-home__cover">
+					<div class="c-home__cover__title">Kreator Lounge</div>
+					<div class="c-home__cover__text">Tempat diskusi, sharing seputar teknik menulis, penyajian konten, hingga kabar menarik seputar KASKUS Kreator</div>
+					<i class="c-home__cover__ornament"></i>
+				</div>
+			</div>
+			<div class="medium-6 columns">
+				<div class="c-chatbox">
+					<div class="c-chatbox__header jsChatboxHeader">
+						<div class="c-chatbox__header__wrapper">
+							<div class="c-chatbox__title">Kreator Lounge</div>
+							<div class="c-chatbox__status"><i class="is-on"></i><span>12 Online</span></div>
+							<i class="c-chatbox__icon jsChatboxIcon fa fa-chevron-down"></i>
+						</div>
+					</div>
+					<div class="c-chatbox__content jsChatboxContent">
+						<div class="c-chatbox__body jsChatboxBody">
+							<div class="c-chatbox__container">
+								<div class="c-chatbox__chat">
+									<div class="c-chatbox__chat__wrapper">
+										<img class="c-chatbox__chat__profpic" src="../assets/images/img-profpic1.png" />
+										<div class="c-chatbox__chat__content">
+											<div class="c-chatbox__chat__head">
+												<span class="c-chatbox__chat__user">Lane Collins</span>
+												<span class="c-chatbox__chat__date">05 Mar 2018 12:50</span>
+											</div>
+											<div class="c-chatbox__chat__text">People are really really excited about Yesterday’s announcements!</div>
+										</div>
+									</div>
+								</div>
+								<div class="c-chatbox__chat">
+									<div class="c-chatbox__chat__wrapper">
+										<img class="c-chatbox__chat__profpic" src="../assets/images/img-profpic1.png" />
+										<div class="c-chatbox__chat__content">
+											<div class="c-chatbox__chat__head">
+												<span class="c-chatbox__chat__user">Burdon Belly</span>
+												<span class="c-chatbox__chat__date">05 Mar 2018 12:52</span>
+											</div>
+											<div class="c-chatbox__chat__text">Thanks a lot</div>
+										</div>
+									</div>
+								</div>
+								<div class="c-chatbox__chat">
+									<div class="c-chatbox__chat__wrapper">
+										<img class="c-chatbox__chat__profpic" src="../assets/images/img-profpic1.png" />
+										<div class="c-chatbox__chat__content">
+											<div class="c-chatbox__chat__head">
+												<span class="c-chatbox__chat__user">Regaen</span>
+												<span class="c-chatbox__chat__date">05 Mar 2018 13:00</span>
+											</div>
+											<div class="c-chatbox__chat__text">Wakanda Forever!!!</div>
+										</div>
+									</div>
+								</div>
+								<div class="c-chatbox__chat">
+									<div class="c-chatbox__chat__wrapper">
+										<img class="c-chatbox__chat__profpic" src="../assets/images/img-profpic1.png" />
+										<div class="c-chatbox__chat__content">
+											<div class="c-chatbox__chat__head">
+												<span class="c-chatbox__chat__user">Burdon Belly</span>
+												<span class="c-chatbox__chat__date">05 Mar 2018 13:05</span>
+											</div>
+											<div class="c-chatbox__chat__text">Hopla Zunea Zunea Hopla</div>
+										</div>
+									</div>
+								</div>
+								<div class="c-chatbox__chat">
+									<div class="c-chatbox__chat__wrapper">
+										<img class="c-chatbox__chat__profpic" src="../assets/images/img-profpic1.png" />
+										<div class="c-chatbox__chat__content">
+											<div class="c-chatbox__chat__head">
+												<span class="c-chatbox__chat__user">Burdon Belly</span>
+												<span class="c-chatbox__chat__date">05 Mar 2018 13:05</span>
+											</div>
+											<div class="c-chatbox__chat__text">Hopla Zunea Zunea Hopla</div>
+										</div>
+									</div>
+								</div>
+								<div class="c-chatbox__chat">
+									<div class="c-chatbox__chat__wrapper">
+										<img class="c-chatbox__chat__profpic" src="../assets/images/img-profpic1.png" />
+										<div class="c-chatbox__chat__content">
+											<div class="c-chatbox__chat__head">
+												<span class="c-chatbox__chat__user">Burdon Belly</span>
+												<span class="c-chatbox__chat__date">05 Mar 2018 13:05</span>
+											</div>
+											<div class="c-chatbox__chat__text">Hopla Zunea Zunea Hopla</div>
+										</div>
+									</div>
+								</div>
+								<div class="c-chatbox__chat">
+									<div class="c-chatbox__chat__wrapper">
+										<img class="c-chatbox__chat__profpic" src="../assets/images/img-profpic1.png" />
+										<div class="c-chatbox__chat__content">
+											<div class="c-chatbox__chat__head">
+												<span class="c-chatbox__chat__user">Burdon Belly</span>
+												<span class="c-chatbox__chat__date">05 Mar 2018 13:05</span>
+											</div>
+											<div class="c-chatbox__chat__text">Hopla Zunea Zunea Hopla</div>
+										</div>
+									</div>
+								</div>
+								<div class="c-chatbox__chat">
+									<div class="c-chatbox__chat__wrapper">
+										<img class="c-chatbox__chat__profpic" src="../assets/images/img-profpic1.png" />
+										<div class="c-chatbox__chat__content">
+											<div class="c-chatbox__chat__head">
+												<span class="c-chatbox__chat__user">Burdon Belly</span>
+												<span class="c-chatbox__chat__date">05 Mar 2018 13:05</span>
+											</div>
+											<div class="c-chatbox__chat__text">Hopla Zunea Zunea Hopla</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="c-chatbox__footer">
+							<div class="c-chatbox__input">
+								<input type="text" placeholder="Tulis pesan disini ...">
+								<button class="c-chatbox__button c-chatbox__button--send"><i></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="c-thread--list">
+			<div class="row ">
+				<div class="columns">
+					<div class="c-thread--list__item">
+						<div class="c-thread--list__title"><span class="is-sticky">Sticky : </span> Beli Tiket Online MARKAS 1018, SEKARANG</div>
+						<div class="c-thread--list__info">by : kaskus.infoforum, 09-04-2018 21:23</div>
+					</div>
+					<div class="c-thread--list__item">
+						<div class="c-thread--list__title"><span class="is-sticky">Sticky : </span> Beli Tiket Online MARKAS 1018, SEKARANG</div>
+						<div class="c-thread--list__info">by : kaskus.infoforum, 09-04-2018 21:23</div>
+					</div>
+					<div class="c-thread--list__item">
+						<div class="c-thread--list__title"><span class="is-sticky">Sticky : </span> Beli Tiket Online MARKAS 1018, SEKARANG</div>
+						<div class="c-thread--list__info">by : kaskus.infoforum, 09-04-2018 21:23</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row medium-up-3">
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread1.jpg')"></div>
+						<div class="c-thread--grid__title"><span>Jumat Sabtu Minggu Waktunya Beli Pulsa dan Kuota Indosat</span></div>
+					</div>
+			</div>
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread2.jpg')"></div>
+						<div class="c-thread--grid__title"><span>Mari Mengenal Matcha Green Tea Lebih Dekat Gansis</span></div>
+					</div>
+			</div>
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread3.jpg')"></div>
+						<div class="c-thread--grid__title"><span>Musim Semi di Korea Nggak Cuma Pink, Bunga Kuning ini Juga </span></div>
+					</div>
+			</div>
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread4.jpg')"></div>
+						<div class="c-thread--grid__title"><span>5 Hal Aneh yang Bakal Kalian Temui di Perkantoran Jepang</span></div>
+					</div>
+			</div>
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread5.jpg')"></div>
+						<div class="c-thread--grid__title"><span>Captain Tsubasa Kembali Hadir! Inilah Perbedaan antara Versi Dewasa dan Muda</span></div>
+					</div>
+			</div>
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread6.jpg')"></div>
+						<div class="c-thread--grid__title"><span>Mengejutkan, ternyata para tokoh selebritis ini dulunya bekas gender yang berlawanan</span></div>
+					</div>
+			</div>
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread7.jpg')"></div>
+						<div class="c-thread--grid__title"><span>Instagram Hadirkan Fitur Baru</span></div>
+					</div>
+			</div>
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread8.jpg')"></div>
+						<div class="c-thread--grid__title"><span>Baper itu bikin Susah Hati, Cegahlah dengan ini</span></div>
+					</div>
+			</div>
+			<div class="columns">
+					<div class="c-thread--grid">
+						<div class="c-thread--grid__thumbnail" style="background-image:url('../assets/images/img-thread9.jpg')"></div>
+						<div class="c-thread--grid__title"><span>Mengapa Kita Bersin Saat Melihat Cahaya Matahari</span></div>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="c-footer--btm">
+	<div class="l-wrap l-wrap--short">
+		<div class="row">
+			<div class="small-12 txt-ctr large-6 small-centered columns pl-0">
+				<p>Copyright &copy; 2017 KASKUS Networks. All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="../assets/js/vendor.min.js"></script>
+<script type="text/javascript" src="../assets/js/script.min.js"></script>
+</body>
+</html>
+
