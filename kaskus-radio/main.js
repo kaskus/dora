@@ -7,7 +7,7 @@ var newStartTime = 0;
 var timeInterval;
 window.dataLayer = window.dataLayer || [];
 
-function sendEventTracking(category, action, audioTitle, userId, audioCurrentTime, durationPlayed, percentageFinished) {
+function sendEventTracking(category, action, audioTitle, userId, durationPlayed, percentageFinished) {
 	var additionalCustomDimention = ['pause', 'next track', 'previous track', 'close tab'];
 
 	if (audioCurrentTime >= minimumDuration || action == "initial play") {
@@ -58,13 +58,13 @@ $(document).ready(function() {
 			$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
 			playerObject.play();
 			setTimeInterval("start");
-			sendEventTracking("radio", "play", audioTitle, 0, audioCurrentTime, audioCurrentTime, audioPercentageFinished);
+			sendEventTracking("radio", "play", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		} else {
 			$(".jsPlayButton").toggleClass("is-playing");
 			$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
 			playerObject.pause();
 			setTimeInterval("stop");
-			sendEventTracking("radio", "pause", audioTitle, 0, audioCurrentTime, audioCurrentTime, audioPercentageFinished);
+			sendEventTracking("radio", "pause", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		}
 	});
 
@@ -87,7 +87,7 @@ $(document).ready(function() {
 			playerObject.load([{ type: dataType, src: audioFile }]);
 			dataNumber = currentDataNumber;
 
-			sendEventTracking("radio", "initial play", audioTitle, 0, 0, 0, 0);
+			sendEventTracking("radio", "initial play", audioTitle, 0, 0, 0);
 			setTimeInterval("start");
 		} else {
 			if (playerObject.playing == false) {
@@ -95,12 +95,12 @@ $(document).ready(function() {
 				playerObject.play();
 				setTimeInterval("start");
 				updateView(this, false, true);
-				sendEventTracking("radio", "play", audioTitle, 0, audioCurrentTime, audioCurrentTime, audioPercentageFinished);
+				sendEventTracking("radio", "play", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 			} else {
 				var durationPlayed = audioCurrentTime - newStartTime;
 				playerObject.pause();
 				setTimeInterval("stop");
-				sendEventTracking("radio", "pause", audioTitle, 0, audioCurrentTime, durationPlayed, audioPercentageFinished);
+				sendEventTracking("radio", "pause", audioTitle, 0, durationPlayed, audioPercentageFinished);
 
 				$(".jsPlayTitle").css("color", "rgb(" + warnaDefault[0] + "," + warnaDefault[1] + "," + warnaDefault[2]);
 				$(".jsPlayDescription").slideUp();
@@ -123,7 +123,7 @@ $(document).ready(function() {
 	});
 
 	$(".jsSkipForwardButton").click(function() {
-		sendEventTracking("radio", "forward 15", audioTitle, 0, audioCurrentTime, audioCurrentTime, audioPercentageFinished);
+		sendEventTracking("radio", "forward 15", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		var skipForwardTime = audioCurrentTime + 15;
 		if (skipForwardTime > playerObject.video.duration) {
 			playerObject.seek(Math.round(playerObject.video.duration) - 1, function() {
@@ -137,7 +137,7 @@ $(document).ready(function() {
 	});
 
 	$(".jsSkipPreviousButton").click(function() {
-		sendEventTracking("radio", "backward 15", audioTitle, 0, audioCurrentTime, audioCurrentTime, audioPercentageFinished);
+		sendEventTracking("radio", "backward 15", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
 		var skipPreviousTime = audioCurrentTime - 15;
 		if (skipPreviousTime < 0) {
 			playerObject.seek(0, function() {
@@ -152,16 +152,16 @@ $(document).ready(function() {
 
 	$(".jsPrevButton").click(function() {
 		var durationPlayed = audioCurrentTime - newStartTime;
-		sendEventTracking("radio", "previous track", audioTitle, 0, audioCurrentTime, durationPlayed, audioPercentageFinished);
+		sendEventTracking("radio", "previous track", audioTitle, 0, durationPlayed, audioPercentageFinished);
 		prev();
-		sendEventTracking("radio", "initial play", audioTitle, 0, 0, 0, 0);
+		sendEventTracking("radio", "initial play", audioTitle, 0, 0, 0);
 	});
 
 	$(".jsNextButton").click(function() {
 		var durationPlayed = audioCurrentTime - newStartTime;
-		sendEventTracking("radio", "next track", audioTitle, 0, audioCurrentTime, durationPlayed, audioPercentageFinished);
+		sendEventTracking("radio", "next track", audioTitle, 0, durationPlayed, audioPercentageFinished);
 		next();
-		sendEventTracking("radio", "initial play", audioTitle, 0, 0, 0, 0);
+		sendEventTracking("radio", "initial play", audioTitle, 0, 0, 0);
 	});
 
 	function next() {
@@ -295,5 +295,5 @@ $(document).ready(function() {
 
 window.addEventListener("beforeunload", function(event) {
 	var durationPlayed = audioCurrentTime - newStartTime;
-	sendEventTracking("radio", "close tab", audioTitle, 0, audioCurrentTime, durationPlayed, audioPercentageFinished);
+	sendEventTracking("radio", "close tab", audioTitle, 0, durationPlayed, audioPercentageFinished);
 });
