@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KASKUS | Kaskus Creator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, height=device-height">
+
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:site_name" content="KASKUS Creator" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kaskus" />
+    <meta name="twitter:creator" content="@kaskus">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href="../assets/stylesheets/main.css" rel="stylesheet" type='text/css'>
+    <!-- Start of kaskussupport Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","066d0d84-b59b-4453-87be-d1555b512185");/*]]>*/</script>
+    <script type="text/JavaScript">
+      // Hide Zendesk Widget by default
+      window.zESettings = {
+        webWidget: {
+          helpCenter: {
+            title: {
+              '*': 'Bantuan'
+            },
+            messageButton: {
+              '*': 'Hubungi Kami'
+            }
+          },
+          contactForm: {
+            title: {
+              '*': 'Hubungi Kami'
+            }
+          }
+        }
+      };
+      zE(function() {
+        zE.hide();
+      });
+
+
+
+      // Function to load Zendesk Widget, with custom helpers
+      function showWidget() {
+        // $head.append($('\
+        //   <style> \
+        //   .Icon--zendesk { display:none !important; } \
+        //   .ScrollContainer-header { background: #298FCE!important;color:#FFF;} \
+        //   form.src-component-helpCenter-HelpCenterDesktop-form.u-cf.src-styles-components-Form-Form{display: none;} \
+        //   .src-component-helpCenter-HelpCenterResults-item:before{content:"\e804"; color: #efb558; display: inline-block; font: normal normal normal 14px/1 fontello; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} \
+        //   </style> \
+        //   '));
+
+        var $head = $("#webWidget").contents().find("head");
+        var url = "../assets/stylesheets/zendesk.css";
+        $head.prepend($("<link/>", { rel: "stylesheet", href: url, type: "text/css" } ));
+
+          // Show the widget
+          zE.activate({hideOnClose: true});
+        };
+    </script>
+    <!-- End of kaskussupport Zendesk Widget script -->
+  </head>
+  <body>
+
+<header class="c-header jsHeader">
+    <div class="c-header__row c-header__row__top">
+      <div class="c-header__nav c-header__nav--flex">
+        <a href="#" class="hide-above-768 c-navbar--mobile__btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <div class="c-header__logo">
+            <h1><a class="o-logo o-logo--poin" href="#">Kaskus Poin</a></h1>
+        </div>
+        <div class="c-header__user">
+            <!-- <div class="c-header__action">
+
+            </div> -->
+            <div class="c-header__action">
+                <!-- <a href="#" class="c-header__action__button c-header__action__button--is-disabled">Daftar Sekarang</a> -->
+                <a class="c-header__action__menu" href="#">Dashboard</a>
+                <a class="c-header__action__menu" href="#">Kumpulkan Poin</a>
+                <a class="c-header__action__menu" href="#">Kreator Lounge</a>
+                <a class="c-header__action__menu" href="#">Event &amp; Promo</a>
+                <a href="#" class="c-header__action__button">Buat Thread</a>
+                <div class="c-header__wrapper__action jsDropdown">
+                  <a class="c-header__action__avatar" style="background-image:url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')">
+                  </a>
+                  <div class="c-header__action__dropdown jsDropdownMenu">
+                     <ul>
+                         <li><a href="">rizzk</a></li>
+                         <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+                         <hr class="seperator" />
+                         <li><a href="">My Account</a></li>
+                         <li><a href="">Kirim Kritik dan Saran</a></li>
+                         <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+                     </ul>
+                  </div>
+                  <!-- <a class="c-header__action__name hide-below-768">nyanyacat</a> -->
+                  <i class="fa fa-angle-down jsDropdownIcon"></i>
+                </div>
+            </div>
+            <!-- <a href="#" class="c-header__action__link">Masuk</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- <div class="c-header__row c-header__row--grey hide-below-768">
+      <div class="c-header__nav">
+          <ul class="c-navbar--web jsNavbarWeb">
+              <li class="jsNavbarWebItem active"><a href="">Dashboard</a></li>
+              <li class="jsNavbarWebItem"><a href="">Kumpulkan Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Redeem Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Creator Lounge</a></li>
+              <li class="jsNavbarWebItem"><a href="">Referral System</a></li>
+              <li class="jsNavbarWebItem"><a href="">Event &amp; Promo</a></li>
+              <span class="c-navbar--web__indicator jsNavbarWebIndicator"></span>
+          </ul>
+      </div>
+    </div> -->
+</header>
+<div class="c-navbar__overlay"></div>
+<div class="c-navbar--mobile">
+    <div class="c-navbar--mobile__header">
+        <h3>MENU</h3>
+        <div class="c-navbar--mobile__header__close close-button"><span aria-hidden="true">×</span></div>
+    </div>
+    <ul>
+        <li><a href="">rizzk</a></li>
+        <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+        <hr class="seperator" />
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Kumpulkan Poin</a></li>
+        <li><a href="">Krator Lounge</a></li>
+        <li><a href="">Event &amp; Promo</a></li>
+        <li class="active"><a href="">Creator Lounge</a></li>
+        <li><a href="">Bantuan</a></li>
+        <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action">Buat Thread</button>
+    </div>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action c-navbar--mobile__action--is-disabled">Daftar Sekarang</button>
+    </div>
+    <div class="c-share--mobile">
+        <p>Bagikan ke teman</p>
+        <ul>
+            <li class="c-share--fb">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="c-share--tw">
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="c-share--gp">
+                <a href="#">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="c-share">
+    <ul>
+        <li class="c-share--fb">
+            <a href="#">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li class="c-share--tw">
+            <a href="#">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li class="c-share--gp">
+            <a href="#">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="c-share--faq">
+            <a href="#" onclick="showWidget();">
+                <i class="fa fa-question"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+<section class="l-main">
+    <div class="row expanded">
+        <div class="column padding-0">
+            <div class="l-wrap l-wrap--large row">
+                <div class="column c-headSec">
+                    <h2 class="text-center">Tukarkan Poin</h2>
+                </div>
+                
+                <div class="column">
+                    <div class="l-flex l-flex--row m-top-20">
+                        <div class="flex-small-100 flex-medium-45 column">
+                            <div class="c-card c-card--from text-center row">
+                                <h5 class="c-blue"><b>KASKUSPoin</b></h5>
+                                <table class="column c-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Poin Per</th>
+                                            <th class="right">2 Mei 2017</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Total Poin</td>
+                                            <td class="right c-blue">1900</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="column m-top-20">
+                                    <p>Pilih poin yang akan di redeem</p>
+                                    <select class="small-10 medium-8 c-select">
+                                        <option>500 pt &rarr; Rp 50.000</option>
+                                        <option>1000 pt &rarr; Rp 50.000</option>
+                                        <option>1500 pt &rarr; Rp 50.000</option>
+                                        <option>5000 pt &rarr; Rp 50.000</option>
+                                    </select>
+                                    <button data-open="redeem-modal" class="small-centered small-8 medium-6 column button small radius-3 m-top-20">Tukarkan</button>
+                                </div>
+                                <div class="column m-top-20">
+                                    <p>Ups...<br>Agan belum dapat melakukan penukaran poin. Kumpulkan poin sebanyak-banyaknya untuk dapat melakukan penukaran poin</p>
+                                    <button class="small-centered small-8 medium-6 button small radius-3 m-top-20">Kumpulkan Poin</button>
+                                </div>
+                            </div>
+                            <div class="o-box-success">Penukaran KASKUS Poin menjadi Saldo KasPay BERHASIL</div>
+                            <div class="o-box-error">Penukaran KASKUS Poin menjadi Saldo KasPay GAGAL</div>
+                        </div>
+
+                        <div class="flex-small-100 flex-medium-10 column text-center o-connector">
+                            <i class="fa fa-share"></i>
+                        </div>
+
+                        <div class="flex-small-100 flex-medium-45 column">
+                            <div class="c-card c-card--to c-card--grey text-center row">
+                                <h5 class="c-blue"><b>Saldo Brankas</b></h5>
+                                <table class="column c-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Saldo Per</th>
+                                            <th class="right">2 Mei 2017</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="no-divider">
+                                        <tr>
+                                            <td>Saldo Awal</td>
+                                            <td class="right">10.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Penambahan Saldo</td>
+                                            <td class="right">50.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Total Saldo</td>
+                                            <td class="c-blue right"><big>60.000</big></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button class="o-btn o-btn--outline--blue button small radius-3 m-top-20">Cek Saldo Brankas</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column padding-0">
+            <section class="l-section l-section--blue arrow m-top-20">
+                <div class="row">
+                    <div class="l-wrap l-wrap--xlarge small-centered column text-center">
+                        <div class="c-headSec">
+                            <h2 class="c-white">Cara Menukarkan Poin</h2>
+                        </div>
+                        <ol class="c-steps">
+                            <li>
+                                <img src="../assets/images/img-redeem-guide-5.png"/>
+                                <p>Penukaran dilakukan setiap kelipatan {5.000} Poin setara dengan saldo BranKas Rp {50.000,-}. Poin yang ditukarkan dapat berupa akumulasi dari beberapa thread.</p>
+                            </li>
+                            <li>
+                                <img src="../assets/images/img-redeem-guide-3.png"/>
+                                <p>Poin yang ditukar akan masuk ke saldo BranKas dan bisa langsung dicairkan ke rekening Agan maksimal 3 hari kerja.</b></p>
+                            </li>
+                            <li>
+                                <img src="../assets/images/img-redeem-guide-6.png"/>
+                                <p>Maksimal poin yang dapat ditukar per hari adalah senilai {100.000} Poin atau senilai Rp {1.000.000}.</p>
+                            </li>
+                            <li>
+                                <img src="../assets/images/img-redeem-guide-4.png"/>
+                                <p> Jumlah views tidak memiliki batas waktu. Jadi, Agan bisa tetap mengumpulkan dan redeem poin kapan saja.</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="column text-center medium-text-left">
+                        <b><small>* Konversi dapat berubah sewaktu-waktu</small></b>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+<div id="redeem-modal" class="c-modal tiny reveal text-center" data-reveal aria-hidden="true" role="dialog">
+    <img class="m-top-20 m-bottom-20" src="../assets/images/img-collect-guide-5.png"/>
+    <h2>Yakin Mau Menukarkan Poin?</h2>
+    <p>Jumlah Poin yang akan ditukar: <span class="c-blue">500 pt &rarr; Rp 50.000</span><br>Nilai Poin akan langsung ditambahkan ke Saldo Brankas Agan setelah menekan button "Tukarkan"</p>
+    <div class="m-top-20">
+        <button class="small-4 button small hollow radius-3">Batal</button>
+        <button class="small-4 button small radius-3">Tukarkan</button>
+    </div>
+    <button class="o-btn--close close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+
+
+<footer class="c-footer--btm">
+	<div class="l-wrap l-wrap--short">
+		<div class="row">
+			<div class="small-12 txt-ctr large-6 small-centered columns pl-0">
+				<p>Copyright &copy; 2017 KASKUS Networks. All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="../assets/js/vendor.min.js"></script>
+<script type="text/javascript" src="../assets/js/script.min.js"></script>
+</body>
+</html>

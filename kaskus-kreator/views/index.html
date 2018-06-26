@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KASKUS | Kaskus Creator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, height=device-height">
+
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:site_name" content="KASKUS Creator" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kaskus" />
+    <meta name="twitter:creator" content="@kaskus">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href="../assets/stylesheets/main.css" rel="stylesheet" type='text/css'>
+    <!-- Start of kaskussupport Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","066d0d84-b59b-4453-87be-d1555b512185");/*]]>*/</script>
+    <script type="text/JavaScript">
+      // Hide Zendesk Widget by default
+      window.zESettings = {
+        webWidget: {
+          helpCenter: {
+            title: {
+              '*': 'Bantuan'
+            },
+            messageButton: {
+              '*': 'Hubungi Kami'
+            }
+          },
+          contactForm: {
+            title: {
+              '*': 'Hubungi Kami'
+            }
+          }
+        }
+      };
+      zE(function() {
+        zE.hide();
+      });
+
+
+
+      // Function to load Zendesk Widget, with custom helpers
+      function showWidget() {
+        // $head.append($('\
+        //   <style> \
+        //   .Icon--zendesk { display:none !important; } \
+        //   .ScrollContainer-header { background: #298FCE!important;color:#FFF;} \
+        //   form.src-component-helpCenter-HelpCenterDesktop-form.u-cf.src-styles-components-Form-Form{display: none;} \
+        //   .src-component-helpCenter-HelpCenterResults-item:before{content:"\e804"; color: #efb558; display: inline-block; font: normal normal normal 14px/1 fontello; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} \
+        //   </style> \
+        //   '));
+
+        var $head = $("#webWidget").contents().find("head");
+        var url = "../assets/stylesheets/zendesk.css";
+        $head.prepend($("<link/>", { rel: "stylesheet", href: url, type: "text/css" } ));
+
+          // Show the widget
+          zE.activate({hideOnClose: true});
+        };
+    </script>
+    <!-- End of kaskussupport Zendesk Widget script -->
+  </head>
+  <body>
+
+<header class="c-header jsHeader">
+    <div class="c-header__row c-header__row__top">
+      <div class="c-header__nav c-header__nav--flex">
+        <a href="#" class="hide-above-768 c-navbar--mobile__btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <div class="c-header__logo">
+            <h1><a class="o-logo o-logo--poin" href="#">Kaskus Poin</a></h1>
+        </div>
+        <div class="c-header__user">
+            <!-- <div class="c-header__action">
+
+            </div> -->
+            <div class="c-header__action">
+                <!-- <a href="#" class="c-header__action__button c-header__action__button--is-disabled">Daftar Sekarang</a> -->
+                <a class="c-header__action__menu" href="#">Dashboard</a>
+                <a class="c-header__action__menu" href="#">Kumpulkan Poin</a>
+                <a class="c-header__action__menu" href="#">Kreator Lounge</a>
+                <a class="c-header__action__menu" href="#">Event &amp; Promo</a>
+                <a href="#" class="c-header__action__button">Buat Thread</a>
+                <div class="c-header__wrapper__action jsDropdown">
+                  <a class="c-header__action__avatar" style="background-image:url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')">
+                  </a>
+                  <div class="c-header__action__dropdown jsDropdownMenu">
+                     <ul>
+                         <li><a href="">rizzk</a></li>
+                         <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+                         <hr class="seperator" />
+                         <li><a href="">My Account</a></li>
+                         <li><a href="">Kirim Kritik dan Saran</a></li>
+                         <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+                     </ul>
+                  </div>
+                  <!-- <a class="c-header__action__name hide-below-768">nyanyacat</a> -->
+                  <i class="fa fa-angle-down jsDropdownIcon"></i>
+                </div>
+            </div>
+            <!-- <a href="#" class="c-header__action__link">Masuk</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- <div class="c-header__row c-header__row--grey hide-below-768">
+      <div class="c-header__nav">
+          <ul class="c-navbar--web jsNavbarWeb">
+              <li class="jsNavbarWebItem active"><a href="">Dashboard</a></li>
+              <li class="jsNavbarWebItem"><a href="">Kumpulkan Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Redeem Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Creator Lounge</a></li>
+              <li class="jsNavbarWebItem"><a href="">Referral System</a></li>
+              <li class="jsNavbarWebItem"><a href="">Event &amp; Promo</a></li>
+              <span class="c-navbar--web__indicator jsNavbarWebIndicator"></span>
+          </ul>
+      </div>
+    </div> -->
+</header>
+<div class="c-navbar__overlay"></div>
+<div class="c-navbar--mobile">
+    <div class="c-navbar--mobile__header">
+        <h3>MENU</h3>
+        <div class="c-navbar--mobile__header__close close-button"><span aria-hidden="true">×</span></div>
+    </div>
+    <ul>
+        <li><a href="">rizzk</a></li>
+        <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+        <hr class="seperator" />
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Kumpulkan Poin</a></li>
+        <li><a href="">Krator Lounge</a></li>
+        <li><a href="">Event &amp; Promo</a></li>
+        <li class="active"><a href="">Creator Lounge</a></li>
+        <li><a href="">Bantuan</a></li>
+        <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action">Buat Thread</button>
+    </div>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action c-navbar--mobile__action--is-disabled">Daftar Sekarang</button>
+    </div>
+    <div class="c-share--mobile">
+        <p>Bagikan ke teman</p>
+        <ul>
+            <li class="c-share--fb">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="c-share--tw">
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="c-share--gp">
+                <a href="#">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="c-share">
+    <ul>
+        <li class="c-share--fb">
+            <a href="#">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li class="c-share--tw">
+            <a href="#">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li class="c-share--gp">
+            <a href="#">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="c-share--faq">
+            <a href="#" onclick="showWidget();">
+                <i class="fa fa-question"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="c-header__seperator c-header__seperator--tall"></div>
+<div class="c-header__notice">
+	<section class="c-header__notice__wrapper">
+		<span class="c-header__notice__content">Sabar ya Gan! Agan dapat mendaftar kembali setelah 9 hari</span>
+	</section>
+</div>
+<div class="c-home__video l-main">
+	<div class="l-wrap l-wrap--medium-large">
+		<div class="c-home__video__title">Rangkai Kata Menjadi Ka(r)ya</div>
+
+		<div class="c-home__video__content">
+			<iframe width="100%" scrolling="no" height="405" src="//www.kaskus.co.id/embed/5937766260e24b213c8b456a" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<div class="hide-below-1024">
+
+	</div>
+</div>
+<div class="c-home__blue ">
+	<div class="l-wrap l-wrap--large m-tb-0">
+		<div class="c-home__blue__arrow">
+			<i class="fa fa-chevron-down" aria-hidden="true"></i>
+		</div>
+		<div class="c-headSec">
+			<h2>Tentang KASKUS Creator</h2>
+			<div class="c-headSec__p">
+				<p>
+					KASKUS mengajak Agan yang memiliki hobi dan minat di dunia tulis menulis untuk menyalurkan ide dan tulisan menarik Agan menjadi sebuah karya yang akan mendapatkan APRESIASI LEBIH!</br>
+					KASKUS Poin menjadi hadiah untuk setiap THREAD TERPILIH yang Bermutu, Orisinil, dan disukai oleh KASKUSer.
+				</p>
+			</div>
+			<a href="#">Baca FAQ KASKUS Creator</a>
+		</div>
+		<div class="c-home__blue__bg">
+			<img src="../assets/images/img-landing.png" class="hide-below-480">
+			<img src="../assets/images/img-landing-wap.png" class="hide-above-480">
+		</div>
+	</div>
+</div>
+<div class="c-home__grey">
+	<div class="l-wrap l-wrap--large ">
+		<div class="c-headSec">
+			<h2>Apa saja yang dapat dilakukan di Kaskus Creator</h2>
+		</div>
+		<div class="row">
+			<div class="c-home__grey__content small-12">
+				<div class="large-4 small-12 columns">
+					<div class="c-home__grey__cards__wrapper">
+						<div class="c-home__grey__cards row">
+							<div class="large-12 small-4 columns">
+								<div class="c-home__grey__cards__img kumpul"></div>
+							</div>
+							<div class="large-12 small-8 columns">
+								<div class="c-home__grey__cards__item">
+									<h3>Kumpulkan Poin</h3>
+									<p>Poin didapat dari setiap View dalam karya tulis Agan. Semakin tinggi View Thread Agan, semakin banyak pula Poin yang dapat Agan kumpulkan</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="large-4 small-12 columns">
+					<div class="c-home__grey__cards__wrapper">
+						<div class="c-home__grey__cards row">
+							<div class="large-12 small-4 columns">
+								<div class="c-home__grey__cards__img tukar"></div>
+							</div>
+							<div class="large-12 small-8 columns">
+								<div class="c-home__grey__cards__item">
+									<h3>Tukarkan Poin</h3>
+									<p>Wow..Poin bisa ditukarkan menjadi Saldo Brankas. Kumpulkan Poin Agan dan tukarkan menjadi Saldo Brankas. Saldo Brankas siap dicairkan ke rekening Agan!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="large-4 small-12 columns">
+					<div class="c-home__grey__cards__wrapper">
+						<div class="c-home__grey__cards row">
+							<div class="large-12 small-4 columns">
+								<div class="c-home__grey__cards__img updates"></div>
+							</div>
+							<div class="large-12 small-8 columns">
+								<div class="c-home__grey__cards__item">
+									<h3>Creator Update</h3>
+									<p>Berbagi proses mencari inspirasi dalam menulis. Berdiskusi seputar teknik menulis dan penyajian konten. Hingga update kabar menarik seputar KASKUS Creator.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="c-home__event">
+	<div class="l-wrap l-wrap--large ">
+		<div class="c-headSec">
+			<h2>Event KASKUS Kreator</h2>
+		</div>
+		<div class="row">
+			<div class="columns small-12">
+				<div class="c-home__event__wrapper">
+					<div class="c-home__event__image">
+						<span class="c-home__event__tag c-home__event__tag--point">+50</span>
+						<span class="c-home__event__tag c-home__event__tag--kaspay">+</span>
+						<img src="../assets/images/img-hero-promo.png" />
+					</div>
+					<div class="c-home__event__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+					<div class="c-home__event__action">
+						<a href="" class="c-home__event__button">Lihat Selengkapnya</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="c-home__syarat">
+	<div class="hide-below-1024">
+		<!-- <div class="o-coin o-coin--1" data-0="top:0%;left:10%" data-end="top:30%;left:10%"></div> -->
+		<div class="o-coin o-coin--2" data-0="top:35%;left:5%" data-end="top:38%;left:5%"></div>
+		<div class="o-coin o-coin--3" data-0="transform: rotate(0deg); top:20%;left:15%" data-end="transform: rotate(1800deg); top:100%;left:15%"></div>
+		<div class="o-coin o-coin--4" data-0="transform: rotate(0deg); top:-100%;right:10%" data-end="transform: rotate(-1800deg);top:100%;right:10%"></div>
+		<div class="o-coin o-coin--5" data-0="top:20%;right:5%" data-end="top:50%;right:5%"></div>
+		<div class="o-coin o-coin--6" data-0="top:60%;right:20%" data-end="top:75%;right:20%"></div>
+	</div>
+	<div class="l-wrap l-wrap--large m-tb-0 p-bottom-30">
+		<div class="c-headSec">
+			<h2>Menjadi KASKUS Kreator</h2>
+			<section class="l-section">
+			    <div class="row">
+			        <div class="l-wrap l-wrap--xlarge small-centered column text-center">
+			            <ol class="c-steps-join medium-block-grid-4 small-block-grid-2">
+			                <li class="o-cara-join" data-animate="bounceInDown" data-duration="1.0s" data-delay="0.1s" data-offset="100">
+			                    <img src="../assets/images/img-syarat-01.png"/>
+			                    <p>Tahu bagaimana Create Thread dan Post Reply di KASKUS</p>
+			                </li>
+			                <li class="o-cara-join" data-animate="bounceInDown" data-duration="1.0s" data-delay="0.1s" data-offset="100">
+			                    <img src="../assets/images/img-syarat-02.png"/>
+			                    <p>Mendaftarkan diri menjadi seorang KASKUS VTM (Verified Thread Maker)</p>
+			                </li>
+			                <li class="o-cara-join" data-animate="bounceInDown" data-duration="1.0s" data-delay="0.1s" data-offset="100">
+			                    <img src="../assets/images/img-syarat-03.png"/>
+			                    <p>Menunggu proses Review</p>
+			                </li>
+			                <li class="o-cara-join" data-animate="bounceInDown" data-duration="1.0s" data-delay="0.1s" data-offset="100">
+			                    <img src="../assets/images/img-syarat-04.png"/>
+			                    <p>Terverifikasi menjadi VTM</p>
+			                </li>
+			            </ol>
+			        </div>
+			    </div>
+			</section>
+			<a href="#">Baca FAQ Verified Thread Maker</a>
+		</div>
+		<div class="c-home__content">
+			<div class="c-home__content__btn">
+
+				<button class="o-btn o-btn--orange o-btn--wIcon" data-open="vtmModal"  type="button"><span></span><p>Ayo Bergabung Menjadi VTM</p></button>
+			</div>
+			<div class="c-modal__vtm o-reveal--vtm reveal" id="vtmModal" data-reveal data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+			  <div class="c-modal__vtm__img c-modal__vtm__img--register"></div>
+			  <h3>Agan yakin ingin bergabung menjadi Verified Thread Maker?</h3>
+			  <p>Proses Review akan memakan waktu maksimum 7 x 24</p>
+			  <div class="row">
+				  <div class="large-11 columns small-centered c-modal__vtm__btn ">
+				  		<div class="small-6 columns p-left-0"><button class="o-btn--list-blue" data-close aria-label="Close modal">Nanti Aja</button></div>
+				  		<div class="small-6 columns p-left-0"><button class="o-btn--blue" data-open="vtmModalRequired">Yakin, Gan!</button></div>
+				  </div>
+			  </div>
+			  <button class="o-btn--close close-button" data-close aria-label="Close modal" type="button">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			
+			<div class="c-modal__vtm o-reveal--vtm reveal" id="vtmModalRequired" data-reveal data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+			  <div class="c-modal__vtm__img c-modal__vtm__img--warning"></div>
+			  <h3>Buat 1 Postingan Thread Dulu Gan!</h3>
+			  <p>Untuk register KASKUS Kreator agan harus sudah pernah membuat minimal 1 postingan Thread</p>
+			  <button class="o-btn--close close-button" data-close aria-label="Close modal" type="button">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			
+			<div class="c-modal__vtm o-reveal--vtm reveal" id="vtmModalWaiting" data-reveal data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+			  <div class="c-modal__vtm__img c-modal__vtm__img--waiting"></div>
+			  <h3>Menunggu Proses Verifikasi</h3>
+			  <button class="o-btn--close close-button" data-close aria-label="Close modal" type="button">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			
+			<div class="c-modal__vtm o-reveal--vtm reveal" id="vtmModalRejected" data-reveal data-animation-in="slide-in-down" data-animation-out="slide-out-up">
+			  <div class="c-modal__vtm__img c-modal__vtm__img--rejected"></div>
+			  <h3>Sabar ya Gan!</h3>
+			  <p>Agan dapat mendaftar kembali setelah 9 hari</p>
+			  <button class="o-btn--close close-button" data-close aria-label="Close modal" type="button">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			
+			<div class="c-promo__modal reveal" id="promoModal" data-reveal data-animation-in="slide-in-down fast" data-animation-out="slide-out-up fast">
+			  <button class="c-promo__modal__close close-button" data-close aria-label="Close modal" type="button">
+			    <i class="fa fa-times"></i>
+			  </button>
+			  <div class="c-promo__modal__image">
+			    <img src="../assets/images/img-hero-promo.png" alt="" />
+			  </div>
+			  <div class="c-promo__modal__content">
+			    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			  </div>
+			  <a class="c-promo__modal__button o-btn--light-blue jsPromoHeroButton">LIHAT SELENGKAPNYA</a>
+			</div>
+			
+		</div>
+		<!-- <div class="c-home__content">
+			<div class="c-home__content__btn">
+				<button class="o-btn o-btn--disabled o-btn--wIcon" data-open="vtmModal" type="button" disabled><span></span><p>Ayo Bergabung Menjadi VTM</p></button>
+			</div>
+		</div> -->
+		<!-- <div class="c-home__content">
+			<div class="o-logo o-logo--vtm"></div>
+			<p>Agan sudah menjadi Verified Thread Maker</p>
+		</div>
+		<div class="c-home__content__btn p-tb-20">
+			<button class="o-btn o-btn--orange o-btn--wIcon" type="button">
+				<i class="create"></i>
+				<p>Mulai Buat Thread Sekarang</p>
+			</button>
+		</div> -->
+	</div>
+</div>
+<footer class="c-footer--btm">
+	<div class="l-wrap l-wrap--short">
+		<div class="row">
+			<div class="small-12 txt-ctr large-6 small-centered columns pl-0">
+				<p>Copyright &copy; 2017 KASKUS Networks. All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="../assets/js/vendor.min.js"></script>
+<script type="text/javascript" src="../assets/js/script.min.js"></script>
+</body>
+</html>
+

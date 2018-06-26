@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KASKUS | Kaskus Creator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, height=device-height">
+
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:site_name" content="KASKUS Creator" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kaskus" />
+    <meta name="twitter:creator" content="@kaskus">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href="../assets/stylesheets/main.css" rel="stylesheet" type='text/css'>
+    <!-- Start of kaskussupport Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","066d0d84-b59b-4453-87be-d1555b512185");/*]]>*/</script>
+    <script type="text/JavaScript">
+      // Hide Zendesk Widget by default
+      window.zESettings = {
+        webWidget: {
+          helpCenter: {
+            title: {
+              '*': 'Bantuan'
+            },
+            messageButton: {
+              '*': 'Hubungi Kami'
+            }
+          },
+          contactForm: {
+            title: {
+              '*': 'Hubungi Kami'
+            }
+          }
+        }
+      };
+      zE(function() {
+        zE.hide();
+      });
+
+
+
+      // Function to load Zendesk Widget, with custom helpers
+      function showWidget() {
+        // $head.append($('\
+        //   <style> \
+        //   .Icon--zendesk { display:none !important; } \
+        //   .ScrollContainer-header { background: #298FCE!important;color:#FFF;} \
+        //   form.src-component-helpCenter-HelpCenterDesktop-form.u-cf.src-styles-components-Form-Form{display: none;} \
+        //   .src-component-helpCenter-HelpCenterResults-item:before{content:"\e804"; color: #efb558; display: inline-block; font: normal normal normal 14px/1 fontello; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} \
+        //   </style> \
+        //   '));
+
+        var $head = $("#webWidget").contents().find("head");
+        var url = "../assets/stylesheets/zendesk.css";
+        $head.prepend($("<link/>", { rel: "stylesheet", href: url, type: "text/css" } ));
+
+          // Show the widget
+          zE.activate({hideOnClose: true});
+        };
+    </script>
+    <!-- End of kaskussupport Zendesk Widget script -->
+  </head>
+  <body>
+
+<header class="c-header jsHeader">
+    <div class="c-header__row c-header__row__top">
+      <div class="c-header__nav c-header__nav--flex">
+        <a href="#" class="hide-above-768 c-navbar--mobile__btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <div class="c-header__logo">
+            <h1><a class="o-logo o-logo--poin" href="#">Kaskus Poin</a></h1>
+        </div>
+        <div class="c-header__user">
+            <!-- <div class="c-header__action">
+
+            </div> -->
+            <div class="c-header__action">
+                <!-- <a href="#" class="c-header__action__button c-header__action__button--is-disabled">Daftar Sekarang</a> -->
+                <a class="c-header__action__menu" href="#">Dashboard</a>
+                <a class="c-header__action__menu" href="#">Kumpulkan Poin</a>
+                <a class="c-header__action__menu" href="#">Kreator Lounge</a>
+                <a class="c-header__action__menu" href="#">Event &amp; Promo</a>
+                <a href="#" class="c-header__action__button">Buat Thread</a>
+                <div class="c-header__wrapper__action jsDropdown">
+                  <a class="c-header__action__avatar" style="background-image:url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')">
+                  </a>
+                  <div class="c-header__action__dropdown jsDropdownMenu">
+                     <ul>
+                         <li><a href="">rizzk</a></li>
+                         <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+                         <hr class="seperator" />
+                         <li><a href="">My Account</a></li>
+                         <li><a href="">Kirim Kritik dan Saran</a></li>
+                         <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+                     </ul>
+                  </div>
+                  <!-- <a class="c-header__action__name hide-below-768">nyanyacat</a> -->
+                  <i class="fa fa-angle-down jsDropdownIcon"></i>
+                </div>
+            </div>
+            <!-- <a href="#" class="c-header__action__link">Masuk</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- <div class="c-header__row c-header__row--grey hide-below-768">
+      <div class="c-header__nav">
+          <ul class="c-navbar--web jsNavbarWeb">
+              <li class="jsNavbarWebItem active"><a href="">Dashboard</a></li>
+              <li class="jsNavbarWebItem"><a href="">Kumpulkan Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Redeem Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Creator Lounge</a></li>
+              <li class="jsNavbarWebItem"><a href="">Referral System</a></li>
+              <li class="jsNavbarWebItem"><a href="">Event &amp; Promo</a></li>
+              <span class="c-navbar--web__indicator jsNavbarWebIndicator"></span>
+          </ul>
+      </div>
+    </div> -->
+</header>
+<div class="c-navbar__overlay"></div>
+<div class="c-navbar--mobile">
+    <div class="c-navbar--mobile__header">
+        <h3>MENU</h3>
+        <div class="c-navbar--mobile__header__close close-button"><span aria-hidden="true">×</span></div>
+    </div>
+    <ul>
+        <li><a href="">rizzk</a></li>
+        <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+        <hr class="seperator" />
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Kumpulkan Poin</a></li>
+        <li><a href="">Krator Lounge</a></li>
+        <li><a href="">Event &amp; Promo</a></li>
+        <li class="active"><a href="">Creator Lounge</a></li>
+        <li><a href="">Bantuan</a></li>
+        <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action">Buat Thread</button>
+    </div>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action c-navbar--mobile__action--is-disabled">Daftar Sekarang</button>
+    </div>
+    <div class="c-share--mobile">
+        <p>Bagikan ke teman</p>
+        <ul>
+            <li class="c-share--fb">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="c-share--tw">
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="c-share--gp">
+                <a href="#">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="c-share">
+    <ul>
+        <li class="c-share--fb">
+            <a href="#">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li class="c-share--tw">
+            <a href="#">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li class="c-share--gp">
+            <a href="#">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="c-share--faq">
+            <a href="#" onclick="showWidget();">
+                <i class="fa fa-question"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="c-header__seperator c-header__seperator--tall"></div>
+<div class="c-header__notice">
+	<section class="c-header__notice__wrapper">
+		<span class="c-header__notice__content">Jumlah View yang ditampilkan mulai dari Tanggal 13 April 2018.</span>
+	</section>
+</div>
+<div class="c-dashboard l-main">
+	<div class="l-wrap c-dashboard__wrapper">
+		<div class="row">
+			<div class="column small-12">
+	      <div class="c-dashboard__title big">Statistik</div>
+				<div class="c-dashboard__subtitle">Evaluasi performa Agan melalui grafik produktivitas dan perbandingan antara jumlah views & thread.</div>
+			</div>
+		</div>
+      <!-- <div class="c-dashboard__date-picker">
+        <div class="c-dashboard__date-picker__title">Periode</div>
+        <div class="c-dashboard__date-picker__row ">
+          <div class="c-dashboard__date-picker__input half">
+						<i class="fa fa-calendar"></i>
+            <input name="startDate" class="fdatepicker" id="dpd1" type="text" placeholder="Dari" />
+          </div>
+          <div class="c-dashboard__date-picker__input half">
+						<i class="fa fa-calendar"></i>
+            <input name="startDate" disabled class="fdatepicker" id="dpd2" type="text" placeholder="Hingga" />
+          </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="column small-12">
+					<div class="c-dashboard__box no-padding" data-scrollTo="tooltip" data-intro="Evaluasi performa Agan melalui grafik produktivitas selama 5 bulan terakhir dengan perbandingan antara jumlah views & thread.Grafik dengan warna biru adalah views yang telah Agan kumpulkan hingga bulan tersebut dari seluruh thread yang Agan buat.Grafik dengan warna oranye adalah jumlah thread yang Agan buat di bulan tersebut.">
+	          <!-- <div class="c-dashboard__title">Statistik
+							<i class="fa fa-question-circle c-dashboard__tooltip" data-position="bottom" data-alignment="center" data-tooltip tabindex="1" title="Evaluasi performa Agan melalui grafik produktivitas dan perbandingan antara jumlah views & thread."></i>
+						</div>-->
+	          <!-- <div class="c-dashboard__note">Evaluasi performa Agan melalui grafik produktivitas dan perbandingan antara jumlah views & thread.</div> -->
+						<!-- <hr> -->
+						<div class="row small-up-2 c-dashboard__tab">
+							<div class="column c-dashboard__tab__item is-active jsDashboardTabItem">
+		            <div class="c-dashboard__value">50,000</div>
+		            <div class="c-dashboard__description">Total Views <i class="fa fa-question-circle c-dashboard__tooltip" data-position="bottom" data-alignment="center" data-tooltip tabindex="1" title="Jumlah total views yang sudah Agan miliki."></i></div>
+		            <!-- <div class="c-dashboard__note">periode 05 Sep 2017 - 10 Jan 2018</div> -->
+			        </div>
+			        <div class="column c-dashboard__tab__item jsDashboardTabItem">
+		            <div class="c-dashboard__value">34 <span>/102</span></div>
+		            <div class="c-dashboard__description">Total Thread <i class="fa fa-question-circle c-dashboard__tooltip" data-position="bottom" data-alignment="center" data-tooltip tabindex="1" title="Jumlah thread Agan yang lolos review dari total thread yang Agan miliki."></i></div>
+		            <!-- <div class="c-dashboard__note">periode 05 Sep 2017 - 10 Jan 2018</div> -->
+			        </div>
+					  </div>
+	          <script src="../assets/js/vendor/amcharts-min.js" type="text/javascript"></script>
+	          <script src="../assets/js/vendor/serial-min.js" type="text/javascript"></script>
+						<script src="../assets/js/vendor/dataloader-min.js" type="text/javascript"></script>
+	          <script>
+
+	              // var chartData = [
+	              //     {
+	              //         "tanggal": "4/1/2018",
+	              //         "totalThread": 3,
+	              //         "totalViews": 3000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/2/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/3/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/4/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/5/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/6/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/7/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/8/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/9/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/10/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/11/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/12/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/13/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/14/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/15/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/16/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/17/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/18/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/19/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/20/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/21/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/22/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/23/2018",
+	              //         "totalThread": 3,
+	              //         "totalViews": 3000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/24/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/25/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/26/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/27/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     },
+	              //     {
+	              //         "tanggal": "4/28/2018",
+	              //         "totalThread": 2,
+	              //         "totalViews": 5200
+	              //     },
+	              //     {
+	              //         "tanggal": "4/29/2018",
+	              //         "totalThread": 8,
+	              //         "totalViews": 8000
+	              //     },
+								// 		{
+	              //         "tanggal": "4/30/2018",
+	              //         "totalThread": 9,
+	              //         "totalViews": 12000
+	              //     }
+								//
+	              // ];
+
+
+								var chart = AmCharts.makeChart("chartdiv", {
+							  "type": "serial",
+								"addClassNames": true,
+								"fontFamily": 'Roboto',
+							  "dataLoader": {
+							    "url": "https://s.kaskus.id/others/f/others_fbyjcbbokr6y.json"
+							  },
+							  "valueAxes": [{
+							    "gridAlpha": 0,
+									"autoGridCount":false,
+									"gridCount": 4,
+									"axisColor": "#979797",
+									"tickLength": 0,
+							    "dashLength": 0
+							  }],
+							  "gridAboveGraphs": true,
+							  "startDuration": 0.5,
+								"startEffect": "easeOutSine",
+							  "graphs": [{
+							    "balloonText": "[[category]]: <b>[[value]]</b>",
+							    "fillAlphas": 0.8,
+									"fillColors": "#1798ED",
+							    "lineAlpha": 0,
+							    "type": "column",
+							    "valueField": "totalViews"
+							  }],
+							  "chartCursor": {
+							    "categoryBalloonEnabled": false,
+							    "cursorAlpha": 0,
+							    "zoomable": false
+							  },
+							  "categoryField": "tanggal",
+							  "categoryAxis": {
+							    "gridPosition": "start",
+							    "gridAlpha": 0,
+									"gridCount": 4,
+									"color": "#484848",
+									"gridThickness": 0,
+									"autoGridCount": false,
+									"axisColor": "#979797",
+							    "tickPosition": "start",
+									"boldLabels": true,
+									"parseDates": true,
+									"equalSpacing":true
+							  }
+							});
+
+							function setDataSet(dataset_url) {
+							  AmCharts.loadFile(dataset_url, {}, function(data) {
+							    chart.dataProvider = AmCharts.parseJSON(data);
+							    chart.validateData();
+							  });
+							}
+
+							$( document ).ready(function() {
+								$('.jsDashboardTabItem').click(function(){
+									$('.jsDashboardTabItem').removeClass('is-active');
+									$(this).addClass('is-active');
+								});
+							});
+
+
+	              // AmCharts.ready(function () {
+	              //     // SERIAL CHART
+	              //     chart = new AmCharts.AmSerialChart();
+								//
+	              //     //chart.dataProvider = chartData;
+								// 		chart.dataLoader = "https://s.kaskus.id/others/f/others_fbyjcbbokr6y.json";
+	              //     chart.categoryField = "tanggal";
+	              //     chart.startDuration = 1;
+								// 		chart.fontFamily = "Roboto";
+								// 		//chart.plotAreaFillAlphas = 0.1;
+								//
+	              //     // AXES
+	              //     // category
+	              //     var categoryAxis = chart.categoryAxis;
+	              //     categoryAxis.gridThickness = 0;
+								// 		categoryAxis.autoGridCount = false;
+								// 		categoryAxis.gridCount = 30;
+								// 		categoryAxis.axisColor = "#979797";
+	              //     categoryAxis.gridPosition = "start";
+								// 		categoryAxis.labelFunction = function(valueText){
+								// 			var monthNames = [
+								// 		    "Jan", "Feb", "March",
+								// 		    "April", "May", "June", "July",
+								// 		    "Aug", "Sep", "Oct",
+								// 		    "Nov", "Dec"
+								// 		  ];
+								// 			//console.log(dateObject);
+								// 			//console.log(val);
+								// 			if(valueText != ""){
+								// 				var val = valueText.split("/");
+								//
+								// 				//var dateObject = new Date(val[2], val[1], val[0]);
+								// 				//console.log(dateObject.getMonth());
+								//
+								// 				var tanggal = parseInt(val[1]);
+								// 				var bulan = monthNames[parseInt(val[0])];
+								//
+								// 				if(tanggal % 7 == 0){
+								// 					return tanggal + " " + bulan;
+								// 				}
+								// 			}
+								// 		};
+								//
+								//
+	              //     // value
+	              //     var valueAxis = new AmCharts.ValueAxis();
+	              //     valueAxis.gridThickness = 0;
+	              //     valueAxis.title = "Total Views";
+								// 		valueAxis.position = "right"; // this line makes the axis to appear on the right
+	              //     chart.addValueAxis(valueAxis);
+								//
+								//
+	              //     var valueAxis2 = new AmCharts.ValueAxis();
+								//
+	              //     valueAxis2.axisColor = "#979797";
+	              //     valueAxis2.gridAlpha = 0;
+								// 		valueAxis2.gridCount = 2;
+								// 		valueAxis2.autoGridCount = false;
+	              //     valueAxis2.gridThickness = 0;
+								// 		valueAxis2.axisTitleOffset = 50;
+	              //     chart.addValueAxis(valueAxis2);
+								//
+	              //     // GRAPHS
+	              //     // Bar Chart
+	              //     var graph1 = new AmCharts.AmGraph();
+	              //     graph1.valueAxis = valueAxis2;
+	              //     graph1.type = "column";
+	              //     graph1.title = "Total Thread";
+								// 		graph1.lineAlpha = 0.2;
+	              //     graph1.fillAlphas = 0.8;
+								// 		graph1.columnWidth = 0.75;
+	              //     graph1.lineColor = "#1798ED";
+	              //     graph1.valueField = "totalThread";
+								// 		graph1.clustered = false;
+	              //     //graph1.dashLengthField = "dashLengthColumn";
+	              //     graph1.alphaField = "alpha";
+	              //     graph1.balloonText = "<span style='font-size:12px;'>[[title]] in [[category]]: <b>[[value]]</b></span>";
+	              //     chart.addGraph(graph1);
+								//
+	              //     // Bar Chart
+	              //     var graph2 = new AmCharts.AmGraph();
+	              //     graph2.valueAxis = valueAxis;
+	              //     graph2.type = "column";
+	              //     graph2.title = "Total Views*";
+								// 		graph2.columnWidth = 0.65;
+	              //     graph2.lineColor = "#f8c31c";
+								// 		graph2.lineAlpha = 0.2;
+	              //     graph2.fillAlphas = 0.8;
+								// 		graph2.clustered = false;
+	              //     graph2.valueField = "totalViews";
+	              //     graph2.lineThickness = 3;
+	              //     //graph2.bullet = "round";
+	              //     //graph2.bulletBorderThickness = 3;
+	              //     //graph2.bulletBorderColor = "#f9a51a";
+	              //     //graph2.bulletBorderAlpha = 1;
+	              //     //graph2.bulletColor = "#ffffff";
+	              //     //graph2.dashLengthField = "dashLengthLine";
+	              //     graph2.balloonText = "<span style='font-size:12px;'>[[title]] in [[category]]: <b>[[value]]</b></span>";
+								//
+	              //     //chart.addGraph(graph2);
+								//
+	              //     // LEGEND
+	              //     var legend = new AmCharts.AmLegend();
+	              //     legend.useGraphSettings = true;
+	              //     //chart.addLegend(legend);
+								// 		chart.balloon.adjustBorderColor = true;
+								// 		chart.balloon.borderThickness = 1;
+								// 		chart.balloon.borderColor = "#c7c7c7";
+								//
+	              //     // WRITE
+	              //     chart.write("chartdiv");
+								//
+	              //     $("a[title='JavaScript charts']").remove();
+								//
+
+	              // });
+	          </script>
+	          <div id="chartdiv" style="width:100%; height:350px;"></div>
+						<div class="c-dashboard__pagination">
+								<ul>
+									<li><button><i class="fa fa-chevron-circle-left"></i>Prev 30 days</button></li>
+									<li class="seperator">&nbsp;</li>
+									<li><button class="is-disabled">Next 30 days <i class="fa fa-chevron-circle-right"></i></button></li>
+								</ul>
+						</div>
+						<hr>
+						<div class="c-dashboard__table__wrapper">
+							<table class="c-dashboard__table--thread">
+								<thead>
+									<tr>
+										<th align="left" style="width:65%;">My Threads</th>
+										<th align="left">Forum</th>
+										<th align="right">Views</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td align="left" class="c-dashboard__table--thread__title">
+											<span><a class="jsThreadLink">[Awas] S**K Building Syndrome Yang Menggoda Orang Kantoran</a></span>
+											<span class="date show-for-medium">30 April</span>
+										</td>
+										<td class="c-dashboard__table--thread__date hide-for-medium">30 April</td>
+										<td align="left" class="c-dashboard__table--thread__category">Healthy Lifestyle</td>
+										<td align="right" class="c-dashboard__table--thread__views">10.3k</td>
+									</tr>
+									<tr>
+										<td align="left" class="c-dashboard__table--thread__title">
+											<span><a class="jsThreadLink">closer -The Chainsmokers ft. Halsey (versi Jawa )</a></span>
+											<span class="date show-for-medium">30 April</span>
+										</td>
+										<td class="c-dashboard__table--thread__date hide-for-medium">30 April</td>
+										<td align="left" class="c-dashboard__table--thread__category">Music</td>
+										<td align="right" class="c-dashboard__table--thread__views">10.3k</td>
+									</tr>
+									<tr>
+										<td align="left" class="c-dashboard__table--thread__title">
+											<span><a class="jsThreadLink">Khasiat Rebusan Daun Sirsak</a></span>
+											<span class="date show-for-medium">30 April</span>
+										</td>
+										<td class="c-dashboard__table--thread__date hide-for-medium">30 April</td>
+										<td align="left" class="c-dashboard__table--thread__category">Healthy</td>
+										<td align="right" class="c-dashboard__table--thread__views">419</td>
+									</tr>
+									<tr>
+										<td align="left" class="c-dashboard__table--thread__title">
+											<span><a class="jsThreadLink">Gadis Cantik Penjual Popcorn Ini Mendadak Viral, Tapi Kisah Aslinya Begini!</a></span>
+											<span class="date show-for-medium">30 April</span>
+										</td>
+										<td class="c-dashboard__table--thread__date hide-for-medium">30 April</td>
+										<td align="left" class="c-dashboard__table--thread__category">The Lounge</td>
+										<td align="right" class="c-dashboard__table--thread__views">20</td>
+									</tr>
+									<tr>
+										<td align="left" class="c-dashboard__table--thread__title">
+											<span><a class="jsThreadLink">[Awas] S**K Building Syndrome Yang Menggoda Orang Kantoran</a></span>
+											<span class="date show-for-medium">30 April</span>
+										</td>
+										<td class="c-dashboard__table--thread__date hide-for-medium">30 April</td>
+										<td align="left" class="c-dashboard__table--thread__category">Healthy Lifestyle</td>
+										<td align="right" class="c-dashboard__table--thread__views">10.3k</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="c-dashboard__pagination">
+								<ul>
+									<li><button><i class="fa fa-chevron-circle-left"></i></button></li>
+									<li><button>1</button></li>
+									<li><button>2</button></li>
+									<li><button>3</button></li>
+									<li><button>4</button></li>
+									<li><button>5</button></li>
+									<li><button class="is-disabled"><i class="fa fa-chevron-circle-right"></i></button></li>
+								</ul>
+						</div>
+					</div>
+        </div>
+      </div>
+			<hr class="margin no-border">
+      <div class="row">
+        <div class="column small-12">
+          <div class="c-dashboard__box" data-scrollTo="tooltip" data-intro="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.">
+            <div class="c-dashboard__header">
+              <div class="c-dashboard__title">Trending Topics <i class="fa fa-question-circle c-dashboard__tooltip" data-position="bottom" data-alignment="center" data-tooltip tabindex="1" title="Agan dapat melihat Kreator dengan jumlah views tertinggi. Klik ‘Filter’ untuk rentang waktu mingguan atau bulanan."></i></div>
+						</div>
+						<div class="c-dashboard__content">
+							<ul class="c-dashboard__list">
+								<li class="c-dashboard__list__item--inline"><a class="c-dashboard__list__link" href="">Mantan Nikah</a></li>
+								<li class="c-dashboard__list__item--inline"><a class="c-dashboard__list__link" href="">Cuaca Panas</a></li>
+								<li class="c-dashboard__list__item--inline"><a class="c-dashboard__list__link" href="">EMAK EMAK</a></li>
+								<li class="c-dashboard__list__item--inline"><a class="c-dashboard__list__link" href="">Bulan Puasa</a></li>
+								<li class="c-dashboard__list__item--inline"><a class="c-dashboard__list__link" href="">RUU Terorisme</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+      <hr class="margin no-border">
+      <div class="row">
+        <div class="column small-12 medium-6">
+          <div class="c-dashboard__box" data-scrollTo="tooltip" data-intro="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.">
+            <div class="c-dashboard__header">
+              <div class="c-dashboard__title">Top Kreator
+								<!-- <span class="c-dashboard__note">Minggu ini</span>  -->
+								<i class="fa fa-question-circle c-dashboard__tooltip" data-position="bottom" data-alignment="center" data-tooltip tabindex="1" title="Agan dapat melihat Kreator dengan jumlah views tertinggi. Klik ‘Filter’ untuk rentang waktu mingguan atau bulanan."></i></div>
+							<div class="c-dashboard__menu">
+                <!-- <div class="c-dashboard__menu__item jsDashboardMenu"><i class="fa fa-filter  c-dashboard__menu__icon"></i><span>Filter</span></div> -->
+								<button class="c-dashboard__menu__button jsDashboardMenu is-active">7 hari terakhir</button>
+								<button class="c-dashboard__menu__button jsDashboardMenu">30 hari terakhir</button>
+                <!-- <div class="c-dashboard__menu__pop jsDashboardPopMenu">
+                  <ul class="c-dashboard__menu__list">
+                    <li class="c-dashboard__menu__list__item is-selected">
+                      <i class="fa fa-check"></i>
+                      <span>30 Hari Terakhir</span>
+                    </li>
+                    <li class="c-dashboard__menu__list__item">
+                      <i class="fa fa-check"></i>
+                      <span>7 Hari Terakhir</span>
+                    </li>
+                  </ul>
+                </div> -->
+              </div>
+            </div>
+            <div class="c-dashboard__content">
+              <table class="c-dashboard__table jsDashboardTable">
+                <thead>
+                  <tr>
+										<th>Rank</th>
+                    <th align="left">User</th>
+                    <th>View(s)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+										<td align="center"><span class="rank rank--1">1</span></td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">511 k</td>
+                    <!-- <td align="right">289</td> -->
+                  </tr>
+                  <tr>
+										<td align="center"><span class="rank rank--2">2</span></td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">189 k</td>
+                    <!-- <td align="right">123</td> -->
+                  </tr>
+                  <tr>
+										<td align="center"><span class="rank rank--3">3</span></td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">182 k</td>
+                    <!-- <td align="right">144</td> -->
+                  </tr>
+                  <tr>
+										<td align="center">4</td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">172 k</td>
+                    <!-- <td align="right">98</td> -->
+                  </tr>
+                  <tr>
+										<td align="center">5</td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">155 k</td>
+                    <!-- <td align="right">120</td> -->
+                  </tr>
+                  <tr>
+										<td align="center">6</td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">121 k</td>
+                    <!-- <td align="right">119</td> -->
+                  </tr>
+                  <tr>
+										<td align="center">7</td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">115 k</td>
+                    <!-- <td align="right">92</td> -->
+                  </tr>
+                  <tr>
+										<td align="center">8</td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">101 k</td>
+                    <!-- <td align="right">85</td> -->
+                  </tr>
+                  <tr>
+										<td align="center">9</td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">Celengpanggang</span>
+                      </a>
+                    </td>
+                    <td align="center">89 k</td>
+                    <!-- <td align="right">88</td> -->
+                  </tr>
+									<tr class="own">
+										<td align="center">137</td>
+                    <td>
+                      <a class="user">
+                        <span class="user__pp" style="background-image: url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')"></span>
+                        <span class="user__name">babono</span>
+                      </a>
+                    </td>
+                    <td align="center">5 k</td>
+                    <!-- <td align="right">3</td> -->
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="c-dashboard__footer">
+              <div class="c-dashboard__footer__note">*dalam ribuan</div>
+            </div>
+          </div>
+        </div>
+        <div class="column small-12 medium-6">
+          <!-- <div class="c-dashboard__box">
+            <div class="c-dashboard__header">
+              <div class="c-dashboard__title">Trending <span class="c-dashboard__note">Minggu ini</span></div>
+              <div class="c-dashboard__menu">
+                <div class="c-dashboard__menu__item jsDashboardMenu"><i class="fa fa-filter  c-dashboard__menu__icon"></i><span>Filter</span></div>
+                <div class="c-dashboard__menu__pop jsDashboardPopMenu">
+                  <ul class="c-dashboard__menu__list">
+                    <li class="c-dashboard__menu__list__item is-selected">
+                      <i class="fa fa-check"></i>
+                      <span>30 Hari Terakhir</span>
+                    </li>
+                    <li class="c-dashboard__menu__list__item">
+                      <i class="fa fa-check"></i>
+                      <span>7 Hari Terakhir</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="c-dashboard__content">
+              <ul class="c-dashboard__list jsDashboardList">
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Judul-judulan video bocah dan wanita dewasa</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">4 Jan</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">31 Des</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Judul-judulan video bocah dan wanita dewasa</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">4 Jan</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">31 Des</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">31 Des</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Judul-judulan video bocah dan wanita dewasa</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">4 Jan</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">31 Des</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Judul-judulan video bocah dan wanita dewasa</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">4 Jan</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">31 Des</span>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+                  </a>
+                  <span class="c-dashboard__list__item__date">31 Des</span>
+                </li>
+              </ul>
+            </div>
+          </div> -->
+          <div class="c-dashboard__box" data-scrollTo="tooltip" data-intro="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.">
+            <div class="c-dashboard__header">
+              <div class="c-dashboard__title">Editor Suggestion
+								<!-- <span class="c-dashboard__note">Minggu ini</span>  -->
+								<i class="fa fa-question-circle c-dashboard__tooltip" data-position="bottom" data-alignment="center" data-tooltip tabindex="1" title="Thread-thread yang sedang ramai dan paling dicari Kaskuser untuk dijadikan referensi thread Agan selanjutnya."></i></div>
+							<!-- <div class="c-dashboard__menu">
+                <div class="c-dashboard__menu__item jsDashboardMenu"><i class="fa fa-filter  c-dashboard__menu__icon"></i><span>Filter</span></div>
+                <div class="c-dashboard__menu__pop jsDashboardPopMenu">
+                  <ul class="c-dashboard__menu__list">
+                    <li class="c-dashboard__menu__list__item is-selected">
+                      <i class="fa fa-check"></i>
+                      <span>30 Hari Terakhir</span>
+                    </li>
+                    <li class="c-dashboard__menu__list__item">
+                      <i class="fa fa-check"></i>
+                      <span>7 Hari Terakhir</span>
+                    </li>
+                  </ul>
+                </div>
+              </div> -->
+            </div>
+            <div class="c-dashboard__content">
+              <ul class="c-dashboard__list jsDashboardList">
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Judul-judulan video bocah dan wanita dewasa</span>
+										<span class="c-dashboard__list__item__date">4 Jan</span>
+                  </a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+										<span class="c-dashboard__list__item__date">31 Des</span>
+                  </a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Judul-judulan video bocah dan wanita dewasa</span>
+										<span class="c-dashboard__list__item__date">4 Jan</span>
+                  </a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+										<span class="c-dashboard__list__item__date">31 Des</span>
+                  </a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+										<span class="c-dashboard__list__item__date">31 Des</span>
+                  </a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Judul-judulan video bocah dan wanita dewasa</span>
+										<span class="c-dashboard__list__item__date">4 Jan</span>
+                  </a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+										<span class="c-dashboard__list__item__date">31 Des</span>
+                  </a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Judul-judulan video bocah dan wanita dewasa</span>
+										<span class="c-dashboard__list__item__date">4 Jan</span>
+									</a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+										<span class="c-dashboard__list__item__date">31 Des</span>
+                  </a>
+                </li>
+                <li class="c-dashboard__list__item">
+                  <a href="" class="c-dashboard__list__item__link">
+                    <span class="c-dashboard__list__item__image" style="background-image: url('https://s.kaskus.id/c100x100/img/hot_thread/hot_thread_fby5ew1z7xfp.jpg')"></span>
+                    <span class="c-dashboard__list__item__title">Ngelayat Sistem Drive Thru - Inovasi Kontroversial dari Negeri JAV yang Lagi Ngetrend</span>
+										<span class="c-dashboard__list__item__date">31 Des</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+	</div>
+</div>
+<script>
+function initIntro(){
+	introJs()
+	.setOptions({
+		'showStepNumbers': false,
+		'skipLabel':'<i class="fa fa-times"></i>',
+		'nextLabel':'Lanjut',
+		'prevLabel':'Back',
+		'doneLabel':'Got it!',
+		'hideNext': true,
+		'hidePrev':true
+	})
+	.start();
+}
+$(document).ready(function(){
+	// initIntro();
+});
+</script>
+<footer class="c-footer--btm">
+	<div class="l-wrap l-wrap--short">
+		<div class="row">
+			<div class="small-12 txt-ctr large-6 small-centered columns pl-0">
+				<p>Copyright &copy; 2017 KASKUS Networks. All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="../assets/js/vendor.min.js"></script>
+<script type="text/javascript" src="../assets/js/script.min.js"></script>
+</body>
+</html>
+

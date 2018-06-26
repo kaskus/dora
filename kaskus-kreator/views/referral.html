@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KASKUS | Kaskus Creator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, height=device-height">
+
+    <meta property="og:type" content="article" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:site_name" content="KASKUS Creator" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kaskus" />
+    <meta name="twitter:creator" content="@kaskus">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href="../assets/stylesheets/main.css" rel="stylesheet" type='text/css'>
+    <!-- Start of kaskussupport Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zE||(function(e,t,s){var n=window.zE=window.zEmbed=function(){n._.push(arguments)}, a=n.s=e.createElement(t),r=e.getElementsByTagName(t)[0];n.set=function(e){ n.set._.push(e)},n._=[],n.set._=[],a.async=true,a.setAttribute("charset","utf-8"), a.src="https://static.zdassets.com/ekr/asset_composer.js?key="+s, n.t=+new Date,a.type="text/javascript",r.parentNode.insertBefore(a,r)})(document,"script","066d0d84-b59b-4453-87be-d1555b512185");/*]]>*/</script>
+    <script type="text/JavaScript">
+      // Hide Zendesk Widget by default
+      window.zESettings = {
+        webWidget: {
+          helpCenter: {
+            title: {
+              '*': 'Bantuan'
+            },
+            messageButton: {
+              '*': 'Hubungi Kami'
+            }
+          },
+          contactForm: {
+            title: {
+              '*': 'Hubungi Kami'
+            }
+          }
+        }
+      };
+      zE(function() {
+        zE.hide();
+      });
+
+
+
+      // Function to load Zendesk Widget, with custom helpers
+      function showWidget() {
+        // $head.append($('\
+        //   <style> \
+        //   .Icon--zendesk { display:none !important; } \
+        //   .ScrollContainer-header { background: #298FCE!important;color:#FFF;} \
+        //   form.src-component-helpCenter-HelpCenterDesktop-form.u-cf.src-styles-components-Form-Form{display: none;} \
+        //   .src-component-helpCenter-HelpCenterResults-item:before{content:"\e804"; color: #efb558; display: inline-block; font: normal normal normal 14px/1 fontello; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} \
+        //   </style> \
+        //   '));
+
+        var $head = $("#webWidget").contents().find("head");
+        var url = "../assets/stylesheets/zendesk.css";
+        $head.prepend($("<link/>", { rel: "stylesheet", href: url, type: "text/css" } ));
+
+          // Show the widget
+          zE.activate({hideOnClose: true});
+        };
+    </script>
+    <!-- End of kaskussupport Zendesk Widget script -->
+  </head>
+  <body>
+
+<header class="c-header jsHeader">
+    <div class="c-header__row c-header__row__top">
+      <div class="c-header__nav c-header__nav--flex">
+        <a href="#" class="hide-above-768 c-navbar--mobile__btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <div class="c-header__logo">
+            <h1><a class="o-logo o-logo--poin" href="#">Kaskus Poin</a></h1>
+        </div>
+        <div class="c-header__user">
+            <!-- <div class="c-header__action">
+
+            </div> -->
+            <div class="c-header__action">
+                <!-- <a href="#" class="c-header__action__button c-header__action__button--is-disabled">Daftar Sekarang</a> -->
+                <a class="c-header__action__menu" href="#">Dashboard</a>
+                <a class="c-header__action__menu" href="#">Kumpulkan Poin</a>
+                <a class="c-header__action__menu" href="#">Kreator Lounge</a>
+                <a class="c-header__action__menu" href="#">Event &amp; Promo</a>
+                <a href="#" class="c-header__action__button">Buat Thread</a>
+                <div class="c-header__wrapper__action jsDropdown">
+                  <a class="c-header__action__avatar" style="background-image:url('https://s.kaskus.id/user/avatar/2016/05/16/male.jpg')">
+                  </a>
+                  <div class="c-header__action__dropdown jsDropdownMenu">
+                     <ul>
+                         <li><a href="">rizzk</a></li>
+                         <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+                         <hr class="seperator" />
+                         <li><a href="">My Account</a></li>
+                         <li><a href="">Kirim Kritik dan Saran</a></li>
+                         <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+                     </ul>
+                  </div>
+                  <!-- <a class="c-header__action__name hide-below-768">nyanyacat</a> -->
+                  <i class="fa fa-angle-down jsDropdownIcon"></i>
+                </div>
+            </div>
+            <!-- <a href="#" class="c-header__action__link">Masuk</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- <div class="c-header__row c-header__row--grey hide-below-768">
+      <div class="c-header__nav">
+          <ul class="c-navbar--web jsNavbarWeb">
+              <li class="jsNavbarWebItem active"><a href="">Dashboard</a></li>
+              <li class="jsNavbarWebItem"><a href="">Kumpulkan Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Redeem Poin</a></li>
+              <li class="jsNavbarWebItem"><a href="">Creator Lounge</a></li>
+              <li class="jsNavbarWebItem"><a href="">Referral System</a></li>
+              <li class="jsNavbarWebItem"><a href="">Event &amp; Promo</a></li>
+              <span class="c-navbar--web__indicator jsNavbarWebIndicator"></span>
+          </ul>
+      </div>
+    </div> -->
+</header>
+<div class="c-navbar__overlay"></div>
+<div class="c-navbar--mobile">
+    <div class="c-navbar--mobile__header">
+        <h3>MENU</h3>
+        <div class="c-navbar--mobile__header__close close-button"><span aria-hidden="true">×</span></div>
+    </div>
+    <ul>
+        <li><a href="">rizzk</a></li>
+        <li><a class="light" href="">habibrizzk@hotmail.com</a></li>
+        <hr class="seperator" />
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Kumpulkan Poin</a></li>
+        <li><a href="">Krator Lounge</a></li>
+        <li><a href="">Event &amp; Promo</a></li>
+        <li class="active"><a href="">Creator Lounge</a></li>
+        <li><a href="">Bantuan</a></li>
+        <li class="logout"><a href=""><i class="fa fa-sign-out"></i> Logout</a></li>
+    </ul>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action">Buat Thread</button>
+    </div>
+    <div class="c-navbar--mobile__action__wrapper">
+      <button href="#" class="c-navbar--mobile__action c-navbar--mobile__action--is-disabled">Daftar Sekarang</button>
+    </div>
+    <div class="c-share--mobile">
+        <p>Bagikan ke teman</p>
+        <ul>
+            <li class="c-share--fb">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="c-share--tw">
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="c-share--gp">
+                <a href="#">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="c-share">
+    <ul>
+        <li class="c-share--fb">
+            <a href="#">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li class="c-share--tw">
+            <a href="#">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li class="c-share--gp">
+            <a href="#">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="c-share--faq">
+            <a href="#" onclick="showWidget();">
+                <i class="fa fa-question"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="c-referral__banner">
+	<img class="c-referral__banner--desktop" src="../assets/images/img-banner-referral.jpg" />
+	<img class="c-referral__banner--mobile" src="../assets/images/img-banner-referral-mobile.png" />
+</div>
+<div class="c-referral__section">
+	<div class="l-wrap l-wrap--large m-tb-0">
+		<div class="c-referral__title">Ajak Teman dan Dapatkan Keuntungan</div>
+		<div class="c-referral__text">Dapatkan keuntungan dari program Referral KASKUS Creator Rp 20,000 buat Agan dari setiap temen Agan yang berhasil diajak untuk mendaftar dan menulis di KASKUS Creator.</div>
+		<div class="c-referral__table">
+			<div class="c-referral__table__row">
+				<div class="c-referral__table__column c-referral__table__data">65</div>
+				<div class="c-referral__table__column c-referral__table__text">Orang yang udah Agan Ajak</div>
+			</div>
+			<div class="c-referral__table__row">
+				<div class="c-referral__table__column c-referral__table__data">20</div>
+				<div class="c-referral__table__column c-referral__table__text">Orang yang udah Agan ajak jadi Creator</div>
+			</div>
+			<div class="c-referral__table__row">
+				<div class="c-referral__table__column c-referral__table__data">Rp 100,000,-</div>
+				<div class="c-referral__table__column c-referral__table__text">Total penghasilan Agan karena udah ngajak temen untuk berkontribusi di KASKUS Creator</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="c-referral__section c-referral__section--grey">
+	<div class="hide-below-1024">
+		<div class="o-coin o-coin--1" data-0="top:140%;left:10%" data-end="top:110%;left:10%"></div>
+		<div class="o-coin o-coin--2" data-0="top:160%;left:3%" data-end="top:170%;left:3%"></div>
+		<div class="o-coin o-coin--3" data-0="top:155%;left:15%; transform: rotate(0deg);" data-end="top:210%;left:15%;transform: rotate(270deg);"></div>
+		<div class="o-coin o-coin--4" data-0="top:110%;right:10%; transform: rotate(0deg);" data-end="top:130%;right:10%; transform: rotate(-180deg);"></div>
+		<div class="o-coin o-coin--5" data-0="top:120%;right:5%" data-end="top:150%;right:5%"></div>
+		<div class="o-coin o-coin--6" data-0="top:190%;right:15%" data-end="top:195%;right:15%"></div>
+	</div>
+	<div class="l-wrap l-wrap--large m-tb-0">
+		<div class="c-referral__title">Bagaimana Caranya ?</div>
+		<div class="c-referral__step row small-up-2 medium-up-4">
+			<div class="c-referral__step__item column">
+				<div class="c-referral__step__wrapper">
+					<div class="c-referral__step__image" style="background-image:url('../assets/images/img-referral-1.png')"></div>
+					<div class="c-referral__step__description">Bagikan link Referral ke teman-teman Agan</div>
+				</div>
+			</div>
+			<div class="c-referral__step__item column">
+				<div class="c-referral__step__wrapper">
+					<div class="c-referral__step__image" style="background-image:url('../assets/images/img-referral-2.png')"></div>
+					<div class="c-referral__step__description">Pastikan teman Agan menggunakan link yang Agan bagikan ketika mendaftar</div>
+				</div>
+			</div>
+			<div class="c-referral__step__item column">
+				<div class="c-referral__step__wrapper">
+					<div class="c-referral__step__image" style="background-image:url('../assets/images/img-referral-3.png')"></div>
+					<div class="c-referral__step__description">Ajak teman Agan untuk menulis thread dan mendaftar sebagai thread creator</div>
+				</div>
+			</div>
+			<div class="c-referral__step__item column">
+				<div class="c-referral__step__wrapper">
+					<div class="c-referral__step__image" style="background-image:url('../assets/images/img-referral-4.png')"></div>
+					<div class="c-referral__step__description">Selamat Agan mendapatkan saldo Kaspay sebanyak Rp 20.000,-</div>
+				</div>
+			</div>
+		</div>
+		<div class="c-referral__share">
+			<div class="c-referral__share__row">
+				<div class="c-referral__share__column c-referral__share__input">
+					<input type="text" value="https://creator.kaskus.co.id/">
+				</div>
+				<div class="c-referral__share__column c-referral__share__button">
+					<button>Copy Link</button>
+				</div>
+			</div>
+			<ul class="c-referral__share__list">
+				<li class="c-referral__share__item">
+					<a href="" class="c-referral__share__link c-referral__share__link--facebook">
+						<i class="fa fa-facebook"></i>
+						<span>Share</span>
+					</a>
+				</li>
+				<li class="c-referral__share__item">
+					<a href="" class="c-referral__share__link c-referral__share__link--twitter">
+						<i class="fa fa-twitter"></i>
+						<span>Tweet</span>
+					</a>
+				</li>
+				<li class="c-referral__share__item">
+					<a href="" class="c-referral__share__link c-referral__share__link--googleplus">
+						<i class="fa fa-google-plus"></i>
+						<span>Email</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="c-referral__section c-referral__section--blue c-referral__section__arrow c-referral__section__arrow--grey">
+	<div class="l-wrap l-wrap--large m-tb-0">
+		<div class="c-referral__ketentuan">
+			<div class="c-referral__ketentuan__title">Ketentuan Program Referral</div>
+			<div class="c-referral__ketentuan__content">
+				<ul>
+					<li>Setiap penulis yang daftar menggunakan link di atas akan otomatis terdaftar di bawah nama Agan</li>
+					<li>Agan baru akan mendapatkan Rp 20,000,- jika penulis yang Agan ajak udah berhasil menerbitkan 1 artikel untuk Kaskus</li>
+					<li>Uang Rp 20,000,- akan otomatis masuk ke saldo Agan setelah penulis yang diajak berhasil menerbitkan artikel pertamanya</li>
+					<li>Bonus tidak berlaku kelipatan, Agan hanya bisa dapet Rp 20,000,- / penulis yang berhasil Agan ajak nulis di Kaskus</li>
+					<li>Uang Rp 20,000,- akan masuk ke saldo Agan setelah artikel disetujui oleh Tim Kaskus dan tayang di Kaskus Creator</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="c-footer--btm">
+	<div class="l-wrap l-wrap--short">
+		<div class="row">
+			<div class="small-12 txt-ctr large-6 small-centered columns pl-0">
+				<p>Copyright &copy; 2017 KASKUS Networks. All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="../assets/js/vendor.min.js"></script>
+<script type="text/javascript" src="../assets/js/script.min.js"></script>
+</body>
+</html>
