@@ -253,7 +253,10 @@ $(document).ready(function() {
 		audioPercentageFinished = Math.round(audioPercentageFinished);
 
 		if (playerObject.finished == true) {
+			var durationPlayed = audioCurrentTime - newStartTime;
+			sendEventTracking("radio", "next track", audioTitle, 0, durationPlayed, audioPercentageFinished);
 			next();
+			sendEventTracking("radio", "initial play", audioTitle, 0, 0, 0);
 		}
 	}
 
