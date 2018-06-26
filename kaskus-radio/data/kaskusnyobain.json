@@ -5,13 +5,17 @@
     "imageAlbum" : "../assets/images/image-kaskusnyobain.png",
     "episode": {
       "1": {
-          "title": "Episode 1: Ayam Crispy pakai saus coklat, gimana rasanya ya?",
-          "src": "../assets/audio/audio-kaskus-nyobain4.mp3",
-          "duration": "6 menit",
-          "date": "14 Februari 2018",
-          "description": "Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
+        "type": "audio/mpeg",
+        "stream": "false",
+        "title": "Episode 1: Ayam Crispy pakai saus coklat, gimana rasanya ya?",
+        "src": "../assets/audio/audio-kaskus-nyobain4.mp3",
+        "duration": "6 menit",
+        "date": "14 Februari 2018",
+        "description": "Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
       },
       "2": {
+        "type": "audio/mpeg",
+        "stream": "false",
         "title": "Episode 2: Mendadak Artsy di Museum MACAN",
         "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
         "duration": "22 menit",
@@ -19,6 +23,8 @@
         "description": "Museum Macan lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
       },
       "3": {
+        "type": "audio/mpeg",
+        "stream": "false",
         "title": "Episode 3: Istora Baru, Jangan Bikin Malu",
         "src": "../assets/audio/audio-kaskus-nyobain2.mp3",
         "duration": "32 menit",
@@ -26,6 +32,8 @@
         "description": "Istora Baru, Jangan Bikin Malu lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
       },
       "4": {
+        "type": "audio/mpeg",
+        "stream": "false",
         "title": "Episode 4: Dinner Romantis di Angkasa",
         "src": "../assets/audio/audio-kaskus-nyobain.mp3",
         "duration": "10 menit",
@@ -33,6 +41,8 @@
         "description": "Dinner Romantis di Angkasa lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
       },
       "5": {
+        "type": "audio/mpeg",
+        "stream": "false",
         "title": "Episode 5: Nyobain All New Sirion, Mobilnya Generasi Kekinian",
         "src": "../assets/audio/audio-kaskus-nyobain4.mp3",
         "duration": "22 menit",
@@ -40,10 +50,21 @@
         "description": "All New Sirion, Mobilnya Generasi Kekinian lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
       },
       "6": {
-        "title": "Episode 6: Pedasnya Ayam Spicy McD",
+        "type": "application/x-mpegurl",
+        "stream": "false",
+        "title": "Episode 6: Flowplayer Stream Demo",
         "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
         "duration": "92 menit",
         "date": "22 Februari 2018",
+        "description": "Flowplayer Stream Demo"
+      },
+      "7": {
+        "type": "audio/mpeg",
+        "stream": "false",
+        "title": "Episode 7: Pedasnya Ayam Spicy McD",
+        "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
+        "duration": "92 menit",
+        "date": "23 Februari 2018",
         "description": "Pedasnya Ayam Spicy McD lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
       }
     }
