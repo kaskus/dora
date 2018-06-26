@@ -78,7 +78,7 @@ $(document).ready(function() {
 				setTimeInterval("stop");
 				updateView(this, false, false);
 			}
-
+			audioCurrentTime = 0;
 			var audioFile = $(this).attr("data-src");
 			var dataType = $(this).attr("data-type");
 			var dataStream = $(this).data("stream");
@@ -168,6 +168,7 @@ $(document).ready(function() {
 		var nextNumber = parseInt(dataNumber) + 1;
 		var nextElement = $("[data-number=" + nextNumber + "]");
 		if (nextElement.attr("data-src")) {
+			audioCurrentTime = 0;
 			var audioFile = nextElement.attr("data-src");
 			var dataType = nextElement.attr("data-type");
 			var dataStream = nextElement.data("stream");
@@ -187,6 +188,7 @@ $(document).ready(function() {
 		var prevNumber = parseInt(dataNumber) - 1;
 		var prevElement = $("[data-number=" + prevNumber + "]");
 		if (prevElement.attr("data-src")) {
+			audioCurrentTime = 0;
 			var audioFile = prevElement.attr("data-src");
 			var dataType = prevElement.attr("data-type");
 			var dataStream = prevElement.data("stream");
