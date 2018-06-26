@@ -35,6 +35,13 @@ function sendEventTracking(category, action, audioTitle, userId, durationPlayed,
 
 $(document).ready(function() {
 
+  $.getJSON( '../../data/kaskusnyobain.json' , function(result){
+      console.log(result);
+      // $.each(result, function(i, field){
+      //     $("div").append(field + " ");
+      // });
+  });
+
 	var playerObject = flowplayer("#hidden-player", {
 		live: false,
 		splash: true,
@@ -42,9 +49,12 @@ $(document).ready(function() {
 		clip: { sources: [] }
 	});
 
-	var malingWarna = new ColorThief();
-	warnaDominant = malingWarna.getColor($(".jsPlayImage")[0]);
-	warnaDefault = [0, 0, 0];
+  if($('.jsPlayImage').length > 0){
+    var malingWarna = new ColorThief();
+  	warnaDominant = malingWarna.getColor($(".jsPlayImage")[0]);
+  	warnaDefault = [0, 0, 0];
+  }
+
 
 	if ($(".jsPlayHeader").length > 0) {
 		$(".jsPlayHeader").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
