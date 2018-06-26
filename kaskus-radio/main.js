@@ -265,6 +265,7 @@ $(document).ready(function() {
 		if (action == "start") {
 			timeInterval = setInterval(updateAudioTime, 100);
 		}
+
 		if (action == "stop") {
 			clearInterval(timeInterval);
 		}
