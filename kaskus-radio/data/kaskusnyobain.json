@@ -1,6 +1,7 @@
 {"program": {
     "title" : "KASKUS Nyobain Podcast",
     "author" : "KASKUS.Nyobain",
+    "colorTheme" : [105,71,155],	
     "description" : "Mobil balap, makanan nggak enak, & semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mobil balap, makanan nggak enak",
     "imageAlbum" : "../assets/images/image-kaskusnyobain.png",
     "episode": {

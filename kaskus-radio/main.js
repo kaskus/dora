@@ -4,21 +4,46 @@ var audioPercentageFinished = 0;
 var audioTitle = "";
 var dataId = 0;
 var episodes;
+var colorTheme;
 var currentPlayElement;
 var newStartTime = 0;
 var timeInterval;
 window.dataLayer = window.dataLayer || [];
 
 $(document).ready(function() {
-  $.getJSON(getCookie('json_src'), function(result) {
-      episodes = result.program.episode;
+	var pjax = new Pjax({
+	  elements: ".jsLink", // default is "a[href], form[action]"
+	  selectors: [".jsSectionContent"]
+	})
 
+	topbar.config({
+    barColors    : {
+      '1'        : 'rgba(56,  130, 193, 1)',
+    }
+  });
+
+	$(".jsPopupArea").css("transform", "translateY(" + $(window).height() + "px)");
+
+	document.addEventListener('pjax:send', topbar.show)
+	document.addEventListener('pjax:complete', topbar.hide)
+
+});
+
+function renderPodcastList(program){
+	var linkJSON = "../data/" + program +'.json';
+	$.getJSON(linkJSON, function(result) {
+      episodes = result.program.episode;
+			colorTheme = result.program.colorTheme;
+			//console.log(result.program.colorTheme);
+			$('.jsPlayImage, .jsPopupImage').attr('src', result.program.imageAlbum);
+			$('.jsPlayHeaderTitle').text(result.program.title);
+			$('.jsPlayAuthor').text(result.program.title);
       $.each(episodes, function(index, episode) {
-        $(".playList").append("<div class='fl w-100 pa2 jsPlayItem'><a class='link black jsPlayLink flex items-center' data-id='" + index +"'><div class='fl mr2'><div style='width:65px; height:65px;'><div class='c100 p0 jsPlayCircle'><span class='vagRoundedBold'>" + index + "</span><div class='slice'><div class='bar'></div><div class='fill'></div></div></div></div></div><div class='flex-auto'><div class='jsPlayTitle f5 line-clamp'>" + episode.title + "</div><div class='f6 truncate mt1'><span>" + episode.duration + " ▪ " + episode.date + "</span></div></div></a><div style='display:none;' class='mt3 jsPlayDescription'>" + episode.description + "</div></div>");
+        $(".jsPlayList").append("<div class='fl w-100 pa2 jsPlayItem'><a class='link black jsPlayLink flex items-center' data-id='" + index +"'><div class='fl mr2'><div style='width:65px; height:65px;'><div class='c100 p0 jsPlayCircle'><span class='vagRoundedBold'>" + index + "</span><div class='slice'><div class='bar'></div><div class='fill'></div></div></div></div></div><div class='flex-auto'><div class='jsPlayTitle f5 line-clamp'>" + episode.title + "</div><div class='f6 truncate mt1'><span>" + episode.duration + " ▪ " + episode.date + "</span></div></div></a><div style='display:none;' class='mt3 jsPlayDescription'>" + episode.description + "</div></div>");
       });
       initPodcastList();
   });
-});
+}
 
 function initPodcastList() {
   var playerObject = flowplayer("#hidden-player", {
@@ -28,11 +53,14 @@ function initPodcastList() {
     clip: { sources: [] }
   });
 
-  if($('.jsPlayImage').length > 0){
-    var malingWarna = new ColorThief();
-    warnaDominant = malingWarna.getColor($(".jsPlayImage")[0]);
-    warnaDefault = [0, 0, 0];
-  }
+	var warnaDominant = colorTheme;
+	var warnaDefault = [0, 0, 0];
+
+  // if($('.jsPlayImage').length > 0){
+  //   var malingWarna = new ColorThief();
+  //   var warnaDominant = malingWarna.getColor(document.getElementsByClassName("jsPlayImage")[0]);
+  //   var warnaDefault = [0, 0, 0];
+  // }
 
   if ($(".jsPlayHeader").length > 0) {
     $(".jsPlayHeader").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
@@ -42,14 +70,20 @@ function initPodcastList() {
   $(".jsPlayButton").click(function() {
     if (playerObject.playing == false) {
       $(".jsPlayer, .jsProgress").removeClass("is-hide");
-      $(".jsPlayButton").toggleClass("is-playing");
-      $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+			$(".jsPlayButton").addClass("is-playing");
+			$(".jsPlayButton").find("i").addClass("fa-pause-circle");
+			$(".jsPlayButton").find("i").removeClass("fa-play-circle");
+      // $(".jsPlayButton").toggleClass("is-playing");
+      // $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
       playerObject.play();
       setTimeInterval("start");
       sendEventTracking("radio", "play", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
     } else {
-      $(".jsPlayButton").toggleClass("is-playing");
-      $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+			$(".jsPlayButton").removeClass("is-playing");
+			$(".jsPlayButton").find("i").addClass("fa-play-circle");
+			$(".jsPlayButton").find("i").removeClass("fa-pause-circle");
+      // $(".jsPlayButton").toggleClass("is-playing");
+      // $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
       playerObject.pause();
       setTimeInterval("stop");
       sendEventTracking("radio", "pause", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
@@ -92,7 +126,9 @@ function initPodcastList() {
         $(".jsPlayTitle").css("color", "rgb(" + warnaDefault[0] + "," + warnaDefault[1] + "," + warnaDefault[2]);
         $(".jsPlayDescription").slideUp();
         $(".jsPlayCircle").removeClass("is-active");
-        $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+        //$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+				$(".jsPlayButton").find("i").addClass("fa-play-circle");
+				$(".jsPlayButton").find("i").removeClass("fa-pause-circle");
       }
     }
   });
@@ -133,6 +169,17 @@ function initPodcastList() {
 
   $(".jsNextButton").click(function() {
     next();
+  });
+
+	$(".jsPopupShowButton").click(function() {
+    $("body").addClass("o-hidden");
+    $(".jsPopupArea").addClass("is-show");
+    $(".jsPopupToolbar").show();
+  });
+  $(".jsPopupCloseButton").click(function() {
+    $("body").removeClass("o-hidden");
+    $(".jsPopupArea").removeClass("is-show");
+    $(".jsPopupToolbar").hide();
   });
 
   function prev() {
@@ -184,7 +231,7 @@ function initPodcastList() {
     //update title di player
     $(".jsPlayerTitle, .jsPopupTitle").text(episodes[dataId].title);
     $(".jsPopupDescription").text(episodes[dataId].description);
-    
+
     //update description di list item
     $(".jsPlayDescription").slideUp();
     $(element).next().slideDown();
@@ -193,13 +240,17 @@ function initPodcastList() {
       $(".jsPlayer, .jsProgress").removeClass("is-hide");
       $(element).find(".jsPlayTitle").css("color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
       $(".jsPopupArea, .jsPopupToolbar, .jsPlayerIndicator").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
-      $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+      //$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+			$(".jsPlayButton").find("i").addClass("fa-pause-circle");
+			$(".jsPlayButton").find("i").removeClass("fa-play-circle");
       $(".jsProgressBar").css("width", "0%");
     } else {
       $(".jsPlayTitle").css("color", "rgb(" + warnaDefault[0] + "," + warnaDefault[1] + "," + warnaDefault[2]);
       $(element).find(".jsPlayTitle").css("color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
       if (fromPaused) {
-        $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+        //$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+				$(".jsPlayButton").find("i").addClass("fa-pause-circle");
+				$(".jsPlayButton").find("i").removeClass("fa-play-circle");
       } else {
         $(".jsProgressBar").css("width", "0%");
         $(".jsPlayCircle .bar").css("transform", "rotate(0deg)");
@@ -235,18 +286,17 @@ function initPodcastList() {
     }
   }
 
-  $(".jsPopupArea").css("transform", "translateY(" + $(window).height() + "px)");
+	function setTimeInterval(action) {
+	  if (action == "start") {
+	    timeInterval = setInterval(updateAudioTime, 100);
+	  }
 
-  $(".jsPopupShowButton").click(function() {
-    $("body").addClass("o-hidden");
-    $(".jsPopupArea").toggleClass("is-show");
-    $(".jsPopupToolbar").show();
-  });
-  $(".jsPopupCloseButton").click(function() {
-    $("body").removeClass("o-hidden");
-    $(".jsPopupArea").toggleClass("is-show");
-    $(".jsPopupToolbar").hide();
-  });
+	  if (action == "stop") {
+	    clearInterval(timeInterval);
+	  }
+	}
+
+	$(".jsPopupArea").css("transform", "translateY(" + $(window).height() + "px)");
 
 
   $(window).scroll(function() {
@@ -290,15 +340,7 @@ function formatTime(secs) {
   return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
 }
 
-function setTimeInterval(action) {
-  if (action == "start") {
-    timeInterval = setInterval(updateAudioTime, 100);
-  }
 
-  if (action == "stop") {
-    clearInterval(timeInterval);
-  }
-}
 
 function getCookie(cookieName) {
   var name = cookieName + "=";

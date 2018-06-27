@@ -1,0 +1,27 @@
+{"program": {
+    "title" : "Live Ngaskus Podcast",
+    "author" : "KASKUS.Live",
+    "colorTheme" : [235,51,35],
+    "description" : "Live Ngaskus akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mobil balap, makanan nggak enak",
+    "imageAlbum" : "../assets/images/image-livengaskus.png",
+    "episode": {
+      "1": {
+        "type": "audio/mpeg",
+        "stream": "false",
+        "title": "Episode 1: Dilan Rindu itu Berat",
+        "src": "../assets/audio/audio-kaskus-nyobain4.mp3",
+        "duration": "6 menit",
+        "date": "14 Februari 2018",
+        "description": "Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
+      },
+      "2": {
+        "type": "audio/mpeg",
+        "stream": "false",
+        "title": "Episode 2: Iqbal Cowboy Junior TETEW",
+        "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
+        "duration": "22 menit",
+        "date": "16 Februari 2018",
+        "description": "Museum Macan lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, &amp; semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!"
+      }
+    }
+}}

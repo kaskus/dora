@@ -15,7 +15,7 @@
     <!-- End Google Tag Manager -->
   </head>
 
-<body class="vagRoundedStdLight" onload="renderPodcastList()">
+<body class="vagRoundedStdLight" onload="renderPodcastList('keluargatakkasatmata')">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVV84M8"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -327,8 +327,8 @@
     </div>
     
     <script>
-      if (typeof renderPodcastList === "function") { 
-        document.addEventListener('pjax:complete', renderPodcastList());
+      if (typeof renderPodcastList === "function") {
+        document.addEventListener('pjax:complete', renderPodcastList('keluargatakkasatmata'));
       }
     </script>
   </section>
