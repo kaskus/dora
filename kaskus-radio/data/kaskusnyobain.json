@@ -54,7 +54,7 @@
         "type": "application/x-mpegurl",
         "stream": "false",
         "title": "Episode 6: Flowplayer Stream Demo",
-        "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
+        "src": "http://edge.flowplayer.org/fake_empire.m3u8",
         "duration": "92 menit",
         "date": "22 Februari 2018",
         "description": "Flowplayer Stream Demo"
