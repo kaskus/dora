@@ -99,12 +99,6 @@ function initPodcastList() {
   var warnaDominant = colorTheme;
   var warnaDefault = [0, 0, 0];
 
-  // if($('.jsPlayImage').length > 0){
-  //   var malingWarna = new ColorThief();
-  //   var warnaDominant = malingWarna.getColor(document.getElementsByClassName("jsPlayImage")[0]);
-  //   var warnaDefault = [0, 0, 0];
-  // }
-
   if ($(".jsPlayHeader").length > 0) {
     $(".jsPlayHeader").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
   }
@@ -288,8 +282,6 @@ function initPodcastList() {
       $(element).find(".jsPlayTitle, .jsPlayCircleSpan").css("color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
       $(element).find(".jsPlayCircleBar, .jsPlayCircleFill").css("border-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
       $(".jsPlayer, .jsProgress").removeClass("is-hide");
-
-      //$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
       $(".jsPlayButton").find("i").addClass("fa-pause-circle");
       $(".jsPlayButton").find("i").removeClass("fa-play-circle");
       $(".jsProgressBar").css("width", "0%");
@@ -301,7 +293,6 @@ function initPodcastList() {
       $(element).find(".jsPlayCircleBar, .jsPlayCircleFill").css("border-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
 
       if (fromPaused) {
-        //$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
         $(".jsPlayButton").find("i").addClass("fa-pause-circle");
         $(".jsPlayButton").find("i").removeClass("fa-play-circle");
       } else {
