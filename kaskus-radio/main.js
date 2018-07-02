@@ -12,71 +12,70 @@ var timeInterval;
 window.dataLayer = window.dataLayer || [];
 
 $(document).ready(function() {
-	var pjax = new Pjax({
-	  elements: ".jsLink", // default is "a[href], form[action]"
-	  selectors: [".jsSectionWrapper", '.jsNav'],
-		switches: {
-			".jsSectionWrapper": Pjax.switches.sideBySide,
-			".jsSectionWrapper": Pjax.switches.sideBySide
-		},
-		switchesOptions: {
-    ".jsSectionWrapper": {
-      classNames: {
-        // class added on the element that will be removed
-        remove: "Animated Animated--reverse Animate--fast Animate--noDelay",
-        // class added on the element that will be added
-        add: "Animated",
-        // class added on the element when it go backward
-        backward: "Animate--slideInRight",
-        // class added on the element when it go forward (used for new page too)
-        forward: "Animate--slideInLeft"
-      },
-      callbacks: {
-        // to make a nice transition with 2 pages as the same time
-        // we are playing with absolute positioning for element we are removing
-        // & we need live metrics to have something great
-        // see associated CSS below
-        removeElement: function(el) {
-          el.style.marginLeft = "-" + (el.getBoundingClientRect().width/2) + "px"
+  var pjax = new Pjax({
+    elements: ".jsLink", // default is "a[href], form[action]"
+    selectors: [".jsSectionWrapper", ".jsNav"],
+    switches: {
+      ".jsSectionWrapper": Pjax.switches.sideBySide,
+      ".jsSectionWrapper": Pjax.switches.sideBySide
+    },
+    switchesOptions: {
+      ".jsSectionWrapper": {
+        classNames: {
+          // class added on the element that will be removed
+          remove: "Animated Animated--reverse Animate--fast Animate--noDelay",
+          // class added on the element that will be added
+          add: "Animated",
+          // class added on the element when it go backward
+          backward: "Animate--slideInRight",
+          // class added on the element when it go forward (used for new page too)
+          forward: "Animate--slideInLeft"
+        },
+        callbacks: {
+          // to make a nice transition with 2 pages as the same time
+          // we are playing with absolute positioning for element we are removing
+          // & we need live metrics to have something great
+          // see associated CSS below
+          removeElement: function(el) {
+            el.style.marginLeft = "-" + (el.getBoundingClientRect().width/2) + "px"
+          }
         }
       }
     }
-  }
-	})
-
-	topbar.config({
-    barColors    : {
-      '1'        : 'rgba(239, 170, 66, 1)'
-    },
-		shadowBlur   : 0,
-    shadowColor  : 'rgba(0, 0, 0, 0)'
   });
 
-	$(".jsPopupArea").css("transform", "translateY(" + $(window).height() + "px)");
+  topbar.config({
+    barColors    : {
+      '1': "rgba(239, 170, 66, 1)"
+    },
+    shadowBlur: 0,
+    shadowColor: "rgba(0, 0, 0, 0)"
+  });
 
-	document.addEventListener('pjax:send', topbar.show)
-	document.addEventListener('pjax:complete', topbar.hide)
+  $(".jsPopupArea").css("transform", "translateY(" + $(window).height() + "px)");
 
-	$(window).scroll(function() {
+  document.addEventListener("pjax:send", topbar.show)
+  document.addEventListener("pjax:complete", topbar.hide)
+
+  $(window).scroll(function() {
     if ($(window).scrollTop() > 0) {
       $(".jsNav").addClass("shadow-2");
     } else {
       $(".jsNav").removeClass("shadow-2");
     }
   });
-
 });
 
-function renderPodcastList(program){
-	var linkJSON = "../data/" + program +'.json';
-	$.getJSON(linkJSON, function(result) {
-			$('.jsPlayHeader').show();
-			$('.jsSpinner').hide();
+function renderPodcastList(program) {
+  var linkJSON = "../data/" + program +".json";
+  $.getJSON(linkJSON, function(result) {
+      $(".jsPlayHeader").show();
+      $(".jsSpinner").hide();
       episodes = result.program.episode;
-			colorTheme = result.program.colorTheme;
-			$('.jsPlayImage, .jsPopupImage').attr('src', result.program.imageAlbum);
-			$('.jsPlayHeaderTitle').text(result.program.title);
-			$('.jsPlayAuthor').text(result.program.title);
+      colorTheme = result.program.colorTheme;
+      $(".jsPlayImage, .jsPopupImage").attr("src", result.program.imageAlbum);
+      $(".jsPlayHeaderTitle").text(result.program.title);
+      $(".jsPlayAuthor").text(result.program.title);
       $.each(episodes, function(index, episode) {
         $(".jsPlayList").append("<div class='fl w-100 pa2 jsPlayItem'><a class='link black jsPlayLink flex items-center' data-index='" + index + "' data-id='" + result.program.title.replace(/\s/g, '') + "-" + index +"'><div class='fl mr2'><div style='width:65px; height:65px;'><div class='c100 p0 jsPlayCircle'><span class='vagRoundedBold jsPlayCircleSpan'>" + index + "</span><div class='slice'><div class='bar jsPlayCircleBar'></div><div class='fill jsPlayCircleFill'></div></div></div></div></div><div class='flex-auto'><div class='jsPlayTitle f5 line-clamp'>" + episode.title + "</div><div class='f6 truncate mt1'><span>" + episode.duration + " ▪ " + episode.date + "</span></div></div></a><div style='display:none;' class='mt3 jsPlayDescription'>" + episode.description + "</div></div>");
       });
@@ -97,8 +96,8 @@ function initPodcastList() {
     clip: { sources: [] }
   });
 
-	var warnaDominant = colorTheme;
-	var warnaDefault = [0, 0, 0];
+  var warnaDominant = colorTheme;
+  var warnaDefault = [0, 0, 0];
 
   // if($('.jsPlayImage').length > 0){
   //   var malingWarna = new ColorThief();
@@ -110,26 +109,20 @@ function initPodcastList() {
     $(".jsPlayHeader").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
   }
 
-
-
   // play button on detail
   $(".jsPlayButton").click(function() {
     if (playerObject.playing == false) {
       $(".jsPlayer, .jsProgress").removeClass("is-hide");
-			$(".jsPlayButton").addClass("is-playing");
-			$(".jsPlayButton").find("i").addClass("fa-pause-circle");
-			$(".jsPlayButton").find("i").removeClass("fa-play-circle");
-      // $(".jsPlayButton").toggleClass("is-playing");
-      // $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+      $(".jsPlayButton").addClass("is-playing");
+      $(".jsPlayButton").find("i").addClass("fa-pause-circle");
+      $(".jsPlayButton").find("i").removeClass("fa-play-circle");
       playerObject.play();
       setTimeInterval("start");
       sendEventTracking("radio", "play", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
     } else {
-			$(".jsPlayButton").removeClass("is-playing");
-			$(".jsPlayButton").find("i").addClass("fa-play-circle");
-			$(".jsPlayButton").find("i").removeClass("fa-pause-circle");
-      // $(".jsPlayButton").toggleClass("is-playing");
-      // $(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
+      $(".jsPlayButton").removeClass("is-playing");
+      $(".jsPlayButton").find("i").addClass("fa-play-circle");
+      $(".jsPlayButton").find("i").removeClass("fa-pause-circle");
       playerObject.pause();
       setTimeInterval("stop");
       sendEventTracking("radio", "pause", audioTitle, 0, audioCurrentTime, audioPercentageFinished);
@@ -138,12 +131,12 @@ function initPodcastList() {
 
   $(".jsPlayLink").click(function() {
     var currentDataId = $(this).attr("data-id");
-		var currentDataIndex = $(this).attr("data-index");
+    var currentDataIndex = $(this).attr("data-index");
     currentPlayElement = $(this);
 
     if (currentDataId != dataId) {
       dataId = currentDataId;
-			dataIndex = currentDataIndex;
+      dataIndex = currentDataIndex;
       if (playerObject.playing == false) {
         updateView(this, true, false);
       } else {
@@ -172,12 +165,11 @@ function initPodcastList() {
         sendEventTracking("radio", "pause", audioTitle, 0, durationPlayed, audioPercentageFinished);
 
         $(".jsPlayTitle").css("color", "rgb(" + warnaDefault[0] + "," + warnaDefault[1] + "," + warnaDefault[2]);
-				$(".jsPlayCircleSpan").removeAttr("style");
+        $(".jsPlayCircleSpan").removeAttr("style");
         $(".jsPlayDescription").slideUp();
         $(".jsPlayCircle").removeClass("is-active");
-        //$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
-				$(".jsPlayButton").find("i").addClass("fa-play-circle");
-				$(".jsPlayButton").find("i").removeClass("fa-pause-circle");
+        $(".jsPlayButton").find("i").addClass("fa-play-circle");
+        $(".jsPlayButton").find("i").removeClass("fa-pause-circle");
       }
     }
   });
@@ -220,7 +212,7 @@ function initPodcastList() {
     next();
   });
 
-	$(".jsPopupShowButton").click(function() {
+  $(".jsPopupShowButton").click(function() {
     $("body").addClass("o-hidden");
     $(".jsPopupArea").addClass("is-show");
     $(".jsPopupToolbar").show();
@@ -234,11 +226,13 @@ function initPodcastList() {
   function prev() {
     var prevElement = currentPlayElement.parent().prev();
     if (prevElement.find(".jsPlayLink").attr("data-id")) {
-      dataId = prevElement.find(".jsPlayLink").attr("data-id");
       var durationPlayed = audioCurrentTime - newStartTime;
       sendEventTracking("radio", "previous track", audioTitle, 0, durationPlayed, audioPercentageFinished);
       setTimeInterval("stop");
+
       var currentDataId = prevElement.find(".jsPlayLink").attr("data-id");
+      var currentDataIndex = prevElement.find(".jsPlayLink").attr("data-index");
+      dataId = currentDataId;
       audioCurrentTime = 0;
       currentPlayElement = prevElement.find(".jsPlayLink");
 
@@ -255,11 +249,13 @@ function initPodcastList() {
   function next() {
     var nextElement = currentPlayElement.parent().next();
     if (nextElement.find(".jsPlayLink").attr("data-id")) {
-      dataId = nextElement.find(".jsPlayLink").attr("data-id");
       var durationPlayed = audioCurrentTime - newStartTime;
       sendEventTracking("radio", "next track", audioTitle, 0, durationPlayed, audioPercentageFinished);
       setTimeInterval("stop");
+
       var currentDataId = nextElement.find(".jsPlayLink").attr("data-id");
+      var currentDataIndex = nextElement.find(".jsPlayLink").attr("data-index");
+      dataId = currentDataId;
       audioCurrentTime = 0;
       currentPlayElement = nextElement.find(".jsPlayLink");
 
@@ -284,28 +280,30 @@ function initPodcastList() {
     //update description di list item
     $(".jsPlayDescription").slideUp();
     $(element).next().slideDown();
+
     if (firstPlay) {
       $(".jsPlayTitle").css("color", "rgb(" + warnaDefault[0] + "," + warnaDefault[1] + "," + warnaDefault[2]);
-			$(".jsPlayCircleSpan").removeAttr("style");
-			$(".jsPopupArea, .jsPopupToolbar, .jsPlayerIndicator").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
-			$(element).find(".jsPlayTitle, .jsPlayCircleSpan").css("color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
-			$(element).find(".jsPlayCircleBar, .jsPlayCircleFill").css("border-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
+      $(".jsPlayCircleSpan").removeAttr("style");
+      $(".jsPopupArea, .jsPopupToolbar, .jsPlayerIndicator").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
+      $(element).find(".jsPlayTitle, .jsPlayCircleSpan").css("color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
+      $(element).find(".jsPlayCircleBar, .jsPlayCircleFill").css("border-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
       $(".jsPlayer, .jsProgress").removeClass("is-hide");
 
       //$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
-			$(".jsPlayButton").find("i").addClass("fa-pause-circle");
-			$(".jsPlayButton").find("i").removeClass("fa-play-circle");
+      $(".jsPlayButton").find("i").addClass("fa-pause-circle");
+      $(".jsPlayButton").find("i").removeClass("fa-play-circle");
       $(".jsProgressBar").css("width", "0%");
     } else {
       $(".jsPlayTitle").css("color", "rgb(" + warnaDefault[0] + "," + warnaDefault[1] + "," + warnaDefault[2]);
-			$(".jsPlayCircleSpan").removeAttr("style");
-			$(".jsPopupArea, .jsPopupToolbar, .jsPlayerIndicator").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
+      $(".jsPlayCircleSpan").removeAttr("style");
+      $(".jsPopupArea, .jsPopupToolbar, .jsPlayerIndicator").css("background-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
       $(element).find(".jsPlayTitle, .jsPlayCircleSpan").css("color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
-			$(element).find(".jsPlayCircleBar, .jsPlayCircleFill").css("border-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
+      $(element).find(".jsPlayCircleBar, .jsPlayCircleFill").css("border-color", "rgb(" + warnaDominant[0] + "," + warnaDominant[1] + "," + warnaDominant[2]);
+
       if (fromPaused) {
         //$(".jsPlayButton").find("i").toggleClass("fa-pause-circle fa-play-circle");
-				$(".jsPlayButton").find("i").addClass("fa-pause-circle");
-				$(".jsPlayButton").find("i").removeClass("fa-play-circle");
+        $(".jsPlayButton").find("i").addClass("fa-pause-circle");
+        $(".jsPlayButton").find("i").removeClass("fa-play-circle");
       } else {
         $(".jsProgressBar").css("width", "0%");
         $(".jsPlayCircle .bar").css("transform", "rotate(0deg)");
@@ -334,27 +332,21 @@ function initPodcastList() {
     audioPercentageFinished = Math.round(audioPercentageFinished);
 
     if (playerObject.finished == true) {
-      var durationPlayed = audioCurrentTime - newStartTime;
-      sendEventTracking("radio", "next track", audioTitle, 0, durationPlayed, audioPercentageFinished);
       next();
-      sendEventTracking("radio", "initial play", audioTitle, 0, 0, 0);
     }
   }
 
-	function setTimeInterval(action) {
-	  if (action == "start") {
-	    timeInterval = setInterval(updateAudioTime, 100);
-	  }
+  function setTimeInterval(action) {
+    if (action == "start") {
+      timeInterval = setInterval(updateAudioTime, 100);
+    }
 
-	  if (action == "stop") {
-	    clearInterval(timeInterval);
-	  }
-	}
+    if (action == "stop") {
+      clearInterval(timeInterval);
+    }
+  }
 
-	$(".jsPopupArea").css("transform", "translateY(" + $(window).height() + "px)");
-
-
-
+  $(".jsPopupArea").css("transform", "translateY(" + $(window).height() + "px)");
 }
 
 function sendEventTracking(category, action, audioTitle, userId, durationPlayed, percentageFinished) {
@@ -389,8 +381,6 @@ function formatTime(secs) {
   return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
 }
 
-
-
 function getCookie(cookieName) {
   var name = cookieName + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
@@ -404,6 +394,7 @@ function getCookie(cookieName) {
           return c.substring(name.length, c.length);
       }
   }
+
   return "";
 }
 
