@@ -7,7 +7,7 @@
     "episode": {
       "1": {
         "type": "audio/mpeg",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 1: Ayam Crispy pakai saus coklat, gimana rasanya ya?",
         "src": "../assets/audio/audio-kaskus-nyobain4.mp3",
         "duration": "6 menit",
@@ -16,7 +16,7 @@
       },
       "2": {
         "type": "audio/mpeg",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 2: Mendadak Artsy di Museum MACAN",
         "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
         "duration": "22 menit",
@@ -25,7 +25,7 @@
       },
       "3": {
         "type": "audio/mpeg",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 3: Istora Baru, Jangan Bikin Malu",
         "src": "../assets/audio/audio-kaskus-nyobain2.mp3",
         "duration": "32 menit",
@@ -34,7 +34,7 @@
       },
       "4": {
         "type": "audio/mpeg",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 4: Dinner Romantis di Angkasa",
         "src": "../assets/audio/audio-kaskus-nyobain.mp3",
         "duration": "10 menit",
@@ -43,7 +43,7 @@
       },
       "5": {
         "type": "audio/mpeg",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 5: Nyobain All New Sirion, Mobilnya Generasi Kekinian",
         "src": "../assets/audio/audio-kaskus-nyobain4.mp3",
         "duration": "22 menit",
@@ -52,16 +52,16 @@
       },
       "6": {
         "type": "application/x-mpegurl",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 6: Flowplayer Stream Demo",
-        "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
+        "src": "https://edge.flowplayer.org/fake_empire.m3u8",
         "duration": "92 menit",
         "date": "22 Februari 2018",
         "description": "Flowplayer Stream Demo"
       },
       "7": {
         "type": "audio/mpeg",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 7: Pedasnya Ayam Spicy McD",
         "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
         "duration": "92 menit",

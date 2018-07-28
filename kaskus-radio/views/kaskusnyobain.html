@@ -5,7 +5,8 @@
     <title>KASKUS Radio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, height=device-height">
-    <link href="../assets/stylesheets/main.css" rel="stylesheet" type='text/css'> 
+    <link href="../assets/stylesheets/main.css" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -19,32 +20,27 @@
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVV84M8"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <nav class="pa3 fixed top-0 left-0 w-100 bg-white jsNav">
-    <div class="relative tc db">
+  <nav class="pa3 fixed top-0 left-0 w-100 bg-white jsNav z-1">
+    <div class="relative tc db maw-640">
       <a class="link dim jsLink" href="index.html" title="Home">
         <img class="mw4" src="../assets/images/logo-kaskus-radio.svg" />
       </a>
-      <a class="absolute top-0 left-0 jsLink black" onclick="history.back();return false;">
-        <i class="far fa-long-arrow-left"></i>
-      </a>
-      <!-- <a class="absolute top-0 left-0">
+      <div class="absolute top-0 left-0 jsSideMenuOpenButton">
         <i class="fa fa-bars"></i>
-      </a>
-      <div class="absolute top-0 right-0">
+      </div>
+      <!-- <div class="absolute top-0 right-0">
         <a class="link mr2">
           <i class="fa fa-search"></i>
-        </a>
-        <a>
-          <i class="fa fa-sign-in"></i>
         </a>
       </div> -->
     </div>
   </nav>
-    
+  
   <section class="jsSectionWrapper">
-    <div class="jsSectionContent">
-      <div class="cf pa3 jsPlayHeader white" style="display:none;">
-        <div class="fl w-100">
+    <div class="jsSectionContent maw-640">
+      <div class="cf pa3 jsPlayHeader white relative" style="display:none;">
+        <div class="o-overlay"></div>
+        <div class="fl w-100 z-1 relative">
           <div class="flex">
             <div class="mr2">
               <div style="width:130px; height:130px;">
@@ -338,114 +334,157 @@
     </div>
   </section>
   <div id="hidden-player" style="display: none"></div>
-  <div class="c-player shadow-3 fixed w-100 bottom-0 bg-white is-hide jsPlayer">
-    <div class="c-player__control">
-      <div class="c-player__content pa2">
-        <div class="pr5 relative">
-          <a class="link black cf db jsPopupShowButton">
-            <div class="fl mr2 mt2">
-              <button class="f4 black">
-                <i class="far fa-chevron-up"></i>
-              </button>
-            </div>
-            <div class="f5 mt1 truncate vagRoundedBold">KASKUS Nyobain</div>
-            <div class="f6 truncate jsPlayerTitle">Episode 3: Nyobain Bubur Ayam Sumsum Sukabumi</div>
-          </a>
-          <button class="black absolute c-player__button jsPlayButton top-0 right-0">
-            <i class="far fa-play-circle"></i>
-          </button>
+  <div class="o-overlay o-overlay--toolbar z-2 jsSideMenuOverlay" style="display:none;"></div>
+    <div class="jsSideMenu c-sidemenu fixed h-100 w-85 z-3 bg-white mw6 pa3 mid-gray">
+      <div class="flex items-center">
+        <div class="ph2 mid-gray no-underline f5 jsSideMenuCloseButton">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="flex-auto tc">
+          <img class="mw4" src="../assets/images/logo-kaskus-radio.svg" />
         </div>
       </div>
-      <div class="c-player__indicator">
-        <div class="c-player__indicator__bar jsPlayerIndicator"></div>
+      <div class="mt4">
+        <div class="flex items-center">
+          <div><img class="w3 br-100" src="../assets/images/image-pp.jpg"></div>
+          <div class="flex-auto ml3">
+            <div class="medium f5">blackmamba</div>
+            <div>kaskus addict</div>
+          </div>
+        </div>
+        <hr>
+        <div>
+          <a class="db pv3 ph2 mid-gray no-underline f5" href="#">
+            <i class="fa fa-list-alt"></i>
+            <span class="ml3 medium">Program Saya</span>
+          </a>
+        </div>
+        <div>
+          <a class="db pv3 ph2 mid-gray no-underline f5" href="#">
+            <i class="fa fa-upload"></i>
+            <span class="ml3 medium">Upload Audio</span>
+          </a>
+        </div>
+        <hr>
+        <div>
+          <a class="db pv3 ph2 mid-gray no-underline f5" href="#">
+            <i class="fa fa-sign-out"></i>
+            <span class="ml3 medium">Keluar</span>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
   
+  <div class="c-player shadow-3 fixed w-100 bottom-0 bg-white is-hide jsPlayer">
+      <div class="c-player__control">
+        <div class="c-player__content pa2">
+          <div class="pr5 relative">
+            <a class="link black cf db jsPopupShowButton">
+              <div class="fl mr2 mt2">
+                <button class="f4 black">
+                  <i class="far fa-chevron-up"></i>
+                </button>
+              </div>
+              <div class="f5 mt1 truncate vagRoundedBold">KASKUS Nyobain</div>
+              <div class="f6 truncate jsPlayerTitle">Episode 3: Nyobain Bubur Ayam Sumsum Sukabumi</div>
+            </a>
+            <button class="black absolute c-player__button jsPlayButton top-0 right-0">
+              <i class="far fa-play-circle"></i>
+            </button>
+          </div>
+        </div>
+        <div class="c-player__indicator">
+          <div class="c-player__indicator__bar jsPlayerIndicator"></div>
+        </div>
+      </div>
+    </div>
+    
   <section class="c-popup fixed top-0 jsPopup">
-      <div class="white h-100 fixed c-popup__area jsPopupArea">
-        <div class="db center w100 tc black relative c-hero">
-          <!-- <div class="w100 c-hero__cover">
-            <div class="aspect-ratio--object cover c-hero__cover__image jsPopupCover"></div>
-          </div> -->
-          <div class="db pa2 mt5 c-hero__detail w-100">
-            <img class="mw5 jsPopupImage" alt="Mata Najwa" src="../assets/images/image-kaskusnyobain.png" >
-            <dl class="mv4 lh-copy">
-              <dt class="clip">Episode</dt>
-              <dd class="ml0 vagRoundedBold f3 white jsPopupTitle">Episode 12: Anti Matgay di MARKAS Meski Tanpa Cash</dd>
-              <dt class="clip">Author</dt>
-              <dd class="ml0 f5 white">KASKUS Nyobain</dd>
-            </dl>
-            <div class="cf pa2 white">
-              <div class="fl w-50">
-                <div class="tc">
-                  <span><i class="far fa-calendar-alt"></i> 18 May 2018</span>
+        <div class="white h-100 w-100 fixed c-popup__area jsPopupArea relative">
+          <div class="o-overlay o-overlay--toolbar jsOverlayHeight"></div>
+          <div class="db center w100 tc black relative c-hero z-1 jsPopupHeader">
+            <!-- <div class="w100 c-hero__cover">
+              <div class="aspect-ratio--object cover c-hero__cover__image jsPopupCover"></div>
+            </div> -->
+            <div class="db pa2 mt5 c-hero__detail w-100">
+              <img class="mw5 jsPopupImage" alt="Mata Najwa" src="../assets/images/image-kaskusnyobain.png" >
+              <dl class="mv4 lh-copy">
+                <dt class="clip">Episode</dt>
+                <dd class="ml0 vagRoundedBold f3 white jsPopupTitle">Episode 12: Anti Matgay di MARKAS Meski Tanpa Cash</dd>
+                <dt class="clip">Author</dt>
+                <dd class="ml0 f5 white">KASKUS Nyobain</dd>
+              </dl>
+              <div class="cf pa2 white">
+                <div class="fl w-50">
+                  <div class="tc">
+                    <span><i class="far fa-calendar-alt"></i> 18 May 2018</span>
+                  </div>
                 </div>
-              </div>
-              <div class="fl w-50">
-                <div class="tc">
-                  <span><i class="far fa-clock"></i> 6 menit</span>
+                <div class="fl w-50">
+                  <div class="tc">
+                    <span><i class="far fa-clock"></i> 6 menit</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-    
-        </div>
-        <div class="ml0 pa3 pb6">Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, & semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, & semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!
-        </div>
-        <button class="c-popup f4 white fixed top-1 left-1 jsPopupCloseButton">
-          <i class="far fa-chevron-down"></i>
-        </button>
-      </div>
-      <div class="fixed bottom-0 w-100 c-popup__toolbar jsPopupToolbar white" style="display: none;">
-        <div class="flex justify-center items-center">
-          <div class="mh2 mt1 w-10 tr">
-            <span class="f6 c-progress__time c-progress__time--current jsProgressTime">0:00</span>
-          </div>
-          <div class="w-80">
-            <div class="c-player__progress__scale">
-              <div class="c-player__progress__scale__bar jsProgressBar" style="width: 10%;"></div>
-            </div>
-          </div>
-          <div class="mh2 mt1 w-10 tl">
-            <span class="f6 c-progress__time c-progress__time--duration">6:20</span>
-          </div>
-        </div>
-        <div class="flex justify-center items-center white pv2">
-          <div class="ph3">
-            <button class="c-progress__button c-progress__button--skipprevious jsSkipPreviousButton"></button>
-          </div>
-          <div class="ph3">
-            <button class="f2 c-hero__button jsPrevButton white">
-              <i class="fal fa-step-backward"></i>
-            </button>
-          </div>
-          <div class="ph3">
-            <button class="f1 c-hero__button jsPlayButton white">
-              <i class="fal fa-play-circle"></i>
-            </button>
-          </div>
-          <div class="ph3">
-            <button class="f2 c-hero__button jsNextButton white">
-              <i class="fal fa-step-forward"></i>
-            </button>
-          </div>
-          <div class="ph3">
-            <button class="c-progress__button c-progress__button--skipforward jsSkipForwardButton"></button>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-        <small class="f6 db tc">© 2018 <b class="ttu">KASKUSNetworks</b>., All Rights Reserved</small>
-        <div class="tc mt3">
-          <a href="#" title="Terms" class="f6 dib ph2 link mid-gray dim">Terms of Use</a>
-          <a href="#" title="Privacy" class="f6 dib ph2 link mid-gray dim">Privacy</a>
-        </div>
-      </footer>
-      <script src="../assets/js/vendor.min.js" ></script>
-      <script src="../assets/js/main.min.js" ></script>
       
+          </div>
+          <div class="ml0 pa3 pb6 jsPopupDescription z1 relative">Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, & semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat! Mangga Alpukat lagi banyak diomongin netizen nih. Emang apa spesialnya? Yang udah pernah coba absen di bawah! <br><br>Siapa yang belum move on dari MARKAS 2018? Kemarin Irind lupa bawa dompet, tapi tetap bisa seru-seruan loh soalnya udah install Sakuku di smatrphone-nya. Agan ada yang main ke MARKAS juga kemaren? Share pengalaman kalian di sini. <br><br>Mobil balap, makanan nggak enak, & semua yang lagi HITZ akan dicobain sama Sist Irind di KASKUS Nyobain! Episode baru muncul setiap Jumat!
+          </div>
+          <button class="c-popup f4 white fixed top-1 left-1 jsPopupCloseButton">
+            <i class="far fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="fixed bottom-0 w-100 c-popup__toolbar jsPopupToolbar white pt2" style="display: none;">
+          <div class="o-overlay o-overlay--toolbar"></div>
+          <div class="flex justify-center items-center relative z-1">
+            <div class="mh2 mt1 w-10 tr">
+              <span class="f6 c-progress__time c-progress__time--current jsProgressTime">0:00</span>
+            </div>
+            <div class="w-80">
+              <div class="c-player__progress__scale">
+                <div class="c-player__progress__scale__bar jsProgressBar" style="width: 10%;"></div>
+              </div>
+            </div>
+            <div class="mh2 mt1 w-10 tl">
+              <span class="f6 c-progress__time c-progress__time--duration">6:20</span>
+            </div>
+          </div>
+          <div class="flex justify-center items-center white pv2 relative z-1">
+            <div class="ph3">
+              <button class="c-progress__button c-progress__button--skipprevious jsSkipPreviousButton"></button>
+            </div>
+            <div class="ph3">
+              <button class="f2 c-hero__button jsPrevButton white">
+                <i class="fal fa-step-backward"></i>
+              </button>
+            </div>
+            <div class="ph3">
+              <button class="f1 c-hero__button jsPlayButton white">
+                <i class="fal fa-play-circle"></i>
+              </button>
+            </div>
+            <div class="ph3">
+              <button class="f2 c-hero__button jsNextButton white">
+                <i class="fal fa-step-forward"></i>
+              </button>
+            </div>
+            <div class="ph3">
+              <button class="c-progress__button c-progress__button--skipforward jsSkipForwardButton"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+          <small class="f6 db tc">© 2018 <b class="ttu">KASKUSNetworks</b>., All Rights Reserved</small>
+          <div class="tc mt3">
+            <a href="#" title="Terms" class="f6 dib ph2 link mid-gray dim">Terms of Use</a>
+            <a href="#" title="Privacy" class="f6 dib ph2 link mid-gray dim">Privacy</a>
+          </div>
+        </footer>
+        <script src="../assets/js/vendor.min.js" ></script>
+        <script src="../assets/js/main.min.js" ></script>
+        
 </body>
 </html>

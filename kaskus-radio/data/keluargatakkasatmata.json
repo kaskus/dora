@@ -7,7 +7,7 @@
     "episode": {
       "1": {
         "type": "audio/mpeg",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 1: Keluarga Tak Kasat Mata Misteri",
         "src": "../assets/audio/audio-kaskus-nyobain4.mp3",
         "duration": "6 menit",
@@ -16,7 +16,7 @@
       },
       "2": {
         "type": "audio/mpeg",
-        "stream": "false",
+        "stream": false,
         "title": "Episode 2: Misteri di Malam Jumat",
         "src": "../assets/audio/audio-kaskus-nyobain3.mp3",
         "duration": "22 menit",
