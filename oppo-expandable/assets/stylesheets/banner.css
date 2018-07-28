@@ -104,12 +104,12 @@
 }
 
 .bt-frame-ads.expanded{
-	height: 250px;
+	height: 90px;
 }
 
 .bt-frame-ads.expanded iframe{
-	height: 250px;
-	
+	height: 90px;
+
 }
 
 .bottom-frame .btm-close {

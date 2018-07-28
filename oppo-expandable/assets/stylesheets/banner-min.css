@@ -99,15 +99,17 @@
 	width: 970px;
 	position: absolute;
 	bottom: 0;
+	transition: height 0.4s ease-out;
+	-webkit-transition: height 0.4s ease-out;
 }
 
 .bt-frame-ads.expanded{
-	height: 250px;
+	height: 90px;
 }
 
 .bt-frame-ads.expanded iframe{
-	height: 250px;
-	
+	height: 90px;
+
 }
 
 .bottom-frame .btm-close {

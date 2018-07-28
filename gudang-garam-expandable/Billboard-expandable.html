@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BB</title>
+<script>
+var $ = window.parent.$, jQuery = window.parent.jQuery;
+var curWin = window.parent.window;
+var curDoc = window.parent.document;
+var banner_selector = '#leader-banner';
+</script>
+</head>
+<body style="margin:0px;">
+	<div id="ad" style="margin: 0 auto; width: 970px; height: 200px; position: relative;">
+		<a href="https://www.hihonor.com/global/products/mobile-phones/honor7a/index.html" target="_blank"><img class="bb-img" src="https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfiwjiica.jpg"></a>
+	</div>
+	<script>
+	$(curDoc).ready(function(){
+		$('html', document).hover(
+			function() {
+				var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).addClass('expanded');
+				$(this).addClass( "hover" );
+				$(this).find('.bb-img').attr('src', 'https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfj5t170f.jpg');
+				$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=bb_indomie_hover_in&rnd=' + rndInt);
+			}, function() {
+				var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).removeClass('expanded');
+				$(this).removeClass( "hover" );
+				$(this).find('.bb-img').attr('src', 'https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfiwjiica.jpg');
+				$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=bb_indomie_hover_out&rnd=' + rndInt);
+			}
+			);
+	});
+	</script>
+</body>
+</html>
