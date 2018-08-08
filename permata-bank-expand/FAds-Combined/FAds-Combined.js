@@ -269,12 +269,12 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/appstore.png", id:"appstore"},
-		{src:"images/bg.jpg", id:"bg"},
-		{src:"images/download.png", id:"download"},
-		{src:"images/googlePlay.png", id:"googlePlay"},
-		{src:"images/mobileApp.png", id:"mobileApp"},
-		{src:"images/permata.png", id:"permata"}
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxu9i4u3i.png", id:"appstore"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxu9j4c7z.jpg", id:"bg"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxu9mbmbf.png", id:"download"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxu9mzku1.png", id:"googlePlay"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxu9nukut.png", id:"mobileApp"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxu9ofprs.png", id:"permata"}
 	],
 	preloads: []
 };
@@ -581,13 +581,13 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images-minim/appstore.png", id:"appstore"},
-		{src:"images-minim/bg.jpg", id:"bg"},
-		{src:"images-minim/download.png", id:"download"},
-		{src:"images-minim/googlePlay.png", id:"googlePlay"},
-		{src:"images-minim/hashtag.png", id:"hashtag"},
-		{src:"images-minim/mobileApp.png", id:"mobileApp"},
-		{src:"images-minim/permata.png", id:"permata"}
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxtiue220.png", id:"appstore"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxtiv8p9y.jpg", id:"bg"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxtiw5qa6.png", id:"download"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxtizdau3.png", id:"googlePlay"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxtj0drq3.png", id:"hashtag"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxtj1323u.png", id:"mobileApp"},
+		{src:"https://p.kaskus.id/img/seasonal/august2018/tematik/wp_background_fbytxtj1p1vt.png", id:"permata"}
 	],
 	preloads: []
 };
