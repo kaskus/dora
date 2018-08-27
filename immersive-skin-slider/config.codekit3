@@ -7,9 +7,10 @@
 		"uuidString": "981D4DEE-4536-4CC6-9A1D-2B98D6F4BF58"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "26680",
 "files": {
 	"\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.eot",
@@ -26,24 +27,28 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansbold-webfont.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.eot",
@@ -60,24 +65,28 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansbolditalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.eot",
@@ -94,24 +103,28 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansitalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.eot",
@@ -128,24 +141,28 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/balsamiq\/balsamiqsansregular-webfont.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.eot",
@@ -162,24 +179,28 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontello-backup\/fontello.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontello-backup\/fontello.eot",
@@ -196,24 +217,28 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/fontello-backup\/fontello.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontello-backup\/fontello.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontello-backup\/fontello.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontello-backup\/fontello.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontello-backup\/fontello.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontello-backup\/fontello.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontello.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontello.eot",
@@ -230,18 +255,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/fontello.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontello.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontello.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontello.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontello.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/fontello.woff2",
@@ -476,12 +504,14 @@
 		"opt": 0
 		},
 	"\/assets\/images\/anniv16\/fwosh.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/anniv16\/fwosh.mp3",
 		"oF": 0
 		},
 	"\/assets\/images\/anniv16\/fwosh.ogg": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/anniv16\/fwosh.ogg",
@@ -603,24 +633,28 @@
 		"q": 100
 		},
 	"\/assets\/images\/anniv16\/pibedey.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/anniv16\/pibedey.mp3",
 		"oF": 0
 		},
 	"\/assets\/images\/anniv16\/pibedey.ogg": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/anniv16\/pibedey.ogg",
 		"oF": 0
 		},
 	"\/assets\/images\/anniv16\/pop.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/anniv16\/pop.mp3",
 		"oF": 0
 		},
 	"\/assets\/images\/anniv16\/pop.ogg": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/anniv16\/pop.ogg",
@@ -649,12 +683,14 @@
 		"q": 100
 		},
 	"\/assets\/images\/anniv16\/suaraangin.mp3": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/anniv16\/suaraangin.mp3",
 		"oF": 0
 		},
 	"\/assets\/images\/anniv16\/suaraangin.ogg": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/anniv16\/suaraangin.ogg",
@@ -773,6 +809,7 @@
 	"\/assets\/images\/anniv17\/banner-wap-remisi.jpg": {
 		"ft": 16384,
 		"iS": 68186,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/anniv17\/banner-wap-remisi.jpg",
 		"oF": 0,
@@ -928,6 +965,7 @@
 	"\/assets\/images\/banner-ad-970.jpg": {
 		"ft": 16384,
 		"iS": 4298,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/banner-ad-970.jpg",
 		"oF": 0,
@@ -938,6 +976,7 @@
 	"\/assets\/images\/banner-ad-skin.jpg": {
 		"ft": 16384,
 		"iS": 3437,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/banner-ad-skin.jpg",
 		"oF": 0,
@@ -948,6 +987,7 @@
 	"\/assets\/images\/banner-billboard.jpg": {
 		"ft": 16384,
 		"iS": 51379,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/banner-billboard.jpg",
 		"oF": 0,
@@ -966,6 +1006,7 @@
 	"\/assets\/images\/banner-fjb-guide.jpg": {
 		"ft": 16384,
 		"iS": 22145,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/banner-fjb-guide.jpg",
 		"oF": 0,
@@ -976,6 +1017,7 @@
 	"\/assets\/images\/banner-right.jpg": {
 		"ft": 16384,
 		"iS": 33127,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/banner-right.jpg",
 		"oF": 0,
@@ -986,6 +1028,7 @@
 	"\/assets\/images\/banner-top.jpg": {
 		"ft": 16384,
 		"iS": 66150,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/banner-top.jpg",
 		"oF": 0,
@@ -1007,6 +1050,7 @@
 	"\/assets\/images\/bg-oppo-banner.jpg": {
 		"ft": 16384,
 		"iS": 584274,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/bg-oppo-banner.jpg",
 		"oF": 0,
@@ -1017,6 +1061,7 @@
 	"\/assets\/images\/bg-oppo.jpg": {
 		"ft": 16384,
 		"iS": 510937,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/bg-oppo.jpg",
 		"oF": 0,
@@ -1027,6 +1072,7 @@
 	"\/assets\/images\/bg-signup.jpg": {
 		"ft": 16384,
 		"iS": 228321,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/bg-signup.jpg",
 		"oF": 0,
@@ -1037,6 +1083,7 @@
 	"\/assets\/images\/bg-skin.jpg": {
 		"ft": 16384,
 		"iS": 780517,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/bg-skin.jpg",
 		"oF": 0,
@@ -1047,6 +1094,7 @@
 	"\/assets\/images\/billboard-video-bg.jpg": {
 		"ft": 16384,
 		"iS": 75492,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/billboard-video-bg.jpg",
 		"oF": 0,
@@ -1299,6 +1347,7 @@
 	"\/assets\/images\/cliponyu\/img-host-lg.jpg": {
 		"ft": 16384,
 		"iS": 45190,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/cliponyu\/img-host-lg.jpg",
 		"oF": 0,
@@ -1309,6 +1358,7 @@
 	"\/assets\/images\/cliponyu\/img-host.jpeg": {
 		"ft": 16384,
 		"iS": 74124,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/cliponyu\/img-host.jpg",
 		"oF": 0,
@@ -1319,6 +1369,7 @@
 	"\/assets\/images\/cliponyu\/ipon_03.jpg": {
 		"ft": 16384,
 		"iS": 4927,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/cliponyu\/ipon_03.jpg",
 		"oF": 0,
@@ -1329,6 +1380,7 @@
 	"\/assets\/images\/cliponyu\/logo-cliponyu.jpg": {
 		"ft": 16384,
 		"iS": 2962,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/cliponyu\/logo-cliponyu.jpg",
 		"oF": 0,
@@ -1438,6 +1490,7 @@
 	"\/assets\/images\/editor\/spoiler.jpg": {
 		"ft": 16384,
 		"iS": 571,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/editor\/spoiler.jpg",
 		"oF": 0,
@@ -1467,6 +1520,7 @@
 	"\/assets\/images\/fjb-guide\/banner-cairkan.jpg": {
 		"ft": 16384,
 		"iS": 10247,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/fjb-guide\/banner-cairkan.jpg",
 		"oF": 0,
@@ -1477,6 +1531,7 @@
 	"\/assets\/images\/fjb-guide\/banner-menerima.jpg": {
 		"ft": 16384,
 		"iS": 9103,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/fjb-guide\/banner-menerima.jpg",
 		"oF": 0,
@@ -1487,6 +1542,7 @@
 	"\/assets\/images\/fjb-guide\/banner-mengirim.jpg": {
 		"ft": 16384,
 		"iS": 4779,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/fjb-guide\/banner-mengirim.jpg",
 		"oF": 0,
@@ -1497,6 +1553,7 @@
 	"\/assets\/images\/fjb-guide\/banner-sepakat.jpg": {
 		"ft": 16384,
 		"iS": 7661,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/fjb-guide\/banner-sepakat.jpg",
 		"oF": 0,
@@ -1507,6 +1564,7 @@
 	"\/assets\/images\/fjb-guide\/banner-transfer.jpg": {
 		"ft": 16384,
 		"iS": 5691,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/fjb-guide\/banner-transfer.jpg",
 		"oF": 0,
@@ -1558,6 +1616,7 @@
 	"\/assets\/images\/gopro.jpg": {
 		"ft": 16384,
 		"iS": 5055,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/gopro.jpg",
 		"oF": 0,
@@ -1994,6 +2053,7 @@
 	"\/assets\/images\/jne-invoice.jpg": {
 		"ft": 16384,
 		"iS": 16746,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/jne-invoice.jpg",
 		"oF": 0,
@@ -2004,6 +2064,7 @@
 	"\/assets\/images\/JURAGAN_PULSA.jpg": {
 		"ft": 16384,
 		"iS": 49571,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/JURAGAN_PULSA.jpg",
 		"oF": 0,
@@ -2014,6 +2075,7 @@
 	"\/assets\/images\/kasad-widget.jpg": {
 		"ft": 16384,
 		"iS": 21456,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/kasad-widget.jpg",
 		"oF": 0,
@@ -2090,6 +2152,7 @@
 	"\/assets\/images\/layout\/avatar.jpg": {
 		"ft": 16384,
 		"iS": 4660,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/avatar.jpg",
 		"oF": 0,
@@ -2650,6 +2713,7 @@
 	"\/assets\/images\/layout\/bg-groupee-pattern.jpg": {
 		"ft": 16384,
 		"iS": 21188,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/bg-groupee-pattern.jpg",
 		"oF": 0,
@@ -2671,6 +2735,7 @@
 	"\/assets\/images\/layout\/capcha-img.jpeg": {
 		"ft": 16384,
 		"iS": 2805,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/capcha-img.jpg",
 		"oF": 0,
@@ -2692,6 +2757,7 @@
 	"\/assets\/images\/layout\/cara-bertransaksi.jpg": {
 		"ft": 16384,
 		"iS": 70451,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/cara-bertransaksi.jpg",
 		"oF": 0,
@@ -2710,6 +2776,7 @@
 	"\/assets\/images\/layout\/cendolin-floating-REV.jpg": {
 		"ft": 16384,
 		"iS": 5344,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/cendolin-floating-REV.jpg",
 		"oF": 0,
@@ -2841,6 +2908,7 @@
 	"\/assets\/images\/layout\/epulsa.jpg": {
 		"ft": 16384,
 		"iS": 74979,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/epulsa.jpg",
 		"oF": 0,
@@ -2884,6 +2952,7 @@
 	"\/assets\/images\/layout\/feedback.jpg": {
 		"ft": 16384,
 		"iS": 3401,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/feedback.jpg",
 		"oF": 0,
@@ -3364,6 +3433,7 @@
 	"\/assets\/images\/layout\/ic_tag_ketemu.jpg": {
 		"ft": 16384,
 		"iS": 1668,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/ic_tag_ketemu.jpg",
 		"oF": 0,
@@ -3385,6 +3455,7 @@
 	"\/assets\/images\/layout\/ic_tag_terjual.jpg": {
 		"ft": 16384,
 		"iS": 1836,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/ic_tag_terjual.jpg",
 		"oF": 0,
@@ -4088,6 +4159,7 @@
 	"\/assets\/images\/layout\/icon_avatar_default_groupee.jpg": {
 		"ft": 16384,
 		"iS": 4695,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/icon_avatar_default_groupee.jpg",
 		"oF": 0,
@@ -4367,6 +4439,7 @@
 	"\/assets\/images\/layout\/resolution-center-tv.jpg": {
 		"ft": 16384,
 		"iS": 5490,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/resolution-center-tv.jpg",
 		"oF": 0,
@@ -4388,6 +4461,7 @@
 	"\/assets\/images\/layout\/slide-banner-career.jpg": {
 		"ft": 16384,
 		"iS": 109910,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/layout\/slide-banner-career.jpg",
 		"oF": 0,
@@ -4552,6 +4626,7 @@
 	"\/assets\/images\/logo-klikbca.jpg": {
 		"ft": 16384,
 		"iS": 12310,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logo-klikbca.jpg",
 		"oF": 0,
@@ -4573,6 +4648,7 @@
 	"\/assets\/images\/logo-klikpay.jpg": {
 		"ft": 16384,
 		"iS": 13011,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logo-klikpay.jpg",
 		"oF": 0,
@@ -4693,6 +4769,7 @@
 	"\/assets\/images\/logo_sakuku.jpg": {
 		"ft": 16384,
 		"iS": 54902,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logo_sakuku.jpg",
 		"oF": 0,
@@ -4758,6 +4835,7 @@
 	"\/assets\/images\/mock-up-bg.jpg": {
 		"ft": 16384,
 		"iS": 51287,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up-bg.jpg",
 		"oF": 0,
@@ -4790,6 +4868,7 @@
 	"\/assets\/images\/mock-up-vivo-bg.jpg": {
 		"ft": 16384,
 		"iS": 469707,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up-vivo-bg.jpg",
 		"oF": 0,
@@ -4800,6 +4879,7 @@
 	"\/assets\/images\/mock-up-vivo2.jpg": {
 		"ft": 16384,
 		"iS": 494445,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up-vivo2.jpg",
 		"oF": 0,
@@ -4843,6 +4923,7 @@
 	"\/assets\/images\/more-from-jb-thumb.jpg": {
 		"ft": 16384,
 		"iS": 3414,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/more-from-jb-thumb.jpg",
 		"oF": 0,
@@ -4919,6 +5000,7 @@
 	"\/assets\/images\/player-yt-image.jpg": {
 		"ft": 16384,
 		"iS": 10225,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/player-yt-image.jpg",
 		"oF": 0,
@@ -4929,6 +5011,7 @@
 	"\/assets\/images\/player-yt-mockup.jpg": {
 		"ft": 16384,
 		"iS": 41603,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/player-yt-mockup.jpg",
 		"oF": 0,
@@ -5170,6 +5253,7 @@
 	"\/assets\/images\/potd-btn.jpg": {
 		"ft": 16384,
 		"iS": 3437,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/potd-btn.jpg",
 		"oF": 0,
@@ -5191,6 +5275,7 @@
 	"\/assets\/images\/rc-banner-03.jpg": {
 		"ft": 16384,
 		"iS": 65338,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/rc-banner-03.jpg",
 		"oF": 0,
@@ -7585,6 +7670,7 @@
 	"\/assets\/images\/temp-avatar-6.jpg": {
 		"ft": 16384,
 		"iS": 16883,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-avatar-6.jpg",
 		"oF": 0,
@@ -7595,6 +7681,7 @@
 	"\/assets\/images\/temp-banner-120x600.jpg": {
 		"ft": 16384,
 		"iS": 22647,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-banner-120x600.jpg",
 		"oF": 0,
@@ -7605,6 +7692,7 @@
 	"\/assets\/images\/temp-banner-150x180.jpg": {
 		"ft": 16384,
 		"iS": 23989,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-banner-150x180.jpg",
 		"oF": 0,
@@ -7615,6 +7703,7 @@
 	"\/assets\/images\/temp-banner_auction.jpg": {
 		"ft": 16384,
 		"iS": 50934,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-banner_auction.jpg",
 		"oF": 0,
@@ -7625,6 +7714,7 @@
 	"\/assets\/images\/temp-brand-1.jpg": {
 		"ft": 16384,
 		"iS": 1855,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-brand-1.jpg",
 		"oF": 0,
@@ -7635,6 +7725,7 @@
 	"\/assets\/images\/temp-brand-2.jpg": {
 		"ft": 16384,
 		"iS": 2588,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-brand-2.jpg",
 		"oF": 0,
@@ -7645,6 +7736,7 @@
 	"\/assets\/images\/temp-brand-3.jpg": {
 		"ft": 16384,
 		"iS": 2658,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-brand-3.jpg",
 		"oF": 0,
@@ -7655,6 +7747,7 @@
 	"\/assets\/images\/temp-brand-4.jpg": {
 		"ft": 16384,
 		"iS": 4745,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-brand-4.jpg",
 		"oF": 0,
@@ -7665,6 +7758,7 @@
 	"\/assets\/images\/temp-brand-5.jpg": {
 		"ft": 16384,
 		"iS": 2916,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-brand-5.jpg",
 		"oF": 0,
@@ -7675,6 +7769,7 @@
 	"\/assets\/images\/temp-brand-6.jpg": {
 		"ft": 16384,
 		"iS": 3679,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-brand-6.jpg",
 		"oF": 0,
@@ -7685,6 +7780,7 @@
 	"\/assets\/images\/temp-brand-7.jpg": {
 		"ft": 16384,
 		"iS": 4233,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-brand-7.jpg",
 		"oF": 0,
@@ -7695,6 +7791,7 @@
 	"\/assets\/images\/temp-brand-8.jpg": {
 		"ft": 16384,
 		"iS": 3193,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-brand-8.jpg",
 		"oF": 0,
@@ -7705,6 +7802,7 @@
 	"\/assets\/images\/temp-franda-lg.jpg": {
 		"ft": 16384,
 		"iS": 88221,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-franda-lg.jpg",
 		"oF": 0,
@@ -7715,6 +7813,7 @@
 	"\/assets\/images\/temp-franda-sm.jpg": {
 		"ft": 16384,
 		"iS": 8115,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-franda-sm.jpg",
 		"oF": 0,
@@ -7725,6 +7824,7 @@
 	"\/assets\/images\/temp-highlight-1.jpg": {
 		"ft": 16384,
 		"iS": 56250,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-highlight-1.jpg",
 		"oF": 0,
@@ -7735,6 +7835,7 @@
 	"\/assets\/images\/temp-highlight-2.jpg": {
 		"ft": 16384,
 		"iS": 68962,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-highlight-2.jpg",
 		"oF": 0,
@@ -7745,6 +7846,7 @@
 	"\/assets\/images\/temp-highlight-3.jpg": {
 		"ft": 16384,
 		"iS": 57044,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-highlight-3.jpg",
 		"oF": 0,
@@ -7755,6 +7857,7 @@
 	"\/assets\/images\/temp-hot-deals.jpg": {
 		"ft": 16384,
 		"iS": 27210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-hot-deals.jpg",
 		"oF": 0,
@@ -7797,6 +7900,7 @@
 	"\/assets\/images\/temp-iab-300x100.jpg": {
 		"ft": 16384,
 		"iS": 12544,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-iab-300x100.jpg",
 		"oF": 0,
@@ -7807,6 +7911,7 @@
 	"\/assets\/images\/temp-image-slide-fjb-small-1.jpg": {
 		"ft": 16384,
 		"iS": 12308,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-image-slide-fjb-small-1.jpg",
 		"oF": 0,
@@ -7817,6 +7922,7 @@
 	"\/assets\/images\/temp-image-slide-fjb-small-2.jpg": {
 		"ft": 16384,
 		"iS": 8697,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-image-slide-fjb-small-2.jpg",
 		"oF": 0,
@@ -7827,6 +7933,7 @@
 	"\/assets\/images\/temp-image-slide-fjb-small-3.jpg": {
 		"ft": 16384,
 		"iS": 17094,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-image-slide-fjb-small-3.jpg",
 		"oF": 0,
@@ -7837,6 +7944,7 @@
 	"\/assets\/images\/temp-image-slide-fjb-small-4.jpg": {
 		"ft": 16384,
 		"iS": 10785,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-image-slide-fjb-small-4.jpg",
 		"oF": 0,
@@ -7847,6 +7955,7 @@
 	"\/assets\/images\/temp-image-slide-fjb.jpg": {
 		"ft": 16384,
 		"iS": 65748,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-image-slide-fjb.jpg",
 		"oF": 0,
@@ -7857,6 +7966,7 @@
 	"\/assets\/images\/temp-kasads-1.jpg": {
 		"ft": 16384,
 		"iS": 3578,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-kasads-1.jpg",
 		"oF": 0,
@@ -7867,6 +7977,7 @@
 	"\/assets\/images\/temp-kasads-2.jpg": {
 		"ft": 16384,
 		"iS": 4854,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-kasads-2.jpg",
 		"oF": 0,
@@ -7877,6 +7988,7 @@
 	"\/assets\/images\/temp-kasads-3.jpg": {
 		"ft": 16384,
 		"iS": 8028,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-kasads-3.jpg",
 		"oF": 0,
@@ -7887,6 +7999,7 @@
 	"\/assets\/images\/temp-kasads-4.jpg": {
 		"ft": 16384,
 		"iS": 5001,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-kasads-4.jpg",
 		"oF": 0,
@@ -7905,6 +8018,7 @@
 	"\/assets\/images\/temp-lb-2.jpg": {
 		"ft": 16384,
 		"iS": 24927,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-lb-2.jpg",
 		"oF": 0,
@@ -7915,6 +8029,7 @@
 	"\/assets\/images\/temp-lb.jpg": {
 		"ft": 16384,
 		"iS": 23414,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-lb.jpg",
 		"oF": 0,
@@ -7925,6 +8040,7 @@
 	"\/assets\/images\/temp-product-1.jpg": {
 		"ft": 16384,
 		"iS": 7936,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-1.jpg",
 		"oF": 0,
@@ -7935,6 +8051,7 @@
 	"\/assets\/images\/temp-product-10.jpg": {
 		"ft": 16384,
 		"iS": 15608,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-10.jpg",
 		"oF": 0,
@@ -7945,6 +8062,7 @@
 	"\/assets\/images\/temp-product-11.jpg": {
 		"ft": 16384,
 		"iS": 9832,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-11.jpg",
 		"oF": 0,
@@ -7955,6 +8073,7 @@
 	"\/assets\/images\/temp-product-12.jpg": {
 		"ft": 16384,
 		"iS": 10403,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-12.jpg",
 		"oF": 0,
@@ -7965,6 +8084,7 @@
 	"\/assets\/images\/temp-product-13.jpg": {
 		"ft": 16384,
 		"iS": 18035,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-13.jpg",
 		"oF": 0,
@@ -7975,6 +8095,7 @@
 	"\/assets\/images\/temp-product-2.jpg": {
 		"ft": 16384,
 		"iS": 15365,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-2.jpg",
 		"oF": 0,
@@ -7985,6 +8106,7 @@
 	"\/assets\/images\/temp-product-3.jpg": {
 		"ft": 16384,
 		"iS": 14005,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-3.jpg",
 		"oF": 0,
@@ -7995,6 +8117,7 @@
 	"\/assets\/images\/temp-product-4.jpg": {
 		"ft": 16384,
 		"iS": 26330,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-4.jpg",
 		"oF": 0,
@@ -8005,6 +8128,7 @@
 	"\/assets\/images\/temp-product-5.jpg": {
 		"ft": 16384,
 		"iS": 16868,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-5.jpg",
 		"oF": 0,
@@ -8015,6 +8139,7 @@
 	"\/assets\/images\/temp-product-6.jpg": {
 		"ft": 16384,
 		"iS": 18698,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-6.jpg",
 		"oF": 0,
@@ -8025,6 +8150,7 @@
 	"\/assets\/images\/temp-product-7.jpg": {
 		"ft": 16384,
 		"iS": 20306,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-7.jpg",
 		"oF": 0,
@@ -8035,6 +8161,7 @@
 	"\/assets\/images\/temp-product-8.jpg": {
 		"ft": 16384,
 		"iS": 13676,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-8.jpg",
 		"oF": 0,
@@ -8045,6 +8172,7 @@
 	"\/assets\/images\/temp-product-9.jpg": {
 		"ft": 16384,
 		"iS": 6957,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product-9.jpg",
 		"oF": 0,
@@ -8055,6 +8183,7 @@
 	"\/assets\/images\/temp-product_of_the_week.jpg": {
 		"ft": 16384,
 		"iS": 9988,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-product_of_the_week.jpg",
 		"oF": 0,
@@ -8065,6 +8194,7 @@
 	"\/assets\/images\/temp-rectangle300x250.jpg": {
 		"ft": 16384,
 		"iS": 28054,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-rectangle300x250.jpg",
 		"oF": 0,
@@ -8075,6 +8205,7 @@
 	"\/assets\/images\/temp-rectangle300x250_1.jpg": {
 		"ft": 16384,
 		"iS": 34670,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-rectangle300x250_1.jpg",
 		"oF": 0,
@@ -8085,6 +8216,7 @@
 	"\/assets\/images\/temp-rectangle300x600.jpg": {
 		"ft": 16384,
 		"iS": 42397,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-rectangle300x600.jpg",
 		"oF": 0,
@@ -8095,6 +8227,7 @@
 	"\/assets\/images\/temp-regional.jpg": {
 		"ft": 16384,
 		"iS": 26457,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-regional.jpg",
 		"oF": 0,
@@ -8105,6 +8238,7 @@
 	"\/assets\/images\/temp-seller_story-1.jpg": {
 		"ft": 16384,
 		"iS": 10972,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-seller_story-1.jpg",
 		"oF": 0,
@@ -8115,6 +8249,7 @@
 	"\/assets\/images\/temp-seller_story-2.jpg": {
 		"ft": 16384,
 		"iS": 10813,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-seller_story-2.jpg",
 		"oF": 0,
@@ -8125,6 +8260,7 @@
 	"\/assets\/images\/temp-seller_story-3.jpg": {
 		"ft": 16384,
 		"iS": 10823,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-seller_story-3.jpg",
 		"oF": 0,
@@ -8135,6 +8271,7 @@
 	"\/assets\/images\/temp-seller_story-4.jpg": {
 		"ft": 16384,
 		"iS": 6764,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-seller_story-4.jpg",
 		"oF": 0,
@@ -8145,6 +8282,7 @@
 	"\/assets\/images\/temp-thumb-franda-sm.jpg": {
 		"ft": 16384,
 		"iS": 5919,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-thumb-franda-sm.jpg",
 		"oF": 0,
@@ -8155,6 +8293,7 @@
 	"\/assets\/images\/temp-thumb-una-2-sm.jpg": {
 		"ft": 16384,
 		"iS": 4256,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-thumb-una-2-sm.jpg",
 		"oF": 0,
@@ -8165,6 +8304,7 @@
 	"\/assets\/images\/temp-thumb-una-3-sm.jpg": {
 		"ft": 16384,
 		"iS": 7050,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-thumb-una-3-sm.jpg",
 		"oF": 0,
@@ -8175,6 +8315,7 @@
 	"\/assets\/images\/temp-thumb-una-4-sm.jpg": {
 		"ft": 16384,
 		"iS": 3978,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-thumb-una-4-sm.jpg",
 		"oF": 0,
@@ -8185,6 +8326,7 @@
 	"\/assets\/images\/temp-thumb-una-sm.jpg": {
 		"ft": 16384,
 		"iS": 6452,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-thumb-una-sm.jpg",
 		"oF": 0,
@@ -8211,6 +8353,7 @@
 	"\/assets\/images\/temp-una-2-lg.jpg": {
 		"ft": 16384,
 		"iS": 373539,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-una-2-lg.jpg",
 		"oF": 0,
@@ -8221,6 +8364,7 @@
 	"\/assets\/images\/temp-una-2-sm.jpg": {
 		"ft": 16384,
 		"iS": 4704,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-una-2-sm.jpg",
 		"oF": 0,
@@ -8231,6 +8375,7 @@
 	"\/assets\/images\/temp-una-3-lg.jpg": {
 		"ft": 16384,
 		"iS": 182873,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-una-3-lg.jpg",
 		"oF": 0,
@@ -8241,6 +8386,7 @@
 	"\/assets\/images\/temp-una-3-sm.jpg": {
 		"ft": 16384,
 		"iS": 9066,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-una-3-sm.jpg",
 		"oF": 0,
@@ -8251,6 +8397,7 @@
 	"\/assets\/images\/temp-una-4-lg.jpg": {
 		"ft": 16384,
 		"iS": 471861,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-una-4-lg.jpg",
 		"oF": 0,
@@ -8261,6 +8408,7 @@
 	"\/assets\/images\/temp-una-4-sm.jpg": {
 		"ft": 16384,
 		"iS": 4902,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-una-4-sm.jpg",
 		"oF": 0,
@@ -8271,6 +8419,7 @@
 	"\/assets\/images\/temp-una-lg.jpg": {
 		"ft": 16384,
 		"iS": 295738,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-una-lg.jpg",
 		"oF": 0,
@@ -8281,6 +8430,7 @@
 	"\/assets\/images\/temp-una-sm.jpg": {
 		"ft": 16384,
 		"iS": 8013,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp-una-sm.jpg",
 		"oF": 0,
@@ -8291,6 +8441,7 @@
 	"\/assets\/images\/temp_captcha.jpg": {
 		"ft": 16384,
 		"iS": 30414,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp_captcha.jpg",
 		"oF": 0,
@@ -8301,6 +8452,7 @@
 	"\/assets\/images\/temp_hotfeature_1.jpg": {
 		"ft": 16384,
 		"iS": 5124,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp_hotfeature_1.jpg",
 		"oF": 0,
@@ -8311,6 +8463,7 @@
 	"\/assets\/images\/temp_hotfeature_2.jpg": {
 		"ft": 16384,
 		"iS": 8329,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp_hotfeature_2.jpg",
 		"oF": 0,
@@ -8321,6 +8474,7 @@
 	"\/assets\/images\/temp_hotfeature_3.jpg": {
 		"ft": 16384,
 		"iS": 6699,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp_hotfeature_3.jpg",
 		"oF": 0,
@@ -8331,6 +8485,7 @@
 	"\/assets\/images\/temp_hotfeature_4.jpg": {
 		"ft": 16384,
 		"iS": 5218,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/temp_hotfeature_4.jpg",
 		"oF": 0,
@@ -8374,6 +8529,7 @@
 	"\/assets\/images\/video-detail.jpg": {
 		"ft": 16384,
 		"iS": 64994,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/video-detail.jpg",
 		"oF": 0,
@@ -8427,6 +8583,7 @@
 		},
 	"\/assets\/javascripts\/html5shiv.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/html5shiv-min.js",
@@ -8436,6 +8593,7 @@
 		},
 	"\/assets\/javascripts\/html5shiv.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/html5shiv.min-min.js",
@@ -8445,6 +8603,7 @@
 		},
 	"\/assets\/javascripts\/jquery.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/jquery-min.js",
@@ -8454,6 +8613,7 @@
 		},
 	"\/assets\/javascripts\/jquery.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/jquery.min-min.js",
@@ -8463,6 +8623,7 @@
 		},
 	"\/assets\/javascripts\/main.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/main-min.js",
@@ -8472,6 +8633,7 @@
 		},
 	"\/assets\/javascripts\/main.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/main.min-min.js",
@@ -8481,6 +8643,7 @@
 		},
 	"\/assets\/javascripts\/respond.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/respond.min-min.js",
@@ -8490,6 +8653,7 @@
 		},
 	"\/assets\/javascripts\/scrolling.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/scrolling.js",
@@ -8499,6 +8663,7 @@
 		},
 	"\/assets\/javascripts\/separate\/onboarding.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/separate\/onboarding-min.js",
@@ -8508,6 +8673,7 @@
 		},
 	"\/assets\/javascripts\/separate\/onboarding.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/separate\/onboarding.min-min.js",
@@ -8517,6 +8683,7 @@
 		},
 	"\/assets\/javascripts\/vendor\/vendor.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/vendor\/vendor-min.js",
@@ -8526,6 +8693,7 @@
 		},
 	"\/assets\/javascripts\/vendor\/vendor.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/javascripts\/vendor\/vendor.min-min.js",
@@ -8564,6 +8732,7 @@
 		"oS": 3
 		},
 	"\/assets\/stylesheets\/crop.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/crop.css.map",
@@ -8590,6 +8759,7 @@
 		"oS": 3
 		},
 	"\/assets\/stylesheets\/ht.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/ht.css.map",
@@ -8616,6 +8786,7 @@
 		"oS": 3
 		},
 	"\/assets\/stylesheets\/main-ie.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/main-ie.css.map",
@@ -8642,6 +8813,7 @@
 		"oS": 0
 		},
 	"\/assets\/stylesheets\/main.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/main.css.map",
@@ -8668,6 +8840,7 @@
 		"oS": 3
 		},
 	"\/assets\/stylesheets\/playground.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/stylesheets\/playground.css.map",
@@ -8704,18 +8877,21 @@
 		"oS": 3
 		},
 	"\/banner.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/banner.html",
 		"oF": 0
 		},
 	"\/index-lama.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index-lama.html",
 		"oF": 0
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -8730,7 +8906,8 @@
 	"creationDate": 533445091,
 	"displayValue": "immersive-skin-slider",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-krieger"
+	"iconImageName": "meme-krieger",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -8738,6 +8915,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -9134,6 +9312,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -9141,6 +9323,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -9238,6 +9424,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -9254,9 +9444,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -9281,6 +9479,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -9314,9 +9516,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -9346,6 +9548,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -9355,14 +9561,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -9385,6 +9583,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -9930,6 +10132,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -9998,6 +10204,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -10037,6 +10247,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -10450,7 +10664,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -10483,6 +10698,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -10494,6 +10710,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -10524,7 +10741,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -10556,13 +10774,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -10571,7 +10789,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -10591,7 +10810,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -10619,7 +10839,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -10670,6 +10891,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
