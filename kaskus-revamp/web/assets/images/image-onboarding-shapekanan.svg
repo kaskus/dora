@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="73px" viewBox="0 0 110 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>web shape kanan</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ONBOARDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.422321429">
+        <g id="web-4" transform="translate(-644.000000, 0.000000)">
+            <g id="Group-60-Copy-+-Oval-+-Oval-+-Oval-+-Group-2-Mask">
+                <g id="Group-60-Copy" transform="translate(0.000000, -8.000000)">
+                    <g id="web-shape-kanan" transform="translate(644.000000, 0.000000)">
+                        <polygon id="Path-8" fill="#BCE7E3" points="23.3359887 81 0 16 56 48.5 46.8229881 75.7963679"></polygon>
+                        <polygon id="Path-8-Copy" fill="#BCE7E3" points="89.001707 78 74 36 110 57 104.100492 74.6376531"></polygon>
+                        <path d="M4,0 L28.3446615,70 L58.1520993,64.7487057 L63,34.9790441 L4,0 Z M11.325656,7.33811542 L57.7589821,34.8661838 L34.5037702,38.0624332 L11.325656,7.33811542 Z M10.2672636,10.2048236 L32.5795936,39.7808145 L28.7443171,63.3327463 L10.2672636,10.2048236 Z M35.0475414,40.5913821 L60.0457637,37.1559892 L55.9146277,62.5238224 L30.7540368,66.9563312 L35.0475414,40.5913821 Z" id="Fill-1" fill="#74C1C0"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
