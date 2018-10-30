@@ -4,8 +4,8 @@
       <meta charset='utf-8'>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
       <title>KASKUS 2018</title>
-      <link rel="stylesheet" href="../assets/stylesheets/main.css">
-      <script src="../assets/javascripts/vendor/jquery.min.js"></script>
+      <link rel="stylesheet" href="../assets/stylesheets/main.min.css">
+      <!-- <script src="../assets/javascripts/vendor/jquery.min.js"></script> -->
       <!-- <link rel="stylesheet" href="../assets/stylesheets/helper.css"> -->
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
   </head>
@@ -19,17 +19,23 @@
 		<div class="Maw(620px) Bgc(#fff) D(f) H(40px) Jc(sb) Px(10px) W(100%) Z(99) Bdc(#d4d4d4) nightmode_Bdc(#3f3f3f) top-header T(0) Pos(r) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
 			<div class="D(f) Ai(c) C(#b3b3b3) nightmode_C(#dcdcdc)">
 				<a class="Fz(18px) C(#b3b3b3)" onclick="toggleNavBar()"><i class="fas fa-bars"></i></a>
-				<a class="W(128px) H(19px) Bgi(kaskus-logo) nightmode_Bgi(kaskus-logo-white) Bgz(ct) Bgp(c) Bgr(nr) Mstart(10px) channel_Bgi(kaskus-icon) channel_W(22px) channel_H(22px) channel_Mstart(15px)"></a>
+				<a class="W(128px) H(19px) Bgi(kaskus-logo) nightmode_Bgi(kaskus-logo-white)  Bgz(ct) Bgp(c) Bgr(nr) Mstart(10px) channel_Bgi(kaskus-icon) channel_W(22px) channel_H(22px) channel_Mstart(15px)"></a>
 				<span class="D(n) channel_D(b) Mstart(14px) C(#484848) Fz(18px) Fw(500) nightmode_C(#dcdcdc)">Tech</span>
 			</div>
 			<div class="Ai(c) D(f)">
-				<a class="Mx(8px) C(#b3b3b3)" onclick="toggleCreate()">
+				<div id="jsSearchButton" class="C(#b3b3b3) Mx(6px) Fz(16px)">
+					<i class="fas fa-search"></i>
+				</div>
+				<div class="Mx(6px) C(#b3b3b3)" onclick="toggleCreate()">
 					<span>
 						<i class="far fa-pencil-alt"></i>
 					</span>
-				</a>
-				<div id="jsSearchButton" class="C(#b3b3b3) Mx(8px)">
-					<i class="fas fa-search Fw(b) Fz(16px)"></i>
+				</div>
+				<div class="Pos(r)" onclick="toggleNotification();">
+					<div class="C(#b3b3b3) Fz(16px) Mx(6px)">
+						<i class="fal fa-bell"></i>
+					</div>
+					<div class="Pos(a) Tt(u) P(0) T(0) End(5px) C(#fff) Bgc(#e4302f) Fz(9px) H(8px) W(8px) Bdrs(50%) Lh(16px) W(auto)"></div>
 				</div>
 		
 				<!-- IF LOGIN -->
@@ -37,7 +43,6 @@
 					<div class="W(22px) H(22px) Ov(h) Bdrs(50%) Bgc(#ddd) Mx(10px) Bd(sm-gray-border)">
 						<img src="https://s.kaskus.id/r30x30/user/avatar/2011/07/22/avatar3225325_6.gif" class="W(100%) H(100%)" id="CssProfPic"></img>
 					</div>
-					<div class="Pos(a) Tt(u) Py(0) Px(5px) T(-3px) End(-4px) C(#fff) Bgc(#e4302f) Fz(9px) H(15px) Bdrs(9px) Lh(16px) W(auto)">99+</div>
 				</div>
 		
 				<!-- IF NOT LOGIN -->
@@ -46,6 +51,7 @@
 				</div> -->
 			</div>
 		</div>
+		
 		<form action="/search/forum" id="searchform" class="D(n) Bgc(white) Pos(f) W(100%) Maw(620px) Z(98) nightmode_Bgc(#171717) nightmode_C(#dcdcdc) Bdc(#ebebeb) nightmode_Bdc(#444)">
 				<div class="P(10px) D(f)">
 					<input id="global-search" placeholder="Cari di sini" class="Bgc(#ebebeb) Bdrs(3px) C(#6e6e6e) Py(5px) Pstart(7px) Pend(10px) W(80%) Bd Bdc(#ebebeb) nightmode_Bdc(#444) Fz(13px) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
@@ -80,47 +86,48 @@
 				</div>
 			</form>
 		<div id="JsCatBar" class="Ai(c) Bgc(#1998ed) C(white) D(f) Jc(sb) Maw(620px) W(100%) nightmode_Bgc(#202020) nightmode_C(#dcdcdc) Ov(h) nightmode_Bdt(night-border) Pos(r)">
-					<div class="D(f) Jc(c) Ai(c) Fz(13px) P(9px) Px(10px) Cur(p) jsContainerCat" onclick="toggleCategory()">
+					<div class="D(f) Jc(c) Ai(c) Fz(13px) P(9px) Px(10px) Cur(p) jsContainerCat Fx(flex0Auto)" onclick="toggleCategory()">
 						<span class="Fz(13px)--xs  Fz(13px)--sm Fz(13px)--md Mend(8px)">KATEGORI</span>
 						<i class="fas fa-angle-down Mstart(5px)"></i>
 					</div>
-					<div class="D(f) Fz(11px)--xs Fz(11px)--sm Fz(11px)--md Maw(90%) Jc(c) Ovy(h) jsBotScroll">
+					<div class="D(f) Fz(11px)--xs Fz(11px)--sm Fz(11px)--md Maw(90%) Jc(c) Ovy(h) jsBotScroll Fx(flex1Auto)">
 						<div class="Ai(c) C(#fff) Fld(r) D(f) W(100%) Whs(nw) Fz(12px) nightmode_Bgc(transparent) nightmode_C(#dcdcdc) Tt(u)">
-							<div id="sub-cat-text" class="D(f) Pos(r) Trs(transitionTransform)">
-								<div class="P(10px) Px(15px)">
+							<div id="sub-cat-text" class="D(f) Pos(r) Trs(transitionTransform) W(100%)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">Story</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">Hobby</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">Game</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">Entertainment</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">Sundul Dunia</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">Games</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">Berita dan Politik</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">SFTH</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">Akun Premium</a>
 								</div>
-								<div class="P(10px) Px(15px)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
 									<a class="D(ib)">GOSIPP</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				
 	</div>
 	<div class="Bgc(white) C(#484848) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
 			<div class="D(f) Jc(sb) Mb(15px) Py(10px) Px(15px) BdB Bdc(#f2f2f2) nightmode_Bdc(#3f3f3f)">
@@ -834,7 +841,7 @@
 						<div class="jsAccordionItem">
 							<a class="P(15px) D(f) Jc(sb) Ai(c) Td(n):h Cur(p):h jsAccordionHeading menu" href="javascript:void(0);">
 								<div class="D(f) Jc(fs)">
-									<div class="Mstart(30px) nightmode_C(#dcdcdc)">Transaksi Pembelian</div>
+									<div class="Mstart(30px) C(#555) nightmode_C(#dcdcdc)">Transaksi Pembelian</div>
 									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">100k</div>
 								</div>
 								<div class="Lh(12px) C(#d4d4d4)"><i class="fa fa-chevron-down"></i></div>
@@ -861,7 +868,7 @@
 						<div class="jsAccordionItem Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
 							<a class="P(15px) D(f) Jc(sb) Ai(c) Td(n):h Cur(p):h jsAccordionHeading menu" href="javascript:void(0);">
 								<div class="D(f) Jc(fs)">
-									<div class="Mstart(30px) nightmode_C(#dcdcdc)">Transaksi Penjualan</div>
+									<div class="Mstart(30px) C(#555) nightmode_C(#dcdcdc)">Transaksi Penjualan</div>
 									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">10</div>
 								</div>
 								<div class="Lh(12px) C(#d4d4d4)"><i class="fa fa-chevron-down"></i></div>
@@ -879,6 +886,17 @@
 									<div class="nightmode_C(#dcdcdc)">Ada Pengaduan</div>
 									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">87</div>
 								</div>
+							</div>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="Px(15px) Pt(15px) Pb(10px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h C(#484848) nightmode_C(#dcdcdc)">
+								<span class="H(20px) Mend(10px) Miw(20px) W(20px) Ac(c) nightmode_C(#dcdcdc">
+									<img src="../assets/images/icon-poin.svg" class="Bdrs(20px) Flxs(0) H(100%) Ov(h) W(100%)">
+								</span>
+								<span class="nightmode_C(#dcdcdc)">KASKUS Plus</span>
+							</a>
+							<div class="Px(45px) Pb(15px) C(#faa517)">
+								<time>09/10/2018 20:45</time>
 							</div>
 						</div>
 						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
