@@ -10,7 +10,7 @@
 	</head>
 
 <body class="Bgc(#f2f2f2) Miw(1024px)">
-	<div class="Pos(f) jsNavHeaderOverlay H(100%) W(100%) Op(.7) Bgc(#000000) Start(0) D(n) T(0) Z(3)"></div>
+	<div class="Pos(f) jsNavHeaderOverlay H(100%) W(100%) Op(.7) Bgc(#000000) Start(0) D(n) T(0) Z(2)"></div>
 	<!-- Notice Header -->
 	<div class="jsNoticeHeader Bgc(#fffee9) Pos(r) Z(3)">
 	  <div class="Mx(a) Maw(960px) Ta(c) Py(10px)">
@@ -98,238 +98,83 @@
 		  		</div> -->
 		  		<div class="D(f) Ai(c)">
 		  			<div class="Pos(r) jsNotificationMenu jsNotificationAnchor H(35px) D(f) Ai(c)">
-		  				<div class="Pos(r) jsNotificationIcon Cur(p):h Mend(15px)">
-		  					<i class="far fa-bell Fz(18px)"></i>
-		  					<div class="D(tb) Miw(13px) H(13px) Ta(c) Bgc(#ea1f33) Bdrs(13px) Px(1px) Lh(13px) Pos(a) End(-9px) T(-2px)">
-		  						<span class="D(tbc) Va(m) C(c-white) Fz(8px) Lts(-0.5px) Lh(13px)">2</span>
-		  					</div>
-		  				</div>
-		  
-		  				<div class="jsNotificationDropdownMenu Pos(a) End(5px) T(42px) Bgc(#ffffff) Z(2) Bd(borderSolidLightGrey) W(320px) toggleMenu">
-		  				  <div class="W(15px) H(15px) Bgr(nr) Bgz(ct) Bgp(c) Bgi(bgTriangle) Pos(a) End(8px) T(-11px)"></div>
-		  				  <div class="Pos(r) D(f) Fxd(c)">
-		  				    <div class="Fx(flexZero) D(f) P(15px)">
-		  				      <div class="Fx(flexOne) Fw(500) C(#4a4a4a)">
-		  				        <span>Notifikasi</span>
-		  				      </div>
-		  				      <div class="Fx(flexZero)">
-		  				        <i class="fas fa-cog"></i>
-		  				      </div>
-		  				    </div>
-		  				    <div class="Ovy(a) Fx(flexZero) Mah(400px)">
-		  				      <a href="" class="D(b) Bgc(c-white) Px(10px) Bgi(bgOverlayGradient):h">
-		  				        <div class="D(f) Ai(c) Bdt(borderSolidLightGrey) Py(10px)">
-		  				          <div class="D(f) Fx(flexOne) Ai(c)">
-		  				            <div class="W(30px) H(30px) Ov(h) Fz(14px) C(#b3b3b3) Mend(10px)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-pm.svg" alt="">
-		  				            </div>
-		  				            <div class="Fz(14px) C(c-normal)">PM</div>
-		  				          </div>
-		  				          <div class="Fx(flexZero)">
-		  				            <div class="Fz(11px) C(#fff) Bgc(#e63b19) Bdrs(20px) P(3px) Miw(20px) Ta(c)">2</div>
-		  				          </div>
-		  				        </div>
-		  				      </a>
-		  				      <a href="" class="D(b) Bgc(c-white) Px(10px) Bgi(bgOverlayGradient):h">
-		  				        <div class="D(f) Ai(c) Bdt(borderSolidLightGrey) Py(10px)">
-		  				          <div class="D(f) Fx(flexOne) Ai(c)">
-		  				            <div class="W(30px) H(30px) Ov(h) Fz(14px) C(#b3b3b3) Mend(10px)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-penjualan.svg" alt="">
-		  				            </div>
-		  				            <div class="Fz(14px) C(c-normal)">Transaksi Penjualan</div>
-		  				          </div>
-		  				          <div class="Fx(flexZero)">
-		  				            <div class="Fz(11px) C(#fff) Bgc(#e63b19) Bdrs(20px) P(3px) Miw(20px) Ta(c)">12</div>
-		  				          </div>
-		  				        </div>
-		  				      </a>
-		  				      <a href="" class="D(b) Bgc(c-white) Px(10px) Bgi(bgOverlayGradient):h">
-		  				        <div class="D(f) Ai(c) Bdt(borderSolidLightGrey) Py(10px)">
-		  				          <div class="D(f) Fx(flexOne) Ai(c)">
-		  				            <div class="W(30px) H(30px) Ov(h) Fz(14px) C(#b3b3b3) Mend(10px)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-pembelian.svg" alt="">
-		  				            </div>
-		  				            <div class="Fz(14px) C(c-normal)">Transaksi Pembelian</div>
-		  				          </div>
-		  				          <div class="Fx(flexZero)">
-		  				            <div class="Fz(11px) C(#fff) Bgc(#e63b19) Bdrs(20px) P(3px) Miw(20px) Ta(c)">12</div>
-		  				          </div>
-		  				        </div>
-		  				      </a>
-		  				      <div class="notificationList">
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-white) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-cendol.svg" alt="">
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span class="Fw(700)">celengpanggang</span>,
-		  				                <span class="Fw(700)">celengpanggang</span>,
-		  				                <span>dan</span>
-		  				                <span class="Fw(700)">20 kaskuser</span>
-		  				                <span>memberikan cendol ke</span>
-		  				                <span class="Fw(700)">post Agan.</span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				            </div>
-		  				            <div class="C(#b9b9b9) Fz(14px) Fx(flexZero) Mstart(10px)">
-		  				              <i class="fas fa-volume-slash"></i>
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-white) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-reply.svg" alt="">
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span class="Fw(700)">celengpanggang</span>
-		  				                <span>membalas</span>
-		  				                <span class="Fw(700)">post agan</span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				              <div class="C(#9e9e9e) Fz(13px) Lh(18px) Wob(breakWord) LineClamp(2,35px)">Lipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim Lipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim</div>
-		  				            </div>
-		  				            <div class="C(#b9b9b9) Fz(14px) Fx(flexZero) Mstart(10px)">
-		  				              <i class="fas fa-volume-slash"></i>
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-white) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-reply.svg" alt="">
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span class="Fw(700)">celengpanggang, celengayam</span>
-		  				                <span>dan</span>
-		  				                <span class="Fw(700)">20 kaskuser</span>
-		  				                <span>membalas</span>
-		  				                <span class="Fw(700)">thread agan.</span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				            </div>
-		  				            <div class="C(#b9b9b9) Fz(14px) Fx(flexZero) Mstart(10px)">
-		  				              <i class="fas fa-volume-slash"></i>
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-grayish) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-quote.svg" alt="">
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span class="Fw(700)">celengpanggang</span>
-		  				                <span>meng-quote</span>
-		  				                <span class="Fw(700)">post agan.</span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				              <div class="C(#9e9e9e) Fz(13px) Lh(18px) Wob(breakWord) LineClamp(2,35px)">Lipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim Lipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim</div>
-		  				            </div>
-		  				            <div class="C(#b9b9b9) Fz(14px) Fx(flexZero) Mstart(10px)">
-		  				              <i class="fas fa-volume-slash"></i>
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-grayish) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-hot-thread.svg" alt="">
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span>Selamat! Thread Agan yang berjudul</span>
-		  				                <span class="Fw(700)">"Masih Berfikir Medali Emas ….”</span>
-		  				                <span>masuk Hot Thread!</span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				            </div>
-		  				            <div class="Fx(flexZero) Mstart(10px)">
-		  				              <img class="W(60px) H(60px)" src="../assets/images/image-thread2.png" alt="">
-		  				            </div>
-		  				            <div class="C(#b9b9b9) Fz(14px) Fx(flexZero) Mstart(10px)">
-		  				              <i class="fas fa-volume-slash"></i>
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-yellow-light) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <i class="fal fa-bell Fz(24px) fa-fw"></i>
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span>Aktifkan notifikasi Agan</span>
-		  				                <span class="Fw(700)">disini<br></span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-white) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-podcast.svg" alt="">
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span class="Fw(700)">celengpanggang</span>
-		  				                <span>subscribe ke</span>
-		  				                <span class="Fw(700)">episode agan</span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-white) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-group.svg" alt="">
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span class="Fw(700)">celengpanggang</span>
-		  				                <span>join ke</span>
-		  				                <span class="Fw(700)">grup agan</span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				            </div>
-		  				            <div class="C(#b9b9b9) Fz(14px) Fx(flexZero) Mstart(10px)">
-		  				              <i class="fas fa-volume-slash"></i>
+		  			  <div class="Miw(20px) H(20px) Ta(c) Bgc(#ea1f33) Bdrs(20px) Mend(6px) Px(4px) jsNotificationIcon Cur(p):h">
+		  			    <span class="C(#ffffff) Fz(12px) Lts(-0.5px) Lh(20px) Pend(1px)">99+</span>
+		  			  </div>
 		  				
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				        <a href="#" class="D(b) P(10px) Bdt(borderSolidLightGrey) Bgc(c-white) Bgi(bgOverlayGradient):h">
-		  				          <div class="D(f) Ai(fs)">
-		  				            <div class="Mend(10px) Fx(flexZero)">
-		  				              <img class="W(30px) H(30px)" src="../assets/images/ic-notif-tv.svg" alt="">
-		  				            </div>
-		  				            <div class="Fx(flexOne)">
-		  				              <div class="Fz(13px) C(c-normal) Lh(16px)">
-		  				                <span class="Fw(700)">celengpanggang</span>
-		  				                <span>subscribe ke</span>
-		  				                <span class="Fw(700)">episode agan</span>
-		  				                <span class="C(#9e9e9e) Fz(12px) Whs(nw)">09 Jul 09:29</span>
-		  				              </div>
-		  				            </div>
-		  				            <div class="C(#b9b9b9) Fz(14px) Fx(flexZero) Mstart(10px)">
-		  				              <i class="fas fa-volume-slash"></i>
-		  				            </div>
-		  				          </div>
-		  				        </a>
-		  				      </div>
-		  				    </div>
-		  				    <div class="Fx(flexZero) Bdt(borderSolidLightGrey)">
-		  				      <a href="" class="P(14px) D(b) Ta(c) Fw(700) Td(u):h">See All</a>
+		  				  <div class="jsNotificationDropdownMenu Pos(a) End(1px) T(42px) Bgc(#ffffff) Z(2) Bd(borderSolidLightGrey) W(200px) toggleMenu">
+		  				   <div class="W(15px) H(15px) Bgr(nr) Bgz(ct) Bgp(c) Bgi(bgTriangle) Pos(a) End(8px) T(-11px)"></div>
+		  				   <div class="menuAccordion">
+		  				     <ul class="Fz(12px) menuAccordion-list">
+		  				      <li class="D(b)">
+		  				        <div class="Px(20px)">
+		  				          <a href="" class="Td(n):h D(f) Py(10px) C(#484848) C(#1998ed):h Bdb(borderSolidGrey) Jc(sb)">
+		  				            <span class="Fw(700)">New Private Message</span>
+		  				            <span class="C(#ff7100)">2,875</span>
+		  				          </a>
+		  				        </div>
+		  				      </li>
+		  				      <li class="D(b)">
+		  				        <div class="Px(20px)">
+		  				          <a href="" class="Td(n):h D(f) Py(10px) C(#484848) C(#1998ed):h Bdb(borderSolidGrey) Jc(sb)">
+		  				            <span class="Fw(700)">New Friend Request</span>
+		  				            <span class="C(#ff7100)">1</span>
+		  				          </a>
+		  				        </div>
+		  				      </li>
+		  				      <li class="D(b)">
+		  				        <div class="Px(20px)">
+		  				          <a href="" class="Td(n):h D(f) Py(10px) C(#484848) C(#1998ed):h Jc(sb)">
+		  				            <span class="Fw(700)">Transaksi Pembelian</span>
+		  				            <span class="C(#ff7100)">5</span>
+		  				          </a>
+		  				          <ul class="Pb(10px) Bdb(borderSolidGrey)">
+		  				            <li>
+		  				              <a href="#" class="D(f) Pstart(10px) Py(8px) C(#484848) C(#1998ed):h Ai(c) Td(n):h Jc(sb)">
+		  				                <span>Nego Ditolak</span>
+		  				                <span class="C(#ff7100)">1</span>
+		  				              </a>
+		  				            </li>
+		  				            <li>
+		  				              <a href="#" class="D(f) Pstart(10px) Py(8px) C(#484848) C(#1998ed):h Ai(c) Td(n):h Jc(sb)">
+		  				                <span>Tunggu Pembayaran</span>
+		  				                <span class="C(#ff7100)">2</span>
+		  				              </a>
+		  				            </li>
+		  				            <li>
+		  				              <a href="#" class="D(f) Pstart(10px) Py(8px) C(#484848) C(#1998ed):h Ai(c) Td(n):h Jc(sb)">
+		  				                <span>Lihat Pengaduan</span>
+		  				                <span class="C(#ff7100)">2</span>
+		  				              </a>
+		  				            </li>
+		  				          </ul>
+		  				        </div>
+		  				      </li>
+		  				      <li class="D(b)">
+		  				        <div class="Px(20px)">
+		  				          <a href="" class="Td(n):h D(f) Py(10px) C(#484848) C(#1998ed):h Jc(sb)">
+		  				            <span class="Fw(700)">Transaksi Penjualan</span>
+		  				            <span class="C(#ff7100)">26</span>
+		  				          </a>
+		  				          <ul class="Pb(10px) Bdb(borderSolidGrey)">
+		  				            <li>
+		  				              <a href="#" class="D(f) Pstart(10px) Py(8px) C(#484848) C(#1998ed):h Ai(c) Td(n):h Jc(sb)">
+		  				                <span>Respon Pesanan</span>
+		  				                <span class="C(#ff7100)">5</span>
+		  				              </a>
+		  				            </li>
+		  				            <li>
+		  				              <a href="#" class="D(f) Pstart(10px) Py(8px) C(#484848) C(#1998ed):h Ai(c) Td(n):h Jc(sb)">
+		  				                <span>Isi Resi</span>
+		  				                <span class="C(#ff7100)">21</span>
+		  				              </a>
+		  				            </li>
+		  				          </ul>
+		  				        </div>
+		  				      </li>
+		  				     </ul>
 		  				    </div>
 		  				  </div>
-		  				</div>
 		  				
 		  			</div>
 		  			<div class="Pos(r) jsUserMenu jsUserAnchor">
@@ -1575,12 +1420,9 @@
 			  		<div class="Mstart(15px) Mend(10px) H(22px) W(1px) Bgc(#ffffff)"></div>
 			  		<div class="D(f) Ai(c)">
 			        <div class="Pos(r) jsNotificationMenu jsNotificationAnchorSticky H(35px) D(f) Ai(c)">
-			          <div class="Pos(r) jsNotificationIcon Cur(p):h Mend(15px)">
-			  					<i class="far fa-bell Fz(18px) C(c-white)"></i>
-			  					<div class="D(tb) Miw(13px) H(13px) Ta(c) Bgc(#ea1f33) Bdrs(13px) Px(1px) Lh(13px) Pos(a) End(-9px) T(-2px)">
-			  						<span class="D(tbc) Va(m) C(c-white) Fz(8px) Lts(-0.5px) Lh(13px)">2</span>
-			  					</div>
-			  				</div>
+			          <div class="Miw(20px) H(20px) Ta(c) Bgc(#ffffff) Bdrs(20px) Mend(6px) Px(4px) jsNotificationIcon Cur(p):h">
+			            <span class="C(#ea1f33) Fz(12px) Lts(-0.5px) Lh(20px) Pend(1px)">99+</span>
+			          </div>
 			  			</div>
 			  			<div class="Pos(r) jsUserMenu jsUserAnchorSticky">
 			  			  <div class="jsUserAvatar">
@@ -4031,6 +3873,7 @@
 								</div>
 								<script src="../assets/javascripts/vendor.min.js"></script>
 								<!-- <script src="../assets/javascripts/seperate/onboarding.min.js"></script> -->
+								<script src="../assets/javascripts/seperate/anniversary.min.js"></script>
 								<script src="../assets/javascripts/main.min.js"></script>
 							</body>
 						</html>
