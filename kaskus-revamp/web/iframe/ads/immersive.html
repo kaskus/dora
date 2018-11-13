@@ -19,24 +19,26 @@
     ga('send', 'pageview');
   </script>
 </head>
-
 <body style="height: 250px; margin: 0;">
   <a href="www.google.com" style="display: block; height: 100%; width: 100%;"></a>
   <script type="text/javascript">
-    /*Get Jquery from Parent*/
+    var jqueryLooper = setInterval(jqueryLooper, 10);
 
-    setTimeout(function(){
-      var $ = window.parent.$,
-        jQuery = window.parent.jQuery;
-      curWin = window.parent.window;
-      curDoc = window.parent.document;
+    function jqueryLooper() {
+      if (typeof window.parent.$ == 'function') {
+        clearInterval(jqueryLooper);
+        var $ = window.parent.$,
+          jQuery = window.parent.jQuery;
+        curWin = window.parent.window;
+        curDoc = window.parent.document;
 
-    $(curDoc).ready(function() {
-      $("body").addClass("has-immersive");
-      $('.has-immersive').prepend('<a href="https://www.burberry.com/" class="immersiveImage"></a>');
+        $(curDoc).ready(function() {
+          $("body").addClass("has-immersive");
+          $('.has-immersive').prepend('<a href="https://www.burberry.com/" class="immersiveImage"></a>');
 
-    });
-  }, 500);
+        });
+      }
+    }
   </script>
 </body>
 </html>
