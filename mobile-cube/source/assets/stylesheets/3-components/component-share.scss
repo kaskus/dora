@@ -1,0 +1,19 @@
+.jsShareList {
+	box-shadow: 0px 6px 19px 6px rgba(0,0,0,.1);
+	&:before {
+	    content: "";
+		border: 8px solid transparent;
+    	border-bottom-color: #f2f2f2;
+    	position: absolute;
+    	top: -15px;
+    	right: 75px;
+	}
+	&:after {
+		content: "";
+	    border: 8px solid transparent;
+	    border-bottom-color: #fff;
+	    position: absolute;
+        top: -14px;
+    	right: 75px;
+	}
+}
