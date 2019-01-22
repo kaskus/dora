@@ -2813,7 +2813,8 @@
 	"displayValue": "auto-expand",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-doge",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 569849822.76349401
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,
