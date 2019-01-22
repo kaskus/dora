@@ -1,0 +1,25 @@
+textarea {
+	&.replySection {
+		&::-webkit-input-placeholder {
+		  color: #b3b3b3;
+		  font-size: 14px;
+		}
+		&::-moz-placeholder {
+		  color: #b3b3b3;
+		  font-size: 14px;
+		}
+		&:-ms-input-placeholder {
+		  color: #b3b3b3;
+		  font-size: 14px;
+		}
+		&:-moz-placeholder {
+		  color: #b3b3b3;
+		  font-size: 14px;
+		}
+		&:focus {
+			outline: none;
+			border-color: #e9e9e9;
+    		box-shadow: none;
+		}
+	}
+}
