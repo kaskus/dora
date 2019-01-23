@@ -2413,9 +2413,6 @@
 				<iframe id="ad-pull" src="../iframe/views/auto-expand.html" class="Bd(0) W(100%) H(100%) Start(0) (0) Pos(a) M(marginAuto0)"
 				 scrolling="no"></iframe>
 			</div>
-			<!-- <div class="M(marginAuto0) Pos(r) Ta(c) W(100%) H(150px) D(n) iframeLarge">
-				<iframe src="../iframe/views/auto-expand-large.html" class="Bd(0) W(100%) H(100%) Start(0) T(0) Pos(a) M(marginAuto0)" scrolling="no"></iframe>
-			</div> -->
 			<a href="#" class="Pos(a) T(-28px) W(28px) H(28px) Bgc(#fff) End(0) Z(99) P(5px) Fz(16px) Ta(c) closeBtn iframeClose">
 				<i class="fal fa-times"></i>
 			</a>
@@ -2423,18 +2420,13 @@
 				window.addEventListener('message', function (e) {
 					var message = e.data.message;
 					switch (message) {
-						case 'remove-banner':
-							$('#ad-pull').remove();
-							break;
 						case 'stretch-banner':
-							$('#ad-pull').addClass('stretched');
 							$('.iframeContainer').removeClass('H(50px)');
 							$('.iframeContainer').addClass('H(150px)');
-							$('.iframeContainer').css({transition: 'height 0.3s ease-in-out'} );
+							$('.iframeContainer').css({ transition: 'height 0.3s ease-in-out' });
 							$('.iframeClose').addClass('D(n)');
 							break;
 						case 'shrink-banner':
-							$('#ad-pull').removeClass('stretched');
 							$('.iframeContainer').addClass('H(50px)');
 							$('.iframeContainer').removeClass('H(150px)');
 							$('.iframeClose').removeClass('D(n)');
@@ -2448,20 +2440,13 @@
 				});
 
 				var close = document.querySelector('.iframeClose');
-				close.addEventListener('click', function() {
+				close.addEventListener('click', function () {
 					var adsContainer = document.querySelector('.iframeAutoExtend');
 					adsContainer.classList.add('D(n)');
 				})
-				// var container = document.querySelector('.iframeContainer');
-				// var large = document.querySelector('.iframeLarge');
-				// container.addEventListener('click', function() {
-				// 	small.classList.toggle('D(b)');
-				// 	small.classList.toggle('D(n)');
-				// 	large.classList.toggle('D(n)');
-				// 	large.classList.toggle('D(b)');
-				// });
 			</script>
 		</div>
+		
 		<div id="jsNotification" class="modal Pos(f) T(0) W(100%) H(100%) Maw(620px) Bgc(white) Ovy(s) Fz(13) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
 			<div class="Bgc(#1998ed) C(white) Pos(f) W(100%)  nightmode_Bgc(#202020) nightmode_C(#ddd) Z(2)">
 				<div class="D(f) Jc(c) Bxsh(category-shadow) H(40px) Ai(c) Py(5px) Pos(r) ">

@@ -92,10 +92,6 @@
             right: 0;
             top: 0;
         }
-        .invitation__close--small{
-            width: 20px;
-            height: 20px;
-        }
         .invitation__close--large{
             font-size: 30px;
             width: 40px;
@@ -122,9 +118,6 @@
                         case 'shrink':
                             el.addEventListener('click', shrinkBanner, false);
                             break;
-                        case 'remove':
-                            el.addEventListener('click', removeBanner, false);
-                            break;
                         default:
                             break;
                     }
@@ -140,9 +133,6 @@
                     switch (el.getAttribute('aria-label').toLowerCase()) {
                         case 'shrink':
                             el.removeEventListener('click', shrinkBanner);
-                            break;
-                        case 'remove':
-                            el.removeEventListener('click', removeBanner);
                             break;
                         default:
                             break;
@@ -198,11 +188,6 @@
             function goTo(){
                 window.parent.postMessage({message: 'open-url', url: 'http://bkdelivery.id'}, '*');
             }
-            
-            function removeBanner() {
-                unregisterEventHandlers();
-                window.parent.postMessage({message: 'remove-banner'}, '*');
-            };
     
             function handleTouchStart(evt) {
                 xDown = evt.touches[0].clientX;                                      

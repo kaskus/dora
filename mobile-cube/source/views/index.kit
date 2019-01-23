@@ -1257,7 +1257,8 @@
 		<div class="Ta(c) M(10px) Mt(0)">
 			<div class="M(marginAuto0) W(300px) H(250px) Lh(250px)">
 				<div class="Pos(r) Ov(h) Pb(83.333%)">
-					<iframe src="../iframe/views/mobile-cube.html" class="Bd(0) W(100%) H(100%) Start(0) T(0) Pos(a)" scrolling="no"></iframe>
+					<iframe style="touch-action: none;" src="../iframe/views/mobile-cube.html" class="Bd(0) W(100%) H(100%) Start(0) T(0) Pos(a)"
+					 scrolling="no"></iframe>
 				</div>
 			</div>
 		</div>
@@ -2406,15 +2407,44 @@
 			</div>
 		</div>
 
-
 		<!-- STICKY BANNER -->
-		<div class="Pos(f) B(0) Start(0) W(100%) Ta(c) Z(10) Mah(50px) Bgc(#fff) Bxz(bb) Maw(620px) M(marginAuto0) End(0) Start(0) adsSection">
-			<div class="M(marginAuto0) Pos(r) Ta(c) W(320px) H(50px)">
-				<div class="Bgc(#4f4f4f) C(#fff) Lh(50px) M(marginAuto0)">Sticky Banner</div>
+		<div class="Pos(f) B(0) Start(0) W(100%) Ta(c) Z(100) Mah(150px) Mih(50px) H(a) Bgc(#fff) Bxz(bb) Maw(620px) M(marginAuto0) End(0) Start(0) iframeAutoExtend adsSection">
+			<div class="M(marginAuto0) H(50px) Mih(50px) Pos(r) Ta(c) W(100%) D(b) iframeContainer">
+				<!-- <iframe id="ad-pull" src="../iframe/views/auto-expand.html" class="Bd(0) W(100%) H(100%) Start(0) (0) Pos(a) M(marginAuto0)"
+				 scrolling="no"></iframe> -->
 			</div>
-			<a href="#" class="Pos(a) T(-28px) W(28px) H(28px) Bgc(#fff) End(0) Z(99) P(5px) Fz(16px) Ta(c) closeBtn">
+			<a href="#" class="Pos(a) T(-28px) W(28px) H(28px) Bgc(#fff) End(0) Z(99) P(5px) Fz(16px) Ta(c) closeBtn iframeClose">
 				<i class="fal fa-times"></i>
 			</a>
+			<script>
+				window.addEventListener('message', function (e) {
+					var message = e.data.message;
+					switch (message) {
+						case 'stretch-banner':
+							$('.iframeContainer').removeClass('H(50px)');
+							$('.iframeContainer').addClass('H(150px)');
+							$('.iframeContainer').css({ transition: 'height 0.3s ease-in-out' });
+							$('.iframeClose').addClass('D(n)');
+							break;
+						case 'shrink-banner':
+							$('.iframeContainer').addClass('H(50px)');
+							$('.iframeContainer').removeClass('H(150px)');
+							$('.iframeClose').removeClass('D(n)');
+							break;
+						case 'open-url':
+							window.location.href = e.data.url;
+							break;
+						default:
+							break;
+					}
+				});
+
+				var close = document.querySelector('.iframeClose');
+				close.addEventListener('click', function () {
+					var adsContainer = document.querySelector('.iframeAutoExtend');
+					adsContainer.classList.add('D(n)');
+				})
+			</script>
 		</div>
 
 		<div id="jsNotification" class="modal Pos(f) T(0) W(100%) H(100%) Maw(620px) Bgc(white) Ovy(s) Fz(13) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
