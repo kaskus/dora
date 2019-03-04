@@ -1,0 +1,191 @@
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="../assets/stylesheets/banner.css"> -->
+    <style> 
+      body {     
+        margin: 0;
+        overflow: hidden; 
+      }
+          
+      #banner-content {
+       position: relative;
+       height: 100%;
+      }
+
+      #banner-bg {
+       position: absolute;
+       top: 0;
+       left: 0;
+      }
+
+      .banner-bg{
+      height: 50px;
+      }
+
+      #banner-condensed-bg {
+       width: 100%;
+       height: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+        cursor: pointer;
+      }
+
+      #banner-expanded-bg{
+        width: 100%;
+      }
+
+      #banner-content.stretched #banner-condensed-bg {
+        display: none;
+      }
+
+      #banner-expanded-bg {
+        display: none;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+       /* height:400px;*/
+
+        cursor: pointer;
+      }
+
+      #banner-content.stretched #banner-expanded-bg {
+        opacity: 1;
+        display: block;
+      }
+
+      #banner-video {
+        position: absolute;
+        max-width: 300px;
+        top: 100px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        box-shadow: 0 8px 10px rgba(0,0,0,0.5);
+        display: none;
+      }
+
+      #close-button {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        color: #fff;
+        font-size: 24px;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 0 0 0 48px;
+        border: none;
+        padding: 0 0 16px 16px;
+        top: 0;
+        right: 0;
+        display: none;
+      }
+
+      #banner-content.stretched #close-button {
+        display: initial;
+      }
+      </style>
+      <script>
+        var $ = window.parent.$, jQuery = window.parent.jQuery;
+        curWin = window.parent.window;
+        curDoc = window.parent.document;
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-132312-24', 'auto');
+        ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body>
+    <div id="banner-content">
+      <div class="banner-bg">
+        <div id="banner-condensed-bg" onclick="expandBanner(this)"></div>
+        <a href="http://mitsubishixpander.com/jadwal#schedule" target="_blank" onclick="clickBanner('Banner Mitsubshi Sept 2017','Click','landing mitsubitshi');" style="display: block;"><img id="banner-expanded-bg" src=""></div></a>
+      </div>
+      <button id="close-button" onclick="shrinkBanner(this)">&#10006;</button>
+    </div>
+    <script type="text/javascript">
+
+      $(curDoc).ready(function(){
+      var urlImageCondensed = 'https://s.kaskus.id/img/seasonal/september2017/tematik/wp_background_fbp36ziiyh3e.jpg';
+      var urlImageExpanded = 'https://s.kaskus.id/img/seasonal/september2017/tematik/wp_background_fbp36zijzkfn.jpg';
+
+      $(document.getElementById('banner-condensed-bg')).css('background-image', 'url(' + urlImageCondensed + ')');
+      $(document.getElementById('banner-expanded-bg')).attr('src', urlImageExpanded );
+
+      $('.jsExpandAds > iframe').on('classChange', function() {
+          var height = document.getElementById('banner-expanded-bg').height;
+          var message = {
+            'message': 'update-height',
+            'height': height + "px"
+          }
+
+          window.parent.postMessage(message, "*");
+      });
+      
+    });
+
+
+    function expandBanner(e) {
+
+      $(document.getElementById('banner-content')).addClass('stretched');
+      
+      $(document.getElementById('close-button')).show();
+
+      
+      resizeIframe('expand-banner');
+
+      clickBanner('Banner Mitsubshi Sept 2017','Click','expand');
+
+    }
+
+    function resizeIframe(msg)
+    {
+      var height = document.getElementById('banner-content').scrollHeight;
+      var message = {
+        'message': msg,
+        'height': height + "px"
+      }
+      window.parent.postMessage(message, "*");
+
+    }
+
+    function clickBanner(category,action,label){
+      ga('send', 'event', {'eventCategory' : category,'eventAction' :action,'eventLabel' : label});
+    }
+
+    function shrinkBanner(e) {
+      $(document.getElementById('banner-content')).removeClass('stretched');
+      $(document.getElementById('close-button')).hide();
+      resizeIframe('shrink-banner');
+
+    } 
+
+    $("body").prepend("<style>.jsExpandAds > iframe { height: 50px; width: 320px; transition: height 0.3s ease-out;}.jsExpandAds > iframe.stretched {  width: 100%;}</style>")
+
+    window.parent.addEventListener('message', function(e) {
+      // console.log(e);
+      var message = e.data.message;
+      var height = e.data.height;
+      // console.log("ini pas terima message" + height);
+      switch (message) {
+        case 'update-height':
+          $('.jsExpandAds > iframe').css('height', height);   
+          break;
+        case 'expand-banner':
+            $('.jsExpandAds > iframe').addClass('stretched').trigger('classChange'); 
+            break;
+        case 'shrink-banner':
+          $('.jsExpandAds > iframe').removeClass('stretched');$('.jsExpandAds > iframe').css('height', '50px');  break;
+        default:
+          break;
+      }
+
+    });
+
+    </script>
+  </body> 
+
+</html>
