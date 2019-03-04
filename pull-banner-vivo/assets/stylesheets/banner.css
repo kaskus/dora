@@ -1,0 +1,12 @@
+#ad-pull{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  max-width: 620px;
+  height: 50px;
+  z-index: 9999;
+}
+#ad-pull.stretched{
+  height: 100%;
+  transition: height 0.3s ease-in-out;
+}

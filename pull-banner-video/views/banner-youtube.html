@@ -14,7 +14,7 @@
                             <div class="invitation__ad--video--wrapper">
                                 <img src="../assets/images/bg-video.jpg"/>
                                 <div id="ad-video">
-                                    <iframe   src="https://www.youtube.com/embed/WHdYxRHkMfI?enablejsapi=1&version=3&playerapiid=ytplayer" width="300" height="198" allowscriptaccess="always" frameborder="0" allowfullscreen ></iframe>
+                                    <iframe src="https://www.youtube.com/embed/WHdYxRHkMfI?enablejsapi=1&version=3&playerapiid=ytplayer" width="300" height="198" allowscriptaccess="always" frameborder="0" allowfullscreen ></iframe>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +158,7 @@
 </style>
 <script>
     window.onload = function(e){
-        var xDown = null;                                                        
+        var xDown = null;
         var yDown = null;
 
         var iframe = document.getElementById('ad-video');
@@ -167,7 +167,7 @@
         registerEventHandlers();
         function registerEventHandlers() {
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);
-            document.getElementsByClassName('invitation__ad--link')[0].addEventListener('click', goTo);        
+            document.getElementsByClassName('invitation__ad--link')[0].addEventListener('click', goTo);
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
             document.getElementsByClassName('invitation__container--small')[0].addEventListener('click', stretchBanner, false);
 
@@ -183,12 +183,12 @@
                         break;
                 }
             });
-            
+
             showInstructionAd();
         }
 
         var stopVideo = function ( element ) {
-            
+
                 youtubeFunc = 'stopVideo';
                 youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
         };
@@ -196,13 +196,13 @@
         var startVideo = function ( element ) {
             youtubeFunc = 'playVideo';
             youtubeIframe.postMessage('{"event":"command","func":"' + youtubeFunc + '","args":""}', '*');
-            
+
 
         };
 
         function unregisterEventHandlers() {
             document.getElementsByClassName('invitation__ad--link')[0].addEventListener('click', goTo);
-            document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchstart', handleTouchStart);        
+            document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchstart', handleTouchStart);
             document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchmove', handleTouchMove);
             document.getElementsByClassName('invitation__container--small')[0].removeEventListener('click', stretchBanner);
             document.querySelectorAll('.invitation__close').forEach(function(el) {
@@ -235,7 +235,7 @@
         function goTo(){
             window.parent.postMessage({message: 'open-url', url: 'http://bkdelivery.id'}, '*');
         }
-        
+
         function removeBanner() {
             unregisterEventHandlers();
             window.parent.postMessage({message: 'remove-banner'}, '*');
@@ -246,16 +246,16 @@
         }
 
         function handleTouchStart(evt) {
-            xDown = evt.touches[0].clientX;                                      
-            yDown = evt.touches[0].clientY;                                      
-        };                                                
+            xDown = evt.touches[0].clientX;
+            yDown = evt.touches[0].clientY;
+        };
 
         function handleTouchMove(evt) {
             if ( ! xDown || ! yDown ) {
                 return;
             }
 
-            var xUp = evt.touches[0].clientX;                                    
+            var xUp = evt.touches[0].clientX;
             var yUp = evt.touches[0].clientY;
 
             var xDiff = xDown - xUp;
@@ -263,21 +263,21 @@
 
             if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
                 if ( xDiff > 0 ) {
-                    /* left swipe */ 
+                    /* left swipe */
                 } else {
                     /* right swipe */
-                }                       
+                }
             } else {
                 if ( yDiff > 0 ) {
-                    /* up swipe */ 
+                    /* up swipe */
                     stretchBanner();
-                } else { 
+                } else {
                     /* down swipe */
-                }                                                                 
+                }
             }
             /* reset values */
             xDown = null;
-            yDown = null;                                             
+            yDown = null;
         };
     }
 </script>

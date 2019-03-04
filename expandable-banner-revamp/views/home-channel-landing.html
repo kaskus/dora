@@ -7,6 +7,23 @@
       <link rel="stylesheet" href="../assets/stylesheets/main.css">
       <link rel="stylesheet" href="../assets/stylesheets/helper.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+      <style>
+      #ad-pull{
+
+
+}
+#ad-pull.stretched{
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  z-index: 9999;
+  height: 100%;
+  position: fixed;
+  transition: height 0.3s ease-in-out;
+}
+      </style>
   </head>
 
 	<body class="Bgc(#d9d9d9) C(#484848)">
@@ -30,7 +47,7 @@
 						<div id="jsSearchButton" class="C(#b3b3b3) Mx(8px)">
 							<i class="fas fa-search Fw(b) Fz(16px)"></i>
 						</div>
-				
+
 						<!-- IF LOGIN -->
 						<div class="Pos(r)" onclick="toggleProfile()">
 							<div class="W(22px) H(22px) Ov(h) Bdrs(50%) Bgc(#ddd) Mx(10px) Bd(sm-gray-border)">
@@ -38,7 +55,7 @@
 							</div>
 							<div class="Pos(a) Tt(u) Py(0) Px(5px) T(-3px) End(-4px) C(#fff) Bgc(#e4302f) Fz(9px) H(15px) Bdrs(9px) Lh(16px) W(auto)">99+</div>
 						</div>
-				
+
 						<!-- IF NOT LOGIN -->
 						<!-- <div>
 							<div><a href="#" class="C(#484848) Fz(14px) Fw(500) nightmode_C(#dcdcdc)" onclick="toggleLogin();">Masuk</a></div>
@@ -123,7 +140,7 @@
 			</div>
 			<div class="jsHeaderSeparator H(0) W(100%) Pt(75px)"></div>
 			<div class="Ta(c) My(10px) jsExpandAds">
-				<iframe id="" src="banner.html" width="100%" height="100%" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
+				<iframe id="ad-pull" src="pull.html" width="320" height="153" allowfullscreen="true" frameborder="none" scrolling="no"></iframe>
 			</div>
 
 			<!-- HOT THREAD SECTION -->
@@ -154,7 +171,7 @@
 									<i class="fas fa-ellipsis-h"></i>
 								</div>
 							</div>
-							
+
 							<div class="Pos(r) jsRevealShare D(n)">
 								<div class="Pos(a) End(10px) W(100%) Maw(200px) P(10px) Mt(5px) Bdrs(1px) Bgc(#fff) Z(10) T(-30px) Bxsh(shadowShare) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
 									<div class="D(f) Fz(14px) P(10px)">
@@ -221,9 +238,9 @@
 											<div class="Fz(14px) Fw(b)">
 												<!-- Podcast Mode -->
 												<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-												
+
 												<!-- Video Mode -->
-												<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+												<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 												<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 												<!-- TAG WOW DLL -->
 												<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -288,7 +305,7 @@
 												<i class="fas fa-ellipsis-h"></i>
 											</div>
 										</div>
-										
+
 										<div class="Pos(r) jsRevealShare D(n)">
 											<div class="Pos(a) End(10px) W(100%) Maw(200px) P(10px) Mt(5px) Bdrs(1px) Bgc(#fff) Z(10) T(-30px) Bxsh(shadowShare) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
 												<div class="D(f) Fz(14px) P(10px)">
@@ -355,9 +372,9 @@
 														<div class="Fz(14px) Fw(b)">
 															<!-- Podcast Mode -->
 															<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-															
+
 															<!-- Video Mode -->
-															<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+															<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 															<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 															<!-- TAG WOW DLL -->
 															<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -422,7 +439,7 @@
 															<i class="fas fa-ellipsis-h"></i>
 														</div>
 													</div>
-													
+
 													<div class="Pos(r) jsRevealShare D(n)">
 														<div class="Pos(a) End(10px) W(100%) Maw(200px) P(10px) Mt(5px) Bdrs(1px) Bgc(#fff) Z(10) T(-30px) Bxsh(shadowShare) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
 															<div class="D(f) Fz(14px) P(10px)">
@@ -489,9 +506,9 @@
 																	<div class="Fz(14px) Fw(b)">
 																		<!-- Podcast Mode -->
 																		<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-																		
+
 																		<!-- Video Mode -->
-																		<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+																		<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 																		<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 																		<!-- TAG WOW DLL -->
 																		<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -566,9 +583,9 @@
 																				<div class="Fz(14px) Fw(b)">
 																					<!-- Podcast Mode -->
 																					<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-																					
+
 																					<!-- Video Mode -->
-																					<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+																					<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 																					<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 																					<!-- TAG WOW DLL -->
 																					<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -602,7 +619,7 @@
 																					<i class="fas fa-ellipsis-h"></i>
 																				</div>
 																			</div>
-																			
+
 																			<div class="Pos(r) jsRevealShare D(n)">
 																				<div class="Pos(a) End(10px) W(100%) Maw(200px) P(10px) Mt(5px) Bdrs(1px) Bgc(#fff) Z(10) T(-30px) Bxsh(shadowShare) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
 																					<div class="D(f) Fz(14px) P(10px)">
@@ -669,9 +686,9 @@
 																							<div class="Fz(14px) Fw(b)">
 																								<!-- Podcast Mode -->
 																								<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-																								
+
 																								<!-- Video Mode -->
-																								<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+																								<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 																								<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 																								<!-- TAG WOW DLL -->
 																								<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -736,7 +753,7 @@
 																								<i class="fas fa-ellipsis-h"></i>
 																							</div>
 																						</div>
-																						
+
 																						<div class="Pos(r) jsRevealShare D(n)">
 																							<div class="Pos(a) End(10px) W(100%) Maw(200px) P(10px) Mt(5px) Bdrs(1px) Bgc(#fff) Z(10) T(-30px) Bxsh(shadowShare) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
 																								<div class="D(f) Fz(14px) P(10px)">
@@ -803,9 +820,9 @@
 																										<div class="Fz(14px) Fw(b)">
 																											<!-- Podcast Mode -->
 																											<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-																											
+
 																											<!-- Video Mode -->
-																											<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+																											<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 																											<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 																											<!-- TAG WOW DLL -->
 																											<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -870,7 +887,7 @@
 																											<i class="fas fa-ellipsis-h"></i>
 																										</div>
 																									</div>
-																									
+
 																									<div class="Pos(r) jsRevealShare D(n)">
 																										<div class="Pos(a) End(10px) W(100%) Maw(200px) P(10px) Mt(5px) Bdrs(1px) Bgc(#fff) Z(10) T(-30px) Bxsh(shadowShare) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
 																											<div class="D(f) Fz(14px) P(10px)">
@@ -937,9 +954,9 @@
 																													<div class="Fz(14px) Fw(b)">
 																														<!-- Podcast Mode -->
 																														<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-																														
+
 																														<!-- Video Mode -->
-																														<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+																														<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 																														<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 																														<!-- TAG WOW DLL -->
 																														<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -1014,9 +1031,9 @@
 																																<div class="Fz(14px) Fw(b)">
 																																	<!-- Podcast Mode -->
 																																	<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-																																	
+
 																																	<!-- Video Mode -->
-																																	<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+																																	<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 																																	<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 																																	<!-- TAG WOW DLL -->
 																																	<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -1050,7 +1067,7 @@
 																																	<i class="fas fa-ellipsis-h"></i>
 																																</div>
 																															</div>
-																															
+
 																															<div class="Pos(r) jsRevealShare D(n)">
 																																<div class="Pos(a) End(10px) W(100%) Maw(200px) P(10px) Mt(5px) Bdrs(1px) Bgc(#fff) Z(10) T(-30px) Bxsh(shadowShare) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
 																																	<div class="D(f) Fz(14px) P(10px)">
@@ -1117,9 +1134,9 @@
 																																			<div class="Fz(14px) Fw(b)">
 																																				<!-- Podcast Mode -->
 																																				<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-																																				
+
 																																				<!-- Video Mode -->
-																																				<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+																																				<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 																																				<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 																																				<!-- TAG WOW DLL -->
 																																				<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -1209,7 +1226,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<!-- INTERNAL CAMPAIGN WAP -->
 			<div class="W(100%) Py(5px) Ta(c)">
 				<a href="https://kaskus.co.id/?ref=homelanding&amp;med=internal_campaign">
@@ -1226,7 +1243,7 @@
 					<i class="fal fa-times"></i>
 				</a>
 			</div>
-			
+
 
 			<!-- OBROLAN HANGAT SECTION -->
 			<div class="c-obrolan-section__list Mb(6px) Bxsh(shadowSeparated)">
@@ -1242,9 +1259,9 @@
 						<div class="Fz(14px) Fw(b)">
 							<!-- Podcast Mode -->
 							<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-							
+
 							<!-- Video Mode -->
-							<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+							<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 							<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 							<!-- TAG WOW DLL -->
 							<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -1275,9 +1292,9 @@
 						<div class="Fz(14px) Fw(b)">
 							<!-- Podcast Mode -->
 							<!-- <span class="Va(m) D(n) is-no-image_D(ib) Bgi(podcast) nightmode_Bgi(podcast-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>  -->
-							
+
 							<!-- Video Mode -->
-							<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span> 
+							<span class="Va(m) D(n) is-no-image_D(ib) Bgi(icon-video) nightmode_Bgi(icon-video-night) W(15px) H(15px) Mend(5px) Bgr(nr) Bgp(c)"></span>
 							<span class="Va(m)">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit aliquam enim, sed facilisis ex sodales tempus. Maecenas at sapien ac libero interdum accumsan</span>
 							<!-- TAG WOW DLL -->
 							<span class="D(n) is-no-image_D(ib) Ff(fontVAGBold) Fz(10px) C(#000) Bgc(#f8e71c) Bdrs(5px) Px(5px) Pt(3px) Pb(0)">WOW</span>
@@ -1935,7 +1952,7 @@
 																	<div class="Flxs(0) H(100%) Ov(h) W(100%) Bgi(game) nightmode_Fil(whiteFilter) Bgr(nr) Bgp(c) Bgz(bgImageSize)"></div>
 																</div>
 																<div class="As(c) C(#484848) nightmode_C(#dcdcdc)">Game</div>
-															</a>	
+															</a>
 														</div>
 														<div class="D(f) Jc(sb) Py(5px)">
 															<a class="W(50%) Bgc(#f2f2f2) Mend(10px) Py(20px) Px(10px) D(f) nightmode_Bgc(#3f3f3f) is-channel" href="">
@@ -1963,7 +1980,7 @@
 																	<div class="Flxs(0) H(100%) Ov(h) W(100%) Bgi(sport) nightmode_Fil(whiteFilter) Bgr(nr) Bgp(c) Bgz(bgImageSize)"></div>
 																</div>
 																<div class="As(c) C(#484848) nightmode_C(#dcdcdc)">Sport</div>
-															</a>	
+															</a>
 														</div>
 														<div class="D(f) Jc(sb) Py(5px)">
 															<a class="W(50%) Bgc(#f2f2f2) Mend(10px) Py(20px) Px(10px) D(f) nightmode_Bgc(#3f3f3f) is-channel" href="">
@@ -1991,7 +2008,7 @@
 																	<div class="Flxs(0) H(100%) Ov(h) W(100%) Bgi(video-day) nightmode_Fil(whiteFilter) Bgr(nr) Bgp(c) Bgz(bgImageSize)"></div>
 																</div>
 																<div class="As(c) C(#484848) nightmode_C(#dcdcdc)">Video</div>
-															</a>	
+															</a>
 														</div>
 													</div>
 												</div>
@@ -2067,7 +2084,7 @@
 															</div>
 															<div class="W(50%)">
 																<a class="C(#484848) nightmode_C(#dcdcdc)" href="">Kumparan</a>
-															</div>		
+															</div>
 														</div>
 														<div class="Py(10px) D(f) Jc(sb) Fz(13px) Lh(20px)">
 															<div class="W(50%)">
@@ -2075,7 +2092,7 @@
 															</div>
 															<div class="W(50%)">
 																<a class="C(#484848) nightmode_C(#dcdcdc)" href="">Kurio</a>
-															</div>		
+															</div>
 														</div>
 														<div class="Py(10px) D(f) Jc(sb) Fz(13px) Lh(20px)">
 															<div class="W(50%)">
@@ -2083,7 +2100,7 @@
 															</div>
 															<div class="W(50%)">
 																<a class="C(#484848) nightmode_C(#dcdcdc)" href="">Opini.id</a>
-															</div>		
+															</div>
 														</div>
 														<div class="Py(10px) D(f) Jc(sb) Fz(13px) Lh(20px)">
 															<div class="W(50%)">
@@ -2091,7 +2108,7 @@
 															</div>
 															<div class="W(50%)">
 																<a class="C(#484848) nightmode_C(#dcdcdc)" href="">Tiket.com</a>
-															</div>		
+															</div>
 														</div>
 														<div class="Py(10px) D(f) Jc(sb) Fz(13px) Lh(20px)">
 															<div class="W(50%)">
@@ -2099,12 +2116,12 @@
 															</div>
 															<div class="W(50%)">
 																<a class="C(#484848) nightmode_C(#dcdcdc)" href="">Womantalk</a>
-															</div>		
+															</div>
 														</div>
 														<div class="Py(10px) D(f) Jc(sb) Fz(13px) Lh(20px)">
 															<div class="W(50%)">
 																<a class="C(#484848) nightmode_C(#dcdcdc)" href="">Kincir</a>
-															</div>		
+															</div>
 														</div>
 													</div>
 												</div>
@@ -2661,7 +2678,30 @@
 		</div>
 	<script src="../assets/javascripts/vendor.min.js"></script>
 	<script src="../assets/javascripts/main.min.js"></script>
-	<script src="../assets/javascripts/onboarding.min.js"></script>
+	<script>
+  window.addEventListener('message', function(e) {
+  var message = e.data.message;
+  switch (message) {
+    case 'remove-banner':
+      $('#ad-pull').remove();
+      $(document.body).css('overflow', 'auto');
+      break;
+    case 'stretch-banner':
+      $('#ad-pull').addClass('stretched');
+      $(document.body).css('overflow', 'hidden');
+      break;
+    case 'shrink-banner':
+      $('#ad-pull').removeClass('stretched');
+      $(document.body).css('overflow', 'auto');
+      break;
+    case 'open-url':
+      window.location.href = e.data.url;
+      break;
+    default:
+      break;
+  }
+});
+
+  </script>
  </body>
 </html>
-
