@@ -1,0 +1,1376 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+      <meta charset='utf-8'>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+      <title>KASKUS 2018</title>
+      <link rel="stylesheet" href="../assets/stylesheets/main.min.css">
+      <!-- <script src="../assets/javascripts/vendor/jquery.min.js"></script> -->
+      <!-- <link rel="stylesheet" href="../assets/stylesheets/helper.css"> -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+  </head>
+
+	<body class="Bgc(#d9d9d9) C(#484848)">
+	<div class="Maw(620px) Mx(a) Mih(100vh) ">
+	<div class="Maw(620px) Bgc(#fffee9) D(b) Ta(c) Va(m) W(100%) P(5px) nightmode_Bgc(#fffee9) jsNoticeHeader">
+		<a class="C(#1998ed) As(c) Va(m) D(ib)" href="">Gak Bisa Move On</a>
+	</div>
+	<div class="Z(12) T(0) W(100%) Pos(f) jsHeader">
+		<div class="Maw(620px) Bgc(#fff) D(f) H(40px) Jc(sb) Px(10px) W(100%) Z(99) Bdc(#d4d4d4) nightmode_Bdc(#3f3f3f) top-header T(0) Pos(r) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
+			<div class="D(f) Ai(c) C(#b3b3b3) nightmode_C(#dcdcdc)">
+				<a class="Fz(18px) C(#b3b3b3)" onclick="toggleNavBar()"><i class="fas fa-bars"></i></a>
+				<a class="W(128px) H(19px) Bgi(kaskus-logo) nightmode_Bgi(kaskus-logo-white)  Bgz(ct) Bgp(c) Bgr(nr) Mstart(10px) channel_Bgi(kaskus-icon) channel_W(22px) channel_H(22px) channel_Mstart(15px)"></a>
+				<span class="D(n) channel_D(b) Mstart(14px) C(#484848) Fz(18px) Fw(500) nightmode_C(#dcdcdc)">Tech</span>
+			</div>
+			<div class="Ai(c) D(f)">
+				<div id="jsSearchButton" class="C(#b3b3b3) Mx(6px) Fz(16px)">
+					<i class="fas fa-search"></i>
+				</div>
+				<div class="Mx(6px) C(#b3b3b3)" onclick="toggleCreate()">
+					<span>
+						<i class="far fa-pencil-alt"></i>
+					</span>
+				</div>
+				<div class="Pos(r)" onclick="toggleNotification();">
+					<div class="C(#b3b3b3) Fz(16px) Mx(6px)">
+						<i class="fal fa-bell"></i>
+					</div>
+					<div class="Pos(a) Tt(u) P(0) T(0) End(5px) C(#fff) Bgc(#e4302f) Fz(9px) H(8px) W(8px) Bdrs(50%) Lh(16px) W(auto)"></div>
+				</div>
+		
+				<!-- IF LOGIN -->
+				<div class="Pos(r)" onclick="toggleProfile()">
+					<div class="W(22px) H(22px) Ov(h) Bdrs(50%) Bgc(#ddd) Mx(10px) Bd(sm-gray-border)">
+						<img src="https://s.kaskus.id/r30x30/user/avatar/2011/07/22/avatar3225325_6.gif" class="W(100%) H(100%)" id="CssProfPic"></img>
+					</div>
+				</div>
+		
+				<!-- IF NOT LOGIN -->
+				<!-- <div>
+					<div><a href="#" class="C(#484848) Fz(14px) Fw(500) nightmode_C(#dcdcdc)" onclick="toggleLogin();">Masuk</a></div>
+				</div> -->
+			</div>
+		</div>
+		
+		<form action="/search/forum" id="searchform" class="D(n) Bgc(white) Pos(f) W(100%) Maw(620px) Z(98) nightmode_Bgc(#171717) nightmode_C(#dcdcdc) Bdc(#ebebeb) nightmode_Bdc(#444)">
+				<div class="P(10px) D(f)">
+					<input id="global-search" placeholder="Cari di sini" class="Bgc(#ebebeb) Bdrs(3px) C(#6e6e6e) Py(5px) Pstart(7px) Pend(10px) W(80%) Bd Bdc(#ebebeb) nightmode_Bdc(#444) Fz(13px) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
+					<a class="C(#6e6e6e) As(c) Ta(c) W(20%) Fw(600) Td(n):h Cur(p):h nightmode_C(#ddd)" id="jsSearchCancelButton">Batal</a>
+					<ul class="global-search-results Bgc(#fff) Pos(a) D(n) Start(0) End(0) T(40px) Ta(start Z(10) P(0) M(0) Mah(285px) Ovy(a) Mt(10px) nightmode_Bgc(##171717)">
+						<div id="history_search">
+							<div class="D(f) Jc(sb) C(#b3b3b3) Pt(10px) Px(10px) Fz(13px) Mt(5px)">
+								<div>Riwayat Pencarian</div>
+								<div onclick="remove_search_history(); return false;">Hapus Semua</div>
+							</div>
+							<div id="history_search_choice">
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+							</div>
+						</div>
+						<div id="top_search">
+							<div class="D(f) Jc(sb) C(#b3b3b3) Pt(10px) Px(10px) Fz(13px)">
+								<div>Pencarian Terpopuler</div>
+							</div>
+							<div id="history_search_choice">
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+								<li><a class="D(b) Px(10px) Py(5px) C(#6e6e6e) Fz(14px) nightmode_C(#dcdcdc)" href="">Sundul Dunia</a></li>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</form>
+		<div id="JsCatBar" class="Ai(c) Bgc(#1998ed) C(white) D(f) Jc(sb) Maw(620px) W(100%) nightmode_Bgc(#202020) nightmode_C(#dcdcdc) Ov(h) nightmode_Bdt(night-border) Pos(r)">
+					<div class="D(f) Jc(c) Ai(c) Fz(13px) P(9px) Px(10px) Cur(p) jsContainerCat Fx(flex0Auto)" onclick="toggleCategory()">
+						<span class="Fz(13px)--xs  Fz(13px)--sm Fz(13px)--md Mend(8px)">KATEGORI</span>
+						<i class="fas fa-angle-down Mstart(5px)"></i>
+					</div>
+					<div class="D(f) Fz(11px)--xs Fz(11px)--sm Fz(11px)--md Maw(90%) Jc(c) Ovy(h) jsBotScroll Fx(flex1Auto)">
+						<div class="Ai(c) C(#fff) Fld(r) D(f) W(100%) Whs(nw) Fz(12px) nightmode_Bgc(transparent) nightmode_C(#dcdcdc) Tt(u)">
+							<div id="sub-cat-text" class="D(f) Pos(r) Trs(transitionTransform) W(100%)">
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">Story</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">Hobby</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">Game</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">Entertainment</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">Sundul Dunia</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">Games</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">Berita dan Politik</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">SFTH</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">Akun Premium</a>
+								</div>
+								<div class="P(10px) Px(15px) Fx(flex0Auto)">
+									<a class="D(ib)">GOSIPP</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+	</div>
+	<div class="Bgc(white) C(#484848) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
+			<div class="D(f) Jc(sb) Mb(15px) Py(10px) Px(15px) BdB Bdc(#f2f2f2) nightmode_Bdc(#3f3f3f)">
+				<div class="H(35)">
+					<i class="far fa-angle-left Mend(5px) C(#b3b3b3) Fz(20px)"></i>
+					<span class="Fz(14px)">Image</span>
+				</div>
+				<div class="D(f) Ai(c)">
+					<i class="fas fa-bookmark  C(#fac246)"></i>
+				</div>
+			</div>
+			<div class="D(f) Jc(sb) Mb(15px) Px(15px)">
+				<div class="W(20%) Ac(c) D(f) Jc(c) Ai(c)">
+					<div class="W(60px) H(60px)">
+						<img src ="../assets/images/image-21.png">
+					</div>
+				</div>
+				<div class="W(80%)">
+					<h1 class="Fz(14px) Fw(b)">Image</h1>
+					<p>No Pic, HOAX!</p>
+				</div>
+			</div>
+			<div class="D(f) Jc(sb) Py(15px) Px(15px) BdT Bdc(#f2f2f2) nightmode_Bdc(#3f3f3f)">
+				<div class="Fz(13px) Fw(b)">
+					#IndonesiaBagus
+				</div>
+				<div class="C(#1998ed) nightmode_C(#fdba4d)">
+					Gambar Lainnya
+				</div>
+			</div>
+			<div class="Mb(15px) W(100%)">
+				<img src="https://s.kaskus.id/img/seasonal/august2017/tematik/wp_background_fbozfoh96opm.png">
+			</div>
+			<div class="D(f) Fxw(w) Jc(sb) Pstart(15px) BdB Bdc(#f2f2f2) nightmode_Bdc(#3f3f3f)">
+				<div class="W(50%) Pend(15px) Mb(10px))">
+					<img src="../assets/images/ht_image.jpg" class="Mb(15px)">
+					<span class="Fw(b)">Permainan Unik di Nusantara #IndonesiaBagus</span>
+				</div>
+				<div class="W(50%) Pend(15px) Mb(10px)">
+					<img src="../assets/images/ht_image.jpg" class="Mb(15px)">
+					<span class="Fw(b)">Permainan Unik di Nusantara #IndonesiaBagus</span>
+				</div>
+				<div class="W(50%) Pend(15px) Mb(10px)">
+					<img src="../assets/images/ht_image.jpg" class="Mb(15px)">
+					<span class="Fw(b)">Permainan Unik di Nusantara #IndonesiaBagus</span>
+				</div>
+				<div class="W(50%) Pend(15px) Mb(10px)">
+					<img src="../assets/images/ht_image.jpg" class="Mb(15px)">
+					<span class="Fw(b)">Permainan Unik di Nusantara #IndonesiaBagus</span>
+				</div>
+			</div>
+			<div class="D(f) Jc(sb) Py(10px) Px(15px)">
+				<div class="Fz(13px) Fw(b)">
+					Trending
+				</div>
+			</div>
+			<div class="D(f) Fxw(w) Mb(15px)">
+				<div class="D(f) Flw(w) BdB Bdc(#f2f2f2) Px(15px) nightmode_Bdc(#3f3f3f)">
+					<a href="#" class="Py(3px) Px(10px) Bgc(#f2f2f2) C(#b3b3b3) Bdrs(3px) Mend(10px) Mb(10px) nightmode_Bgc(#3f3f3f) nightmode_C(#fdba4d)">#Kocak</a>
+					<a href="#" class="Py(3px) Px(10px) Bgc(#f2f2f2) C(#1998ed) Bdrs(3px) Mend(10px) Mb(10px) nightmode_Bgc(#3f3f3f) nightmode_C(#b3b3b3)">#JelajahBudaya</a>
+					<a href="#" class="Py(3px) Px(10px) Bgc(#f2f2f2) C(#b3b3b3) Bdrs(3px) Mend(10px) Mb(10px) nightmode_Bgc(#3f3f3f) nightmode_C(#b3b3b3)">#Nusantara</a>
+					<a href="#" class="Py(3px) Px(10px) Bgc(#f2f2f2) C(#b3b3b3) Bdrs(3px) Mend(10px) Mb(10px) nightmode_Bgc(#3f3f3f) nightmode_C(#b3b3b3)">#Kocak</a>
+					<a href="#" class="Py(3px) Px(10px) Bgc(#f2f2f2) C(#b3b3b3) Bdrs(3px) Mend(10px) Mb(10px) nightmode_Bgc(#3f3f3f) nightmode_C(#b3b3b3)">#PulauJawa</a>
+					<a href="#" class="Py(3px) Px(10px) Bgc(#f2f2f2) C(#b3b3b3) Bdrs(3px) Mend(10px) Mb(10px) nightmode_Bgc(#3f3f3f) nightmode_C(#b3b3b3)">#SayaMerdeka</a>
+					<a href="#" class="Py(3px) Px(10px) Bgc(#f2f2f2) C(#b3b3b3) Bdrs(3px) Mend(10px) Mb(10px) nightmode_Bgc(#3f3f3f) nightmode_C(#b3b3b3)">#17Agustusan</a>
+				</div>
+			</div>
+			<div class="D(f) Mb(15px) Px(15px)">
+				<div class="Bgc(#1998ed) P(8px) C(white) Bdrs(3px) Mend(15px) nightmode_Bgc(#fdba4d) nightmode_C(#171717)">Upload Gambar</div>
+				<div class="Bgc(white) P(8px) C(#ff7100) Bdrs(3px) Bd Bdc(#ff7100) nightmode_Bgc(#171717) nightmode_Bdc(#fdba4d) nightmode_C(#fdba4d)">Subscribe</div>
+			</div>
+			<div class="D(f) Jc(sb) Px(15px) Py(5px)">
+				<div class="Fz(13px)"  id="jsDropdownArrow">
+					<span class="Mend(15px) C(#1998ed) Fw(b) nightmode_C(#fdba4d)">Active</span>
+					<i class="far fa-angle-down"></i>
+				</div>
+				<div class="D(f)">
+					<div id="jsListButton">
+						<i class="far fa-list-ul Mend(15px) is-hide_C(#b3b3b3)! nightmode_C(#fdba4d) C(#1998ed)"></i>
+					</div>
+					<div id="jsGridButton" class="is-hide">
+						<i class="fas fa-th-large is-hide_C(#b3b3b3)! nightmode_C(#fdba4d) C(#1998ed)" id="jsGridButton"></i>
+					</div>
+				</div>
+			</div>
+			<div class="list-type jsContentList">
+				<!--HT1-->
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#white) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(white) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(#d8d8d8) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(#d8d8d8) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(#d8d8d8) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(#d8d8d8) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(#d8d8d8) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--HT2-->
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(#d8d8d8) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(#f8e4e5)">
+					<div class="Bgc(#f8e4e5)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed)"><i class="fas fa-thumbs-up Mend(5px)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px)"><i class="fab fa-facebook-f Mend(5px)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px)"><i class="fab fa-twitter Mend(5px)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(#f8e4e5)">
+					<div class="Bgc(#f8e4e5)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed)"><i class="fas fa-thumbs-up Mend(5px)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px)"><i class="fab fa-facebook-f Mend(5px)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px)"><i class="fab fa-twitter Mend(5px)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(#d8d8d8) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="W(100%) BdB Bdc(#f2f2f2) Pt(15px) Bgc(#d8d8d8) list-type_Bgc(white) nightmode_Bgc(#171717) grid-type_Bgc(#d8d8d8) nightmode_Bdc(#3f3f3f)">
+					<div class="Bgc(white) nightmode_Bgc(#171717)">
+						<div class="W(100%) list-type_D(n)">
+							<img src="../assets/images/ht_image.jpg"></img>
+						</div>
+						<div class="D(f) grid-type_Pt(10px)">
+							<div class="grid-type_D(n) Pstart(15px) Mb(10px)">
+								<div class="W(80px) H(80px) Bgz(cv) Bdrs(5px) Ov(h)">
+									<img src="../assets/images/ht_image.jpg" class="H(100%)"></img>
+								</div>
+							</div>
+							<div>
+								<div class="D(f) Jc(sb) Pb(10px) Px(15px)">
+									<p class="C(#9e9e9e)">by gegep, 11 nov 2015</p>
+									<div class="W(14px) H(14px)">
+										<img src="../assets/images/image-21.png">
+									</div>
+								</div>
+								<div class="D(f) Pb(10px) Px(15px)">
+									<p class="Fz(13px)"><i class="fas fa-thumbtack C(#ed1c24) Mend(5px)"></i>[Stotm] Udah Baca 10 Cerita Terpopuler di Stories of The Month Edisi Ini Belum Gan?</p>
+								</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Px(15px) Pb(10px) BdB Bdc(#f2f2f2) Mb(10px) list-type_D(n) nightmode_Bdc(#3f3f3f)">
+							<div class="Bgc(white) P(8px) C(#1998ed) Bdrs(3px) Bd Bdc(#1998ed) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fas fa-thumbs-up Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Ntap</div>
+							<div class="D(f) Jc(sb)">
+								<div class="Bgc(white) P(8px) C(#3b5998) Bdrs(3px) Bd Bdc(#3b5998) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-facebook-f Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Share</div>
+								<div class="Bgc(white) P(8px) C(#1da1f2) Bdrs(3px) Bd Bdc(#1da1f2) Mstart(10px) nightmode_Bgc(#171717) nightmode_C(#fdba4d) nightmode_Bdc(#fdba4d)"><i class="fab fa-twitter Mend(5px) nightmode_Bgc(#171717) nightmode_C(#fdba4d)"></i>Tweet</div>
+							</div>
+						</div>
+						<div class="D(f) Jc(sb) Pb(10px) C(#b3b3b3) Px(15px)">
+							<div class="D(f) Jc(sb) W(70%)">
+								<div class="W(33%)">
+									<i class="far fa-eye Mend(5px)"></i>
+									5k
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-reply Mend(5px)"></i>
+									99
+								</div>
+								<div class="W(33%)">
+									<i class="fas fa-thumbs-up Mend(5px)"></i>
+									5
+								</div>
+							</div>
+							<div class="30%">
+								Last Post
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="D(f) Jc(sb) Py(5px) Bgc(#f2f2f2) Px(15px) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
+					<div class="D(f) Ai(c)">
+						Page 1 of 2
+					</div>
+					<div class="D(f) P(5px) Pend(0)">
+						<div class="Bdrs(3px) Bgc(white) Px(5px) Py(2px) Mx(5px) nightmode_Bd nightmode_Bdc(#fdba4d) nightmode_Bgc(#171717) nightmode_C(#fdba4d)">1</div>
+						<div class="Bdrs(3px) Bgc(white) Px(5px) Py(2px) Mx(5px) currentPagination">2</div>
+						<div class="Bdrs(3px) Bgc(white) Px(5px) Py(2px) Mx(5px) nightmode_Bd nightmode_Bdc(#fdba4d) nightmode_Bgc(#171717) nightmode_C(#fdba4d)">3</div>
+						<div class="Bdrs(3px) Bgc(white) Px(5px) Py(2px) Mx(5px) nightmode_Bd nightmode_Bdc(#fdba4d) nightmode_Bgc(#171717) nightmode_C(#fdba4d)">4</div>
+						<div class="Bdrs(3px) Bgc(white) Px(5px) Py(2px) Mx(5px) Mend(0) nightmode_Bd nightmode_Bdc(#fdba4d) nightmode_Bgc(#171717) nightmode_C(#fdba4d)">5</div>
+					</div>
+				</div>
+				<a href="#">
+					<div class="W(100%) BdY Bdc(#f2f2f2) Py(15px) Px(15px) D(f) nightmode_Bdc(#3f3f3f)">
+						<div class="Bgc(#1998ed) P(8px) C(white) Bdrs(3px) Mend(15px) nightmode_Bgc(#fdba4d) nightmode_C(#171717)">Upload Gambar</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	<div id="jsProfile" class="modal Pos(f) T(0) W(100%) H(100%) Maw(620px) Bgc(white) Ovy(s) Fz(13) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
+				<div class="Bgc(#1998ed) C(white) Pos(f) W(100%)  nightmode_Bgc(#202020) nightmode_C(#ddd) Z(2)">
+					<div class="D(f) Jc(c) Bxsh(category-shadow) H(40px) Ai(c) Py(5px) Pos(r) ">
+						<div class="Fw(700) Py(5px) Fz(16px)">Profile</div>
+						<div>
+							<a href="#" class="Pos(a) T(0) End(10px) P(5px) Pend(10px) Fz(20px) C(white)" onclick="toggleProfile();"><i class="far fa-times"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="Pt(40px) Pos(f) H(100%) Ovy(a) W(100%)">
+					<div class="is-open_Trf(modalOpen) is-open_Op(1) Op(0) Trsde(250ms) Trsdu(800ms) Trf(modalDefault) Trstf(transitionCubicBezier) Bgc(white) C(#555) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
+						<div>
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="H(20px) Mend(10px) W(20px)">
+									<img src="../assets/images/hot_review_image.jpg" class="Bd(md-gray-border) Bdrs(20px) Flxs(0) H(100%) Ov(h) W(100%)">
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Username</span>
+							</a>
+						</div>
+						<div class="Bgc(#fffce1) BdY Bdc(#f9bbd0) C(red) nightmode_Bdc(#fbc160) nightmode_C(#dcdcdc) nightmode_Bgc(#171717)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="H(20px) Mend(10px) Miw(20px) W(20px)">
+									<img src="../assets/images/icon-chat-white.svg" class="Bdrs(20px) Flxs(0) H(100%) Ov(h) W(100%)">
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Upgrade Akun ke Plus</span>
+							</a>
+						</div>
+						<div class="">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="Mend(10px) Miw(16px) Ac(c) nightmode_C(#dcdcdc)">
+									<i class="fal fa-bell Fz(16px) Mend(6px)"></i>
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Notifications</span>
+								<span class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">10</span>
+							</a>
+						</div>
+						<div class="">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="Mstart(30px) nightmode_C(#dcdcdc)">New Private Message</span>
+								<span class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">10</span>
+							</a>
+						</div>
+						<div class="jsAccordionItem">
+							<a class="P(15px) D(f) Jc(sb) Ai(c) Td(n):h Cur(p):h jsAccordionHeading menu" href="javascript:void(0);">
+								<div class="D(f) Jc(fs)">
+									<div class="Mstart(30px) C(#555) nightmode_C(#dcdcdc)">Transaksi Pembelian</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">100k</div>
+								</div>
+								<div class="Lh(12px) C(#d4d4d4)"><i class="fa fa-chevron-down"></i></div>
+							</a>
+							<div class="Px(60px) jsAccordionContent D(n)">
+								<div class="D(f) Jc(fs) Py(10px)">
+									<div class="nightmode_C(#dcdcdc)">Nego Ditolak</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">190</div>
+								</div>
+								<div class="D(f) Jc(fs) Py(10px)">
+									<div class="nightmode_C(#dcdcdc)">Tunggu Pembayaran</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">99</div>
+								</div>
+								<div class="D(f) Jc(fs) Py(10px)">
+									<div class="nightmode_C(#dcdcdc)">Konfirmasi Terima</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">87</div>
+								</div>
+								<div class="D(f) Jc(fs) Py(10px)">
+									<div class="nightmode_C(#dcdcdc)">Lihat Pengaduan</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">56</div>
+								</div>
+							</div>
+						</div>
+						<div class="jsAccordionItem Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(sb) Ai(c) Td(n):h Cur(p):h jsAccordionHeading menu" href="javascript:void(0);">
+								<div class="D(f) Jc(fs)">
+									<div class="Mstart(30px) C(#555) nightmode_C(#dcdcdc)">Transaksi Penjualan</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">10</div>
+								</div>
+								<div class="Lh(12px) C(#d4d4d4)"><i class="fa fa-chevron-down"></i></div>
+							</a>
+							<div class="Px(60px) jsAccordionContent D(n)">
+								<div class="D(f) Jc(fs) Py(10px)">
+									<div class="nightmode_C(#dcdcdc)">Respon Pesanan</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">190</div>
+								</div>
+								<div class="D(f) Jc(fs) Py(10px)">
+									<div class="nightmode_C(#dcdcdc)">Isi Resi</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">99</div>
+								</div>
+								<div class="D(f) Jc(fs) Py(10px)">
+									<div class="nightmode_C(#dcdcdc)">Ada Pengaduan</div>
+									<div class="Bgc(#f4f3f1) C(#f2ac00) Mstart(5px) Px(5px) nightmode_Bgc(#dcdcdc) nightmode_C(#171717)">87</div>
+								</div>
+							</div>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="Px(15px) Pt(15px) Pb(10px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h C(#484848) nightmode_C(#dcdcdc)">
+								<span class="H(20px) Mend(10px) Miw(20px) W(20px) Ac(c) nightmode_C(#dcdcdc">
+									<img src="../assets/images/icon-poin.svg" class="Bdrs(20px) Flxs(0) H(100%) Ov(h) W(100%)">
+								</span>
+								<span class="nightmode_C(#dcdcdc)">KASKUS Plus</span>
+							</a>
+							<div class="Px(45px) Pb(15px) C(#faa517)">
+								<time>09/10/2018 20:45</time>
+							</div>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="H(20px) Mend(10px) Miw(20px) W(20px) Ac(c) nightmode_C(#dcdcdc">
+									<img src="../assets/images/icon-creator.svg" class="Bdrs(20px) Flxs(0) H(100%) Ov(h) W(100%)">
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Kreator</span>
+							</a>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="H(20px) Mend(10px) Miw(20px) W(20px) Ac(c) nightmode_C(#dcdcdc">
+									<img src="../assets/images/icon-poin.svg" class="Bdrs(20px) Flxs(0) H(100%) Ov(h) W(100%)">
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Poin</span>
+							</a>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="H(20px) Mend(10px) Miw(20px) W(20px) Ac(c) nightmode_C(#dcdcdc">
+									<img src="../assets/images/icon-live-posting.svg" class="Bdrs(20px) Flxs(0) H(100%) Ov(h) W(100%)">
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Live Posting</span>
+								<span class="C(#fff) Bgc(#e4302f) Px(5px) Mstart(5px)">New</span>
+							</a>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="Mend(10px) Miw(16px) Ac(c) nightmode_C(#dcdcdc)">
+									<i class="fal fa-comments Fz(16px) Mend(6px)"></i>
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Forum Activities</span>
+							</a>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="Mend(10px) Miw(16px) Ac(c) nightmode_C(#dcdcdc)">
+									<i class="fal fa-shopping-cart H(16px) Mend(6px) W(16px)"></i>
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Jual Beli Activities</span>
+							</a>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="H(20px) Mend(10px) Miw(20px) W(20px) Ac(c) nightmode_C(#dcdcdc)">
+									<img src="../assets/images/icon-chat-white.svg" class="Bdrs(20px) Flxs(0) H(100%) Ov(h) W(100%)">
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Pasang Iklan</span>
+							</a>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="Mend(10px) Miw(16px) Ac(c) nightmode_C(#dcdcdc)">
+									<i class="fal fa-envelope H(16px) Mend(6px) W(16px)"></i>
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Private Message</span>
+							</a>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="Mend(10px) Miw(16px) Ac(c) nightmode_C(#dcdcdc)">
+									<i class="fal fa-cog H(16px) Mend(6px) W(16px)"></i>
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Account Setting</span>
+							</a>
+						</div>
+						<div class="Bdb(light-gray-header-border) nightmode_Bdb(night-border)">
+							<a class="P(15px) D(f) Jc(fs) Ai(c) Td(n):h Cur(p):h">
+								<span class="Mend(10px) Miw(16px) Ac(c) nightmode_C(#dcdcdc)">
+									<i class="fal fa-sign-out H(16px) Mend(6px) W(16px)"></i>
+								</span>
+								<span class="nightmode_C(#dcdcdc)">Keluar</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	<div id="jsCategory" class="modal Pos(f) T(0) W(100%) Maw(620px) H(100%) C(#484848) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
+					<div class="Pos(f) W(100%) Bgc(white) Maw(620px) Z(2)" id="jsCatHeader">
+						<div class="D(f) Jc(c) Bgc(#1998ed) C(white) Bxsh(category-shadow) H(40px) Pos(r) Ai(c) Py(5px) nightmode_Bgc(#202020) nightmode_C(#dcdcdc)">
+							<div class="Fw(700) Py(5px)">Kategori</div>
+							<a href=# class="Pos(a) T(0) End(10px) P(5px) Fz(20px) C(white) nightmode_C(#dcdcdc)" onclick="toggleCategory()"><i class="far fa-times"></i></a>
+						</div>
+						<div class="Bgc(#ededed) D(f) Jc(sb) Ai(c) Ta(c) C(#484848) nightmode_Bgc(#202020) nightmode_C(#dcdcdc)">
+							<div class="W(50%)">
+								<div class="W(100%) Py(10px) Fw(600) active-forum" id="forum-tab">
+									Forum
+								</div>
+							</div>
+							<div class="W(50%)">
+								<div class="W(100%) Py(10px) Fw(600)" id="fjb-tab">
+									Jual Beli
+								</div>
+							</div>
+						</div>
+						<div class="Bgc(white) D(f) Jc(sb) Ai(c) Ta(c) C(#484848) Bgc(#ededed) nightmode_Bgc(#171717)" id="filter-cat-forum">
+							<div class="P(10px) W(100%) nightmode_C(#dcdcdc)">
+								<input class="Bgc(#ededed) Bdrs(3px) W(100%) Ta(c) P(5px) Fz(14px) nightmode_Bgc(#171717) nightmode_C(#dcdcdc) Bd(n) nightmode_Bd nightmode_Bdc(#444)" placeholder="Cari Kategori">
+							</div>
+						</div>
+					</div>
+					<div class="Pt(125px) Bgc(white) Pos(f) H(100%) Ovy(s) W(100%) Maw(620px) open nightmode_Bgc(#171717) jsCategoryItem nightmode_C(#dcdcdc)" id="jsCategoryForum">
+						<div class="is-open_Trf(modalOpen) is-open_Op(1) Op(0) Trsde(250ms) Trsdu(800ms) Trf(modalCatDefault) Trstf(transitionCubicBezier) Trsp(transformOpacity) H(100%) c-category__item">
+							<div class="Bdb Bdc(#f3f3f3) nightmode_Bdc(#3f3f3f)">
+								<div class="P(10px)">
+									<i class="fas fa-bookmark Mend(5px) C(#fdba4d) Lh(28px)"></i>
+									<span class="Fw(b)">Subscribed Forum</span>
+								</div>
+							</div>
+							<div class="Bdb Bdc(#f3f3f3) nightmode_Bdc(#3f3f3f)">
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Beauty</span>
+								</div>
+							</div>
+							<div class="Bgc(#ededed) C(#484848) BdT Bdc(#bdbdbd) nightmode_Bgc(#202020) nightmode_C(#fdba4d) nightmode_Bdc(#3f3f3f)">
+								<div class="Fw(b) P(10px)">
+									<span>A</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Aceh</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Aceh</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+										<span>Aceh</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Aceh</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Aceh</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Aceh</span>
+								</div>
+							</div>
+							<div class="Bgc(#ededed) C(#484848) BdT Bdc(#bdbdbd) nightmode_Bgc(#202020) nightmode_C(#fdba4d) nightmode_Bdc(#3f3f3f)">
+								<div class="Fw(b) P(10px)">
+									<span>B</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span> B-Log Collections </span>
+								</div>
+							</div>
+							<div class="Bgc(#ededed) C(#484848) BdT Bdc(#bdbdbd) nightmode_Bgc(#202020) nightmode_C(#fdba4d) nightmode_Bdc(#3f3f3f)">
+								<div class="Fw(b) P(10px)">
+									<span>C</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="Pt(125px) Bgc(white) Pos(f) H(100%) Ovy(s) W(100%) Maw(620px) nightmode_Bgc(#171717) jsCategoryItem" id="jsCategoryFjb">
+						<div class="is-open_Trf(modalOpen) is-open_Op(1) Op(0) Trsde(250ms) Trsdu(800ms) Trf(modalCatDefault) Trstf(transitionCubicBezier) Trsp(transformOpacity) c-category__item">
+							<div class="Bdb Bdc(#f3f3f3) nightmode_Bdc(#3f3f3f)">
+								<div class="P(10px)">
+									<i class="fas fa-bookmark Mend(5px) C(#fdba4d)"></i>
+									<span class="Fw(b)">Subscribed JB</span>
+								</div>
+							</div>
+							<div class="Bdb Bdc(#f3f3f3) nightmode_Bdc(#3f3f3f)">
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Beauty</span>
+								</div>
+							</div>
+							<div class="Bgc(#ededed) C(#484848) BdT Bdc(#bdbdbd) nightmode_Bgc(#202020) nightmode_C(#fdba4d) nightmode_Bdc(#3f3f3f)">
+								<div class="Fw(b) P(10px)">
+									<span>A</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>iPhone</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>iPhone</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+										<span>iPhone</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>iPhone</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>iPhone</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>iPhone</span>
+								</div>
+							</div>
+							<div class="Bgc(#ededed) C(#484848) BdT Bdc(#bdbdbd) nightmode_Bgc(#202020) nightmode_C(#fdba4d) nightmode_Bdc(#3f3f3f)">
+								<div class="Fw(b) P(10px)">
+									<span>B</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span> B-Log Collections </span>
+								</div>
+							</div>
+							<div class="Bgc(#ededed) C(#484848) BdT Bdc(#bdbdbd) nightmode_Bgc(#202020) nightmode_C(#fdba4d) nightmode_Bdc(#3f3f3f)">
+								<div class="Fw(b) P(10px)">
+									<span>C</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>B-Log Collections </span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+							<div>
+								<div class="Pstart(28px) Py(15px) Px(10px)">
+									<span>Can You Solve This Game?</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	<div id="jsCreatePost" class="modal Pos(f) T(0) Z(6000) W(100%) H(100%) Maw(620px) Bgc(white) Ovy(s) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
+						<div class="D(f) Jc(c) Bgc(#1998ed) C(white) Bxsh(category-shadow) H(40px) Pos(r) Ai(c) Py(5px) nightmode_Bgc(#202020) nightmode_C(#ddd)">
+							<div class="Fw(700) Py(5px)">Buat Post</div>
+							<a href=# class="Pos(a) End(10px) T(0) P(5px) Fz(20px) C(white) nightmode_C(#dcdcdc)" onclick="toggleCreate();"><i class="far fa-times"></i></a>
+						</div>
+						<div class="is-open_Trf(modalOpen) is-open_Op(1) Op(0) Trsde(250ms) Trsdu(800ms) Trf(modalDefault) Trstf(transitionCubicBezier) Bgc(white) C(#888) nightmode_Bgc(#171717) nightmode_C(#dcdcdc)">
+							<div>
+								<div class="Lh(1.5em) D(f) Jc(fs) W(100%) Pend(15px)">
+									<div class="P(15px)">
+										<div class="W(60px) Lh(60px) H(60px) Va(m) Ai(c) D(f) Jc(c) Ta(c)">
+											<img class="W(100%)" src="../assets/images/icon-ct-teks.svg" alt="">
+										</div>
+									</div>
+									<div class="Va(m) Mstart(5px) W(90%) Bdb(black-border) Py(15px)">
+										<span class="Fw(b)">Tulis Thread</span>
+										<p class="M(0)">Tulis dan bagikan cerita seru versi Agan yuk!</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="Lh(1.5em) D(f) Jc(fs) W(100%) Pend(15px)">
+									<div class="P(15px)">
+										<div class="W(60px) Lh(60px) H(60px) Va(m) Ai(c) D(f) Jc(c) Ta(c)">
+											<img class="W(100%)" src="../assets/images/icon-ct-gambar.svg" alt="">
+										</div>
+									</div>
+									<div class="Va(m) Mstart(5px) W(90%) Bdb(black-border) Py(15px)">
+										<span class="Fw(b)">Upload Gambar</span>
+										<p class="M(0)">Satu gambar berbagi sejuta cerita, upload sekarang!</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="Lh(1.5em) D(f) Jc(fs) W(100%) Pend(15px)">
+									<div class="P(15px)">
+										<div class="W(60px) Lh(60px) H(60px) Va(m) Ai(c) D(f) Jc(c) Ta(c)">
+											<img class="W(100%)" src="../assets/images/icon-ct-video.svg" alt="">
+										</div>
+									</div>
+									<div class="Va(m) Mstart(5px) W(90%) Bdb(black-border) Py(15px) Pend(15px)">
+										<span class="Fw(b)">Upload Video</span>
+										<p class="M(0)">Bagikan video seru hingga informatif disini!</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="Lh(1.5em) D(f) Jc(fs) W(100%) Pend(15px)">
+									<div class="P(15px)">
+										<div class="W(60px) Lh(60px) H(60px) Va(m) Ai(c) D(f) Jc(c) Ta(c)">
+											<img class="W(100%)" src="../assets/images/icon-ct-lapak.svg" alt="">
+										</div>
+									</div>
+									<div class="Va(m) Mstart(5px) W(90%) Bdb(black-border) Py(15px) Pend(15px)">
+										<span class="Fw(b)">Mulai Berjualan</span>
+										<p class="M(0)">Promosikan lapak Agan dimari, makin laris manis!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	<div id="jsThreadSort" class="modal Pos(f) T(0) Z(6000) W(100%) H(100%) Maw(620px) Bgc(white) Ovy(s) Fz(13) C(#484848) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
+							<div class="D(f) Jc(c) Bgc(#1998ed) C(white) Bxsh(category-shadow) H(40px) Pos(r) Ai(c) Py(5px)  nightmode_Bgc(#202020) nightmode_C(#b3b3b3)">
+								<div class="Fw(700) Py(5px)">Sort by</div>
+								<div>
+									<a href=# class="Pos(a) T(0) End(0) P(5px) Pend(10px) Fz(20px) C(white)" onclick="toggleSortThread();"><i class="far fa-times"></i></a>
+								</div>
+							</div>
+							<div class="is-open_Trf(modalOpen) is-open_Op(1) Op(0) Trsde(250ms) Trsdu(800ms) Trf(modalDefault) Trstf(transitionCubicBezier) Bgc(white) C(#555) nightmode_Bgc(#171717) nightmode_C(#b3b3b3)">
+						
+								<div class="P(15px) threadSortRadio">
+									<input id="active" type="radio" name="rad" class="D(n)">
+									<label for="active">Active</label>
+								</div>
+								<div class="P(15px) threadSortRadio">
+									<input id="new" type="radio" name="rad" class="D(n)">
+									<label for="new">New</label>
+								</div>
+								<div class="P(15px) threadSortRadio">
+									<input id="popular" type="radio" name="rad" class="D(n)" checked>
+									<label for="popular">Popular</label>
+								</div>
+								<div class="P(15px) threadSortRadio">
+									<input id="creator" type="radio" name="rad" class="D(n)">
+									<label for="creator">Creator</label>
+								</div>
+								<div class="P(15px) threadSortRadio">
+									<input id="rating" type="radio" name="rad" class="D(n)">
+									<label for="rating">Rating</label>
+								</div>
+								<div class="P(15px) threadSortRadio">
+									<input id="replies" type="radio" name="rad" class="D(n)">
+									<label for="replies">Most Replies</label>
+								</div>
+								<div class="P(15px) threadSortRadio">
+									<input id="views" type="radio" name="rad" class="D(n)">
+									<label for="views">Most Views</label>
+								</div>
+							</div>
+						</div>
+	<div class="C(#b3b3b3) Bgc(#464646) P(10px) nightmode_Bgc(#171717) nightmode_C(#b3b3b3) Pb(65px)">
+								<div class="Ta(c) Mt(10px) Fz(10px)">Copyright © 2018, Kaskus Networks, PT Darta Media Indonesia</div>
+							</div>
+  </div>
+	<script src="../assets/javascripts/vendor.min.js"></script>
+	<script src="../assets/javascripts/main.min.js"></script>
+	<!-- <script src="../assets/javascripts/onboarding.min.js"></script> -->
+ </body>
+</html>
+
