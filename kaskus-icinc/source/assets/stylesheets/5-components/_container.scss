@@ -1,0 +1,14 @@
+.container{
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  &.fullWidth{
+    max-width: 100%;
+  }
+}
+
+.main{
+  min-height: 100%;
+  padding-top: 90px;
+}

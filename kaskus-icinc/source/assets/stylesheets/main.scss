@@ -1,0 +1,28 @@
+@import '1-settings/variables.scss';
+@import '1-settings/fonts.scss';
+
+@import '2-vendors/select2.scss';
+@import '2-vendors/swiper.scss';
+@import '2-vendors/flatpickr.scss';
+
+@import '3-generic/normalize.scss';
+
+@import '4-elements/elements.scss';
+
+@import '5-components/header.scss';
+@import '5-components/about.scss';
+@import '5-components/container.scss';
+@import '5-components/form.scss';
+@import '5-components/footer.scss';
+@import '5-components/program.scss';
+@import '5-components/section.scss';
+@import '5-components/bts.scss';
+@import '5-components/registration.scss';
+@import '5-components/videoGallery.scss';
+@import '5-components/sponsorship.scss';
+@import '5-components/icons.scss';
+@import '5-components/share.scss';
+@import '5-components/modal.scss';
+@import '5-components/hero.scss';
+
+@import '7-utilities/utilities.scss';

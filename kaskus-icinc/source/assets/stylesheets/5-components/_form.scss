@@ -1,0 +1,126 @@
+.form{
+  &-sectionTitle{
+    color: #1998ED;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  &-inputGroup{
+    margin-bottom: 25px;
+  }
+  &-inputTitle{
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  &-inputRow{
+    display: flex;
+  }
+  &-inputColumn{
+
+  }
+  &-inputText,
+  &-select{
+    width: 100%;
+    height: 30px;
+    background-color: #ffffff;
+    border: .5px solid #b3b3b3;
+    border-radius: 3px;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  &-inputButton{
+    height: 30px;
+    text-align: center;
+    width: 100px;
+    line-height: 30px;
+    color: #ffffff;
+    background-color: #1998ED;
+    border: none;
+    border-radius: 3px;
+    &.is-full{
+      width: 100%;
+    }
+  }
+  &-select{
+
+  }
+  &-errorNote{
+    margin-top: 5px;
+    font-size: 11px;
+    color: #D0021B;
+  }
+  &-note{
+    font-size: 9px;
+    color: #B3B3B3;
+  }
+  &-image{
+    width: 85px;
+    height: 85px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    img{
+      // position: absolute;
+      // top: 0;
+      // left: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    &.is-full{
+      width: 100%;
+    }
+  }
+  &-uploadButton{
+    position: relative;
+    overflow: hidden;
+    width: 85px;
+    height: 85px;
+    background-image: url('../images/icon-image.svg');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px dashed #b3b3b3;
+    background-color: #ffffff;
+    &.is-full{
+      width: 100%;
+      height: 0;
+      padding: 0 0 23% 0;
+      border-radius: 8px;
+    }
+    &.has-image{
+      border: none;
+      background-size: cover;
+    }
+  }
+  &-cropperLogo{
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  &-cropperCover{
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  &-hiddenInput{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    cursor: inherit;
+    display: block;
+  }
+  &-linkReupload{
+    //margin-bottom:
+    a{
+      font-size: 12px;
+      color: #1998ED;
+    }
+  }
+}

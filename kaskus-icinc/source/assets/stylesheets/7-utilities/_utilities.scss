@@ -1,0 +1,80 @@
+%flex-center-both {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-center-vertical {
+    display: flex;
+    align-items: center;
+}
+
+%text-overflow--elipsis {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+%line-clamp--2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.is-block {
+    display: block;
+}
+
+.is-invisible {
+    visibility: hidden;
+}
+
+.is-visible {
+    visibility: visible;
+}
+
+.flexAuto{
+  flex: 1 1 auto;
+}
+
+.flexZero{
+  flex: 0 0 auto;
+}
+
+.jcSpaceBetween{
+  justify-content: space-between;
+}
+
+.aiCenter{
+  align-items: center;
+}
+
+.ml30{
+  margin-left: 30px;
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+
+.mb30{
+  margin-bottom: 30px;
+}
+
+.taCenter{
+  text-align: center;
+}
+
+.dFlex{
+  display: flex;
+}
+
+.fdColumn{
+  flex-direction: column;
+}

@@ -1,0 +1,63 @@
+.about{
+  padding: 200px 0;
+  background-color: #D22929;
+  @media only screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
+  &-title{
+    font-family: 'Bafora-Regular';
+    color: #000000;
+    font-size: 120px;
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+      font-size: 80px;
+    }
+  }
+  &-subtitle{
+    font-family: 'Gotham-Bold';
+    color: #FFFFFF;
+    font-size: 25px;
+  }
+  &-description{
+    font-family: 'Gotham-Book';
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 27px;
+    &.medium{
+      font-family: 'Gotham-Medium';
+    }
+  }
+  &-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    &.bekrafx88rising{
+      background-image: url(../images/logo-bekrafx88rising.svg);
+      width: 85%;
+      height: 0;
+      padding-bottom: 20%;
+      margin: 30px auto;
+
+    }
+
+  }
+  .column{
+    padding: 0 30px;
+    width: 33.333%;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .row{
+    margin-left: -30px;
+    margin-right: -30px;
+    @media only screen and (max-width: 768px) {
+      margin-left: 0;
+      margin-right: 0;
+      display: block;
+    }
+  }
+}

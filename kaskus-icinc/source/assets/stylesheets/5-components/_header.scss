@@ -1,0 +1,108 @@
+.nav{
+  position: fixed;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 90px;
+  z-index: 2;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+  &-blur{
+    position: fixed;
+    z-index: 2;
+    //background: rgba(0,0,0,.7);
+    //filter: blur(10px);
+    width: 100%;
+    height: 90px;
+  }
+  &-container{
+    height: 100%;
+  }
+  &-wrapper{
+    height: 100%;
+  }
+  &-link{
+    font-family: 'Lulo-Clean-One-Bold';
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+    &.is-active,
+    &:hover{
+      color: #EF1923;
+    }
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+  &-logo{
+    text-indent: -9999px;
+    font-size: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    &.icinc{
+      width: 114px;
+      height: 33px;
+      background-image: url(../images/logo-icinc.svg);
+      margin-right: 18px;
+    }
+    &.bekraf{
+      width: 60px;
+      height: 69px;
+      background-image: url(../images/logo-bekraf.svg);
+      margin-left: 30px;
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+    &.rising88{
+      width: 67px;
+      height: 37px;
+      background-image: url(../images/logo-88rising.svg);
+      margin-left: 15px;
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  &-button{
+    font-family: 'Lulo-Clean-One-Bold';
+    color: #EF1A24;
+    background-color: #F8C31C;
+    border: 1px solid transparent;
+    padding: 8px 60px;
+    border-radius: 17.5px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    transition: all ease 0.3s;
+    margin-bottom: 10px;
+    @media only screen and (max-width: 768px) {
+      padding: 12px 17px;
+      font-size: 13px;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #F8C31C;
+      border-radius: 17.5px;
+      right: -6px;
+      top: 8px;
+      transition: all ease 0.3s;
+    }
+    &:active{
+      transform: translateX(6px) translateY(8px);
+      &:before{
+        top: 0px;
+        right: 0px;
+      }
+    }
+    &:hover{
+      background-color: #f9cf49;
+      &:before{
+        border: 1px solid #f9cf49;
+      }
+    }
+  }
+
+}

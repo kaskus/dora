@@ -1,0 +1,23 @@
+.share{
+  position: fixed;
+  left: 0;
+  top: calc(50% - 100px);
+  &-container{
+    margin-left: 20px;
+    padding: 13px 14px;
+    background-color: rgba(210,41,41,0.5);
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+    border-radius: 30px;
+  }
+  a{
+    padding: 5px;
+    margin: 14px 0;
+  }
+  i{
+    width: 22px;
+    height: 22px;
+  }
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}

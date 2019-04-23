@@ -1,0 +1,21 @@
+.icon{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  &-fb{
+    background-image: url(../images/icon-fb.svg);
+  }
+  &-close{
+    background-image: url(../images/icon-close.svg);
+  }
+  &-plus{
+    background-image: url(../images/icon-plus.svg);
+  }
+  &-instagram{
+    background-image: url(../images/icon-instagram.svg);
+  }
+  &-twitter{
+    background-image: url(../images/icon-twitter.svg);
+  }
+}

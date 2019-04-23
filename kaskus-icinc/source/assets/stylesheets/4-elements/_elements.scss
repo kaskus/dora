@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: $primary-font;
+}
+
+html {
+    line-height: 1.5;
+}
+
+
+html,
+body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+body{
+  color: #484848;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-black;
+    outline: none;
+    box-shadow: none;
+}

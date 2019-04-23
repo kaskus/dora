@@ -1,0 +1,182 @@
+.registration{
+  padding: 120px 0;
+  background-color: #000000;
+  background-image: url(../images/bg-registration-2.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  &-title{
+    font-family: 'Bafora-Regular';
+    color: #EF1923;
+    font-size: 120px;
+    text-align: center;
+  }
+  &-form{
+    max-width: 760px;
+    margin: 0 auto;
+    &-inputGroup{
+      margin-bottom: 25px;
+    }
+    &-checkbox{
+      margin-top: 20px;
+      label{
+        cursor: pointer;
+      }
+      span{
+        margin-left: 10px;
+        font-family: 'Gotham-Book';
+        font-size: 14px;
+        color: #B3B3B3;
+      }
+    }
+    &-label{
+      font-family: 'Gotham-Book';
+      font-size: 18px;
+      color: #FFFFFF;
+      margin-bottom: 10px;
+    }
+    &-input{
+
+      input,
+      textarea{
+        width: 100%;
+        background-color: rgba(256,256,256, 0.56);
+        padding: 9px 10px;
+        border: 2px solid #740000;
+        border-radius: 6px;
+        color: #000000;
+        font-family: 'Gotham-Light';
+        outline: none;
+      }
+      textarea{
+        height: 80px;
+        resize: none;
+      }
+      &.has-error{
+        input,
+        textarea{
+          border: 4px solid #C90000;
+        }
+      }
+      .icon{
+        width: 22px;
+        height: 22px;
+        margin-left: 10px;
+        margin-right: 15px;
+      }
+      .number{
+        width: 26px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid #FFFFFF;
+        margin-left: 10px;
+        margin-right: 15px;
+        span{
+          font-family: 'Gotham-Bold';
+          color: #FFFFFF;
+          font-style: normal;
+          font-size: 14px;
+        }
+      }
+
+    }
+    &-error{
+      font-size: 11px;
+      color: #D0021B;
+    }
+    &-repeater{
+      &-add{
+        padding-left: 45px;
+        button{
+          color: #FFFFFF;
+          font-family: 'Gotham-Book';
+          font-size: 14px;
+          .icon{
+            vertical-align: top;
+            width: 14px;
+            height: 14px;
+            margin-right: 5px;
+          }
+          &:hover{
+            span{
+              text-decoration: underline;
+            }
+          }
+        }
+
+      }
+    }
+  }
+  &-note{
+    background-color: #1E1E1E;
+    padding: 10px;
+    &-content{
+      max-height: 150px;
+      overflow-y: scroll;
+      color: #B3B3B3;
+      font-family: 'Gotham-Book';
+      font-size: 12px;
+    }
+  }
+  &-button{
+    font-family: 'Lulo-Clean-One-Bold';
+    color: #EF1A24;
+    background-color: #F8C31C;
+    border: 1px solid transparent;
+    padding: 8px 60px;
+    border-radius: 17.5px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    transition: all ease 0.3s;
+    margin-top: 40px;
+    &:before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #F8C31C;
+      border-radius: 17.5px;
+      right: -6px;
+      top: 8px;
+      transition: all ease 0.3s;
+    }
+    &:active{
+      transform: translateX(6px) translateY(8px);
+      &:before{
+        top: 0px;
+        right: 0px;
+      }
+    }
+    &:hover{
+      background-color: #f9cf49;
+      &:before{
+        border: 1px solid #f9cf49;
+      }
+    }
+    &:disabled{
+      background-color: #1E1E1E;
+      color: #484848;
+      &:before{
+        border: 1px solid #1E1E1E;
+      }
+    }
+  }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #4A4A4A;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #4A4A4A;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #4A4A4A;
+}

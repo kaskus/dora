@@ -1,0 +1,212 @@
+.program{
+  background-color: #000000;
+  padding-bottom: 100px;
+  &-title{
+    font-family: 'Bafora-Regular';
+    color: #EF1923;
+    font-size: 120px;
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+      font-size: 80px;
+    }
+  }
+  &-table{
+    max-width: 925px;
+    margin: 0 auto;
+    border: 1px solid #D22929;
+    &-header{
+      overflow: hidden;
+      background-color: #D22929;
+      position: relative;
+      text-align: center;
+      font-family: 'Gotham-Medium';
+      font-size: 16px;
+      color: #FFFFFF;
+      padding: 22px 10px;
+      &:before,
+      &:after{
+        content: '';
+        width: 40px;
+        height: 40px;
+        background-color: #000000;
+        position: absolute;
+        border-radius: 50%;
+      }
+      &:before{
+        top: -20px;
+        left: -20px;
+      }
+      &:after{
+        top: -20px;
+        right: -20px;
+      }
+    }
+    &-content{
+      padding: 50px 0;
+      position: relative;
+      overflow: hidden;
+      &:before,
+      &:after{
+        content: '';
+        width: 38px;
+        height: 38px;
+        background-color: #000000;
+        position: absolute;
+        border-radius: 50%;
+        border: 1px solid #D22929;
+      }
+      &:before{
+        bottom: -19px;
+        left: -19px;
+      }
+      &:after{
+        bottom: -19px;
+        right: -19px;
+      }
+      .row{
+        align-items: center;
+        margin-bottom: 50px;
+        &.threeColumns{
+          .column{
+            width: 30%;
+          }
+        }
+        &.twoColumns{
+          .column{
+            width: 47%;
+            padding: 0 25px;
+          }
+        }
+        &:last-child{
+          margin-bottom: 0;
+        }
+        @media only screen and (max-width: 768px) {
+          display: block;
+        }
+      }
+      .column{
+        font-family: 'Gotham-Bold';
+        font-size: 20px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 0 15px;
+        &.grey{
+          color: #B3B3B3;
+        }
+        @media only screen and (max-width: 768px) {
+          display: block;
+          width: 100%!important;
+          font-size: 14px;
+        }
+      }
+      i{
+        width: 18px;
+        height: 18px;
+        flex: 0 0 auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../images/icon-seperator.svg);
+        @media only screen and (max-width: 768px) {
+          display: block;
+          margin: 20px auto;
+        }
+      }
+
+    }
+  }
+  &-phase{
+    margin-top: 60px;
+    &-title{
+      position: relative;
+      text-align: center;
+      max-width: 925px;
+      margin: 0 auto;
+      @media only screen and (max-width: 768px) {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      i{
+        width: 100%;
+        height: 1px;
+        background-color: #FFFFFF;
+        display: block;
+        margin-bottom: -28px;
+      }
+      span{
+        display: inline-block;
+        font-family: 'Gotham-Medium';
+        font-size: 25px;
+        padding: 10px 35px;
+        background-color: #000000;
+        color: #FFFFFF;
+        text-transform: uppercase;
+      }
+    }
+    &-subtitle{
+      max-width: 925px;
+      margin: 10px auto;
+      font-family: 'Gotham-Medium';
+      font-size: 16px;
+      color: #FFFFFF;
+      text-align: center;
+    }
+    &-step{
+      &-title{
+        font-family: 'Gotham-Bold';
+        font-size: 15px;
+        color: #EF1923;
+        margin-bottom: 10px;
+      }
+      &-icon{
+        width: 110px;
+        height: 100px;
+        margin: 0 auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 20px;
+        &.scouting{
+          background-image: url('../images/icon-scouting.svg');
+        }
+        &.mentorship{
+          background-image: url('../images/icon-mentorship.svg');
+        }
+        &.concert{
+          background-image: url('../images/icon-concert.svg');
+        }
+      }
+      &-schedule{
+        color: #B3B3B3;
+        text-align: center;
+        font-family: 'Gotham-Book';
+        font-size: 11px;
+        min-height: 32px;
+        margin-bottom: 20px;
+      }
+      &-description{
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Gotham-Book';
+        font-size: 14px;
+      }
+    }
+    .row{
+      margin-top: 50px;
+      .column{
+        text-align: center;
+        width: 33%;
+        padding: 0 35px;
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+          padding: 0;
+          margin-bottom: 20px;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        display: block;
+      }
+    }
+  }
+}

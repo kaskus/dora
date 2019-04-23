@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M275,135 C275,154.334677 259.334677,170 240,170 C220.665323,170 205,154.334677 205,135 C205,115.665323 220.665323,100 240,100 C259.334677,100 275,115.665323 275,135 Z M253.249255,133.015435 L233.846551,121.219473 C232.104718,120.249338 229.910889,121.495079 229.910889,123.534568 L229.910889,146.465036 C229.910889,148.493501 232.093693,149.750267 233.846551,148.780132 L253.249255,137.645625 C255.057235,136.642417 255.057235,134.029667 253.249255,133.015435 Z" id="path-1"></path>
+        <filter x="-42.9%" y="-42.9%" width="185.7%" height="185.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-icinc-video-background" transform="translate(-185.000000, -3761.000000)" fill-rule="nonzero">
+            <g id="Group-11" transform="translate(0.000000, 3676.000000)">
+                <g id="Group-7">
+                    <g id="video">
+                        <g id="1">
+                            <g transform="translate(0.000000, 5.000000)">
+                                <g id="Shape">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                    <use fill-opacity="0.765908062" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

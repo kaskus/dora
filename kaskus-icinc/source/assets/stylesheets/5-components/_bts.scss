@@ -1,0 +1,101 @@
+.bts{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image:url(../images/bg-bts.jpg);
+  padding: 125px 0 170px;
+  @media only screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
+  &-wrapper{
+    padding-right: 50%;
+    position: relative;
+    @media only screen and (max-width: 768px) {
+      padding-right: 0;
+    }
+  }
+  &-title{
+    font-family: 'Bafora-Regular';
+    color: #000000;
+    font-size: 120px;
+    @media only screen and (max-width: 768px) {
+      font-size: 80px;
+      text-align: center;
+    }
+  }
+  &-image{
+    position: absolute;
+    top: -250px;
+    left: 50%;
+    width: 50%;
+    padding-left: 50px;
+    @media only screen and (max-width: 768px) {
+      position: static;
+      padding-left: 40px;
+      padding-right: 40px;
+      width: 100%;
+      max-width: 490px;
+      margin: 0 auto;
+    }
+    img{
+      width: 100%;
+      max-width: 490px;
+    }
+    &-wrapper{
+      position: relative;
+    }
+    &-frame{
+      width: 98%;
+      height: 98%;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      border: 1px solid #FFFFFF;
+    }
+  }
+  &-description{
+    max-width: 345px;
+    margin: 0 auto;
+    font-family: 'Gotham-Book';
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  &-button{
+    font-family: 'Lulo-Clean-One-Bold';
+    color: #EF1A24;
+    background-color: #F8C31C;
+    border: 1px solid transparent;
+    padding: 8px 60px;
+    border-radius: 17.5px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    transition: all ease 0.3s;
+    margin-bottom: 10px;
+    &:before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #F8C31C;
+      border-radius: 17.5px;
+      right: -6px;
+      top: 8px;
+      transition: all ease 0.3s;
+    }
+    &:active{
+      transform: translateX(6px) translateY(8px);
+      &:before{
+        top: 0px;
+        right: 0px;
+      }
+    }
+    &:hover{
+      background-color: #f9cf49;
+      &:before{
+        border: 1px solid #f9cf49;
+      }
+    }
+  }
+}

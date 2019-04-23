@@ -1,0 +1,38 @@
+.videoGallery{
+  background-color: #000000;
+  padding: 100px 0;
+  display: none;
+  &-item{
+    &-thumbnail{
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+      img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &-title{
+      font-family: 'Gotham-Bold';
+      color: #EF1923;
+      font-size: 25px;
+      margin-top: 10px;
+    }
+
+    &-duration{
+      font-family: 'Gotham-Bold';
+      color: #FFFFFF;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    &-description{
+      font-family: 'Gotham-Book';
+      color: #FFFFFF;
+      font-size: 14px;
+      line-height: 27px;
+    }
+  }
+}
