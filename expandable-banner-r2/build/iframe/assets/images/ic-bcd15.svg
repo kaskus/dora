@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="19px" viewBox="0 0 17 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>back 15scnd</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Podcast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="web-widget-a" transform="translate(-403.000000, -236.000000)" fill="#B3B3B3">
+            <g id="Program-Copy-2" transform="translate(201.000000, 67.000000)">
+                <g id="Group-33" transform="translate(202.000000, 169.000000)">
+                    <g id="back-15scnd" transform="translate(8.000000, 10.000000) scale(-1, 1) translate(-8.000000, -10.000000) ">
+                        <g id="Group-32">
+                            <text id="15" transform="translate(8.577564, 10.281291) scale(-1, 1) translate(-8.577564, -10.281291) " font-family="Roboto-Medium, Roboto" font-size="8" font-weight="400">
+                                <tspan x="3.57756364" y="12.7812909">15</tspan>
+                            </text>
+                            <polygon id="Fill-1" points="13.2545818 0.000490909091 13.2545818 4.99467273 15.7500364 2.49758182"></polygon>
+                            <g id="Group-4" transform="translate(0.000000, 2.013545)" stroke="#B3B3B3" stroke-width="0.5">
+                                <path d="M13.2249273,13.2267273 C11.9338364,14.5178182 10.1518364,15.3147273 8.18001818,15.3147273 C4.24129091,15.3147273 1.04874545,12.1221818 1.04874545,8.18345455 C1.04874545,4.24963636 4.23147273,1.06036364 8.16365455,1.05218182 L13.3169273,1.05218182 L13.3169273,0.00163636364 L8.16365455,0.00163636364 C3.65383636,0.0130909091 -0.000163636364,3.67036364 -0.000163636364,8.18345455 C-0.000163636364,12.7014545 3.66201818,16.3636364 8.18001818,16.3636364 C10.4398364,16.3636364 12.4852909,15.4472727 13.9662,13.968" id="Fill-2"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
