@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="13px" viewBox="0 0 30 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 38 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 5 0 5 2.8125 0 2.8125"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="toolbar" transform="translate(-327.000000, -9.000000)">
+            <g id="Group-5">
+                <g id="Group-27" transform="translate(25.000000, 5.000000)">
+                    <g id="Group" transform="translate(237.000000, 4.000000)">
+                        <g id="Group-38-Copy" transform="translate(65.000000, 0.000000)">
+                            <rect id="Rectangle-14-Copy" stroke="#6E6E6E" x="0.5" y="0.5" width="29" height="12"></rect>
+                            <g id="Page-1" transform="translate(21.000000, 5.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M5,0.3125 C5,0.3975 4.96875,0.470625 4.9075,0.5325 L2.72,2.72 C2.658125,2.78125 2.585,2.8125 2.5,2.8125 C2.415,2.8125 2.341875,2.78125 2.28,2.72 L0.0925,0.5325 C0.030625,0.470625 0,0.3975 0,0.3125 C0,0.2275 0.030625,0.154375 0.0925,0.0925 C0.154375,0.03125 0.2275,0 0.3125,0 L4.6875,0 C4.7725,0 4.845625,0.03125 4.9075,0.0925 C4.969375,0.154375 5.000625,0.2275 5,0.3125" id="Fill-1" fill="#6E6E6E" mask="url(#mask-2)"></path>
+                            </g>
+                            <text id="Size" font-family="Roboto-Regular, Roboto" font-size="7" font-weight="normal" fill="#6E6E6E">
+                                <tspan x="5" y="8">Size</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
