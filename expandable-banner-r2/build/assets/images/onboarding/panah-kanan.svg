@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="97px" viewBox="0 0 9 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>panah kanan</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ONBOARDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.378571429">
+        <g id="mobile-2" transform="translate(-311.000000, -94.000000)">
+            <g id="panah-kanan" transform="translate(311.000000, 94.000000)">
+                <polygon id="Fill-1" fill="#BCE7E3" points="0 36 18 36 8.9999127 20"></polygon>
+                <polygon id="Fill-2" fill="#74C1C0" points="0 16 18 16 8.9999127 0"></polygon>
+                <polygon id="Fill-3" fill="#BCE7E3" points="0 77 18 77 8.9999127 61"></polygon>
+                <polygon id="Fill-4" fill="#BCE7E3" points="0 97 18 97 8.9999127 81"></polygon>
+                <polygon id="Fill-5" fill="#74C1C0" points="0 57 18 57 8.9999127 41"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

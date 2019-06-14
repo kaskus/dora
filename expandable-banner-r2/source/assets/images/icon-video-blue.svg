@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>video list icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="00-CHANNEL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-Home-Landing-Story" transform="translate(-276.000000, -1024.000000)">
+            <g id="video-list-icon" transform="translate(276.000000, 1024.000000)">
+                <circle id="Oval-3" fill="#1998ED" cx="12" cy="12" r="12"></circle>
+                <path d="M19,7.749 L19,16.249 C19,16.4676667 18.8983333,16.6213333 18.695,16.71 C18.627,16.736 18.562,16.749 18.5,16.749 C18.3593333,16.749 18.242,16.6996667 18.148,16.601 L15,13.453 L15,14.75 C15,15.37 14.78,15.9 14.34,16.34 C13.9,16.78 13.37,17 12.75,17 L7.25,17 C6.63,17 6.1,16.78 5.66,16.34 C5.22,15.9 5,15.37 5,14.75 L5,9.25 C5,8.63 5.22,8.1 5.66,7.66 C6.1,7.22 6.63,7 7.25,7 L12.75,7 C13.37,7 13.9,7.22 14.34,7.66 C14.78,8.1 15,8.63 15,9.25 L15,10.539 L18.148,7.398 C18.242,7.29933333 18.3593333,7.25 18.5,7.25 C18.5626667,7.25 18.6276667,7.263 18.695,7.289 C18.8983333,7.37766667 19,7.53133333 19,7.75 L19,7.749 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
