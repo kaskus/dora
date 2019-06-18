@@ -3007,6 +3007,14 @@
 		"oAP": "/build/views/molecules/expandable-r2.html",
 		"oF": 0
 		},
+	"/source/views/molecules/mobile-cube.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/mobile-cube.html",
+		"oF": 0
+		},
 	"/source/views/molecules/push-message.kit": {
 		"cB": 0,
 		"ft": 2048,
