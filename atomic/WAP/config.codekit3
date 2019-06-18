@@ -2951,9 +2951,9 @@
 		"oAP": "/build/views/forum-landing.html",
 		"oF": 0
 		},
-	"/source/views/home-channel-landing.html": {
+	"/source/views/home-channel-landing.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/views/home-channel-landing.html",
@@ -2981,6 +2981,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/views/invalid-thread.html",
+		"oF": 0
+		},
+	"/source/views/molecules/auto-expand-sticky.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/auto-expand-sticky.html",
 		"oF": 0
 		},
 	"/source/views/molecules/expandable-r1.kit": {
