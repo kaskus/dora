@@ -1,0 +1,242 @@
+.anniversary.bgGradient,
+.anniversary .bgGradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5563e8+0,6c2d9f+50,d14f44+100 */
+  background: #5563e8;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #5563e8 0%, #6c2d9f 50%, #d14f44 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #5563e8 0%, #6c2d9f 50%, #d14f44 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #5563e8 0%, #6c2d9f 50%, #d14f44 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5563e8', endColorstr='#d14f44',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.anniversary.bgPatternGrey {
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-image: url(../images/bg-anniversary-pattern-grey.svg); }
+
+.anniversary .bgPatternWhite {
+  background-image: url(../images/bg-anniversary-pattern-white.svg); }
+
+.anniversary .bgPatternColor {
+  background-image: url(../images/bg-anniversary-pattern-color.svg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.anniversary .imageGansStart {
+  background-image: url(../images/image-anniversary-gans-start.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom; }
+
+.anniversary .imageGansHand {
+  background-image: url(../images/image-anniversary-gans-hand.svg);
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center bottom;
+  position: absolute;
+  bottom: -85px;
+  animation-delay: 3s;
+  -webkit-animation: shake-vertical 1s infinite;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: shake-vertical 1s infinite;
+  /* Firefox < 16 */
+  -ms-animation: shake-vertical 1s infinite;
+  /* Internet Explorer */
+  -o-animation: shake-vertical 1s infinite;
+  /* Opera < 12.1 */
+  animation: shake-vertical 1s infinite; }
+  @media only screen and (max-width: 480px) {
+    .anniversary .imageGansHand {
+      bottom: -60px; } }
+  @media only screen and (max-width: 375px) {
+    .anniversary .imageGansHand {
+      bottom: -53px; } }
+  @media only screen and (max-width: 320px) {
+    .anniversary .imageGansHand {
+      bottom: -45px; } }
+
+.anniversary .imageGansHandShadow {
+  background-image: url(../images/image-anniversary-gans-hand-shadow.svg);
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-position: center bottom;
+  bottom: -47px; }
+
+.anniversary .imageGansRecord {
+  background-image: url(../images/image-anniversary-gans-record.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  bottom: -47px; }
+
+.anniversary .imageBadgeShadow {
+  background-image: url(../images/image-anniversary-badge-shadow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 205px;
+  left: -30px;
+  bottom: 2px;
+  height: 100px; }
+
+.anniversary .imageFlag {
+  background-image: url(../images/image-flag.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 300px;
+  height: 100px; }
+  .anniversary .imageFlag.left {
+    left: -30px;
+    top: -20px; }
+    @media only screen and (max-width: 480px) {
+      .anniversary .imageFlag.left {
+        left: -71px; } }
+    @media only screen and (max-width: 375px) {
+      .anniversary .imageFlag.left {
+        left: -86px; } }
+    @media only screen and (max-width: 320px) {
+      .anniversary .imageFlag.left {
+        left: -110px; } }
+  .anniversary .imageFlag.right {
+    right: -53px;
+    top: -14px;
+    transform: scaleX(-1); }
+    @media only screen and (max-width: 480px) {
+      .anniversary .imageFlag.right {
+        right: -80px; } }
+    @media only screen and (max-width: 375px) {
+      .anniversary .imageFlag.right {
+        right: -95px; } }
+    @media only screen and (max-width: 320px) {
+      .anniversary .imageFlag.right {
+        right: -119px;
+        top: -25px; } }
+
+.anniversary-TextBox {
+  background-color: #ffffff;
+  border: 3px solid #f6d584;
+  outline: none;
+  text-align: left;
+  overflow: scroll; }
+
+.anniversary .imageHeart {
+  background-image: url(../images/icon-anniversary-heart.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 55px;
+  left: 97px;
+  -webkit-animation: zoomInOutFading 1s infinite;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: zoomInOutFading 1s infinite;
+  /* Firefox < 16 */
+  -ms-animation: zoomInOutFading 1s infinite;
+  /* Internet Explorer */
+  -o-animation: zoomInOutFading 1s infinite;
+  /* Opera < 12.1 */
+  animation: zoomInOutFading 1s infinite; }
+  @media only screen and (max-width: 480px) {
+    .anniversary .imageHeart {
+      left: 65px;
+      top: 50px; } }
+  @media only screen and (max-width: 320px) {
+    .anniversary .imageHeart {
+      top: 48px; } }
+
+.anniversary .imageThumb {
+  background-image: url(../images/icon-anniversary-jempol.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 38px;
+  left: 109px;
+  -webkit-animation: thumbDance 0.5s infinite;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: thumbDance 0.5s infinite;
+  /* Firefox < 16 */
+  -ms-animation: thumbDance 0.5s infinite;
+  /* Internet Explorer */
+  -o-animation: thumbDance 0.5s infinite;
+  /* Opera < 12.1 */
+  animation: thumbDance 0.5s infinite; }
+  @media only screen and (max-width: 480px) {
+    .anniversary .imageThumb {
+      left: 78px; } }
+  @media only screen and (max-width: 320px) {
+    .anniversary .imageThumb {
+      left: 77px; } }
+
+.anniversary .trumpetWrapper {
+  position: absolute;
+  width: 30px;
+  height: 8px;
+  top: 62px;
+  right: 77px;
+  overflow: hidden; }
+  @media only screen and (max-width: 480px) {
+    .anniversary .trumpetWrapper {
+      right: 45px; } }
+  @media only screen and (max-width: 320px) {
+    .anniversary .trumpetWrapper {
+      top: 60px;
+      right: 44px; } }
+
+.anniversary .imageTrumpet {
+  background-image: url(../images/icon-anniversary-trompet.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 30px;
+  height: 8px;
+  animation: trumpetEject 0.5s infinite ease-in-out;
+  -webkit-animation: trumpetEject 0.5s infinite ease-in-out;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: trumpetEject 0.5s infinite ease-in-out;
+  /* Firefox < 16 */
+  -ms-animation: trumpetEject 0.5s infinite ease-in-out;
+  /* Internet Explorer */
+  -o-animation: trumpetEject 0.5s infinite ease-in-out;
+  /* Opera < 12.1 */
+  animation: trumpetEject 0.5s infinite ease-in-out; }
+
+.anniversary .imageMic {
+  background-image: url(../images/image-anniversary-mic.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 41px;
+  left: 85px;
+  -webkit-animation: shakeMic 1s infinite;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: shakeMic 1s infinite;
+  /* Firefox < 16 */
+  -ms-animation: shakeMic 1s infinite;
+  /* Internet Explorer */
+  -o-animation: shakeMic 1s infinite;
+  /* Opera < 12.1 */
+  animation: shakeMic 1s infinite; }
+  @media only screen and (max-width: 480px) {
+    .anniversary .imageMic {
+      left: 86px; } }
+  @media only screen and (max-width: 375px) {
+    .anniversary .imageMic {
+      left: 70px; } }
+  @media only screen and (max-width: 320px) {
+    .anniversary .imageMic {
+      bottom: 38px;
+      left: 58px; } }

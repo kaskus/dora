@@ -1,0 +1,23 @@
+#searchform {
+	input {
+		&:focus {
+			display: block;
+		    outline: none;
+		}
+		+ .global-search-results {
+			display: block
+		}
+	}
+	.global-search-results {
+	    box-shadow: 0px 5px 13px rgba(158, 158, 158, 0.5);
+	}
+}
+
+input {
+	&.jsInputSearch {
+		&:focus {
+			width: 85%;
+			text-align: left;
+		}
+	}
+}

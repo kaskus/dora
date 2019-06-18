@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>notif_quote</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notif---web-copy" transform="translate(-13.000000, -585.000000)" fill-rule="nonzero">
+            <g id="notif_quote" transform="translate(13.000000, 585.000000)">
+                <circle id="Oval-3-Copy-2" fill="#1998ED" cx="15" cy="15" r="15"></circle>
+                <path d="M16,19.1425435 C14.6565061,19.1425435 13.3923796,18.9119854 12.2800863,18.505764 C11.1597412,19.3423605 9.78519051,19.8517841 8.32437096,19.9989021 C8.31401869,20 8.30366643,20 8.29331416,20 C8.15988497,20 8.03910855,19.9143641 8.00690151,19.7935956 C7.97124371,19.6585544 8.08051761,19.5751144 8.18979152,19.4763038 C8.72580877,18.9833486 9.37570093,18.5968893 9.62990654,16.9434584 C8.60733285,16.0080512 8,14.8387923 8,13.5718207 C8,10.494419 11.5818835,8 16,8 C20.4181165,8 24,10.494419 24,13.5718207 C24,16.6514181 20.4181165,19.1425435 16,19.1425435" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

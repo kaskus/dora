@@ -1,0 +1,13 @@
+.itemBadge {
+	&:before {
+	    content: '';
+	    background-image: url(../images/image-badge-strap.svg);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    width: 30px;
+	    height: 30px;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	}
+}

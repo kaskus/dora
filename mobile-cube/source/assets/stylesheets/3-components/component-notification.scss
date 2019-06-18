@@ -1,0 +1,7 @@
+.notificationHead {
+	> div {
+		&:last-child {
+		    border-bottom-color: transparent;
+		}
+	}
+}

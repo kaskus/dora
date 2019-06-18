@@ -1,0 +1,24 @@
+.modal{
+	opacity: 0;
+	visibility: hidden;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 300ms;
+    transition-property: all;
+    transform-style: preserve-3d;
+    transform: scale(0.5);
+    z-index: -1;
+	&.is-open{
+		visibility: visible;
+		opacity: 1;
+		transform: scale(1);
+		z-index: 6000;
+	}
+	&-popup {
+		&-content {
+	    	-webkit-animation-name: animatetop;
+	    	-webkit-animation-duration: .4s;
+	    	animation-name: animatetop;
+	    	animation-duration: .4s;
+		}
+	}
+}
