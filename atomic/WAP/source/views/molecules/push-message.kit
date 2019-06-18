@@ -1,0 +1,36 @@
+<script>
+    window.addEventListener('message', function (e) {
+        var message = e.data.message;
+        console.log(message)
+        switch (message) {
+            case 'expand-banner-r1':
+                $('.iframeContainer.r1').removeClass('H(50px)');
+                $('.iframeContainer.r1').addClass('H(320px)');
+                $('.iframeContainer.r1').removeClass('W(320px)');
+                $('.iframeContainer.r1').addClass('W(100%)');
+                $('.iframeContainer.r1').css({ transition: 'height 0.3s ease-in-out, width 0.3s ease-in-out' });
+                break;
+            case 'shrink-banner-r1':
+                $('.iframeContainer.r1').addClass('H(50px)');
+                $('.iframeContainer.r1').removeClass('H(150px)');
+                $('.iframeContainer.r1').removeClass('W(100%)');
+                $('.iframeContainer.r1').addClass('W(320px)');
+                break;
+            case 'expand-banner-r2':
+                $('.iframeContainer.r2').removeClass('H(250px)');
+                $('.iframeContainer.r2').addClass('H(320px)');
+                $('.iframeContainer.r2').removeClass('W(300px)');
+                $('.iframeContainer.r2').addClass('W(100%)');
+                $('.iframeContainer.r2').css({ transition: 'height 0.3s ease-in-out, width 0.3s ease-in-out' });
+                break;
+            case 'shrink-banner-r2':
+                $('.iframeContainer.r2').addClass('H(250px)');
+                $('.iframeContainer.r2').removeClass('H(320px)');
+                $('.iframeContainer.r2').removeClass('W(100%)');
+                $('.iframeContainer.r2').addClass('W(300px)');
+                break;
+            default:
+                break;
+        }
+    });
+</script>

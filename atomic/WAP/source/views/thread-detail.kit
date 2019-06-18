@@ -305,15 +305,7 @@
 		</div>
 
 		<!-- EXPANDABLE R1 -->
-		<!-- <div class="Ta(c) My(10px)">
-		    <img src="../assets/images/ads.svg">
-		</div> -->
-		
-		<div class="Ta(c) My(10px) Mx(a) H(100px) Mih(100px) Pos(r) Ta(c) W(320px) D(b) iframeContainer r1">
-		    <iframe src="../iframe/views/banner.html" frameborder="0"
-		        class="Bd(0) W(100%) H(100%) Start(0) (0) Pos(a) M(marginAuto0)" scrolling="no">This browser does not support
-		        iframe</iframe>
-		</div>
+		<!-- @include "molecules/expandable-r1.kit" -->
 
 		<div class="Bdb(BdbThreadItem) nightmode_Bdb(Bdb000)">
 			<!-- THREAD BREADCRUMB -->
@@ -1715,51 +1707,8 @@
 
 		<!-- RECTANGLE BANNER -->
 		<!-- EXPANDABLE R2 -->
-		<!-- <div class="Ta(c) M(10px) Mt(0)">
-		    <div class="M(marginAuto0) W(300px) H(250px) Bgc(#d8d8d8) Lh(250px)">Rectangle Banner</div>
-		</div> -->
-		
-		<div class="Ta(c) My(10px) Mx(a) W(300px) H(250px) Pos(r) Ta(c) D(b) iframeContainer r2">
-		    <iframe id="banner-r2-frame" src="../iframe/views/bannerR2.html" frameborder="0"
-		        class="Bd(0) W(100%) H(100%) Start(0) (0) Pos(a) M(marginAuto0)" scrolling="no">This browser does not support
-		        iframe</iframe>
-		</div>
-		<script>
-				    window.addEventListener('message', function (e) {
-				        var message = e.data.message;
-				        console.log(message)
-				        switch (message) {
-				            case 'expand-banner-r1':
-				                $('.iframeContainer.r1').removeClass('H(50px)');
-				                $('.iframeContainer.r1').addClass('H(320px)');
-				                $('.iframeContainer.r1').removeClass('W(320px)');
-				                $('.iframeContainer.r1').addClass('W(100%)');
-				                $('.iframeContainer.r1').css({ transition: 'height 0.3s ease-in-out, width 0.3s ease-in-out' });
-				                break;
-				            case 'shrink-banner-r1':
-				                $('.iframeContainer.r1').addClass('H(50px)');
-				                $('.iframeContainer.r1').removeClass('H(150px)');
-				                $('.iframeContainer.r1').removeClass('W(100%)');
-				                $('.iframeContainer.r1').addClass('W(320px)');
-				                break;
-				            case 'expand-banner-r2':
-				                $('.iframeContainer.r2').removeClass('H(250px)');
-				                $('.iframeContainer.r2').addClass('H(320px)');
-				                $('.iframeContainer.r2').removeClass('W(300px)');
-				                $('.iframeContainer.r2').addClass('W(100%)');
-				                $('.iframeContainer.r2').css({ transition: 'height 0.3s ease-in-out, width 0.3s ease-in-out' });
-				                break;
-				            case 'shrink-banner-r2':
-				                $('.iframeContainer.r2').addClass('H(250px)');
-				                $('.iframeContainer.r2').removeClass('H(320px)');
-				                $('.iframeContainer.r2').removeClass('W(100%)');
-				                $('.iframeContainer.r2').addClass('W(300px)');
-				                break;
-				            default:
-				                break;
-				        }
-				    });
-				</script>
+		<!-- @include molecules/expandable-r2.kit -->
+		<!-- @include molecules/push-message.kit -->
 
 		<!-- END -->
 
@@ -1997,22 +1946,7 @@
 		</div>
 
 		<!-- Underlay Banner -->
-		<div class="underlay__banner">
-		    <div class="underlay__wrapper">
-		        <div class="underlay__show">
-		            <a href="#">
-		                <div class="underlay__show__inner">
-		                    <div class="underlay__show__fix">
-		                        <div class="underlay__show__banner">
-		                            <img
-		                                src="https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCbm4DhSBABGAEyCL3DtqvwEHO7">
-		                        </div>
-		                    </div>
-		                </div>
-		            </a>
-		        </div>
-		    </div>
-		</div>
+		<!-- @include molecules/underlay.kit -->
 
 		<!-- SECOND POST -->
 		<div class="Bgc(#fff) nightmode_Bgc(#171717) Bdb(BdbThreadItem) nightmode_Bdb(Bdb000) is-multiquoted">
