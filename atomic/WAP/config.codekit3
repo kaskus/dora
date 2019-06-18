@@ -3015,6 +3015,14 @@
 		"oAP": "/build/views/molecules/mobile-cube.html",
 		"oF": 0
 		},
+	"/source/views/molecules/mobile-slider.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/mobile-slider.html",
+		"oF": 0
+		},
 	"/source/views/molecules/push-message.kit": {
 		"cB": 0,
 		"ft": 2048,
