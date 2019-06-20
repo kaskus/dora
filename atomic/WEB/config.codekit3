@@ -4177,12 +4177,28 @@
 		"oAP": "/build/views/molecules/adsLeaderboardSkyscrapper.html",
 		"oF": 0
 		},
+	"/source/views/molecules/adsMiniTop.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/adsMiniTop.html",
+		"oF": 0
+		},
 	"/source/views/molecules/adsSidebarRight.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/build/views/molecules/adsSidebarRight.html",
+		"oF": 0
+		},
+	"/source/views/molecules/adsVideoTop.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/adsVideoTop.html",
 		"oF": 0
 		},
 	"/source/views/molecules/badgeItemGrid.kit": {
