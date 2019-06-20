@@ -4153,6 +4153,14 @@
 		"oAP": "/build/views/molecules/adsBigExpandableTop.html",
 		"oF": 0
 		},
+	"/source/views/molecules/adsExpandableBottom.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/adsExpandableBottom.html",
+		"oF": 0
+		},
 	"/source/views/molecules/adsExpandableTop.kit": {
 		"cB": 0,
 		"ft": 2048,
