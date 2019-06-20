@@ -1,0 +1,15 @@
+.quote{
+	width: 100%;
+	border: 1px solid #CCC;
+	padding: 5px 10px;
+	display: block;
+	background: #EEE;
+	margin: 0;
+	color: #484848;
+	&-mark{
+		text-align: left;
+    font-size: 13px;
+    display: block;
+		margin-bottom: 5px;
+	}
+}

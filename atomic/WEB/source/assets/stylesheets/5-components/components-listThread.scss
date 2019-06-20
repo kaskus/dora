@@ -1,0 +1,44 @@
+.listThreadItem{
+	i{
+		&.is-animate{
+			-webkit-animation: pulse-small 0.5s forwards ease-in-out;
+      animation: pulse-small 0.5s forwards ease-in-out;
+		}
+	}
+}
+
+.subforumList {
+	> div {
+		&:nth-child(1) {
+			margin-right: 20px;
+		}
+	}
+}
+
+.userImgWrapper {
+	&:nth-child(1) {
+		order: 3;
+	}
+	&:nth-child(2) {
+		order: 2;
+	}
+	&:nth-child(3) {
+		order: 1;
+	}
+	&:before {
+		border-radius: 50%;
+	    border-style: solid;
+	    border-width: 5px;
+	    border-color: #fff;
+	    content: '';
+	    height: 200%;
+	    left: -3.5px;
+	    position: absolute;
+	    top: -2.5px;
+	    -webkit-transform-origin: top left;
+	    transform-origin: top left;
+	    -webkit-transform: scale(.5);
+	    transform: scale(.5);
+	    width: 200%;
+	}
+}

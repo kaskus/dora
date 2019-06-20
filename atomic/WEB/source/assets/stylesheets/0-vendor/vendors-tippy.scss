@@ -1,0 +1,473 @@
+
+@mixin enter-transform($placement, $animation) {
+  @if ($animation == 'perspective') {
+    @if ($placement == 'top') {
+      transform: translateY(-10px) rotateX(0);
+    } @else if ($placement == 'bottom') {
+      transform: translateY(10px) rotateX(0);
+    } @else if ($placement == 'left') {
+      transform: translateX(-10px) rotateY(0);
+    } @else if ($placement == 'right') {
+      transform: translateX(10px) rotateY(0);
+    }
+  } @else if ($animation == 'fade') {
+    @if ($placement == 'top') {
+      transform: translateY(-10px);
+    } @else if ($placement == 'bottom') {
+      transform: translateY(10px);
+    } @else if ($placement == 'left') {
+      transform: translateX(-10px);
+    } @else if ($placement == 'right') {
+      transform: translateX(10px);
+    }
+  } @else if ($animation == 'scale') {
+    @if ($placement == 'top') {
+      transform: translateY(-10px) scale(1);
+    } @else if ($placement == 'bottom') {
+      transform: translateY(10px) scale(1);
+    } @else if ($placement == 'left') {
+      transform: translateX(-10px) scale(1);
+    } @else if ($placement == 'right') {
+      transform: translateX(10px) scale(1);
+    }
+  }
+}
+
+@mixin leave-transform($placement, $animation) {
+  @if ($animation == 'perspective') {
+    @if ($placement == 'top') {
+      transform: translateY(0) rotateX(60deg);
+    } @else if ($placement == 'bottom') {
+      transform: translateY(0) rotateX(-60deg);
+    } @else if ($placement == 'left') {
+      transform: translateX(0) rotateY(-60deg);
+    } @else if ($placement == 'right') {
+      transform: translateX(0) rotateY(60deg);
+    }
+  } @else if ($animation == 'shift-away') {
+    @if ($placement == 'top') {
+      transform: translateY(0);
+    } @else if ($placement == 'bottom') {
+      transform: translateY(0);
+    } @else if ($placement == 'left') {
+      transform: translateX(0);
+    } @else if ($placement == 'right') {
+      transform: translateX(0);
+    }
+  } @else if ($animation == 'scale') {
+    @if ($placement == 'top') {
+      transform: translateY(0) scale(0.5);
+    } @else if ($placement == 'bottom') {
+      transform: translateY(0) scale(0.5);
+    } @else if ($placement == 'left') {
+      transform: translateX(0) scale(0.5);
+    } @else if ($placement == 'right') {
+      transform: translateX(0) scale(0.5);
+    }
+  } @else if ($animation == 'shift-toward') {
+    @if ($placement == 'top') {
+      transform: translateY(-20px);
+    } @else if ($placement == 'bottom') {
+      transform: translateY(20px);
+    } @else if ($placement == 'left') {
+      transform: translateX(-20px);
+    } @else if ($placement == 'right') {
+      transform: translateX(20px);
+    }
+  }
+}
+
+@mixin backdrop-transform-enter($placement) {
+  $scale: 1;
+  @if ($placement == 'top') {
+    transform: scale($scale) translate(-50%, -55%);
+  } @else if ($placement == 'bottom') {
+    transform: scale($scale) translate(-50%, -45%);
+  } @else if ($placement == 'left') {
+    transform: scale($scale) translate(-50%, -50%);
+  } @else if ($placement == 'right') {
+    transform: scale($scale) translate(-50%, -50%);
+  }
+}
+
+@mixin backdrop-transform-leave($placement) {
+  $scale: 0.2;
+  @if ($placement == 'top') {
+    transform: scale($scale) translate(-50%, -45%);
+  } @else if ($placement == 'bottom') {
+    transform: scale($scale) translate(-50%, 0);
+  } @else if ($placement == 'left') {
+    transform: scale($scale) translate(-75%, -50%);
+  } @else if ($placement == 'right') {
+    transform: scale($scale) translate(-25%, -50%);
+  }
+}
+
+@mixin arrow($placement, $width, $color) {
+  @if ($placement == 'top') {
+    border-top: $width solid $color;
+    border-right: $width solid transparent;
+    border-left: $width solid transparent;
+  } @else if ($placement == 'bottom') {
+    border-bottom: $width solid $color;
+    border-right: $width solid transparent;
+    border-left: $width solid transparent;
+  } @else if ($placement == 'left') {
+    border-left: $width solid $color;
+    border-top: $width solid transparent;
+    border-bottom: $width solid transparent;
+  } @else if ($placement == 'right') {
+    border-right: $width solid $color;
+    border-top: $width solid transparent;
+    border-bottom: $width solid transparent;
+  }
+}
+
+@mixin arrow-position($placement, $width, $isRoundArrow) {
+  @if ($placement == 'top') {
+    bottom: -$width;
+  } @else if ($placement == 'bottom') {
+    top: -$width;
+  }
+
+  @if ($isRoundArrow) {
+    @if ($placement == 'left') {
+      right: -$width * 2;
+    } @else if ($placement == 'right') {
+      left: -$width * 2;
+    }
+  } @else {
+    @if ($placement == 'left') {
+      right: -$width;
+    } @else if ($placement == 'right') {
+      left: -$width;
+    }
+  }
+}
+
+@mixin arrow-margin($placement) {
+  @if ($placement == 'top' or $placement == 'bottom') {
+    margin: 0 6px;
+  } @else {
+    margin: 3px 0;
+  }
+}
+
+@mixin roundarrow-transform($placement) {
+  @if ($placement == 'top') {
+    transform: rotate(180deg);
+  } @else if ($placement == 'bottom') {
+    transform: rotate(0);
+  } @else if ($placement == 'left') {
+    transform: rotate(90deg);
+  } @else if ($placement == 'right') {
+    transform: rotate(-90deg);
+  }
+}
+
+@mixin arrow-transform-origin($placement) {
+  @if ($placement == 'top') {
+    transform-origin: 50% 0%;
+  } @else if ($placement == 'bottom') {
+    transform-origin: 50% 100%;
+  } @else if ($placement == 'left') {
+    transform-origin: 0% 50%;
+  } @else if ($placement == 'right') {
+    transform-origin: 100% 50%;
+  }
+}
+
+@mixin roundarrow-transform-origin($placement) {
+  @if ($placement == 'top') {
+    transform-origin: 50% 0%;
+  } @else if ($placement == 'bottom') {
+    transform-origin: 50% 100%;
+  } @else if ($placement == 'left') {
+    transform-origin: 33.33333333% 50%;
+  } @else if ($placement == 'right') {
+    transform-origin: 66.66666666% 50%;
+  }
+}
+
+$placements: 'top', 'bottom', 'left', 'right';
+$origins: bottom, top, right, left;
+$backdrop-origins: 0% 25%, 0% -50%, 50% 0%, -50% 0%;
+$backdrop-border-radii: 40% 40% 0 0, 0 0 30% 30%, 50% 0 0 50%, 0 50% 50% 0;
+
+
+.tippy-iOS {
+  cursor: pointer !important;
+}
+
+.tippy-notransition {
+  transition: none !important;
+}
+
+.tippy-popper {
+  perspective: 700px;
+  z-index: 9999;
+  outline: 0;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  pointer-events: none;
+  line-height: 1.4;
+
+  @each $placement in $placements {
+    &[x-placement^='#{$placement}'] {
+      .tippy-backdrop {
+        border-radius: nth(
+          $backdrop-border-radii,
+          index($placements, $placement)
+        );
+      }
+
+      .tippy-roundarrow {
+        @include arrow-position($placement, 8px, true);
+        @include roundarrow-transform-origin($placement);
+
+        svg {
+          position: absolute;
+          left: 0;
+          @include roundarrow-transform($placement);
+        }
+      }
+
+      .tippy-arrow {
+        @include arrow($placement, 8px, #333);
+        @include arrow-position($placement, 7px, false);
+        @include arrow-margin($placement);
+        @include arrow-transform-origin($placement);
+      }
+
+      .tippy-backdrop {
+        transform-origin: nth(
+          $backdrop-origins,
+          index($placements, $placement)
+        );
+
+        &[data-state='visible'] {
+          @include backdrop-transform-enter($placement);
+          opacity: 1;
+        }
+
+        &[data-state='hidden'] {
+          @include backdrop-transform-leave($placement);
+          opacity: 0;
+        }
+      }
+
+      [data-animation='shift-toward'] {
+        &[data-state='visible'] {
+          opacity: 1;
+          @include enter-transform($placement, 'fade');
+        }
+        &[data-state='hidden'] {
+          opacity: 0;
+          @include leave-transform($placement, 'shift-toward');
+        }
+      }
+
+      [data-animation='perspective'] {
+        transform-origin: nth($origins, index($placements, $placement));
+
+        &[data-state='visible'] {
+          opacity: 1;
+          @include enter-transform($placement, 'perspective');
+        }
+        &[data-state='hidden'] {
+          opacity: 0;
+          @include leave-transform($placement, 'perspective');
+        }
+      }
+
+      [data-animation='fade'] {
+        &[data-state='visible'] {
+          opacity: 1;
+          @include enter-transform($placement, 'fade');
+        }
+        &[data-state='hidden'] {
+          opacity: 0;
+          @include enter-transform($placement, 'fade');
+        }
+      }
+
+      [data-animation='shift-away'] {
+        &[data-state='visible'] {
+          opacity: 1;
+          @include enter-transform($placement, 'fade');
+        }
+        &[data-state='hidden'] {
+          opacity: 0;
+          @include leave-transform($placement, 'shift-away');
+        }
+      }
+
+      [data-animation='scale'] {
+        &[data-state='visible'] {
+          opacity: 1;
+          @include enter-transform($placement, 'scale');
+        }
+        &[data-state='hidden'] {
+          opacity: 0;
+          @include leave-transform($placement, 'scale');
+        }
+      }
+    }
+  }
+}
+
+.tippy-tooltip {
+  position: relative;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.6rem;
+  max-width: 350px;
+  text-align: center;
+  will-change: transform;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #333;
+
+  &[data-size='small'] {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.75rem;
+  }
+
+  &[data-size='large'] {
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+  }
+
+  &[data-animatefill] {
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+  &[data-interactive] {
+    pointer-events: auto;
+
+    path {
+      pointer-events: auto;
+    }
+  }
+
+  &[data-inertia] {
+    &[data-state='visible'] {
+      transition-timing-function: cubic-bezier(0.53, 2, 0.36, 0.85);
+    }
+    &[data-state='hidden'] {
+      transition-timing-function: ease;
+    }
+  }
+}
+
+.tippy-arrow,
+.tippy-roundarrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.tippy-roundarrow {
+  width: 24px;
+  height: 8px;
+  fill: #333;
+  pointer-events: none;
+}
+
+.tippy-backdrop {
+  position: absolute;
+  will-change: transform;
+  background-color: #333;
+  border-radius: 50%;
+  width: calc(110% + 2rem);
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  transition: all cubic-bezier(0.46, 0.1, 0.52, 0.98);
+  backface-visibility: hidden;
+
+  &::after {
+    content: '';
+    float: left;
+    padding-top: 100%;
+  }
+}
+
+.tippy-backdrop + .tippy-content {
+  transition-property: opacity;
+  &[data-state='visible'] {
+    opacity: 1;
+  }
+  &[data-state='hidden'] {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .tippy-popper {
+    max-width: 96%;
+    max-width: calc(100% - 20px);
+  }
+}
+
+.tippy-popper {
+  @each $placement in $placements {
+    &[x-placement^='#{$placement}'] {
+      .tippy-tooltip.light-theme {
+        .tippy-arrow {
+          @include arrow($placement, 8px, white);
+        }
+      }
+    }
+  }
+}
+
+.tippy-popper {
+  @each $placement in $placements {
+    &[x-placement^='#{$placement}'] {
+      .tippy-tooltip.translucent-theme {
+        .tippy-arrow {
+          @include arrow($placement, 7px, rgba(0, 0, 0, 0.7));
+        }
+      }
+    }
+  }
+}
+
+.tippy-tooltip.translucent-theme {
+  background-color: rgba(0, 0, 0, 0.7);
+
+  .tippy-backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .tippy-roundarrow {
+    fill: rgba(0, 0, 0, 0.7);
+  }
+
+  &[data-animatefill] {
+    background-color: transparent;
+  }
+}
+
+
+.tippy-tooltip.light-theme {
+  color: #26323d;
+  box-shadow: 0 0 20px 4px rgba(154, 161, 177, 0.15),
+    0 4px 80px -8px rgba(36, 40, 47, 0.25),
+    0 4px 4px -2px rgba(91, 94, 105, 0.15);
+  background-color: white;
+
+  .tippy-backdrop {
+    background-color: white;
+  }
+
+  .tippy-roundarrow {
+    fill: white;
+  }
+
+  &[data-animatefill] {
+    background-color: transparent;
+  }
+}

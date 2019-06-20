@@ -1,0 +1,31 @@
+.toggleMenu {
+  transform: translateX(0) translateY(-20px) scale(0.8);
+  transform-origin: right;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition-duration: 300ms;
+  visibility: hidden;
+  opacity: 0;
+  user-select: none;
+	&-left{
+		transform-origin: left;
+	}
+
+  &-leftBottom{
+		transform-origin: left bottom;
+  }
+  &-top{
+		transform-origin: center top;
+	}
+  &-none{
+		transition: none;
+
+	}
+  &.is-visible {
+    transform: translateX(0) translateY(0) scale(1);
+    visibility: visible;
+    opacity: 1;
+  }
+  &-trigger{
+    user-select: none;
+  }
+}

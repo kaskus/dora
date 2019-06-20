@@ -1,0 +1,44 @@
+.spoiler{
+	&-head{
+		text-align: left;
+    font-size: 13px;
+    display: block;
+		margin-bottom: 5px;
+	}
+	&-label{
+		font-weight: 700;
+	}
+	&-title{
+		font-style: italic;
+	}
+	&-content{
+		border: 1px solid #CCC;
+		background: #EEE;
+		padding: 5px 10px;
+		display: none;
+		margin: 0;
+		color: #000;
+		&.open{
+			display: block;
+		}
+	}
+	&-mid{
+		display: none;
+		&.open{
+			display: block;
+			min-height: 15px;
+			background: #EEE;
+			border: 1px solid #CCC;
+		}
+	}
+	input[type=button]{
+		font-size: 11px;
+		background: #1998ed;
+		color: #fff;
+		border-radius: 3px;
+		padding: 2px 6px;
+		border: none;
+		vertical-align: top;
+		cursor: pointer;
+	}
+}

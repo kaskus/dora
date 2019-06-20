@@ -1,0 +1,26 @@
+.pagination{
+	li{
+		display: inline-block;
+		margin-left: 6px;
+		margin-right: 6px;
+		vertical-align: middle;
+		a{
+			color: #3f3f3f;
+		}
+		&.is-active{
+			line-height: 22px;
+			text-align: center;
+			border-radius: 20px;
+			background-color: #1998ed;
+			padding-left: 5px;
+			padding-right: 5px;
+			min-width: 22px;
+			a{
+				color: #ffffff;
+				&:hover{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

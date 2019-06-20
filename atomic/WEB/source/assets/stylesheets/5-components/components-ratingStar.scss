@@ -1,0 +1,17 @@
+.ratingStar{
+	direction: rtl;
+	&.is-enabledVote{
+		&:hover{
+			i{
+				color: #b3b3b3!important;
+				&:hover{
+					cursor: pointer;
+					animation: blinking 1s infinite;
+					~ i{
+						animation: blinking 1s infinite;
+					}
+				}
+			}
+		}
+	}
+}

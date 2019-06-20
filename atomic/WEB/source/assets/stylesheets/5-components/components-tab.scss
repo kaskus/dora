@@ -1,0 +1,167 @@
+.tabWithLine {
+  margin-bottom: 15px;
+
+  &:before {
+    background-color: #eee;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+
+  &-line {
+    background-color: #1998ed;
+    height: 3px;
+    -webkit-transition: transform 0.3s cubic-bezier(.65,.05,.36,1),width 0.3s cubic-bezier(.65,.05,.36,1);
+    transition: transform 0.3s cubic-bezier(.65,.05,.36,1),width 0.3s cubic-bezier(.65,.05,.36,1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+
+    &:before {
+      bottom: 0;
+      position: absolute;
+      -webkit-box-shadow: 0 -1px 8px 1px #1998ed;
+      box-shadow: 0 -1px 8px 1px #1998ed;
+      content: "";
+      height: 2px;
+      left: 0;
+      opacity: 0.15;
+      right: 0;
+    }
+  }
+
+  &-content {
+		-webkit-transition: height 0.3s ease,transform 0.3s ease;
+    transition: height 0.3s ease,transform 0.3s ease;
+  }
+}
+
+.tabNavItem{
+	.tabNavIcon{
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+	}
+	&:hover{
+		.tabNavIcon{
+			filter: grayscale(30%);
+			-webkit-filter: grayscale(30%);
+		}
+	}
+	&.is-active{
+		.tabNavIcon{
+			filter: grayscale(0%);
+			-webkit-filter: grayscale(0%);
+		}
+	}
+}
+
+.tabContent{
+	-webkit-transition: height 0.3s ease,transform 0.3s ease;
+	transition: height 0.3s ease,transform 0.3s ease;
+}
+
+.tab{
+	&-content{
+		display: none;
+		&.is-show{
+			display: inherit;
+		}
+	}
+	&-nav{
+		button{
+			border: 0.5px solid #1998ed;
+			box-sizing: content-box;
+			width: 100%;
+			display: block;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			color: #1998ed;
+		}
+		&.is-active{
+			button{
+				background-color: #1998ed;
+				color: #ffffff;
+			}
+		}
+		&:first-child{
+			button{
+				border-top-left-radius:3px;
+				border-bottom-left-radius:3px;
+			}
+		}
+		&:last-child{
+			button{
+				border-top-right-radius:3px;
+				border-bottom-right-radius:3px;
+			}
+		}
+
+	}
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.is-active {
+  display: inherit;
+}
+
+.jsTab {
+	&Button {
+		.cendolWrapper {
+			display : inline-block;
+			vertical-align: middle;
+			background-image: url("../images/icon-cendol-abu.svg");
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center center;
+			width: 23px;
+			height: 23px;
+			margin-bottom: 2px;
+			margin-left: 5px;
+		}
+
+		.bataWrapper {
+			display: inline-block;
+			vertical-align: middle;
+			background-image: url("../images/icon-bata-abu.svg");
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 26px;
+			height: 26px;
+			margin-top: -2px;
+			margin-left: 5px;
+		}
+		&.is-active {
+			.cendolWrapper {
+				background-image: url("../images/icon-cendol-ijo.svg");
+			}
+
+			.bataWrapper {
+				background-image: url("../images/icon-bata-merah.svg");
+			}
+		}
+	}
+}
+
+.modalWhoCendoled {
+	.jsTabButton {
+		&.is-active {
+			.cendol {
+				.tabWithLine-line {
+					background-color: #50ae5e;
+				}
+			}
+			.bata {
+				.tabWithLine-line {
+					background-color: #d0021b;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+.titleHobbies {
+    bottom: calc(20% - 36px);
+    min-height: 36px;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+input[type=checkbox] {
+	&:checked {
+		+.checkboxAslinyaloChecker {
+			.checkedStatus {
+				display: block;
+			}
+			i {
+				display: block;
+			}
+			.titleHobbies {
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.cardItemChannel {
+	transition: transform .2s;
+	&:hover {
+		transform: scale(1.1);
+		cursor: pointer;
+	}
+}
+
+.z1000 {
+	z-index: 1000;
+}
+
+.modal {
+	&.jsAslinyaLoModal {
+		background-color: rgba(0, 0, 0, .8);
+		overflow: hidden;
+	}
+}
+
+@keyframes shake-vertical {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(-4px);
+  }
+
+  50%, 100% {
+    transform: translateY(0px);
+  }
+}
+
+.arrowChannel {
+	transition: 0.5s ease;
+	-webkit-animation: shake-vertical 0.7s ease-in-out infinite; /* Safari, Chrome and Opera > 12.1 */
+   	-moz-animation: shake-vertical 0.7s ease-in-out infinite; /* Firefox < 16 */
+	-ms-animation: shake-vertical 0.7s ease-in-out infinite; /* Internet Explorer */
+	-o-animation: shake-vertical 0.7s ease-in-out infinite; /* Opera < 12.1 */
+	animation: shake-vertical 0.7s ease-in-out infinite;
+}
