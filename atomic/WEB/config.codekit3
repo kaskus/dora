@@ -4145,6 +4145,14 @@
 		"oAP": "/build/views/invalidThread.html",
 		"oF": 0
 		},
+	"/source/views/molecules/adsBigExpandableBottom.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/adsBigExpandableBottom.html",
+		"oF": 0
+		},
 	"/source/views/molecules/adsBigExpandableTop.kit": {
 		"cB": 0,
 		"ft": 2048,
