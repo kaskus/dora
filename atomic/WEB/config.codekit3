@@ -4233,6 +4233,14 @@
 		"oAP": "/build/views/molecules/adsSidebarRight.html",
 		"oF": 0
 		},
+	"/source/views/molecules/adsVideoShare.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/adsVideoShare.html",
+		"oF": 0
+		},
 	"/source/views/molecules/adsVideoTop.kit": {
 		"cB": 0,
 		"ft": 2048,
