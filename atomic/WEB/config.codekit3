@@ -4161,6 +4161,22 @@
 		"oAP": "/build/views/molecules/adsBigExpandableTop.html",
 		"oF": 0
 		},
+	"/source/views/molecules/adsDefaultRight.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/adsDefaultRight.html",
+		"oF": 0
+		},
+	"/source/views/molecules/adsDefaultTop.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/views/molecules/adsDefaultTop.html",
+		"oF": 0
+		},
 	"/source/views/molecules/adsDualExpandableBottom.kit": {
 		"cB": 0,
 		"ft": 2048,
