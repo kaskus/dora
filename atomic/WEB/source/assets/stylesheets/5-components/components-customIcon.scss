@@ -1,0 +1,82 @@
+.icon {
+	position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+	&-facebook-video {
+		&:before {
+		    content: '';
+		    background-image: url("../images/ic-facebook-video.svg");
+		    background-size: contain;
+		    background-position: center left;
+		    background-repeat: no-repeat;
+		    width: 28px;
+		    height: 25px;
+		    position: absolute;
+		    top: 0px;
+		    left: -2px;
+		}
+	}
+	&-daily-motion {
+		&:before {
+		    content: '';
+		    background-image: url("../images/ic-daily-motion.svg");
+		    background-size: contain;
+		    background-position: center left;
+		    background-repeat: no-repeat;
+		    width: 24px;
+		    height: 22px;
+		    position: absolute;
+		    top: 1px;
+		    left: 0;
+		}
+	}
+	&-smule {
+		&:before {
+		    content: '';
+		    background-image: url("../images/ic-smule.svg");
+		    background-size: contain;
+		    background-position: center left;
+		    background-repeat: no-repeat;
+		    width: 20px;
+		    height: 20px;
+		    position: absolute;
+		    top: 1px;
+		    left: 0;
+		}
+	}
+	&-cendol {
+		position: relative;
+		display: inline-block;
+		width: 13px;
+		height: 13px;
+		&:before {
+			content: '';
+			background-image: url("../images/ic-cendol-hitam.svg");
+			background-size: contain;
+			background-position: center;
+			width: 15px;
+			height: 15px;
+			position: absolute;
+			top: -1px;
+			left: 1px;
+		}
+	}
+	&-kaskus-bdblack {
+		position: relative;
+		display: inline-block;
+		width: 13px;
+		height: 13px;
+		&:before {
+			content: '';
+			background-image: url("../images/ic-kaskus-hitam.svg");
+			background-size: contain;
+			background-position: center;
+			width: 15px;
+			height: 15px;
+			position: absolute;
+			top: 1px;
+			left: 1px;
+		}
+	}
+}

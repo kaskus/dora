@@ -1,0 +1,37 @@
+.jsSmiliesTabNav {
+	li {
+		&.active {
+			border-bottom: 2px solid #1998ed;
+			i,
+			img {
+				filter: grayscale(0%);
+			}
+		}
+	}
+}
+
+.jsSmiliesWrapper {
+	box-shadow: 0px 6px 19px 6px rgba(0,0,0,.1);
+	&:before {
+        content: "";
+	    background-image: url(../images/icon-triangle.svg);
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    width: 18px;
+	    height: 18px;
+	    position: absolute;
+	    top: -14px;
+	    left: 100px;
+	}
+	&:after {
+	    content: "";
+	    background-image: url(../images/icon-triangle-white.svg);
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    width: 18px;
+	    height: 18px;
+	    position: absolute;
+	    top: -13px;
+	    left: 100px;
+	}
+}

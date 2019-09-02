@@ -1,0 +1,122 @@
+@keyframes fade-in-pulse {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100%,
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes swing {
+    0% {
+			transform: rotateZ(0deg);
+		}
+    25% {
+			transform: rotateZ(10deg);
+		}
+    75% {
+			transform: rotateZ(-10deg);
+		}
+    100% {
+			transform: rotateZ(0deg);
+		}
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes blinking {
+  0% {
+    color: #f8c31c;
+  }
+  50% {
+		color: #b3b3b3;
+  }
+  100% {
+    color: #f8c31c;
+  }
+}
+
+@keyframes blinkingGreen {
+  0% {
+    color: #51944c;
+  }
+  50% {
+		color: #b3b3b3;
+  }
+  100% {
+    color: #51944c;
+  }
+}
+
+@keyframes blinkingRed {
+  0% {
+    color: #c82a32;
+  }
+  50% {
+		color: #b3b3b3;
+  }
+  100% {
+    color: #c82a32;
+  }
+}
+
+@keyframes pulse-small {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes playSprites {
+  from {background-position-x: 0%;}
+  to {background-position-x: 100%;}
+}
+
+@keyframes marquee {
+    0%   { text-indent: 15px }
+    100% { text-indent: -85em }
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 80px; opacity: 1;}
+}
+
+@keyframes fadeout {
+    from {bottom: 80px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}

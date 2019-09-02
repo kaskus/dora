@@ -1,0 +1,39 @@
+.bullet {
+	&:after {
+		content: '●';
+		margin-left: 5px;
+	}
+}
+
+a {
+	&:hover {
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+
+.is-open,
+.is-show,
+.appear {
+	display: block;
+}
+
+.jsShowHideContent {
+	&.is-open {
+		-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	   	-moz-animation: fadein 2s; /* Firefox < 16 */
+		-ms-animation: fadein 2s; /* Internet Explorer */
+		-o-animation: fadein 2s; /* Opera < 12.1 */
+		animation: fadein 2s;
+	}
+}
+
+.is-close,
+.is-hide,
+.disappear {
+	display: none;
+}
+
+.is-fixed {
+	position: fixed;
+}

@@ -1,0 +1,67 @@
+<!-- $themeColor = general -->
+<!-- $navbarAccent = light -->
+<!-- $channelName = automotive -->
+<!-- @import "molecules/header.kit" -->
+<style>
+.immersiveImage {
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  height: 1000px;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  background: url('https://s.kaskus.id/img/seasonal/november2018/tematik/wp_background_fbz4r28pw0s5.jpg') no-repeat top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.has-immersive .mainContent,
+.has-immersive .mainFooter,
+.has-immersive .subFooter {
+  position: relative;
+  z-index: 0;
+}
+
+.has-immersive .sidebarLeftInner a,
+.has-immersive .sidebarLeftInner span,
+.has-immersive .listThreadItem,
+.has-immersive .column > div > div > span,
+.has-immersive .column > div > a,
+.has-immersive .column > a{
+  color: white
+}
+</style>
+<body class="Bgc(#e9ebee) Miw(1024px) jsMainBody mainBody">
+	<div class="immersiveLayer"></div>
+	<div class="Pos(f) jsNavHeaderOverlay H(100%) W(100%) Op(.7) Bgc(#000000) Start(0) D(n) T(0) Z(2)"></div>
+	<!-- @import "molecules/navHeader.kit" -->
+	<!-- @import "molecules/headerSticky.kit" -->
+	<!-- Seperator Header -->
+	<div class="Mt(20px) jsSeperator"></div>
+	<!-- @import "molecules/adsLeaderboardImmersive.kit" -->
+	<!-- Main Content -->
+	<div class="jsMainContent mainContent Maw(970px) Mx(a) Mb(30px) D(f) Pos(r)">
+		<!-- @import "molecules/leftSidebarPosSticky.kit" -->
+		<!-- @import "molecules/middleContentPosSticky.kit" -->
+		<!-- @import "molecules/rightSidebarPosSticky.kit" -->
+	</div>
+	<div class="Maw(970px) Mx(a) bottomleaderboardAds jsBottomLeaderboardAds Mb(15px)">
+    <div class="W(100%) H(150px) Bgc(#dbdbdb) Ta(c) Lh(150px) C(#9b9b9b)">
+      970x150 px
+    </div>
+  </div>
+	<!-- @import "molecules/adsFrameadsBottom.kit" -->
+	<!-- @import "molecules/modals/modalEmail.kit" -->
+	<!-- @import "molecules/modals/modalSignin.kit" -->
+	<!-- @import "molecules/modals/modalRegister.kit" -->
+	<!-- @import "molecules/modals/modalCreate.kit" -->
+	<!-- @import "molecules/modals/modalOnboarding.kit" -->
+	<!-- @import "molecules/modals/modalAnniversaryStart.kit" -->
+	<!-- @import "molecules/modals/modalAnniversaryPosting.kit" -->
+	<!-- @import "molecules/modals/modalAnniversaryFinish.kit" -->
+<!-- @import "molecules/footer.kit" -->

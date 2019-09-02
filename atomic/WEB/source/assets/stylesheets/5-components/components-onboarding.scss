@@ -1,0 +1,113 @@
+.scene {
+  width: 380px;
+  height: 400px;
+  margin: 50px 20px 0 auto;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  -webkit-transition: 0.85s -webkit-transform;
+  transition: 0.85s transform;
+  &.centered{
+    transform: translateX(-190px);
+  }
+}
+.book {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-transition: 0.85s -webkit-transform;
+  transition: 0.85s transform;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  .buttonClose,
+  .buttonPage{
+    display: none;
+  }
+  &.active{
+    .buttonClose,
+    .buttonPage{
+      display: block;
+    }
+  }
+  &.flipped{
+    .buttonNext{
+      display: none;
+    }
+  }
+
+}
+.front,
+.back {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-backface-visibility: hidden;
+
+  backface-visibility: hidden;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, from(#FFFFFF), to(#CCCCCC));
+  background: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#ccc));
+  background: -webkit-linear-gradient(top left, #fff, #ccc);
+  background: linear-gradient(to bottom right, #fff, #ccc);
+}
+.front{
+  z-index: 1;
+}
+.back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  z-index: 2;
+}
+
+.page.active {
+  z-index: 1;
+}
+.page.flipped {
+  -webkit-transform: rotateY(-180deg) translate3d(0,0,1px);
+  transform: rotateY(-180deg) translate3d(0,0,1px);
+}
+.page.flipped:last-of-type {
+  z-index: 1;
+}
+
+[class|="confetti"] {
+  position: absolute;
+}
+
+$colors: (#00a2df, #ec008c, #fff200);
+
+@for $i from 0 through 80 {
+  $w: random(16);
+  $l: random(100);
+  .confetti-#{$i} {
+    width: #{$w}px;
+    height:#{$w*0.4}px;
+    background-color: nth($colors, random(3));
+    top: -10%;
+    left: unquote($l+"%");
+    opacity: random() + 0.5;
+    transform: rotate(#{random()*360}deg);
+    animation: drop-#{$i} unquote(4+random()+"s") unquote(random()+"s") infinite;
+  }
+
+  @keyframes drop-#{$i} {
+    100% {
+      top: 110%;
+      left: unquote($l+random(15)+"%");
+    }
+  }
+}

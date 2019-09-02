@@ -1,0 +1,426 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,600,500,400,300);
+
+html,
+body{
+  height: 100%;
+}
+
+body {
+    background: #fff;
+    font: 12px Roboto;
+    overflow: hidden;
+    /* Needed for iOS scrolling bug fix */
+    position: relative;
+    overflow: hidden;
+    //overflow-x: hidden;
+
+    /* Needed to make sure body covers the whole editor and that
+      long lines don't cause horizontal scrolling */
+    min-height: 100%;
+    word-wrap: break-word;
+}
+
+html {
+	height: 100%;
+
+	/* Needed for iOS scrolling bug fix */
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+body.placeholder::after {
+    content: attr(placeholder);
+    position: absolute;
+    top: 0px;
+    color: #b3b3b3;
+}
+
+.postlist .entry,
+body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    min-height: 150px;
+    position: relative
+}
+
+a,
+:link{
+  color: #1998ed;
+}
+
+a.mention{
+  font-weight: 500;
+  text-decoration: none;
+}
+
+body,
+body.forum .postlist .entry {
+    color: #484848!important
+}
+
+/* from this point below, css should exists in main*/
+
+.dailymotion-wrapper img,
+.youtube-player img,
+.twitch-player img
+{
+    max-width: 100%
+}
+
+
+.quote-wrap,
+.quote-mark,
+.spoiler {
+    border: 1px dashed rgba(0, 0, 255, .2)
+}
+
+div.spoiler-content,
+div.quote {
+    border: 1px solid #CCC;
+    background: #EEE;
+    padding: 6px;
+}
+
+div.spoiler-mid{
+    display: none
+}
+
+div.spoiler-mid.open{
+    display: block;
+    min-height: 15px;
+    background: #EEE;
+    border: 1px solid #CCC
+}
+
+.spoiler-head {
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-style: normal;
+    color: inherit
+}
+
+.spoiler-title {
+    font-style: italic
+}
+
+.spoiler-label {
+    font-weight: 700
+}
+
+.code-head,
+.quote-wrap {
+    font-style: normal;
+    font-weight: 400
+}
+
+.spoiler-btn {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    background: #007FB9!important;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40px!important;
+    border: none;
+    line-height: inherit;
+}
+
+
+.quote-wrap,
+div.quote {
+    margin: auto;
+    color: #484848
+}
+
+div.spoiler-content {
+    display: none;
+    background: #EEE;
+    margin: 0;
+    color: #000
+}
+
+.quote-mark,
+.quote-wrap,
+div.spoiler-content.open,
+div.quote,
+cite {
+    display: block
+}
+
+.quote-wrap {
+    width: 100%;
+    font-family: Roboto;
+    font-size: 14px
+}
+
+.quote-mark {
+    padding-left: 10px;
+    font-size: 8pt
+}
+
+.dailymotion-wrapper i,
+.youtube-player i,
+.twitch-player i{
+    background: url(//s.kaskus.id/img/icon/player-yt-icon.png) center center no-repeat;
+    height: 41px;
+    left: 50%;
+    margin: -20px 0 0 -30px;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    -moz-border-radius: 5px;
+    opacity: 0.8;
+}
+
+cite {
+    font-style: normal;
+    margin-bottom: 1em
+}
+
+
+div.indented {
+    margin: 0em 40px
+}
+
+.youtube-player div {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    div.icon{
+      &:after{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 88px;
+        height: 68px;
+        margin-left: -44px;
+        margin-top: -34px;
+        content: '';
+        background: url(../images/ic-youtube.svg) center center no-repeat;
+        background-size: contain;
+      }
+      &:hover{
+        &:after{
+          background: url(../images/ic-youtube-red.svg) center center no-repeat;
+          background-size: contain;
+        }
+      }
+    }
+
+}
+
+.twitch-player div{
+    max-width: 100%;
+    margin: 0 auto;
+    display:inline-block;
+}
+
+.dailymotion-wrapper,.twitch-player, .youtube-player {
+    //border: 1px dashed rgba(0, 0, 255, .2);
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+
+    // padding-bottom: 10px;
+}
+
+.dailymotion-wrapper div {
+    position: relative;
+    cursor: pointer;
+    display: inline-block
+}
+
+.code-head {
+    margin-bottom: 2px;
+    font-size: 11px
+}
+
+code,
+p,
+pre {
+    margin: 0
+}
+
+code,
+pre {
+    padding: 6px;
+    border: 1px solid #CCC;
+    overflow: auto;
+    background: #EEE;
+    line-height: 1.25;
+    font-family: monospace;
+    font-size: .9em;
+    color: #000
+}
+
+code {
+    font-size: 14px;
+    display: block
+}
+
+
+.video__embed__title a {
+    color: #484848;
+}
+
+.video__embed--author {
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    color: #888;
+    overflow: hidden;
+    position: relative
+}
+
+.video__embed--author img {
+    width: 25px;
+    height: 25px
+}
+
+.video__embed--author a {
+    color: #484848
+}
+
+.video__embed--user {
+    margin-top: 5px
+}
+
+.video__embed--user span {
+    color: #b0b0b0
+}
+
+.video__embed--desc {
+    padding-left: 35px
+}
+
+.video__embed--desc-content {
+    line-height: 20px;
+    margin-bottom: 20px;
+    word-break: break-word
+}
+
+.videocard-wrapper {
+    margin: 10px 0
+}
+
+.videocard-wrapper iframe {
+    height: 500px;
+    width: 625px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.1)
+}
+
+div.sceditor-left{
+    display:block;
+    text-align:left;
+}
+div.sceditor-right{
+    display:block;
+    text-align:right;
+}
+div.sceditor-center{
+    display:block;
+    text-align:center;
+}
+
+ol.c-list-editor--wrapper,
+ul.c-list-editor--wrapper{
+    margin-left:1.5em;
+}
+
+font[size="1"]{
+    font-size: 9px;
+}
+font[size="2"]{
+    font-size: 12px;
+}
+font[size="3"]{
+    font-size: 15px;
+}
+font[size="4"]{
+    font-size: 17px;
+}
+font[size="5"]{
+    font-size: 21px;
+}
+font[size="6"]{
+    font-size: 28px;
+}
+font[size="7"]{
+    font-size: 40px;
+}
+
+.sceditor-ignore .spoiler-head,
+.sceditor-ignore .quote-mark,
+.sceditor-ignore cite.sceditor-ignore,
+.sceditor-ignore font,
+.sceditor-ignore u,
+.sceditor-ignore b,
+.sceditor-ignore i{
+    text-align: left!important;
+    font-size: 13px!important;
+    color: black!important;
+    display: block;
+    text-decoration: none!important;
+    font-weight: 400!important;
+    font-style: normal!important;
+    font-family: Roboto!important;
+}
+
+span.videocard {
+    display: none;
+}
+
+.spoiler-content img {
+    max-width: 100%
+}
+
+a.toggle-play div, a.toggle-play > span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+a.toggle-play {
+    position: relative;
+    display: block;
+    &.playing{
+      div,
+      > span{
+        display: none;
+      }
+    }
+}
+
+.gif-space {
+    display: inline-block;
+    color: #FFF;
+    background: #000;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    line-height:50px;
+    padding: 0;
+}
+.empty-space {
+    display: block;
+    width: 0;
+    height: calc(50% - 25px);
+}
+
+.quote-wrap,
+.quote-mark,
+.spoiler {
+    border: 1px dashed rgba(0, 0, 255, .2)
+}

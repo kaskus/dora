@@ -1,0 +1,45 @@
+.o-spoiler {
+	&--wrapper {
+		&-inner {
+			position: relative;
+		    background-color: #EEE;
+		    padding: 10px;
+		    border: 1px solid #DDD;
+		    ul.c-list-editor--wrapper {
+	    		list-style: none!important;
+	    		li {
+	    			&:before {
+	    				content: '•';
+						margin-right: 3px
+	    			}
+	    		}
+		    }
+		}
+	}
+	&--control {
+		margin-bottom: 5px;
+		font-size: 11px;
+		font-style: italic;
+		display: inline-block;
+		&:before {
+			content: 'Spoiler for';
+		    font-weight: 600;
+		    color: #484848;
+		    margin-right: 3px;
+		    font-size: 12px;
+		    font-style: normal;
+		}
+		input[type=button] {
+			display: inline-block;
+			background-color: #007FB9;
+		    border: none;
+		    color: #fff;
+		    border-radius: 3px;
+		    padding: 3px 12px;
+		    vertical-align: bottom;
+		    margin-left: 10px;
+		    outline: none;
+	        font-size: 9px;
+		}
+	}
+}

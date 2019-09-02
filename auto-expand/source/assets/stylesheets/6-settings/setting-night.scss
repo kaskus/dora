@@ -1,0 +1,341 @@
+body.nightmode {
+	color: #dcdcdc;
+	.currentPagination {
+		background-color: #fdba4d;
+		color: #171717;
+	}
+	input {
+		&[type="radio"]:checked+label {
+			font-weight: bold;
+			color: #fdba4d;
+		}
+		&::-webkit-input-placeholder {
+			color: #828282;
+		}
+	}
+	a.forgotPassword {
+		color: #faa517;
+	}
+	div {
+		&.subForumItem {
+			&:nth-child(odd) {
+				border-right:1px solid #3f3f3f;
+			}
+		}
+	}
+	.sliderCheckbox {
+		&:before {
+		  	background-color: #dcdcdc;
+	  		-webkit-box-shadow: inset 0px -1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	        -moz-box-shadow: inset 0px -1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+			box-shadow: inset 0px -1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+		}
+	}
+
+	input:checked + .sliderCheckbox {
+	  background-color: rgba(253, 186, 77, 0.4);
+	}
+
+	input:checked + .sliderCheckbox:before{
+	  background-color: #fdba4d;
+	}
+
+	input:focus + .sliderCheckbox {
+	  box-shadow: 0 0 1px #2196F3;
+	}
+	.c-compact {
+		.is-compact-view {
+			border-bottom: 1px solid #3f3f3f;
+		}
+	}
+	.jsSignInTab,
+	.jsSignUpTab {
+		&.active {
+		    background-color: #171717;
+    		color: #faa517;
+		}
+	}
+
+	.btnStatus {
+		background-color: #faa517;
+		input {
+			background-color: #faa517;
+		}
+	}
+	.jsShareThread {
+		&.is-open {
+			color: #faa517;
+		}
+	}
+	.jsShareList {
+		&:before {
+	    	border-bottom-color: rgba(171, 171, 171, 0.3);
+		}
+		&:after {
+		    border-bottom-color: #171717;
+		}
+	}
+	textarea {
+		&.replySection {
+			&::-webkit-input-placeholder {
+			  color: #9e9e9e;
+			}
+			&::-moz-placeholder {
+			  color: #9e9e9e;
+			}
+			&:-ms-input-placeholder {
+			  color: #9e9e9e;
+			}
+			&:-moz-placeholder {
+			  color: #9e9e9e;
+			}
+			&:focus {
+				border-color: #9e9e9e;
+			}
+		}
+	}
+	.c-pagination {
+		li {
+			a {
+				color: #dcdcdc;
+			}
+			&.active {
+				background-color: #faa517;
+				color: #000;
+			}
+		}
+	}
+	.jsRatingItem,
+	.jsSortItem{
+		&.is-choosen {
+			color: #faa517;
+		}
+		&.is-selected {
+			.threadItemStatus {
+				color: #dcdcdc;
+				font-weight: 700;
+			}
+		}
+	}
+	.jsSmiliesTabNav {
+		li {
+			&.active {
+				border-bottom: 2px solid #faa517;
+			}
+		}
+	}
+	.jsSmiliesWrapper {
+		&:before {
+		    border-bottom-color: rgba(171, 171, 171, 0.3);
+		}
+		&:after {
+		    border-bottom-color: #171717;
+		}
+	}
+	.jsBookmark {
+		&.is-subcribed {
+			color: #faa517;
+		}
+	}
+	.jsSortThreadBy {
+		.threadItemStatus,
+		.threadItemIcon {
+			color: #b3b3b3;
+		}
+		.is-selected {
+			.threadItemIcon {
+				color: #faa517;
+			}
+			.threadItemStatus {
+				color: #dcdcdc;
+			}
+		}
+	}
+	.jsSpoiler {
+		&Wrapper {
+			border-left-color: #6e6e6e!important;
+		}
+		&Btn {
+			color: #9e9e9e!important;
+		}
+	}
+	.jsQuote {
+		&Head {
+			border-left-color: #6e6e6e!important;
+		}
+		&Username {
+			color: #dcdcdc!important;
+		}
+		&Post {
+			color: #faa517!important;
+		}
+	}
+	.is-selected {
+		.subscribeCardItem {
+			background-color: #3f3f3f;
+		}
+	}
+	.jsThreadPoll {
+		input[type="radio"], input[type="checkbox"] {
+		  	& + label {
+			    color: #949494;
+			    &:before, &:after {
+					color: #f5f5f5;
+			    }
+		  	}
+		}
+		input[type="radio"] + label {
+	  		&:before {
+				box-shadow:
+				inset 0 0 0 1px #979797,
+				inset 0 0 0 16px #fff,
+				inset 0 0 0 16px #faa517;
+	  		}
+		}
+		input[type="radio"]:checked + label {
+			color: #dcdcdc;
+			&:before {
+				box-shadow:
+				inset 0 0 0 1px #979797,
+				inset 0 0 0 3px #fff,
+				inset 0 0 0 16px #faa517;
+			}
+		}
+		input[type="checkbox"] + label {
+			color: #949494;
+			&:before {
+				background-color: #fff;
+				color: #fff;
+				box-shadow:
+				inset 0 0 0 1px #666565,
+				inset 0 0 0 16px #fff,
+				inset 0 0 0 16px #faa517;
+			}
+		}
+		input[type="checkbox"]:checked + label {
+			color: #dcdcdc;
+		  	&:before {
+				background-color: #c3c3c3;
+				color: #fff;
+				box-shadow:
+				inset 0 0 0 1px #faa517,
+				inset 0 0 0 0 #fff,
+				inset 0 0 0 16px #faa517;
+		  	}
+		}
+		.PollResult {
+			&Bar {
+				background-color: #525151;
+			}
+		}
+		.is-selected {
+			.PollResult {
+				&Title {
+					color: #dcdcdc;
+				}
+				&Val {
+					color: #faa517;
+				}
+				&Bar {
+					background-color: #efcf9f;
+				}
+			}
+		}
+	}
+	.notificationItem {
+		> div {
+			background-color: #171717;
+		}
+		&.is-opened {
+			> div {
+				background-color: #000;
+			}
+		}
+	}
+	.o-spoiler--wrapper-inner {
+		background-color: #171717;
+	}
+	.o-spoiler--content {
+		color: #dcdcdc;
+	}
+	.post-quote>span+span {
+        border: solid 1px #333!important;
+    	background: #333333!important;
+    	color: #dcdcdc!important;
+	}
+	.is-compact-view_Bdb\(gray-border-2\) {
+		border-bottom-color: #3f3f3f;
+	}
+
+	.jsTabNav {
+		&.active {
+			a {
+				border-bottom-color: #faa517;
+				color: #faa517;
+			}
+		}
+	}
+	.jbRespon {
+		.jsTabNav {
+			&.active {
+				a {
+					border-bottom-color: #faa517;
+					color: #000;
+					background-color: #faa517;
+				}
+			}
+		}
+	}
+	.responItem {
+		&.is-selected {
+			> div {
+				background-color: #fdba4d;
+				color: #171717;
+			}
+		}
+	}
+	.itemView {
+		&.is-selected {
+			i {
+				color: #faa517;
+
+			}
+		}
+	}
+	.is-rounded {
+	  	label {
+			background-color: #000;
+			border: 1px solid #9b9b9b;
+			&:after {
+			    border-color: #000;
+			}
+	  	}
+	  	input[type="checkbox"] {
+	  		&:checked {
+	  			+ label {
+	  				background-color: #faa517;
+	  				border-color: #faa517;
+	  			}
+	  		}
+	  	}
+	}
+	.notificationItem {
+		.notificationItemWrap {
+			background-color: #000;
+		}
+		&.is-opened {
+			.notificationItemWrap {
+				background-color: #171717;
+			}
+		}
+	}
+	.is-rounded input[type="checkbox"]:checked+label {
+	    background-color: #faa517;
+	    border-color: #faa517;
+	}
+	.is-active {
+		.filterItem {
+			background-color: rgba(250,165,23,.05);
+		}
+	}
+}

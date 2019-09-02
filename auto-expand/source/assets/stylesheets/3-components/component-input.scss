@@ -1,0 +1,58 @@
+input {
+	&:focus {
+		outline: 0;
+		border-color: none;
+    	box-shadow: none;
+	}
+
+}
+
+input[type=submit],
+button {
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.htArchive {
+	input[type="date"] {
+		box-shadow: none;
+		&:invalid {
+			&:before {
+				content: attr(placeholder)!important;
+				color: #b3b3b3;
+				font-size: 12px;
+			}
+		}
+		&:focus,
+		&:valid {
+			&:before {
+				content: "";
+			}
+		}
+	}
+	input[type="date"] {
+		::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+		::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+		::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+	    	color: transparent;
+		}
+	}
+	input[type="date"]:in-range::-webkit-datetime-edit-year-field,
+	input[type="date"]:in-range::-webkit-datetime-edit-month-field,
+	input[type="date"]:in-range::-webkit-datetime-edit-day-field,
+	input[type="date"]:in-range::-webkit-datetime-edit-text { 
+		color: transparent;
+	}
+}
+
+// input[type="radio"]:checked+label {
+// 	font-weight: bold;
+// 	color: #1998ed;
+// }
+
+// input[type=radio]:checked + label:after {
+// 	content: "\2713";
+// 	position: absolute;
+// 	right: 15px
+// }

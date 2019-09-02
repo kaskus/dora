@@ -1,0 +1,21 @@
+.form-input {
+  &.has-error {
+    input {
+      border-color: #ec1b24;
+    }
+  }
+  &.has-verified {
+    input {
+      border-color: #30c436;
+    }
+  }
+}
+
+.select2-search--dropdown {
+  input {
+    &.select2-search__field {
+      font-size: 14px;
+      color: #484848;
+    }
+  }
+}

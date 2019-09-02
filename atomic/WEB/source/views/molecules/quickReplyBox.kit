@@ -1,0 +1,98 @@
+<div class="Bgc(#f7f7f7) Px(20px) Pt(15px) Pb(20px) Bd(borderSolidLightGrey) Mb(15px)">
+  <div class="Ff(VagRounded) Fz(16px) Mb(10px)">Reply</div>
+  <div class="Pos(r) Bgc(#ffffff) Bd(borderSolidGrey) Px(15px) Py(15px)">
+    <div class="Pos(a) D(f) Ai(c) jsReplyUser Mb(10px)">
+      <img src="../assets/images/image-square1.png" class="W(30px) H(30px) Bdrs(50%)"/>
+      <span class="Fw(500) C(c-blue) Mstart(15px)" style="display:none;">kpopluckynumber</span>
+    </div>
+    <textarea id="jsReplyTextArea" class="Bg(n) Bd(n) H(30px) W(100%) Px(40px) Rsz(n) Py(5px)" placeholder="Tulis sesuatu tentang thread ini gan..."></textarea>
+  </div>
+  <div class="D(f) jsReplyTools Mt(20px)" style="display:none;">
+    <div class="Fx(flexOne) D(f) Ai(c)">
+      <button class="C(#b3b3b3) C(#484848):h Mend(20px) jsTippy" data-tippy-content="Set Text Bold" onClick="insertBBCode('[B]','[/B]','#jsReplyTextArea')">
+        <i class="far fa-fw fa-bold"></i>
+      </button>
+      <button class="C(#b3b3b3) C(#484848):h Mend(20px) jsTippy" data-tippy-content="Set Text Italic" onClick="insertBBCode('[I]','[/I]','#jsReplyTextArea')">
+        <i class="far fa-fw fa-italic"></i>
+      </button>
+      <button class="C(#b3b3b3) C(#484848):h Mend(20px) Fz(15px) Pt(1px) jsTippy" data-tippy-content="Set Text Underline" onClick="insertBBCode('[U]','[/U]','#jsReplyTextArea')">
+        <i class="far fa-fw fa-underline"></i>
+      </button>
+      <div class="Pos(r) jsSmilies">
+        <button class="C(#b3b3b3) C(#484848):h Mend(20px) jsButtonSmilies jsTippy jsButtonToggle" data-tippy-content="Insert Smilies">
+          <i class="far fa-fw fa-smile"></i>
+        </button>
+        <!-- @import "smiliesBox.kit" -->
+      </div>
+      <div class="Pos(r) jsMention">
+        <button class="C(#b3b3b3) C(#484848):h Mend(20px) jsButtonMention jsTippy jsButtonToggle" data-tippy-content="Add Mention">
+          <i class="far fa-fw fa-at"></i>
+        </button>
+        <div class="jsMentionContainer W(205px) Pos(a) Z(1) B(25px) Start(-5px) toggleMenu toggleMenu-leftBottom">
+          <div class="W(15px) H(15px) Bgr(nr) Bgz(ct) Bgp(c) Bgi(bgTriangleGrey) Pos(a) Start(8px) B(-11px) Rotate(180deg)"></div>
+          <div class="Bd(borderSolidLightGrey) Bxsh(boxShadow)">
+            <div class="D(f) Pos(r) Bdb(borderSolidLightGrey)">
+              <input type="text" class="W(100%) Bd(none) Fz(14px) C(#484848) Py(15px) Pstart(35px) Pend(15px)" placeholder="Cari user"/>
+              <i class="Pos(a) T(17px) Start(15px) fas fa-search C(c-grey)"></i>
+            </div>
+            <ul class="Bgc(c-white) mentionList">
+              <li class='D(f)'>
+                <img class='Bdrs(50%) Mend(10px) H(35px) W(35px)' src='../assets/images/image-square3.png' height='35' width='35'/>
+                <div class='Fx(flexOne)'>
+                  <div>kpopluckynumber</div>
+                  <div class='Fz(11px) small'>newbie</div>
+                </div>
+              </li>
+              <li class='D(f)'>
+                <img class='Bdrs(50%) Mend(10px) H(35px) W(35px)' src='../assets/images/image-square3.png' height='35' width='35'/>
+                <div class='Fx(flexOne)'>
+                  <div>wkwkwkland</div>
+                  <div class='Fz(11px) small'>newbie</div>
+                </div>
+              </li>
+              <li class='D(f)'>
+                <img class='Bdrs(50%) Mend(10px) H(35px) W(35px)' src='../assets/images/image-square3.png' height='35' width='35'/>
+                <div class='Fx(flexOne)'>
+                  <div>kpopluckynumber</div>
+                  <div class='Fz(11px) small'>newbie</div>
+                </div>
+              </li>
+              <li class='D(f)'>
+                <img class='Bdrs(50%) Mend(10px) H(35px) W(35px)' src='../assets/images/image-square3.png' height='35' width='35'/>
+                <div class='Fx(flexOne)'>
+                  <div>wkwkwkland</div>
+                  <div class='Fz(11px) small'>newbie</div>
+                </div>
+              </li>
+              <li class='D(f)'>
+                <img class='Bdrs(50%) Mend(10px) H(35px) W(35px)' src='../assets/images/image-square3.png' height='35' width='35'/>
+                <div class='Fx(flexOne)'>
+                  <div>kpopluckynumber</div>
+                  <div class='Fz(11px) small'>newbie</div>
+                </div>
+              </li>
+              <li class='D(f)'>
+                <img class='Bdrs(50%) Mend(10px) H(35px) W(35px)' src='../assets/images/image-square3.png' height='35' width='35'/>
+                <div class='Fx(flexOne)'>
+                  <div>wkwkwkland</div>
+                  <div class='Fz(11px) small'>newbie</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">
+          <i></i>
+          <span class="Fz(11px) C(#6e6e6e) D(ib) Mb(2px) Mstart(5px)">Quote message in reply?</span>
+        </label>
+      </div>
+    </div>
+    <div class="Fx(flexZero)">
+      <a href="#" class="Bgc(#1998ed):h C(#ffffff):h Td(n):h D(ib) Py(10px) Px(25px) Fz(12px)  C(#1998ed) Bd(borderSolidBlue) Bdrs(5px) Mend(10px) jsButtonPostAdvanced" onClick="alert('joni');">Go Advanced</a>
+      <button href="#" class="Bgc(#1998ed) C(#ffffff) Td(n):h D(ib) Py(10px) Px(25px) Fz(12px)  Bd(borderSolidBlue) Bdrs(5px)">Post</button>
+    </div>
+  </div>
+</div>

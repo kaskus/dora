@@ -1,0 +1,130 @@
+.jsBotScroll,
+.topContent {
+	&::-webkit-scrollbar {
+ 		display: none;
+ 	}
+}
+
+.mls-img {
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+
+#jsCategory #jsCategoryForum,
+#jsCategory #jsCategoryFjb{
+	visibility: hidden;
+	&.open{
+		visibility: visible;
+	}
+}
+
+#jsThreadSort.is-hide{
+	visibility: hidden;
+}
+
+.jsRatingItem,
+.jsSortItem{
+	&.is-choosen {
+		color: #1998ed;
+	}
+	&.active {
+		filter: grayscale(0);
+	}
+	&.is-selected {
+		.threadItemStatus {
+			a {
+				color: #484848;
+			}
+		}
+	}
+}
+
+.jsShareThread {
+	&.is-open {
+		color: #1998ed;
+	}
+}
+
+#scroll-left.is-hide,
+#scroll-right.is-hide{
+	color:#ddd;
+}
+
+.c-reputation {
+	.is-up-vote {
+		&.active {
+			color: #50AE5E;
+			-webkit-animation: tada 2s linear;
+  			animation: tada 2s linear;
+		}
+	}
+	.is-down-vote {
+		&.active {
+			color: #D0021B;
+			-webkit-animation: tada 2s linear;
+  			animation: tada 2s linear;
+		}
+	}
+}
+
+.toggleMenu {
+    transform: translateX(0) translateY(-20px) scale(0.8);
+    transform-origin: right;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-duration: 300ms;
+    visibility: hidden;
+    opacity: 0;
+    &.is-visible {
+	    transform: translateX(0) translateY(0) scale(1);
+	    visibility: visible;
+	    opacity: 1;
+	}
+}
+
+.jsThreadContent {
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.jsIconMovement {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    &.turnIcon {
+    	-webkit-transition: all 0.5s;
+    	transition: all 0.5s;
+    	-webkit-transform: rotate(-180deg) scale(1);
+    	-ms-transform: rotate(-180deg) scale(1);
+    	transform: rotate(-180deg) scale(1);
+    }
+}
+
+.jsBookmark {
+	transition: all 0.5s ease-in;
+	&.is-subcribed {
+		color: #f8e71c;
+		-webkit-animation: zoomInOut 1s ease-in-out;
+	    -khtml-animation: zoomInOut 1s ease-in-out;
+	    -moz-animation: zoomInOut 1s ease-in-out;
+	    -ms-animation: zoomInOut 1s ease-in-out;
+	    -o-animation: zoomInOut 1s ease-in-out;
+	    animation: zoomInOut 1s ease-in-out;
+	    -webkit-transition: background 0.5s ease-out;
+	    -khtml-transition: background 0.5s ease-out;
+	    -moz-transition: background 0.5s ease-out;
+	    -ms-transition: background 0.5s ease-out;
+	    -o-transition: background 0.5s ease-out;
+	    transition: background 0.5s ease-out;
+	}
+}
+
+.jsBottomOptionContent {
+	-moz-transition: bottom .2s ease-in-out;
+    -webkit-transition: bottom .2s ease-in-out;
+    transition: bottom .2s ease-in-out;
+}

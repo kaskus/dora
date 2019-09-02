@@ -1,0 +1,139 @@
+.buttonMultiquote{
+	&.is-animate{
+		-webkit-animation: pulse-small 0.5s forwards ease-in-out;
+    animation: pulse-small 0.5s forwards ease-in-out;
+	}
+	&.is-selected{
+		background-color: #fdba4d;
+		i,span{
+			color: #ffffff!important;
+		}
+	}
+	&:hover{
+		i,span{
+			color: #fdba4d;
+		}
+	}
+}
+
+.buttonReply{
+	&:hover{
+		i,span{
+			color: #1998ed;
+		}
+	}
+}
+
+.buttonCendol{
+	$this: &;
+	&-icon{
+		width: 25px;
+		height: 25px;
+		display: inline-block;
+		vertical-align: bottom;
+		margin-bottom: 1px;
+		margin-right: 2px;
+		background-image: url(../images/sprite-cendol.png);
+	}
+	&-arrow{
+		color: #b3b3b3;
+		font-size: 12px;
+	}
+
+	&:hover{
+		#{$this}-icon{
+			animation: playSprites 1s steps(12) forwards;
+		}
+		#{$this}-arrow{
+			animation: blinkingGreen 1s infinite;
+		}
+	}
+	&.is-active{
+		animation: pulse-small 0.5s ease-in-out normal forwards;
+		#{$this}-icon{
+			background: center/18px 18px no-repeat;
+			background-image: url(../images/ic-cendol-ijo.png);
+		}
+		#{$this}-arrow{
+			color: #51944c;
+		}
+		&:hover{
+			.buttonCendol-icon,
+			.buttonCendol-arrow{
+				animation: none;
+			}
+		}
+	}
+}
+
+.buttonBBCode{
+	border-radius: 15px;
+	&:hover{
+		background-color: #f2f2f2;
+		span,
+		i{
+			color: #1998ED;
+		}
+	}
+	&.is-active{
+		background-color: #e9e9e9;
+		span,
+		i{
+			color: #1998ED;
+		}
+	}
+}
+
+.buttonValidasi{
+	border-radius: 15px;
+	&:hover{
+		background-color: #f2f2f2;
+	}
+	&:disabled,
+	&[disabled],
+	&.is-disabled{
+		opacity: 0.3;
+		background-color: transparent!important;
+		cursor: default;
+	}
+}
+
+.buttonBata{
+	$this: &;
+	&-icon{
+		width: 25px;
+		height: 25px;
+		display: inline-block;
+		vertical-align: bottom;
+		margin-bottom: 1px;
+		background-image: url(../images/sprite-bata.png);
+	}
+	&-arrow{
+		color: #b3b3b3;
+		margin-right: 2px;
+	}
+	&:hover{
+		#{$this}-icon{
+			animation: playSprites 1s steps(10) forwards;
+		}
+		#{$this}-arrow{
+			animation: blinkingRed 1s infinite;
+		}
+	}
+	&.is-active{
+		animation: pulse-small 0.5s ease-in-out normal forwards;
+		#{$this}-icon{
+			background: center/20px 20px no-repeat;
+			background-image: url(../images/ic-bata-merah.svg);
+		}
+		#{$this}-arrow{
+			color: #c82a32;
+		}
+		&:hover{
+			.buttonBata-icon,
+			.buttonBata-arrow{
+				animation: none;
+			}
+		}
+	}
+}

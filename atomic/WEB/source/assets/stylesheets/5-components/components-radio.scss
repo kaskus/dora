@@ -1,0 +1,132 @@
+.radio  {
+	position: relative;
+	label{
+		display: inline-block;
+		padding-left: 18px;
+		span {
+			color: #484848;
+		}
+		input[type="radio"]{
+			display: none;
+			+i:before{
+				bottom: -1px;
+    		left: 0px;
+				font-size: 18px;
+				position: absolute;
+				font-family: 'Font Awesome 5 Pro';
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				font-weight: 300;
+				color: #979797;
+				border-radius: 50%;
+				background-color: #fff;
+				content: "\f111";
+			}
+			&:checked{
+				+i:after{
+					font-family: 'Font Awesome 5 Pro';
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					color: #1998ed;
+					font-weight: 900;
+					font-size: 13px;
+					content: "\f111";
+					position: absolute;
+					top: 2px;
+					left: 2.5px;
+				}
+				+i+span{
+					color: #1998ed;
+				}
+			}
+		}
+		&:hover{
+			cursor: pointer;
+			input[type="radio"]+i:after{
+				font-family: 'Font Awesome 5 Pro';
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				color: #1998ed;
+				font-weight: 900;
+				font-size: 13px;
+				content: "\f111";
+				position: absolute;
+				top: 2px;
+				left: 2.5px;
+			}
+		}
+	}
+	span{
+		-webkit-touch-callout: none; /* iOS Safari */
+		-webkit-user-select: none; /* Safari */
+		-khtml-user-select: none; /* Konqueror HTML */
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+		user-select: none;
+		margin-left: 15px;
+		font-size: 14px;
+		color: #6e6e6e;
+	}
+	&-isIcon{
+		label{
+			padding-left: 30px;
+			display: block;
+			i:before{
+				bottom: 2px;
+				left: 0px;
+				font-size: 18px;
+				position: absolute;
+				font-family: 'Font Awesome 5 Pro';
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				font-weight: 300;
+				color: #979797;
+				border-radius: 50%;
+				background-color: #fff;
+				content: "\f111";
+			}
+		}
+		button{
+			position: absolute;
+			right: 5px;
+			top: 3px;
+			display: none;
+			color: lighten(#C6C6C6, 5%);
+			&:hover{
+				color: #C6C6C6;
+			}
+		}
+		input[type="text"]{
+			display: block;
+			width: 100%;
+			border: none;
+			background: none;
+			border-bottom: 1px solid #c6c6c6;
+			font-size: 12px;
+			padding: 5px;
+		}
+		&:hover{
+			button{
+				display: block;
+			}
+		}
+	}
+}

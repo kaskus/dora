@@ -1,0 +1,11 @@
+.highlightedText {
+	color: #1998ed;
+}
+
+.jsSearchSticky{
+	transition: .5s ease-in-out;
+	transform: translateX(330px);
+	&.is-clicked{
+	    transform: translateX(0) translateY(0);
+	}
+}

@@ -1,0 +1,17 @@
+.movementBackForth {
+	-webkit-animation: back-forth 20s ease-in-out infinite;
+    -khtml-animation: back-forth 20s ease-in-out infinite;
+    -moz-animation: back-forth 20s ease-in-out infinite;
+    -ms-animation: back-forth 20s ease-in-out infinite;
+    -o-animation: back-forth 20s ease-in-out infinite;
+    animation: back-forth 20s ease-in-out infinite;
+}
+
+.movementFloating {
+    -webkit-animation: floating 4s ease-in-out 0s infinite alternate;
+    -khtml-animation: floating 4s ease-in-out 0s infinite alternate;
+    -moz-animation: floating 4s ease-in-out 0s infinite alternate;
+    -ms-animation: floating 4s ease-in-out 0s infinite alternate;
+    -o-animation: floating 4s ease-in-out 0s infinite alternate;
+    animation: floating 4s ease-in-out 0s infinite alternate;
+}

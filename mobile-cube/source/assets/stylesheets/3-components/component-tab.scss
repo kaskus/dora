@@ -1,0 +1,19 @@
+.jsTabNav {
+	a {
+	    transition: 0.2s all ease-in-out;
+	}
+}
+
+.jsTabList {
+	> div {
+		transition: 0.2s all ease-in-out;
+	}
+}
+
+.jsSignInTab,
+.jsSignUpTab {
+	&.active {
+		background-color: #fff;
+		color: #1998ed;
+	}
+}

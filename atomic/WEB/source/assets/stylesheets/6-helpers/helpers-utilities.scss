@@ -1,0 +1,83 @@
+.mls-img {
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+
+.aBreak {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.hide {
+  display: none!important;
+}
+
+.zoomBgImg {
+  overflow: hidden;
+
+  &-img {
+    transition: all 0.5s;
+  }
+
+  &:focus,
+  &:hover {
+    .zoomBgImg-img {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.checked{
+	background-color: #ffaa66;
+}
+
+.hiddenInput{
+	position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  cursor: inherit;
+  display: block;
+}
+
+.ellipsisText4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.highlightedText  {
+  color: #1998ed;
+}
+
+.oFitCover{
+	object-fit: cover;
+}
+
+
+.jsShareBtn {
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  &.scrolled {
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+    right: 0;
+  }
+}
