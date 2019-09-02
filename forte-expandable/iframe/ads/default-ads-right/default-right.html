@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Default Top</title>
+    <script src="../../assets/js/vendor/jquery.min.js"></script>
+    <script>
+        var curWin = window.parent.window;
+        var curDoc = window.parent.document;
+        var banner_selector = '.jsDefaultRight';
+    </script>
+</head>
+
+<body style="margin: 0; font-family: 'Roboto', sans-serif; color: gray">
+    <div class="billboard-banner"
+        style="height: 250px; width: 300px; background-color: gainsboro; display: flex; justify-content: center; align-items: center; transition: width 0.3s ease-in-out">
+        BILLBOARD BANNER 300 x 250px
+    </div>
+    <script>
+        $(curDoc).ready(function () {
+            $(curDoc.querySelector(banner_selector)).find('iframe').css({ transition: 'width 0.3s ease-in-out' });
+            $('html', document).hover(
+                function () {
+                    $(curDoc.querySelector(banner_selector)).addClass('is-expanded');
+                    $(curDoc.querySelector(banner_selector)).find('iframe').addClass('W(525px)');
+                    $(curDoc.querySelector(banner_selector)).find('iframe').removeClass('W(300px)');
+                    $('.billboard-banner').width('525px');
+                }, function () {
+                    $(curDoc.querySelector(banner_selector)).removeClass('is-expanded');
+                    $(curDoc.querySelector(banner_selector)).find('iframe').removeClass('W(525px)')
+                    $(curDoc.querySelector(banner_selector)).find('iframe').addClass('W(300px)');
+                    $('.billboard-banner').width('300px');
+                }
+            );
+        });
+    </script>
+</body>
+
+</html>

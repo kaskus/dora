@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="393px" height="299px" viewBox="0 0 393 299" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>outline</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ONBOARDING" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="onboarding3d" transform="translate(-493.000000, -251.000000)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-58" transform="translate(494.000000, 252.000000)">
+                <path d="M143.581293,0.876033058 C68.0904869,11.9925975 22.261047,47.5657004 6.09297319,107.595342 C-18.1591375,197.639804 39.9015249,271.442531 121.616261,289.749398 C203.330998,308.056265 332.648501,291.826371 370.244965,225.177259 C407.841428,158.528146 393.404512,80.1098835 331.177528,40.3978352 C268.950544,0.685786864 80.6226,24.0416902 6.09297319,48.4840692" id="outline" transform="translate(195.676621, 148.815908) scale(-1, 1) translate(-195.676621, -148.815908) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

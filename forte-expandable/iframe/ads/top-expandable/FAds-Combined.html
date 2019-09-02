@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="authoring-tool" content="Adobe_Animate_CC">
+	<title>Mitsubitshi</title>
+	<script src="../../assets/js/vendor/jquery.min.js"></script>
+	<script>
+		curWin = window.parent.window;
+		curDoc = window.parent.document;
+		var banner_selector = '.jsExpandableTop';
+	</script>
+	<!-- write your code here -->
+</head>
+
+<body style="margin:0px;">
+	<img id="exImg" src="images/banner970x90.jpg">
+	<img src="https://www.kaskus.co.id/banner/1x1.gif?type=mitsubitshi_expander_hover_out" id="trk_img">
+	<script>
+		$(curDoc).ready(function () {
+			$(curDoc.querySelector(banner_selector)).find('iframe').css({ transition: 'height 0.3s ease-in-out' });
+			function preloadImage(url) {
+				var img = new Image();
+				img.src = url;
+			}
+
+			preloadImage("https://s.kaskus.id/images/2017/08/10/8426807_20170810035413.jpg");
+
+			$('html', document).hover(
+				function () {
+					var rndInt = Math.floor(Math.random() * 9999);
+					$(curDoc.querySelector(banner_selector)).addClass('expanded');
+					$(curDoc.querySelector(banner_selector)).find('iframe').addClass('H(195px)');
+					isExpanded = true;
+
+					$(document.getElementById('exImg')).attr('src', 'https://s.kaskus.id/images/2017/08/10/8426807_20170810035413.jpg');
+					$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=mitsubitshi_expander_hover_in&rnd=' + rndInt);
+				},
+				function () {
+					var rndInt = Math.floor(Math.random() * 9999);
+					$(curDoc.querySelector(banner_selector)).removeClass('expanded');
+					$(curDoc.querySelector(banner_selector)).find('iframe').removeClass('H(195px)')		
+					isExpanded = false;
+
+					$(document.getElementById('exImg')).attr('src', 'images/banner970x90.jpg');
+					$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=mitsubitshi_expander_hover_out&rnd=' + rndInt);
+				}
+			);
+		});
+	</script>
+</body>
+
+</html>

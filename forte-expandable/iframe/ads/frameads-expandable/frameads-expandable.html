@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BB</title>
+<script src="../../assets/js/vendor/jquery.min.js"></script>
+<script>
+var curWin = window.parent.window;
+var curDoc = window.parent.document;
+var banner_selector = '.frameStickyBottomAds';
+</script>
+</head>
+<body style="margin:0px;">
+	<div id="ad" style="margin: 0 auto; width: 970px;">
+		<a style="display: inline-block" href="https://www.hihonor.com/global/products/mobile-phones/honor7a/index.html" target="_blank"><img class="fa-img" src="https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfj9oklj0.png"></a>
+	</div>
+	<script>
+	$(curDoc).ready(function(){
+		$(curDoc.querySelector(banner_selector)).find('iframe').css({ transition: 'height 0.3s ease-in-out' });
+		$('html', document).hover(
+			function() {
+				var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).addClass('expanded');
+				$(curDoc.querySelector(banner_selector)).find('iframe').addClass('H(90px)');
+
+				$(this).find('.fa-img').attr('src', 'https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfj9z0xkc.jpg');
+				$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=fa_indomie_hover_in&rnd=' + rndInt);
+			}, function() {
+				var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).removeClass('expanded');
+				$(curDoc.querySelector(banner_selector)).find('iframe').removeClass('H(90px)');
+
+				$(this).find('.fa-img').attr('src', 'https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfj9oklj0.png');
+				$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=fa_indomie_hover_out&rnd=' + rndInt);
+			}
+			);
+	});
+	</script>
+</body>
+</html>

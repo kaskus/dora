@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BB</title>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script>
+var curWin = window.parent.window;
+var curDoc = window.parent.document;
+var banner_selector = '.sidebarRightAds';
+</script>
+</head>
+<body style="margin:0px;">
+	<div id="ad" style="margin: 0 auto; width: 600px; height: 250px; position: relative;">
+		<a href="https://www.youtube.com/watch?v=XWauehB_xA0&feature=youtu.be" target="_blank"><img class="bb-img" src="https://s.kaskus.id/img/seasonal/september2019/tematik/wp_background_fc8rqpujzlc5.jpg"></a>
+	</div>
+	<script>
+	$(curDoc).ready(function(){
+    $(curDoc.querySelector(banner_selector)).find('iframe').css({ transition: 'width 0.3s ease-in-out' });
+		$('html', document).hover(
+			function() {
+				var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).addClass('expanded');
+        $(curDoc.querySelector(banner_selector)).find('iframe').addClass('W(650px)');
+				$(this).find('.bb-img').attr('src', 'https://s.kaskus.id/img/seasonal/september2019/tematik/wp_background_fc8rqpv2hsjj.jpg');
+				$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=fortesumo_hover_in&rnd=' + rndInt);
+			}, function() {
+				var rndInt = Math.floor(Math.random() * 9999);
+				$(curDoc.querySelector(banner_selector)).removeClass('expanded');
+        $(curDoc.querySelector(banner_selector)).find('iframe').removeClass('W(650px)');
+				$(this).find('.bb-img').attr('src', 'https://s.kaskus.id/img/seasonal/september2019/tematik/wp_background_fc8rqpujzlc5.jpg');
+				$(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=fortesumo_hover_out&rnd=' + rndInt);
+			}
+			);
+	});
+	</script>
+</body>
+</html>
