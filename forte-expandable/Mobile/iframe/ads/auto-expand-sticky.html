@@ -1,0 +1,222 @@
+<div id="ad-container">
+    <div id="ad-invitation">
+        <div class="invitation__container--small">
+            <img src="https://s.kaskus.id/img/seasonal/september2019/tematik/wp_background_fc8s3hpb6q0a.jpg" style=" width:320px" width="320" />
+        </div>
+        <div class="invitation__container--large">
+            <div class="invitation__ad--large instruction">
+                <div class="invitation__ad--video">
+                    <div class="invitation__ad--link">
+                        <img src="https://s.kaskus.id/img/seasonal/september2019/tematik/wp_background_fc8s3hp5843l.jpg" />
+                    </div>
+                </div>
+            </div>
+            <button aria-label="Shrink" class="invitation__close">&#10005;</button>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .invitation__container--small {
+        height: 50px;
+        position: relative;
+        overflow: hidden;
+        transition: opacity 0.5s ease-in;
+        text-align: center;
+    }
+
+    .invitation__container--large {
+        height: 120px;
+        position: relative;
+        overflow: hidden;
+        transition: opacity 0.5s ease-in;
+        display: none;
+    }
+
+    .invitation__ad--small {
+        height: 100%;
+        max-width: 320px;
+        /*max-width: 100%;*/
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .invitation__ad--large {
+        height: 100%;
+        position: relative;
+    }
+
+    .invitation__ad--large img {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+
+    .invitation__ad--video {
+        position: relative;
+        height: 100%
+    }
+
+    .invitation__ad--link {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 120px;
+    }
+
+    #ad-video {
+        position: absolute;
+        max-width: 260px;
+        top: 0%;
+        left: 0%;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    #ad-video iframe {
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #ad-video video {
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .invitation__close {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bolder;
+        background-color: transparent;
+        border: none;
+        padding: 0 0 10px 10px;
+        top: 0;
+        right: 0;
+        text-shadow: 1px 1px 1px #484848;
+    }
+
+</style>
+<script>
+    var first = true;
+    window.onload = function (e) {
+        var xDown = null;
+        var yDown = null;
+
+        registerEventHandlers();
+        function registerEventHandlers() {
+            document.getElementsByClassName('invitation__ad--link')[0].addEventListener('click', goTo);
+            document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchstart', handleTouchStart, false);
+            document.getElementsByClassName('invitation__container--small')[0].addEventListener('touchmove', handleTouchMove, false);
+            document.getElementsByClassName('invitation__container--small')[0].addEventListener('click', stretchBanner, false);
+            document.querySelectorAll('.invitation__close').forEach(function (el) {
+                switch (el.getAttribute('aria-label').toLowerCase()) {
+                    case 'shrink':
+                        el.addEventListener('click', shrinkBanner, false);
+                        break;
+                    default:
+                        break;
+                }
+            });
+        }
+
+        function unregisterEventHandlers() {
+            document.getElementsByClassName('invitation__ad--link')[0].addEventListener('click', goTo);
+            document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchstart', handleTouchStart);
+            document.getElementsByClassName('invitation__container--small')[0].removeEventListener('touchmove', handleTouchMove);
+            document.getElementsByClassName('invitation__container--small')[0].removeEventListener('click', stretchBanner);
+            document.querySelectorAll('.invitation__close').forEach(function (el) {
+                switch (el.getAttribute('aria-label').toLowerCase()) {
+                    case 'shrink':
+                        el.removeEventListener('click', shrinkBanner);
+                        break;
+                    default:
+                        break;
+                }
+            });
+        }
+
+        var stopVideo = function (element) {
+            var video = document.getElementById('video-item');
+            if (video !== null && !video.ended) {
+                video.pause();
+                video.currentTime = 0;
+            }
+        };
+
+        function autoClose() {
+            if (first) {
+                shrinkBanner();
+                first = false;
+            }
+        }
+
+        function autoStretch() {
+            stretchBanner();
+        }
+
+        function shrinkBanner() {
+            document.getElementsByClassName('invitation__container--large')[0].setAttribute('style', 'display:none');
+            document.getElementsByClassName('invitation__container--small')[0].setAttribute('style', 'visibility:visible;opacity :1;height: 50px; ');
+            window.parent.postMessage({ message: 'shrink-sticky-banner' }, '*');
+            stopVideo();
+        };
+
+        function stretchBanner() {
+            document.getElementsByClassName('invitation__container--large')[0].setAttribute('style', 'display:block');
+            document.getElementsByClassName('invitation__container--large')[0].style.opacity = '0';
+            document.getElementsByClassName('invitation__container--small')[0].setAttribute('style', 'visibility:hidden;opacity :0;height: 0px; ');
+            document.getElementsByClassName('invitation__container--large')[0].style.opacity = '1';
+            window.parent.postMessage({ message: 'stretch-sticky-banner' }, '*');
+            setTimeout(autoClose, 2000);
+        }
+
+        function goTo() {
+            window.parent.postMessage({ message: 'open-url', url: 'http://bkdelivery.id' }, '*');
+        }
+
+        function handleTouchStart(evt) {
+            xDown = evt.touches[0].clientX;
+            yDown = evt.touches[0].clientY;
+        };
+
+        function handleTouchMove(evt) {
+            if (!xDown || !yDown) {
+                return;
+            }
+
+            var xUp = evt.touches[0].clientX;
+            var yUp = evt.touches[0].clientY;
+
+            var xDiff = xDown - xUp;
+            var yDiff = yDown - yUp;
+
+            if (Math.abs(xDiff) > Math.abs(yDiff)) {/*most significant*/
+                if (xDiff > 0) {
+                    /* left swipe */
+                } else {
+                    /* right swipe */
+                }
+            } else {
+                if (yDiff > 0) {
+                    /* up swipe */
+                    stretchBanner();
+                } else {
+                    /* down swipe */
+                }
+            }
+            /* reset values */
+            xDown = null;
+            yDown = null;
+        };
+        setTimeout(autoStretch, 1000);
+    }
+</script>
