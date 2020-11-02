@@ -1,0 +1,67 @@
+<html>
+
+<head>
+	<script>
+		var $ = window.parent.$, jQuery = window.parent.jQuery;
+		curWin = window.parent.window;
+		curDoc = window.parent.document;
+
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-132312-24', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body>
+	<script type="text/javascript">
+
+		$(curDoc).ready(function () {
+			$("body").addClass("amSlider");
+			$("body").prepend("<style>.amSlider #main .container{width: 970px !important;} .amSlider .leaderboardAds iframe{ height: 0 !important;} body.amSlider .main-content-full{background-color: #f7f7f7; padding-bottom: 40px; position: relative; z-index: 2}body.amSlider .main{padding-top: 0;}body.amSlider .header__category{margin-top: 0;}body.amSlider .site-footer{margin-top: 0px;}.immersiveSlider_div{height: 200px;width: 100%; margin:0 auto; padding-top: 10px;  position: relative;}#immersiveSlider_link{width: 100%; height: 100%; position: absolute; z-index: 2;}.immersiveSlider{top: 0; position: fixed; width: 100%; height: 100%; display: block;   z-index: 0;}#immersiveSlider__wrapper{width: 100%; height: 100%; display: block; cursor: pointer;}.immersiveSlider__bg{transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out;} #immersiveSlider__bg{cursor:default; background-position:center top; background-repeat:no-repeat ; background-attachment:fixed; margin-left:auto; margin-right:auto ; margin-top:0px ; width: 100%; height: 100%; background-image:url('https://s.kaskus.id/img/seasonal/october2020/tematik/wp_background_fciqpsjnts05.png'); z-index: 2; position: absolute;}#immersiveSlider__bg__btm{background-image:url('https://s.kaskus.id/img/seasonal/october2020/tematik/wp_background_fciqpsjnd0at.png'); z-index: 1; position: absolute; cursor:default; background-position:center top; background-repeat:no-repeat ; background-attachment:fixed; margin-left:auto; margin-right:auto ; margin-top:0px ; width: 100%; height: 100%;} .amSlider .jsMainContent, .amSlider .jsMainFooter,.amSlider .jsSubFooter{position:relative; z-index:2;}</style>");
+			//$("body").prepend("<style>.leftOrnament{position: fixed; width: calc(50% - 485px); left:0; bottom:0}</style><img alt='Ornament' class='leftOrnament' src='https://s.kaskus.id/img/seasonal/october2020/tematik/wp_background_fciqogvr4276.jpg'>");
+			//$("body").prepend("<style>.rightOrnament{position: fixed; width: calc(50% - 485px); right:0; bottom:0}</style><img alt='Ornament' class='rightOrnament' src='https://s.kaskus.id/img/seasonal/october2020/tematik/wp_background_fciqogvrycc6.jpg'>");
+			$(".amSlider .jsLeaderboardAds").prepend('<div class="immersiveSlider_div"></div>');
+			$(".amSlider").prepend('<a href="https://www.burberry.com/" target="_blank" id="immersiveSlider_link"></a><div class="immersiveSlider"><div id="immersiveSlider__wrapper"><div class="immersiveSlider__bg" id="immersiveSlider__bg__btm"></div><div class="immersiveSlider__bg" id="immersiveSlider__bg"></div></div> </div>');
+
+			$('#immersiveSlider__wrapper').mousemove(function (e) {
+				// // get the mouse x (horizontal) position and offset of the div
+				var offset = $('#immersiveSlider__wrapper').offset();
+				var iTopWidth = (e.pageX - offset.left);
+
+				// // set width of bottomimage div
+				$('#immersiveSlider__wrapper').find('#immersiveSlider__bg').width(iTopWidth);
+			}
+			);
+			$(curWin).mousemove(function (e) {
+				// // get the mouse x (horizontal) position and offset of the div
+				var offset = $('#immersiveSlider__wrapper').offset();
+				var iTopWidth = (e.pageX - offset.left);
+
+				// // set width of bottomimage div
+				$('#immersiveSlider__wrapper').find('#immersiveSlider__bg').width(iTopWidth);
+			}
+			);
+
+		});
+
+		$(curWin).scroll(function () {
+			var windowTop = $(curDoc).scrollTop() + 50;
+			var controlLanding = $('.jsMainContent');
+			if (windowTop > controlLanding.offset().top) {
+				$("#amSkinVid-video-layer").css('background-position', 'center -50px');
+			}
+			else {
+				$("#amSkinVid-video-layer").css('background-position', 'center 0px');
+			}
+		});
+
+	</script>
+</body>
+
+</html>
