@@ -11,10 +11,10 @@
     </script>
 </head>
 
-<body style="margin: 0; font-family: 'Roboto', sans-serif; color: gray">
+<body style="margin: 0; font-family: 'Roboto', sans-serif; color: white">
     <div class="billboard-banner"
-        style="height: 90px; width: 100%; max-width: 970px; background-color: gainsboro; display: flex; justify-content: center; align-items: center; transition: height 0.3s ease-in-out">
-        BILLBOARD BANNER 970 x 90px
+        style="height: 200px; width: 100%; max-width: 970px; background-color: black; display: flex; justify-content: center; align-items: flex-start; transition: height 0.3s ease-in-out">
+        <img src="https://s.kaskus.id/img/seasonal/october2020/header_fciqgslrlkox.jpg">
     </div>
     <script>
         $(curDoc).ready(function () {
@@ -22,14 +22,14 @@
             $('html', document).hover(
                 function () {
                     $(curDoc.querySelector(banner_selector)).addClass('is-expanded');
-                    $(curDoc.querySelector(banner_selector)).find('iframe').addClass('H(300px)');
-                    $(curDoc.querySelector(banner_selector)).find('iframe').removeClass('H(90px)');
-                    $('.billboard-banner').height('300px');
+                    $(curDoc.querySelector(banner_selector)).find('iframe').css('height', '315px');
+                    $('.billboard-banner').height('315px');
+                    $('.billboard-banner').find('img').attr('src', 'https://s.kaskus.id/img/seasonal/october2020/header_fciqgsmff5zl.jpg');
                 }, function () {
                     $(curDoc.querySelector(banner_selector)).removeClass('is-expanded');
-                    $(curDoc.querySelector(banner_selector)).find('iframe').removeClass('H(300px)')
-                    $(curDoc.querySelector(banner_selector)).find('iframe').addClass('H(90px)');
-                    $('.billboard-banner').height('90px');
+                    $(curDoc.querySelector(banner_selector)).find('iframe').css('height', '200px');
+                    $('.billboard-banner').height('200px');
+                    $('.billboard-banner').find('img').attr('src', 'https://s.kaskus.id/img/seasonal/october2020/header_fciqgslrlkox.jpg');
                 }
             );
         });

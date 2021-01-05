@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    var urlImageCondensed = 'http://i0.sinaimg.cn/fashion/2016/0107/U3978P1503DT20160107145544.gif';
-    var urlImageExpanded = 'https://68.media.tumblr.com/8deca5058414d741af9c7b3674be440f/tumblr_obujcnB3kM1vy286ao1_500.gif';
-    var urlVideoPoster = 'http://camendesign.com/code/video_for_everybody/poster.jpg';
+    var urlImageCondensed = 'https://s.kaskus.id/img/seasonal/october2020/header_fciqgsbhbysj.jpg';
+    var urlImageExpanded = ' https://s.kaskus.id/img/seasonal/october2020/header_fciqgsnica3r.jpg';
+    var urlVideoPoster = '';
   
     $('.banner-condensed-bg').css('background-image', 'url(' + urlImageCondensed + ')');
     $('.banner-expanded-bg').css('background-image', 'url(' + urlImageExpanded + ')');

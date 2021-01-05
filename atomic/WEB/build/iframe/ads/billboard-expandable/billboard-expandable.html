@@ -4,39 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <title>BB</title>
-    <script src="../../assets/js/vendor/jquery.min.js"></script>
+    <script src="https://s.kaskus.id/ms/js/jquery-3.4.1.min.js"></script>
     <script>
         var curWin = window.parent.window;
         var curDoc = window.parent.document;
-        var banner_selector = '.jsBigExpandableTop';
+        var banner_selector = '.leaderboardAds';
     </script>
 </head>
 
 <body style="margin:0px;">
     <div id="ad" style="margin: 0 auto; width: 970px; height: 200px; position: relative;">
         <a href="https://www.hihonor.com/global/products/mobile-phones/honor7a/index.html" target="_blank"><img
-                class="bb-img"
-                src="https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfiwjiica.jpg"></a>
+                class="bb-img" src="https://s.kaskus.id/img/seasonal/october2020/header_fciqgslrlkox.jpg"></a>
     </div>
     <script>
         $(curDoc).ready(function () {
-            $(curDoc.querySelector(banner_selector)).find('iframe').css({ transition: 'height 0.3s ease-in-out' });
+            $(curDoc.querySelector(banner_selector)).find('iframe').css({ transition: 'height 0.5s ease-in-out' });
+            $(curDoc.querySelector(banner_selector)).css('height', '200px');
+            $(curDoc.querySelector(banner_selector)).parent().addClass('Z(1)');
             $('html', document).hover(
                 function () {
                     var rndInt = Math.floor(Math.random() * 9999);
                     $(curDoc.querySelector(banner_selector)).addClass('expanded');
-					$(curDoc.querySelector(banner_selector)).find('iframe').addClass('H(300px)');
-					isExpanded = true;
+                    $(curDoc.querySelector(banner_selector)).find('iframe').css('height', '315px');
+                    $(curDoc.querySelector(banner_selector)).find('iframe').addClass('Pos(a) Start(0) T(0)');
+                    isExpanded = true;
 
-                    $(this).find('.bb-img').attr('src', 'https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfj5t170f.jpg');
+                    $(this).find('.bb-img').attr('src', 'https://s.kaskus.id/img/seasonal/october2020/header_fciqgsmff5zl.jpg');
                     $(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=bb_indomie_hover_in&rnd=' + rndInt);
                 }, function () {
                     var rndInt = Math.floor(Math.random() * 9999);
                     $(curDoc.querySelector(banner_selector)).removeClass('expanded');
-                    $(curDoc.querySelector(banner_selector)).find('iframe').removeClass('H(300px)')
-					isExpanded = false;
+                    $(curDoc.querySelector(banner_selector)).find('iframe').css('height', '200px');
+                    $(curDoc.querySelector(banner_selector)).find('iframe').removeClass('Pos(a) Start(0) T(0)');
+                    isExpanded = false;
 
-                    $(this).find('.bb-img').attr('src', 'https://s.kaskus.id/img/seasonal/july2018/tematik/wp_background_fbyqfiwjiica.jpg');
+                    $(this).find('.bb-img').attr('src', 'https://s.kaskus.id/img/seasonal/october2020/header_fciqgslrlkox.jpg');
                     $(document.getElementById('trk_img')).attr('src', 'https://www.kaskus.co.id/banner/1x1.gif?type=bb_indomie_hover_out&rnd=' + rndInt);
                 }
             );
